@@ -10,6 +10,10 @@ Nguồn bàn giao: Translation_Handover.zip / MER_MSG_eng.gmd. Bản mod có Leo
 
 Đợt 003: thêm 200 mục (ID 581–780) trong `translations/batch-003.csv`: hướng dẫn chiến đấu, kỹ năng, nâng cấp cấp 3, mở khóa và chơi đôi. Tổng 600/1.039 mục đã biên dịch (57,7%); chưa kiểm thử hiển thị trong game.
 
+
+
+Đợt 004: thêm 200 mục (ID 781–980) trong `translations/batch-004.csv` — Wi-Fi/chơi đôi, thiết lập điều khiển, âm thanh, xếp hạng và 41 huy chương. Tổng cộng 800/1.039 mục đã biên dịch (77,0%); chưa kiểm thử trên 3DS.
+
 ## Quy tắc biên dịch
 - Giữ tên riêng: Leon, Ada, Chris Redfield, Jill Valentine, Raccoon City, S.T.A.R.S., Uroboros.
 - Thuật ngữ: shotgun, Magnum, combo, boss, solo được giữ khi tự nhiên; handgun = súng ngắn, machine gun = tiểu liên, flash grenade = lựu đạn choáng, melee = cận chiến.
