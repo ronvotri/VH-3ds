@@ -1,0 +1,201 @@
+ID,Vietnamese
+351,Xóa dữ liệu lưu hiện tại\r\nvà tạo dữ liệu mới?
+352,Bạn chắc muốn tiếp tục\r\nmà không lưu chứ?
+353,Không đọc được dữ liệu lưu\r\nvì dữ liệu đã bị hỏng.
+354,Đang lưu dữ liệu.\r\nĐừng tháo thẻ game\r\nkhỏi máy.
+355,Không thể lưu game.\r\nHãy tắt máy rồi\r\nlắp lại thẻ game.
+356,Ghi đè dữ liệu lưu?
+357,Đã tải dữ liệu.
+358,Có
+359,Không
+360,Tiếp tục mà không lưu?
+361,Đang lưu...
+362,Đang tải...
+363,Đang xóa...
+364,Đã lưu.
+365,Đang kiểm tra dữ liệu lưu...
+366,Đang tải...
+367,Đang xóa...
+368,Đang lưu...
+391,MENU
+392,TIẾP TỤC
+393,CHƠI LẠI
+394,TÙY CHỌN
+395,THOÁT
+396,Tiếp tục chơi.
+397,Chơi lại từ đầu.
+398,Thay đổi thiết lập game.
+399,Kết thúc lượt chơi.
+400,Chơi lại?\r\n(Tiến trình chưa lưu sẽ mất.)
+404,Giây
+405,GIỜ COMBO
+406,COMBO
+410,Đấm thẳng
+411,Đấm móc
+412,Đá
+413,Đấm móc ngược
+414,Bẻ cổ
+415,Đấm trời giáng
+416,Đánh mu bàn tay
+417,Giẫm
+418,Đá cao
+419,Đá vòng cầu
+420,Đá vòng cầu ngược
+421,Đá hất lên
+422,Khóa đầu
+423,Đá lộn ngược
+424,Đá bánh xe
+425,Song gối giáng
+426,Đẩy văng
+427,Hơi cay
+428,Húc bằng hông
+429,Đấm bật nhảy
+430,Đập đầu
+431,Súng điện
+432,Súng điện
+433,Đá
+434,Đấm liên hoàn
+435,Đá móc ngược
+436,Đá bổ xuống
+437,Liên hoàn đấm móc
+438,Đá vào cổ
+439,Bắn liên tiếp
+440,Bắn liên tiếp
+441,Giẫm
+442,Đánh cùi chỏ
+443,Cắt cổ
+444,Đá dẹp loạn
+445,Kết liễu
+446,Đao phủ
+447,Đá ngang
+448,Đá ngang
+449,Bắn ba phát
+450,Húc đầu
+451,Bánh kẹp Barry
+452,Lên gối
+453,Cú đá Burton
+454,Đập bằng súng
+455,Cuồng phong
+456,Cuồng phong
+457,Quyền im lặng
+458,Đá vòng cầu
+459,Chém ngược
+460,Húc ngã
+461,Đòn chích
+462,Rạch họng
+463,Song phi
+464,Song phi
+465,Đâm dao
+466,Đòn rắn hổ mang
+467,Nanh báo đen
+468,Cước báo đốm
+469,Đấm móc hổ
+470,Cú đá Mustang
+471,Bướm ma
+472,Tê giác xông
+473,Đòn bất ngờ
+474,Cứu
+475,Hồi sức
+476,Né
+477,Vùng thoát
+478,Nhặt
+479,Đồng đội nhặt
+480,Hồi máu
+481,Chữa trị đồng đội
+482,Đặt
+483,Thưởng thời gian
+484,Leo lên
+485,Leo
+486,Trèo qua
+487,Nhảy xuống
+488,Nhảy qua
+489,Nhảy vào
+490,Nhảy ra
+491,Nhảy
+492,Trượt dây
+493,Mở
+494,Nâng lên
+495,Hạ xuống
+496,Mìn cảm biến
+497,Lựu đạn
+498,Lựu đạn choáng
+499,Thảo dược xanh
+500,Đạn súng ngắn
+501,Đạn Magnum
+502,Đạn tiểu liên
+503,Đạn shotgun
+504,Đạn súng trường
+505,Đạn nổ
+506,Đạn choáng
+507,Đạn điện
+508,Thưởng combo
+509,ĐỢT
+510,TẠM DỪNG
+511,Bạn đã chết
+512,Đồng đội đã chết
+513,Đồng đội đã chết
+514,Tiếp tục?
+515,Có
+516,Không
+518,BẮT ĐẦU NHIỆM VỤ
+519,KẾT THÚC NHIỆM VỤ
+521,Thoát game?
+522,Đợt 1
+523,Đợt 2
+524,Đợt 3
+525,Đợt 4
+526,Đợt 5
+527,Đợt 6
+528,Đợt 7
+529,Đợt 8
+530,Đợt 9
+531,Đợt 10
+532,Đợt 11
+533,Đợt 12
+534,Đợt 13
+535,Đợt 14
+536,Đợt 15
+537,Đợt 16
+538,Đợt 17
+539,Đợt 18
+540,Đợt 19
+541,Đợt 20
+542,Đi đến điểm đánh dấu.
+543,Tìm tất cả điểm sáng.
+544,Bắn thùng phuy đỏ.
+545,Bắn hết các thùng phuy.
+546,Hạ toàn bộ kẻ địch.
+547,Tiếp tục hạ chúng!
+548,Đánh cho khôn khéo!
+549,Dùng đòn cận chiến.
+550,Tiêu diệt B.O.W.!
+551,Khá lắm!
+552,"Giỏi lắm, lính mới."
+553,Làm tốt lắm!
+554,Cậu có cố chút nào không đấy? Làm lại!
+555,Đừng có giỡn nữa! Làm cho đàng hoàng!
+556,Định bỏ cuộc giữa chừng à?
+557,"Được rồi, lính mới. Trổ tài xem nào!"
+558,Muốn sống sót thì\r\nnghe cho kỹ và làm theo lời tôi.
+559,Đầu tiên là di chuyển.
+560,Đẩy <COL FF821EFF>Circle Pad</COL> về hướng\r\ncậu muốn di chuyển.
+561,Thấy điểm đánh dấu ngay trước mặt chứ?\r\nĐi tới đó nào.
+562,Tốt. Giờ tìm nốt các điểm đánh dấu.
+563,Đẩy nhẹ <COL FF821EFF>Circle Pad</COL> để đi bộ.
+564,Lạc đường thì xem bản đồ\r\nở <COL FF821EFF>màn hình dưới</COL>.
+565,"Khi muốn quan sát xung quanh,"
+566,"Muốn quan sát xung quanh thì\r\ndùng <ICON PAD_A>, <ICON PAD_B>, <ICON PAD_X> hoặc <ICON PAD_Y>."
+567,Khoan. Quay lại nào.
+568,Giữ lùi rồi nhấn <ICON PAD_B>\r\nđể quay đầu thật nhanh.
+569,Nhấn lên trên <COL FF821EFF>+Control Pad</COL>\r\nđể quay đầu thật nhanh.
+570,Muốn dùng súng thì nghe cho kỹ.
+571,Thấy thùng phuy đỏ trước mặt chứ?
+572,Nhấn <ICON PAD_R> để giương súng.
+573,Nhấn <ICON PAD_L> để giương súng.
+574,"Ngắm bằng <ICON PAD_ANALOG>, rồi nhấn <ICON PAD_Y> bắn thùng."
+575,"Ngắm bằng <ICON PAD_A>, <ICON PAD_B>, <ICON PAD_X> hoặc <ICON PAD_Y>,\r\nrồi nhấn <ICON PAD_R> để bắn."
+576,"Thấy chưa, <COL FF821EFF>thùng phuy đỏ\r\nrất dễ phát nổ</COL> đấy."
+577,Nhớ tránh xa kẻo bị nổ vạ lây.
+578,"Rồi, lính mới! Theo dấu trên bản đồ,\r\nphá sạch đám thùng phuy đỏ!"
+579,"Khi đang giương súng, nhấn <ICON PAD_B>\r\nđể <COL FF821EFF>nạp đạn</COL>!"
+580,Nhấn <ICON PAD_CLEFT> để <COL FF821EFF>nạp đạn</COL>!
