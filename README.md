@@ -23,6 +23,13 @@ Nguồn bàn giao: Translation_Handover.zip / MER_MSG_eng.gmd. Bản mod có Leo
 - **Chưa thể xem là hoàn thiện bản vá**: chưa ghép CSV vào GMD và xác nhận round-trip, chưa vá font tiếng Việt, chưa kiểm tra độ rộng chữ trên máy 3DS. Bản CSV UTF-8 có dấu hiện phục vụ biên dịch và rà soát, không chép thẳng vào máy.
 - Để dùng trình nhập `gmd_tool.py` trong gói bàn giao, cần đối chiếu theo ID và điền vào cột `Vietnamese` của `strings_to_translate.csv` trước khi import. Không sử dụng bảng hai cột trực tiếp thay cho CSV nguồn tám cột.
 
+## QA + GMD — checkpoint thử nghiệm
+
+- Bộ công cụ QA đã chạy thành công trên GMD gốc: xuất/nhập không dịch tạo file giống nguyên bản từng byte; bản thử 600 ID đọc ngược được và giữ nguyên label.
+- QA cục bộ của 600 mục: không lệch token sau khi dùng 11 bản sửa xuống dòng; **57 dòng có nguy cơ vượt chiều rộng tham chiếu**; bảng font gốc thiếu **83 ký tự riêng biệt** xuất hiện trong GMD thử (trong đó có các ký tự tiếng Việt).
+- Bộ dựng kèm file `build_and_qa.py`, `download_and_build.py`, `TAO_GMD_DAY_DU.bat` được đóng gói riêng trong phiên bàn giao. Script tải `translations/merged-001-005.csv`, kiểm tra đủ 1.039 ID, xuất GMD và round-trip trên PC có Internet.
+- **Chưa xác nhận QA toàn bộ 1.039 ID, chưa vá texture font, chưa có bản phát hành hoạt động đầy đủ trên máy 3DS.** Không phát hành GMD tiếng Việt có dấu như một bản vá hoàn chỉnh trước khi xử lý font.
+
 ## Quy tắc biên dịch
 - Giữ tên riêng: Leon, Ada, Chris Redfield, Jill Valentine, Raccoon City, S.T.A.R.S., Uroboros.
 - Thuật ngữ: shotgun, Magnum, combo, boss, solo được giữ khi tự nhiên; handgun = súng ngắn, machine gun = tiểu liên, flash grenade = lựu đạn choáng, melee = cận chiến.
