@@ -6,6 +6,8 @@ Nguồn bàn giao: Translation_Handover.zip / MER_MSG_eng.gmd. Bản mod có Leo
 
 Đợt 001: 200 mục được biên dịch trong `translations/batch-001.csv` (ID,Vietnamese). Đây là bản dịch có dấu **chưa thể đóng gói chơi trực tiếp** vì font gốc chưa có đủ glyph tiếng Việt. Không ghi đè file gốc bằng GMD có dấu trước khi vá font và kiểm thử hiển thị.
 
+Đợt 002: 200 mục tiếp theo trong `translations/batch-002.csv` — lưu game, menu, hành động, đòn cận chiến, vật phẩm, HUD và phần đầu hướng dẫn. Tổng cộng 400/1.039 mục đã được biên dịch; chưa kiểm thử hiển thị trong game.
+
 ## Quy tắc biên dịch
 - Giữ tên riêng: Leon, Ada, Chris Redfield, Jill Valentine, Raccoon City, S.T.A.R.S., Uroboros.
 - Thuật ngữ: shotgun, Magnum, combo, boss, solo được giữ khi tự nhiên; handgun = súng ngắn, machine gun = tiểu liên, flash grenade = lựu đạn choáng, melee = cận chiến.
