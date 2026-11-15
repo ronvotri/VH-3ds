@@ -30,6 +30,13 @@ Nguồn bàn giao: Translation_Handover.zip / MER_MSG_eng.gmd. Bản mod có Leo
 - Bộ dựng kèm file `build_and_qa.py`, `download_and_build.py`, `TAO_GMD_DAY_DU.bat` được đóng gói riêng trong phiên bàn giao. Script tải `translations/merged-001-005.csv`, kiểm tra đủ 1.039 ID, xuất GMD và round-trip trên PC có Internet.
 - **Chưa xác nhận QA toàn bộ 1.039 ID, chưa vá texture font, chưa có bản phát hành hoạt động đầy đủ trên máy 3DS.** Không phát hành GMD tiếng Việt có dấu như một bản vá hoàn chỉnh trước khi xử lý font.
 
+## Font Việt QA v2 — Kiểm tra giới hạn tài nguyên
+
+- Đã kiểm tra trực tiếp ZIP bàn giao. `MER_MSG_eng.gmd` chứa **10 chuỗi bảng ký tự** (không phải dữ liệu ảnh font) và 1.358 chuỗi sau bảng ký tự. ZIP chỉ có GMD, CSV và Python; **không có texture font, mapping glyph hoặc RomFS của game**.
+- Trên mẫu 600 bản dịch được lưu cục bộ, có **83 Unicode codepoint không xuất hiện trong bảng ký tự GMD**, trong đó gồm nhiều ký tự tiếng Việt có dấu. Xuất/đọc ngược GMD mẫu thành công; 57 dòng vượt ngưỡng độ dài tham chiếu; mẫu còn thiếu 439 ID so với 1.039 mục cần dịch.
+- Đã chuẩn bị `ResidentEvil3DS_Font_QA_Kit_v2.zip` trong phiên làm việc: script `font_audit.py` và `KIEM_TRA_FONT_VI.bat` có thể tải CSV hợp nhất và rà glyph, quét thư mục RomFS nếu được cung cấp, tạo atlas PNG **tham khảo** và CSV Unicode còn thiếu.
+- **Chưa tạo texture patch chơi được**. Việc thêm glyph vào bảng ký tự GMD không tự sinh bitmap hoặc cập nhật UV/mapping; cần RomFS đúng bản game/mod Leon–Ada để nhận dạng tài nguyên font trước khi vá.
+
 ## Quy tắc biên dịch
 - Giữ tên riêng: Leon, Ada, Chris Redfield, Jill Valentine, Raccoon City, S.T.A.R.S., Uroboros.
 - Thuật ngữ: shotgun, Magnum, combo, boss, solo được giữ khi tự nhiên; handgun = súng ngắn, machine gun = tiểu liên, flash grenade = lựu đạn choáng, melee = cận chiến.
