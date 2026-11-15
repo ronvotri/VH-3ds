@@ -132,7 +132,7 @@ Canh đúng lúc, bạn|có thể thả El Gigante|xuống cửa sập.
 @3d_base.h2z:mis_data_m21.bin:0xfff
 Leon kéo cần gạt.|Cửa sập lò nung|đã mở!
 @3d_base.h2z:mis_data_m21.bin:0x1039
-Bộ phận an toàn|giữ cần gạt|không nhúc nhích.
+Chốt an toàn đang giữ|chặt cần gạt.
 @3d_base.h2z:mis_data_m21.bin:0x1072
 Hình như đây là cần|mở cửa sập|của lò nung.
 @3d_base.h2z:mis_data_m21.bin:0x10af
@@ -200,4 +200,4 @@ Tôi sẽ không bao giờ quên.
 @3d_base.h2z:mis_data_s01.bin:0x1a9e
 Đó là năm xảy ra|những vụ giết người|kinh hoàng ở núi Arklay.
 @3d_base.h2z:mis_data_s01.bin:0x1ae7
-Chẳng bao lâu sau,|người ta phát hiện|tập đoàn Umbrella|chính là thủ phạm.
+Không lâu sau,|tập đoàn Umbrella|bị lộ là thủ phạm.
