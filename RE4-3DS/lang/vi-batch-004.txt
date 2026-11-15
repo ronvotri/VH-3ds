@@ -62,7 +62,7 @@ Dân làng đang vây chặt|căn nhà nơi Leon|ẩn náu.
 @common.h2z:stgnfo_mission_ms.bin:0x2bb
 Tường thành
 @common.h2z:stgnfo_mission_ms.bin:0x2cc
-Leon chạy tới|lâu đài cổ. Nhưng|liệu còn gì kinh khủng|hơn đang chờ?
+Leon chạy tới lâu đài.|Nhưng hiểm họa nào|đang chờ anh phía trước?
 @common.h2z:stgnfo_mission_ms.bin:0x325
 Vũ khí mù lòa
 @common.h2z:stgnfo_mission_ms.bin:0x331
@@ -142,7 +142,7 @@ DÙNG
 @3d_base.h2z:sys_param.bin:0x21a
 Vali đã đầy!
 @3d_base.h2z:mis_data_m01.bin:0x550
-Hạ càng nhiều địch|càng tốt trước khi|hết giờ.
+Hạ thật nhiều địch|trước khi hết giờ.
 @3d_base.h2z:mis_data_m01.bin:0x582
 Tiếng trực thăng|vang trên đầu.|Có vẻ viện binh đã đến.
 @3d_base.h2z:mis_data_m01.bin:0x5cd
