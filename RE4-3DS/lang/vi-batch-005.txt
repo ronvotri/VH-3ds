@@ -1,0 +1,203 @@
+# Resident Evil 4 Zeebo → Nintendo 3DS — Vietnamese batch 005
+# Entries 401–500; | = line break; source keys unchanged.
+
+@3d_base.h2z:mis_data_m08.bin:0x8d0
+Khóa rồi. Mình cần|chìa khóa để mở.
+@3d_base.h2z:mis_data_m08.bin:0x8ff
+Leon gặp lại Ashley|và đến được lối ra.
+@3d_base.h2z:mis_data_m08.bin:0x92b
+Leon không thể quay lại.
+@3d_base.h2z:mis_data_m09.bin:0x56c
+Hạ càng nhiều địch|càng tốt trước giờ.|Coi chừng ký sinh trùng!
+@3d_base.h2z:mis_data_m09.bin:0x5b3
+Tiếng trực thăng|vang trên đầu.|Có vẻ viện binh đã đến.
+@3d_base.h2z:mis_data_m09.bin:0x5fe
+Cửa này|đã khóa chặt.
+@3d_base.h2z:mis_data_m10.bin:0x5cc
+Bảo vệ Ashley|trong thời gian quy định.
+@3d_base.h2z:mis_data_m10.bin:0x5f6
+Đợt tấn công đã dừng.|Cuối cùng, mình đã|bảo vệ được Ashley.
+@3d_base.h2z:mis_data_m10.bin:0x63c
+Lỗ hổng ở khắp nơi.|Ashley và Leon phải|giữ cả hai tầng.
+@3d_base.h2z:mis_data_m10.bin:0x691
+Không thể đi tiếp|nếu tách nhau ra|hoặc bỏ lại Ashley.
+@3d_base.h2z:mis_data_m11.bin:0x724
+Hạ hết địch|trước khi hết giờ|rồi tìm lối ra.
+@3d_base.h2z:mis_data_m11.bin:0x762
+Đã thoát khỏi|hầm mỏ.
+@3d_base.h2z:mis_data_m11.bin:0x786
+Hạ được El Gigante,|giờ có thể đến|pháo đài.
+@3d_base.h2z:mis_data_m11.bin:0x7c2
+Khóa rồi. Hình như|có thứ gì đó|chặn lối đi.
+@3d_base.h2z:mis_data_m11.bin:0x7fb
+Leon trèo lên lưng|El Gigante.
+@3d_base.h2z:mis_data_m11.bin:0x82b
+Leon chém đứt xúc tu|nhô ra từ lưng|El Gigante!
+@3d_base.h2z:mis_data_m12.bin:0x520
+Hạ càng nhiều địch|càng tốt trước giờ.|Cẩn thận!
+@3d_base.h2z:mis_data_m12.bin:0x559
+Tiếng trực thăng|vang trên đầu.|Có vẻ viện binh đã đến.
+@3d_base.h2z:mis_data_m12.bin:0x5a5
+Cửa này|đã khóa chặt.
+@3d_base.h2z:mis_data_m13.bin:0x554
+Hạ thật nhiều địch|trước khi hết giờ.|Tận dụng thùng dầu.
+@3d_base.h2z:mis_data_m13.bin:0x59c
+Tiếng trực thăng|vang trên đầu.|Có vẻ viện binh đã đến.
+@3d_base.h2z:mis_data_m13.bin:0x5e7
+Không thể rời|điểm hẹn.
+@3d_base.h2z:mis_data_m13.bin:0x614
+Cửa này|đã khóa chặt.
+@3d_base.h2z:mis_data_m14.bin:0x5cc
+Hạ thật nhiều địch|trước khi hết giờ.|Liệu có hạ sạch được?
+@3d_base.h2z:mis_data_m14.bin:0x614
+Xong ở đây rồi.|Sang nhiệm vụ|tiếp theo thôi.
+@3d_base.h2z:mis_data_m14.bin:0x64f
+Đã hạ hết|kẻ địch.
+@3d_base.h2z:mis_data_m14.bin:0x674
+Cửa này|đã khóa chặt.
+@3d_base.h2z:mis_data_m15.bin:0x97c
+Tìm Ashley trước giờ|rồi đưa cô ấy|đến tượng ngựa.
+@3d_base.h2z:mis_data_m15.bin:0x9c8
+Xong ở đây rồi.|Sang nhiệm vụ|tiếp theo thôi.
+@3d_base.h2z:mis_data_m15.bin:0xa03
+Leon không thể đi tiếp|nếu thiếu Ashley.
+@3d_base.h2z:mis_data_m15.bin:0xa29
+Leon phải cứu Ashley|trước khi đi tiếp.
+@3d_base.h2z:mis_data_m15.bin:0xa5f
+Bạn đã mở cửa|bằng Chìa khóa cũ.
+@3d_base.h2z:mis_data_m15.bin:0xa87
+Khóa rồi.|Có vẻ cần chìa|để mở cửa này.
+@3d_base.h2z:mis_data_m15.bin:0xac7
+Leon gặp lại Ashley|và đến được|tượng ngựa.
+@3d_base.h2z:mis_data_m15.bin:0xb09
+Leon đã gặp lại Ashley.|Giờ hãy đến|lối thoát.
+@3d_base.h2z:mis_data_m15.bin:0xb42
+Cửa này|đã khóa chặt.
+@3d_base.h2z:mis_data_m16.bin:0x58c
+Hạ thật nhiều địch|trước khi hết giờ.|Đừng bắn trúng Ashley!!
+@3d_base.h2z:mis_data_m16.bin:0x5d4
+Tiếng trực thăng|vang trên đầu.|Có vẻ viện binh đã đến.
+@3d_base.h2z:mis_data_m16.bin:0x61f
+Không thể rời|điểm hẹn.
+@3d_base.h2z:mis_data_m16.bin:0x64c
+Cửa này|đã khóa chặt.
+@3d_base.h2z:mis_data_m17.bin:0x4f4
+Hạ thật nhiều địch|trước khi hết giờ.|Nhờ hỗ trợ đi!!
+@3d_base.h2z:mis_data_m17.bin:0x533
+Xong ở đây rồi.|Sang nhiệm vụ|tiếp theo thôi.
+@3d_base.h2z:mis_data_m17.bin:0x56e
+Cửa này|đã khóa chặt.
+@3d_base.h2z:mis_data_m18.bin:0x704
+Tìm Ashley trước giờ|rồi đưa cô ấy|đến lối thoát.
+@3d_base.h2z:mis_data_m18.bin:0x747
+Tiếng trực thăng|vang trên đầu.|Có vẻ viện binh đã đến.
+@3d_base.h2z:mis_data_m18.bin:0x792
+Leon không thể đi tiếp|nếu thiếu Ashley.
+@3d_base.h2z:mis_data_m18.bin:0x7b8
+Cần Chìa khóa cổng thành|để giải cứu Ashley.
+@3d_base.h2z:mis_data_m18.bin:0x7f5
+Leon gặp lại Ashley|và đến được lối ra.
+@3d_base.h2z:mis_data_m18.bin:0x825
+Leon không thể quay lại.
+@3d_base.h2z:mis_data_m19.bin:0x518
+Hạ thật nhiều địch|trước khi hết giờ.|Dùng lựu đạn nhé.
+@3d_base.h2z:mis_data_m19.bin:0x55e
+Xong ở đây rồi.|Sang nhiệm vụ|tiếp theo thôi.
+@3d_base.h2z:mis_data_m19.bin:0x599
+Cửa này|đã khóa chặt.
+@3d_base.h2z:mis_data_m20.bin:0x4b8
+Hạ nhiều địch nhất|có thể trước giờ.|Đừng để bị bao vây!
+@3d_base.h2z:mis_data_m20.bin:0x4fb
+Xong ở đây rồi.|Sang nhiệm vụ|tiếp theo thôi.
+@3d_base.h2z:mis_data_m20.bin:0x536
+Cửa này|đã khóa chặt.
+@3d_base.h2z:mis_data_m21.bin:0xddc
+Hạ thật nhiều địch|trước khi hết giờ.|Coi chừng lò nung!
+@3d_base.h2z:mis_data_m21.bin:0xe24
+Xong ở đây rồi.|Sang nhiệm vụ|tiếp theo thôi.
+@3d_base.h2z:mis_data_m21.bin:0xe5f
+Ngay khi đợt tấn công|kết thúc, hai con|El Gigante xuất hiện!
+@3d_base.h2z:mis_data_m21.bin:0xe9e
+Leon trèo lên lưng|El Gigante.
+@3d_base.h2z:mis_data_m21.bin:0xece
+Leon chém đứt xúc tu|nhô ra từ lưng|El Gigante!
+@3d_base.h2z:mis_data_m21.bin:0xf09
+Cửa sập dưới El Gigante|mở ra, nuốt chửng nó|vào biển sắt nóng chảy.
+@3d_base.h2z:mis_data_m21.bin:0xf4c
+Cửa sập lò nung|tự đóng lại.
+@3d_base.h2z:mis_data_m21.bin:0xf7f
+Cửa sập lò nung|tự đóng lại.
+@3d_base.h2z:mis_data_m21.bin:0xfb2
+Canh đúng lúc, bạn|có thể thả El Gigante|xuống cửa sập.
+@3d_base.h2z:mis_data_m21.bin:0xfff
+Leon kéo cần gạt.|Cửa sập lò nung|đã mở!
+@3d_base.h2z:mis_data_m21.bin:0x1039
+Bộ phận an toàn|giữ cần gạt|không nhúc nhích.
+@3d_base.h2z:mis_data_m21.bin:0x1072
+Hình như đây là cần|mở cửa sập|của lò nung.
+@3d_base.h2z:mis_data_m21.bin:0x10af
+Cửa này|đã khóa chặt.
+@3d_base.h2z:mis_data_m22.bin:0x8f4
+Tìm Ashley trước giờ|rồi cùng cô ấy|đến thang máy.
+@3d_base.h2z:mis_data_m22.bin:0x933
+Giải cứu ở con kênh|đã thành công.
+@3d_base.h2z:mis_data_m22.bin:0x957
+Thang máy đến rồi.
+@3d_base.h2z:mis_data_m22.bin:0x96a
+Bạn đã mở cửa|bằng Chìa khóa cũ.
+@3d_base.h2z:mis_data_m22.bin:0x992
+Khóa rồi. Hình như|mình cần chìa|để mở.
+@3d_base.h2z:mis_data_m22.bin:0x9d2
+Thang máy đã|có điện.
+@3d_base.h2z:mis_data_m22.bin:0x9ea
+Leon không thể đi tiếp|nếu thiếu Ashley.
+@3d_base.h2z:mis_data_m22.bin:0xa10
+Mất điện rồi.|Chắc có công tắc|ở đâu đó.
+@3d_base.h2z:mis_data_m22.bin:0xa55
+Leon gặp lại Ashley|và đến được|thang máy.
+@3d_base.h2z:mis_data_m22.bin:0xa88
+Leon không thể quay lại.
+@3d_base.h2z:mis_data_m23.bin:0x9f8
+Hạ thật nhiều địch|trước khi hết giờ,|rồi đi xuống.
+@3d_base.h2z:mis_data_m23.bin:0xa3b
+Giải cứu ở con kênh|đã thành công.
+@3d_base.h2z:mis_data_m23.bin:0xa5f
+Khóa rồi. Mới nãy|vẫn còn mở mà...
+@3d_base.h2z:mis_data_m23.bin:0xa95
+Phải đánh bại Verdugo|trước khi thang máy|đến nơi.
+@3d_base.h2z:mis_data_m23.bin:0xad1
+Thang máy đến rồi.
+@3d_base.h2z:mis_data_m23.bin:0xae4
+Cửa đã mở khóa.
+@3d_base.h2z:mis_data_m23.bin:0xafb
+Leon vào thang máy.
+@3d_base.h2z:mis_data_m23.bin:0xb14
+Thang máy vẫn|chưa tới...
+@3d_base.h2z:mis_data_m23.bin:0xb35
+Bạn đã sử dụng|bộ điều khiển nguồn.
+@3d_base.h2z:mis_data_m23.bin:0xb62
+Thang máy bắt đầu|chạy, Verdugo ngã xuống.
+@3d_base.h2z:mis_data_m23.bin:0xb95
+Không ổn rồi.|Vẫn không mở được.
+@3d_base.h2z:mis_data_m23.bin:0xbb9
+Cửa đã khóa lại.
+@3d_base.h2z:mis_data_m23.bin:0xbcd
+Khu vực tạm đóng|trong lúc khôi phục|điện thang máy.
+@3d_base.h2z:mis_data_m23.bin:0xc18
+Phải đợi một lúc|cửa mới mở lại.
+@3d_base.h2z:mis_data_m24.bin:0x554
+Hạ thật nhiều địch|trước khi hết giờ.
+@3d_base.h2z:mis_data_m24.bin:0x586
+Hoàn thành nhiệm vụ,|Leon rời khu vực.
+@3d_base.h2z:mis_data_m24.bin:0x5c2
+Cửa này|đã khóa chặt.
+@3d_base.h2z:mis_data_s00.bin:0x268
+Bắn vỡ thật nhiều|đồng xu xanh|trước khi hết giờ!
+@3d_base.h2z:mis_data_s00.bin:0x2b4
+Bắn đồng xu xanh|càng xa thì|điểm càng cao.
+@3d_base.h2z:mis_data_s01.bin:0x1a8c
+Tôi sẽ không bao giờ quên.
+@3d_base.h2z:mis_data_s01.bin:0x1a9e
+Đó là năm xảy ra|những vụ giết người|kinh hoàng ở núi Arklay.
+@3d_base.h2z:mis_data_s01.bin:0x1ae7
+Chẳng bao lâu sau,|người ta phát hiện|tập đoàn Umbrella|chính là thủ phạm.
