@@ -21,6 +21,6 @@
 4. Kiểm thử dấu tiếng Việt và glyph của renderer 3DS; sửa hệ thống render nếu cần.
 5. Build CIA từ mã nguồn port và thử trên máy hoặc giả lập.
 
-**Tình trạng:** Đã dịch đợt 001 gồm **100/1.170 khóa** nguồn ở `RE4-3DS/lang/vi-batch-001.txt` (8,5%). Đã giữ khóa `@archive:entry:offset` và ký hiệu ngắt dòng `|`, chỉnh gọn một số nhãn túi đồ. **Chưa build CIA, chưa kiểm tra glyph Việt và giới hạn trên tài nguyên Zeebo thực tế.** Không tính 1.039 mục Mercenaries vào tiến độ RE4.
+**Tình trạng:** Đã dịch đợt 001–002 gồm **200/1.170 khóa** nguồn ở `RE4-3DS/lang/vi-batch-001.txt` và `RE4-3DS/lang/vi-batch-002.txt` (17,1%). Đã giữ khóa `@archive:entry:offset` và ký hiệu ngắt dòng `|`, chỉnh gọn một số nhãn túi đồ. **Chưa build CIA, chưa kiểm tra glyph Việt và giới hạn trên tài nguyên Zeebo thực tế.** Không tính 1.039 mục Mercenaries vào tiến độ RE4.
 
 **Chú ý công cụ:** `re/lang.py encode` hiện chỉ hỗ trợ ASCII và một số glyph tiếng Bồ Đào Nha; sẽ báo `no glyph` với dấu tiếng Việt. Không ghi đè `re/lang/en.txt` hoặc build trực tiếp trước khi mở rộng font và mã hóa glyph.
