@@ -83,11 +83,11 @@ Vương miện gắn ngọc
 @common.h2z:item_base_info.bin:0x198b
 Vương miện đã gắn|hai viên ngọc.
 @common.h2z:item_base_info.bin:0x19cc
-Vương miện gắn phù hiệu
+Miện gắn phù hiệu
 @common.h2z:item_base_info.bin:0x19e0
 Vương miện mang|phù hiệu hoàng gia.
 @common.h2z:item_base_info.bin:0x1a25
-Vương miện nhà Salazar
+Miện nhà Salazar
 @common.h2z:item_base_info.bin:0x1a38
 Vương miện hoàn chỉnh,|đủ ngọc và phù hiệu.
 @common.h2z:item_base_info.bin:0x1a94
@@ -189,7 +189,7 @@ Theo tình báo, Ashley|từng xuất hiện đâu đó|ở châu Âu. Nhưng kh
 @common.h2z:item_file_info.bin:0x501
   *Nạp đạn*|Nhấn ZR một lần|để nạp đạn.
 @common.h2z:item_file_info.bin:0x549
-  *Cận chiến*|Muốn đánh kẻ địch|ở cự ly gần, hãy|tiếp cận rồi nhấn|nút Tương tác.
+  *Cận chiến*|Tiếp cận kẻ địch|rồi nhấn nút Tương tác|để tấn công cận chiến.
 @common.h2z:item_file_info.bin:0x5bd
   *Màn hình trạng thái*|Nhấn {3} để mở.|Tại đây có thể xem|vũ khí và vật phẩm|hồi máu.
 @common.h2z:item_file_info.bin:0x647
