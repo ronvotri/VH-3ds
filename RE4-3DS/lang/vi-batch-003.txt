@@ -130,13 +130,13 @@ Thung lũng
 @common.h2z:stgnfo_mission_mm.bin:0x362
 Ngôi làng
 @common.h2z:stgnfo_mission_mm.bin:0x36b
-Las Plagas đang lây|nhiễm khắp nơi!|Hạ chúng trước khi|trực thăng tới!
+Las Plagas lây khắp nơi!|Hạ sạch chúng trước|khi trực thăng tới!
 @common.h2z:stgnfo_mission_mm.bin:0x3c4
 Không chỗ ẩn náu
 @common.h2z:stgnfo_mission_mm.bin:0x3d9
 Ngôi nhà cố thủ
 @common.h2z:stgnfo_mission_mm.bin:0x3ed
-Không có chỗ an toàn|để giấu Ashley!|Bảo vệ cô ấy|bằng mọi giá!
+Không nơi nào an toàn|để giấu Ashley!|Hãy liều mạng bảo vệ!
 @common.h2z:stgnfo_mission_mm.bin:0x43e
 Bóng khổng lồ
 @common.h2z:stgnfo_mission_mm.bin:0x450
@@ -166,7 +166,7 @@ Người bảo vệ
 @common.h2z:stgnfo_mission_mm.bin:0x615
 Đại sảnh tiếp kiến
 @common.h2z:stgnfo_mission_mm.bin:0x62b
-Ashley bị nhốt|trong ngục!|Cứu cô ấy|trước khi hết giờ!
+Ashley đang bị giam!|Hãy cứu cô ấy trước|khi hết giờ!
 @common.h2z:stgnfo_mission_mm.bin:0x67e
 Đếm ngược
 @common.h2z:stgnfo_mission_mm.bin:0x692
