@@ -29,7 +29,7 @@ Súng 9mm nhỏ gọn.|Giữ nút tấn công|để bắn liên thanh.
 @common.h2z:item_base_info.bin:0x287
 Súng phóng rocket
 @common.h2z:item_base_info.bin:0x297
-Gạt cần phải lên xuống|để ngắm xa gần.|Một phát cực mạnh.
+Gạt cần phải lên/xuống|để ngắm xa gần.|Một phát cực mạnh.
 @common.h2z:item_base_info.bin:0x30c
 Súng phóng mìn
 @common.h2z:item_base_info.bin:0x319
@@ -97,7 +97,7 @@ Thảo dược trộn (X+Đ)
 @common.h2z:item_base_info.bin:0x8f5
 Hai loại thảo dược.|Hồi đầy máu.
 @common.h2z:item_base_info.bin:0x948
-Thảo dược trộn (X+V+Đ)
+Thảo dược (X+V+Đ)
 @common.h2z:item_base_info.bin:0x95d
 Ba loại thảo dược.|Tăng máu tối đa|và hồi đầy máu.
 @common.h2z:item_base_info.bin:0x9bc
@@ -109,7 +109,7 @@ Thảo dược trộn (X+X)
 @common.h2z:item_base_info.bin:0xa51
 Hai thảo dược xanh.|Hồi khá nhiều máu.
 @common.h2z:item_base_info.bin:0xab1
-Thảo dược trộn (X+X+X)
+Thảo dược (X+X+X)
 @common.h2z:item_base_info.bin:0xac3
 Ba thảo dược xanh.|Hồi đầy máu.
 @common.h2z:item_base_info.bin:0xb1f
