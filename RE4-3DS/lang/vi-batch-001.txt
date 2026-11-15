@@ -1,0 +1,202 @@
+# RE4 Zeebo to 3DS — Vietnamese batch 001 (items and equipment)
+# keys preserved from re/lang/en.txt; | = line break
+@common.h2z:item_base_info.bin:0x1f
+Dao chiến đấu
+@common.h2z:item_base_info.bin:0x4a
+Rìu tay
+@common.h2z:item_base_info.bin:0x6d
+Liềm
+@common.h2z:item_base_info.bin:0x8e
+Kiếm
+@common.h2z:item_base_info.bin:0xb0
+Súng ngắn
+@common.h2z:item_base_info.bin:0xba
+Súng ngắn 9mm tiêu chuẩn.
+@common.h2z:item_base_info.bin:0xee
+Magnum
+@common.h2z:item_base_info.bin:0xf5
+Khẩu Magnum cỡ .45|có hỏa lực cực mạnh!
+@common.h2z:item_base_info.bin:0x135
+Shotgun
+@common.h2z:item_base_info.bin:0x13e
+Shotgun bơm đạn,|bắn trúng nhiều|kẻ địch cùng lúc.
+@common.h2z:item_base_info.bin:0x19e
+Súng trường
+@common.h2z:item_base_info.bin:0x1a4
+Súng trường bán tự động .223.|Gạt cần phải lên hoặc xuống|để phóng to ống ngắm.
+@common.h2z:item_base_info.bin:0x21d
+Súng 9mm nhỏ gọn.|Giữ nút tấn công|để bắn liên thanh.
+@common.h2z:item_base_info.bin:0x287
+Súng phóng rocket
+@common.h2z:item_base_info.bin:0x297
+Gạt cần phải lên xuống|để ngắm xa gần.|Một phát cực mạnh.
+@common.h2z:item_base_info.bin:0x30c
+Súng phóng mìn
+@common.h2z:item_base_info.bin:0x319
+Bắn mìn bám vào|mục tiêu rồi phát nổ|sau ít giây.
+@common.h2z:item_base_info.bin:0x36e
+Cung
+@common.h2z:item_base_info.bin:0x38f
+Lựu đạn
+@common.h2z:item_base_info.bin:0x39f
+Lựu đạn phát nổ|vài giây sau khi ném.
+@common.h2z:item_base_info.bin:0x406
+Lựu đạn choáng
+@common.h2z:item_base_info.bin:0x415
+Làm địch lóa mắt|trong chốc lát.
+@common.h2z:item_base_info.bin:0x45a
+Rocket vô hạn
+@common.h2z:item_base_info.bin:0x46d
+Súng phóng rocket|với đạn vô hạn!|Gạt cần phải để phóng to.
+@common.h2z:item_base_info.bin:0x4df
+Lựu đạn vô hạn
+@common.h2z:item_base_info.bin:0x4f2
+Ném bao nhiêu cũng được,|lựu đạn không bao giờ hết.
+@common.h2z:item_base_info.bin:0x557
+Đạn súng ngắn
+@common.h2z:item_base_info.bin:0x56e
+Một hộp đạn 9mm.
+@common.h2z:item_base_info.bin:0x5a4
+Đạn Magnum
+@common.h2z:item_base_info.bin:0x5b8
+Đạn Magnum|cỡ .45.
+@common.h2z:item_base_info.bin:0x5f5
+Đạn Shotgun
+@common.h2z:item_base_info.bin:0x608
+Đạn ghém cỡ 12.|Dùng cho shotgun.
+@common.h2z:item_base_info.bin:0x652
+Đạn súng trường
+@common.h2z:item_base_info.bin:0x665
+Đạn dùng cho|súng trường cỡ .223.
+@common.h2z:item_base_info.bin:0x6ab
+Đạn TMP
+@common.h2z:item_base_info.bin:0x6b4
+Đạn 9mm tiêu chuẩn.
+@common.h2z:item_base_info.bin:0x6e5
+Phi tiêu mìn
+@common.h2z:item_base_info.bin:0x6f1
+Phi tiêu tiêu chuẩn|cho súng phóng mìn.
+@common.h2z:item_base_info.bin:0x735
+Thảo dược xanh
+@common.h2z:item_base_info.bin:0x744
+Thảo dược giúp|hồi một ít máu.
+@common.h2z:item_base_info.bin:0x78a
+Thảo dược vàng
+@common.h2z:item_base_info.bin:0x79b
+Trộn với thảo dược xanh|để tăng máu tối đa.
+@common.h2z:item_base_info.bin:0x7f0
+Thảo dược đỏ
+@common.h2z:item_base_info.bin:0x801
+Trộn với thảo dược xanh|để hồi đầy máu.
+@common.h2z:item_base_info.bin:0x863
+Thảo dược trộn (X+V)
+@common.h2z:item_base_info.bin:0x876
+Hai loại thảo dược.|Tăng máu tối đa|và hồi một ít máu.
+@common.h2z:item_base_info.bin:0x8e2
+Thảo dược trộn (X+Đ)
+@common.h2z:item_base_info.bin:0x8f5
+Hai loại thảo dược.|Hồi đầy máu.
+@common.h2z:item_base_info.bin:0x948
+Thảo dược trộn (X+V+Đ)
+@common.h2z:item_base_info.bin:0x95d
+Ba loại thảo dược.|Tăng máu tối đa|và hồi đầy máu.
+@common.h2z:item_base_info.bin:0x9bc
+Thảo dược trộn (V+Đ)
+@common.h2z:item_base_info.bin:0x9cf
+Hai loại thảo dược.|Trộn thêm thảo dược xanh|để tăng và hồi máu.
+@common.h2z:item_base_info.bin:0xa3f
+Thảo dược trộn (X+X)
+@common.h2z:item_base_info.bin:0xa51
+Hai thảo dược xanh.|Hồi khá nhiều máu.
+@common.h2z:item_base_info.bin:0xab1
+Thảo dược trộn (X+X+X)
+@common.h2z:item_base_info.bin:0xac3
+Ba thảo dược xanh.|Hồi đầy máu.
+@common.h2z:item_base_info.bin:0xb1f
+Bình xịt cứu thương
+@common.h2z:item_base_info.bin:0xb31
+Hồi đầy máu.
+@common.h2z:item_base_info.bin:0xb68
+Trứng gà
+@common.h2z:item_base_info.bin:0xb77
+Hồi một ít máu.
+@common.h2z:item_base_info.bin:0xbac
+Trứng gà nâu
+@common.h2z:item_base_info.bin:0xbc1
+Hồi một phần máu.
+@common.h2z:item_base_info.bin:0xbf7
+Trứng gà vàng
+@common.h2z:item_base_info.bin:0xc0b
+Hồi đầy máu.
+@common.h2z:item_base_info.bin:0xc42
+Vali S
+@common.h2z:item_base_info.bin:0xc4f
+Vali nhỏ.|6 x 10 (60 ô).
+@common.h2z:item_base_info.bin:0xc96
+Vali M
+@common.h2z:item_base_info.bin:0xca3
+Vali cỡ vừa.|7 x 11 (77 ô).
+@common.h2z:item_base_info.bin:0xce9
+Vali L
+@common.h2z:item_base_info.bin:0xcf3
+Vali lớn.|8 x 12 (96 ô).
+@common.h2z:item_base_info.bin:0xd39
+Vali XL
+@common.h2z:item_base_info.bin:0xd44
+Vali cỡ đại.|8 x 15 (120 ô).
+@common.h2z:item_base_info.bin:0xd94
+Quần áo
+@common.h2z:item_base_info.bin:0xda0
+Trang phục thường ngày.
+@common.h2z:item_base_info.bin:0xdd2
+Áo giáp chiến thuật
+@common.h2z:item_base_info.bin:0xde1
+Giảm 10%% sát thương.
+@common.h2z:item_base_info.bin:0xe0e
+Áo giáp sắt
+@common.h2z:item_base_info.bin:0xe1e
+Giảm 20%% sát thương.
+@common.h2z:item_base_info.bin:0xe4b
+Áo giáp hỗn hợp
+@common.h2z:item_base_info.bin:0xe5a
+Giảm 30%% sát thương.
+@common.h2z:item_base_info.bin:0xe87
+Nửa huy hiệu phải
+@common.h2z:item_base_info.bin:0xe9b
+Nửa bên phải của|huy hiệu có hình khắc.
+@common.h2z:item_base_info.bin:0xee2
+Nửa huy hiệu trái
+@common.h2z:item_base_info.bin:0xef6
+Nửa bên trái của|huy hiệu có hình khắc.
+@common.h2z:item_base_info.bin:0xf3e
+Huy hiệu lục giác
+@common.h2z:item_base_info.bin:0xf4e
+Vật hình lục giác|có biểu tượng.|Mở cổng thung lũng.
+@common.h2z:item_base_info.bin:0xfa6
+Chìa khóa biểu tượng
+@common.h2z:item_base_info.bin:0xfb6
+Chìa khóa có ký hiệu|đặc biệt ở đầu.|Mở một nhà trong làng.
+@common.h2z:item_base_info.bin:0x1017
+Chìa khóa nhà giam
+@common.h2z:item_base_info.bin:0x1028
+Mở cửa nhà giam|dưới lòng đất.
+@common.h2z:item_base_info.bin:0x1073
+Chìa khóa cổng thành
+@common.h2z:item_base_info.bin:0x1084
+Chìa có khắc hình dê.|Dùng mở cổng chính|của lâu đài.
+@common.h2z:item_base_info.bin:0x10eb
+Chìa khóa cũ
+@common.h2z:item_base_info.bin:0x10f7
+Chìa khóa màu nâu đỏ|dùng mở cửa khóa.
+@common.h2z:item_base_info.bin:0x1150
+Spinel
+@common.h2z:item_base_info.bin:0x1159
+Viên đá nhỏ|nhưng có vẻ|khá đáng giá.
+@common.h2z:item_base_info.bin:0x11aa
+Velvet Blue
+@common.h2z:item_base_info.bin:0x11b6
+Viên đá nhỏ|nhưng có vẻ|khá đáng giá.
+@common.h2z:item_base_info.bin:0x1207
+Hồng ngọc
+@common.h2z:item_base_info.bin:0x120c
+Viên đá quý|cỡ lớn.
