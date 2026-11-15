@@ -1,0 +1,203 @@
+# Resident Evil 4 Zeebo → Nintendo 3DS — Vietnamese batch 003
+# Keys copied from upstream en.txt; | = line break; {1}..{4}, {H} = buttons.
+
+@common.h2z:item_file_info.bin:0x941
+Cảnh báo: đường đến|nhà thờ rất nguy hiểm.|Chúng đã nuôi thứ|gọi là "El Gigante".
+@common.h2z:item_file_info.bin:0x9be
+Về những gì đang|xảy ra trong cơ thể|anh... Tôi muốn giúp,|nhưng lực bất tòng tâm.
+@common.h2z:item_file_info.bin:0xa4b
+Trong hai kẻ bỏ trốn,|phải bắt Luis trước.|Tên đặc vụ Mỹ|để sau cũng được.
+@common.h2z:item_file_info.bin:0xabc
+Thứ Luis lấy đi|quan trọng hơn cô gái.|Không có nó, cô ta|chẳng còn giá trị.|Phải thu hồi để|hoàn thành kế hoạch.
+@common.h2z:item_file_info.bin:0xb67
+Nếu rơi vào tay kẻ xấu,|thế giới sẽ không còn|như ngài Saddler|hằng mong muốn.
+@common.h2z:item_file_info.bin:0xbe2
+Phải ngăn điều đó|bằng mọi giá.|Để tên đặc vụ không|tiếp cận được cô gái,|ta đã khóa cửa|nhà thờ giam cô ta.
+@common.h2z:item_file_info.bin:0xc70
+Dù sao, chúng ta|cùng chung dòng máu.|Sớm muộn hắn cũng|sẽ gia nhập chúng ta.
+@common.h2z:item_file_info.bin:0xcfa
+  *Ashley*|Nhấn {4} để bảo|Ashley đứng đợi|hoặc đi theo.
+@common.h2z:item_file_info.bin:0xd4a
+  *Máu của Ashley*|Vật phẩm hồi máu|dùng được cho cả|Leon lẫn Ashley.
+@common.h2z:item_file_info.bin:0xdb5
+  *Bảo vệ Ashley*|Nhiệm vụ thất bại nếu|Ashley chết hoặc|bị địch bắt đi.
+@common.h2z:item_file_info.bin:0xe37
+Có người thấy Sera|vào lâu đài.
+@common.h2z:item_file_info.bin:0xe62
+Hắn đã trốn thoát|mà còn quay lại,|thật đáng ngờ.|Nhưng phải nhân cơ hội|này bắt hắn.
+@common.h2z:item_file_info.bin:0xee6
+Bắt được Sera rồi|mới xử lý hai|người Mỹ còn lại.
+@common.h2z:item_file_info.bin:0xf20
+Khi lấy mẫu vật,|hắn còn trộm vắc-xin.|Vắc-xin không đáng kể,|nhưng phải giành lại|mẫu vật bằng mọi giá.|Đó là sinh mệnh|của chúng ta.
+@common.h2z:item_file_info.bin:0xfcd
+Ta nghi còn có|kẻ khác cùng phe|hắn nhúng tay.
+@common.h2z:item_file_info.bin:0x101a
+Nếu "mẫu vật" rơi|vào tay kẻ khác,|thế giới ta mưu cầu|sẽ không thành hiện thực.|Phải bắt Sera ngay.
+@common.h2z:item_file_info.bin:0x10c6
+Một số ký sinh trùng|có thể điều khiển|vật chủ. Giới sinh học|đã biết điều đó,|nhưng cơ chế vẫn|còn là bí ẩn.
+@common.h2z:item_file_info.bin:0x1166
+Nghiên cứu riêng|những ký sinh trùng này|có thể giúp ta hiểu|quyền năng của|Las Plagas.
+@common.h2z:item_file_info.bin:0x11dc
+Và có lẽ hiểu thêm|về các nạn nhân|của Las Plagas: Ganado.
+@common.h2z:item_file_info.bin:0x1223
+Dicrocoelium: Khi ấu|trùng ký sinh đi vào|thực quản con kiến,|nó làm biến đổi|hành vi của kiến.
+@common.h2z:item_file_info.bin:0x12a2
+Khi trời tối và lạnh,|con kiến nhiễm bệnh|leo lên ngọn cây|rồi dùng hàm|cắn chặt lá.
+@common.h2z:item_file_info.bin:0x1333
+Galactosomum: Ấu trùng|ký sinh sống trong|não các loài cá,|như cá trê và|cá hề.
+@common.h2z:item_file_info.bin:0x13a5
+Khi nhiễm bệnh,|cá nổi lên mặt nước|và bơi lòng vòng|cho đến khi bị|chim mòng biển ăn.
+@common.h2z:item_file_info.bin:0x1415
+Leucochloridium: Bào tử|ký sinh phát triển|trong xúc tu ốc sên.|Chúng có màu sặc sỡ|và co giật liên tục|như giun.
+@common.h2z:item_file_info.bin:0x14af
+Thật kỳ lạ,|ốc sên bị nhiễm|lại leo lên lá cao,|dễ dàng lọt vào mắt|động vật săn mồi.
+@common.h2z:item_file_info.bin:0x153f
+Chúa thành đầu tiên|đã chôn Las Plagas|sâu dưới lâu đài.|Khi được đào lên,|chúng chỉ còn như|những hóa thạch.
+@common.h2z:item_file_info.bin:0x15c2
+Dù trông hóa thạch,|chúng vẫn sống ngầm|dưới dạng bào tử.|Sau đó, dân làng|hít phải ký sinh trùng,|và chúng hồi sinh|trong cơ thể họ.
+@common.h2z:item_file_info.bin:0x1674
+Đó là cách Las Plagas|trở lại.||Ngay lúc tôi viết,|việc khai quật|vẫn tiếp diễn.
+@common.h2z:item_file_info.bin:0x16d8
+Chỉ Chúa mới biết|bao nhiêu Plaga đã|hồi sinh, huống chi|vô số Ganado|do chúng tạo ra.
+@common.h2z:item_file_info.bin:0x1750
+Việc phi nhân tính này|phải chấm dứt.|Nếu không bị ngăn chặn,|cả thế giới có thể|trở thành nạn nhân|của giáo phái này.
+@common.h2z:item_file_info.bin:0x17f1
+Lựu đạn rất hữu ích|để diệt cả nhóm.||Hãy ném đủ xa,|nếu không chính bạn|sẽ dính vụ nổ.
+@common.h2z:item_file_info.bin:0x187e
+Lựu đạn choáng hữu ích|trong phòng chật hẹp|hoặc khi bị địch vây|mà không thể dùng|lựu đạn thường.
+@common.h2z:item_file_info.bin:0x190b
+Hai loại lựu đạn|có tác dụng khác nhau.|Nhớ cân nhắc|trước khi ném!
+@common.h2z:item_file_info.bin:0x19a5
+Súng phóng mìn giúp|đặt điểm nổ|chính xác hơn.
+@common.h2z:item_file_info.bin:0x19ea
+Đạn đặc biệt bám|vào mục tiêu rồi nổ|sau 3 giây.|Nhớ tránh xa|vùng phát nổ.
+@common.h2z:item_file_info.bin:0x1a8d
+Vali cho phép bạn|sắp xếp vật phẩm|để chừa chỗ cho|những thứ cần mang.
+@common.h2z:item_file_info.bin:0x1af9
+Khi có nhiều món|cùng loại, chọn|"Kết hợp" để|gộp chúng lại.
+@common.h2z:item_file_info.bin:0x1b5c
+Nếu mang quá nhiều,|hãy chọn "Vứt bỏ"|hoặc "Bán".
+@common.h2z:stgnfo_mission_mm.bin:0x10
+Bãi tập
+@common.h2z:stgnfo_mission_mm.bin:0x20
+Ngôi làng
+@common.h2z:stgnfo_mission_mm.bin:0x29
+Hạ càng nhiều địch|càng tốt trước khi|trực thăng đến!
+@common.h2z:stgnfo_mission_mm.bin:0x7c
+Shotgun
+@common.h2z:stgnfo_mission_mm.bin:0x84
+Ngôi làng
+@common.h2z:stgnfo_mission_mm.bin:0x8d
+Hạ thật nhiều địch|bằng shotgun!|Coi chừng hết đạn!
+@common.h2z:stgnfo_mission_mm.bin:0xe9
+Vũ khí sống
+@common.h2z:stgnfo_mission_mm.bin:0xf5
+Thung lũng
+@common.h2z:stgnfo_mission_mm.bin:0xfa
+Đánh giáp lá cà!|Hạ sạch kẻ địch|trước khi hết giờ!
+@common.h2z:stgnfo_mission_mm.bin:0x141
+Gọng kìm
+@common.h2z:stgnfo_mission_mm.bin:0x155
+Thác nước
+@common.h2z:stgnfo_mission_mm.bin:0x15f
+Cẩn thận sương mù,|tầm nhìn bị hạn chế!
+@common.h2z:stgnfo_mission_mm.bin:0x1a2
+Tay súng cừ khôi
+@common.h2z:stgnfo_mission_mm.bin:0x1b5
+Hầm mỏ
+@common.h2z:stgnfo_mission_mm.bin:0x1ba
+Bắn địch từ vị trí|thuận lợi này!|Đừng để chúng áp sát!
+@common.h2z:stgnfo_mission_mm.bin:0x214
+Phát bắn quyết định
+@common.h2z:stgnfo_mission_mm.bin:0x226
+Nhà thờ
+@common.h2z:stgnfo_mission_mm.bin:0x22d
+Không có đạn tiếp tế,|hãy tận dụng hết|số đang có!
+@common.h2z:stgnfo_mission_mm.bin:0x283
+Con đường tử thần
+@common.h2z:stgnfo_mission_mm.bin:0x290
+Thác nước
+@common.h2z:stgnfo_mission_mm.bin:0x29a
+Hạ mọi kẻ cản đường|rồi chạy đến|lối thoát!
+@common.h2z:stgnfo_mission_mm.bin:0x2e5
+Hộ tống trong sương
+@common.h2z:stgnfo_mission_mm.bin:0x2f7
+Thung lũng
+@common.h2z:stgnfo_mission_mm.bin:0x2fc
+Đưa Ashley đến cửa ra|trước khi hết giờ!|Coi chừng sương mù!
+@common.h2z:stgnfo_mission_mm.bin:0x351
+Đêm Plagas
+@common.h2z:stgnfo_mission_mm.bin:0x362
+Ngôi làng
+@common.h2z:stgnfo_mission_mm.bin:0x36b
+Las Plagas đang lây|nhiễm khắp nơi!|Hạ chúng trước khi|trực thăng tới!
+@common.h2z:stgnfo_mission_mm.bin:0x3c4
+Không chỗ ẩn náu
+@common.h2z:stgnfo_mission_mm.bin:0x3d9
+Ngôi nhà cố thủ
+@common.h2z:stgnfo_mission_mm.bin:0x3ed
+Không có chỗ an toàn|để giấu Ashley!|Bảo vệ cô ấy|bằng mọi giá!
+@common.h2z:stgnfo_mission_mm.bin:0x43e
+Bóng khổng lồ
+@common.h2z:stgnfo_mission_mm.bin:0x450
+Hầm mỏ
+@common.h2z:stgnfo_mission_mm.bin:0x455
+Tiếng gầm trong sương!|Bạn có hạ được|El Gigante kịp lúc?
+@common.h2z:stgnfo_mission_mm.bin:0x4a8
+Đội quân cưa máy
+@common.h2z:stgnfo_mission_mm.bin:0x4c5
+Ngôi làng
+@common.h2z:stgnfo_mission_mm.bin:0x4ce
+Kẻ điên đáng sợ nhất:|tên cầm cưa máy!
+@common.h2z:stgnfo_mission_mm.bin:0x510
+Súng ngắn
+@common.h2z:stgnfo_mission_mm.bin:0x51a
+Tường thành
+@common.h2z:stgnfo_mission_mm.bin:0x52b
+Chỉ có súng ngắn,|hãy vận dụng mọi thứ|đã học để hạ sạch địch!
+@common.h2z:stgnfo_mission_mm.bin:0x586
+Khống chế toàn diện
+@common.h2z:stgnfo_mission_mm.bin:0x595
+Đại sảnh tiếp kiến
+@common.h2z:stgnfo_mission_mm.bin:0x5ab
+Chiến đấu với Ganado|trong đại sảnh hẹp.|Hạ sạch trước giờ!
+@common.h2z:stgnfo_mission_mm.bin:0x60b
+Người bảo vệ
+@common.h2z:stgnfo_mission_mm.bin:0x615
+Đại sảnh tiếp kiến
+@common.h2z:stgnfo_mission_mm.bin:0x62b
+Ashley bị nhốt|trong ngục!|Cứu cô ấy|trước khi hết giờ!
+@common.h2z:stgnfo_mission_mm.bin:0x67e
+Đếm ngược
+@common.h2z:stgnfo_mission_mm.bin:0x692
+Tường thành
+@common.h2z:stgnfo_mission_mm.bin:0x6a3
+Chỉ có Magnum,|hãy hạ hết địch|nhưng coi chừng Ashley!
+@common.h2z:stgnfo_mission_mm.bin:0x6ff
+Đấu súng
+@common.h2z:stgnfo_mission_mm.bin:0x708
+Hành lang vọng gác
+@common.h2z:stgnfo_mission_mm.bin:0x71a
+Một mình chống Ganado|cầm cung!|Hạ sạch chúng!
+@common.h2z:stgnfo_mission_mm.bin:0x756
+Cuộc giải cứu lớn
+@common.h2z:stgnfo_mission_mm.bin:0x767
+Tường thành
+@common.h2z:stgnfo_mission_mm.bin:0x778
+Lấy chìa từ tay địch|rồi cùng Ashley|đến lối ra!
+@common.h2z:stgnfo_mission_mm.bin:0x7bf
+Mưa bom
+@common.h2z:stgnfo_mission_mm.bin:0x7ca
+Đại sảnh
+@common.h2z:stgnfo_mission_mm.bin:0x7d9
+Dùng kho lựu đạn|khổng lồ để dội|lửa xuống đại sảnh!
+@common.h2z:stgnfo_mission_mm.bin:0x830
+Dao
+@common.h2z:stgnfo_mission_mm.bin:0x835
+Hành lang vọng gác
+@common.h2z:stgnfo_mission_mm.bin:0x847
+Chỉ có con dao|để chống địch.|Liệu bạn sống nổi?
+@common.h2z:stgnfo_mission_mm.bin:0x899
+Trận chiến nóng bỏng
+@common.h2z:stgnfo_mission_mm.bin:0x8ab
+Lò nung
