@@ -1,0 +1,204 @@
+# RE4 Zeebo → Nintendo 3DS | Vietnamese batch 002
+# Item/key data and early documents | key format from upstream en.txt
+# | means line break, %s and {button} tokens retained
+
+@common.h2z:item_base_info.bin:0x1244
+Đồng hồ bỏ túi bẩn
+@common.h2z:item_base_info.bin:0x1254
+Chiếc đồng hồ cáu bẩn.|Trông chẳng đáng|bao nhiêu tiền.
+@common.h2z:item_base_info.bin:0x12ad
+Tẩu thuốc cổ
+@common.h2z:item_base_info.bin:0x12bd
+Thân tẩu có hoa văn.|Mong là bán được|chút tiền.
+@common.h2z:item_base_info.bin:0x1319
+Vòng tay ngọc trai
+@common.h2z:item_base_info.bin:0x132d
+Chiếc vòng chạm trổ|tinh xảo. Có vẻ|khá đáng giá.
+@common.h2z:item_base_info.bin:0x1377
+Nhẫn hổ phách
+@common.h2z:item_base_info.bin:0x1385
+Chiếc nhẫn cổ lâu đời.|Hy vọng nó đáng giá.
+@common.h2z:item_base_info.bin:0x13f4
+Vòng vàng
+@common.h2z:item_base_info.bin:0x1404
+Vòng vàng có họa tiết|tinh xảo khắc quanh thân.
+@common.h2z:item_base_info.bin:0x1462
+Mặt nạ khảm đá
+@common.h2z:item_base_info.bin:0x1477
+Mặt nạ có ba hốc.|Có thể gắn thứ gì|vào đây.
+@common.h2z:item_base_info.bin:0x14d0
+Đá quý xanh lá
+@common.h2z:item_base_info.bin:0x14db
+Vết hằn cho thấy|nó từng được|gắn vào vật khác.
+@common.h2z:item_base_info.bin:0x1531
+Đá quý tím
+@common.h2z:item_base_info.bin:0x153f
+Vết hằn cho thấy|nó từng được|gắn vào vật khác.
+@common.h2z:item_base_info.bin:0x1595
+Đá quý đỏ
+@common.h2z:item_base_info.bin:0x15a2
+Vết hằn cho thấy|nó từng được|gắn vào vật khác.
+@common.h2z:item_base_info.bin:0x15f8
+Mặt nạ + đá xanh
+@common.h2z:item_base_info.bin:0x160a
+Mặt nạ đã gắn|một viên đá quý.
+@common.h2z:item_base_info.bin:0x164b
+Mặt nạ + đá tím
+@common.h2z:item_base_info.bin:0x165d
+Mặt nạ đã gắn|một viên đá quý.
+@common.h2z:item_base_info.bin:0x169f
+Mặt nạ + đá đỏ
+@common.h2z:item_base_info.bin:0x16b1
+Mặt nạ đã gắn|một viên đá quý.
+@common.h2z:item_base_info.bin:0x16f3
+Mặt nạ + X+T
+@common.h2z:item_base_info.bin:0x1702
+Mặt nạ đã gắn|hai viên đá quý.
+@common.h2z:item_base_info.bin:0x1746
+Mặt nạ + X+Đ
+@common.h2z:item_base_info.bin:0x1755
+Mặt nạ đã gắn|hai viên đá quý.
+@common.h2z:item_base_info.bin:0x1799
+Mặt nạ + T+Đ
+@common.h2z:item_base_info.bin:0x17a8
+Mặt nạ đã gắn|hai viên đá quý.
+@common.h2z:item_base_info.bin:0x17eb
+Mặt nạ + Đ+X+T
+@common.h2z:item_base_info.bin:0x17fc
+Mặt nạ đã gắn|ba viên đá quý.
+@common.h2z:item_base_info.bin:0x1842
+Vương miện khảm đá
+@common.h2z:item_base_info.bin:0x1855
+Vương miện có ba hốc.|Có thể gắn thứ gì|vào đây.
+@common.h2z:item_base_info.bin:0x18af
+Ngọc vương miện
+@common.h2z:item_base_info.bin:0x18bf
+Vết hằn cho thấy|nó từng được|gắn vào vật khác.
+@common.h2z:item_base_info.bin:0x1915
+Phù hiệu hoàng gia
+@common.h2z:item_base_info.bin:0x1924
+Vết hằn cho thấy|nó từng được|gắn vào vật khác.
+@common.h2z:item_base_info.bin:0x197a
+Vương miện gắn ngọc
+@common.h2z:item_base_info.bin:0x198b
+Vương miện đã gắn|hai viên ngọc.
+@common.h2z:item_base_info.bin:0x19cc
+Vương miện gắn phù hiệu
+@common.h2z:item_base_info.bin:0x19e0
+Vương miện mang|phù hiệu hoàng gia.
+@common.h2z:item_base_info.bin:0x1a25
+Vương miện nhà Salazar
+@common.h2z:item_base_info.bin:0x1a38
+Vương miện hoàn chỉnh,|đủ ngọc và phù hiệu.
+@common.h2z:item_base_info.bin:0x1a94
+Hướng dẫn 1
+@common.h2z:item_base_info.bin:0x1ac0
+Thông tin về Ashley
+@common.h2z:item_base_info.bin:0x1af7
+Hướng dẫn 2
+@common.h2z:item_base_info.bin:0x1b23
+Cảnh báo
+@common.h2z:item_base_info.bin:0x1b46
+Thư nặc danh
+@common.h2z:item_base_info.bin:0x1b70
+Đóng cửa nhà thờ
+@common.h2z:item_base_info.bin:0x1ba2
+Hướng dẫn 3
+@common.h2z:item_base_info.bin:0x1bce
+Bắt giữ Luis Sera
+@common.h2z:item_base_info.bin:0x1bfc
+Ghi chép của Luis
+@common.h2z:item_base_info.bin:0x1c2b
+Ghi chép của Luis 2
+@common.h2z:item_base_info.bin:0x1c5c
+Ghi chú về lựu đạn
+@common.h2z:item_base_info.bin:0x1c8c
+Hướng dẫn súng phóng mìn
+@common.h2z:item_base_info.bin:0x1cbe
+Hướng dẫn dùng vali
+@common.h2z:item_base_info.bin:0x1ceb
+Hỏa lực
+@common.h2z:item_base_info.bin:0x1cf9
+Sát thương gây ra|tăng %s. (Hỏa lực|súng ngắn là 1.0).
+@common.h2z:item_base_info.bin:0x1d56
+Tầm bắn
+@common.h2z:item_base_info.bin:0x1d5e
+Tầm bắn tối đa của|vũ khí tăng %s|(tính bằng mét).
+@common.h2z:item_base_info.bin:0x1dbb
+Tầm xa
+@common.h2z:item_base_info.bin:0x1de6
+Sức chứa đạn
+@common.h2z:item_base_info.bin:0x1df1
+Số đạn chứa được|tăng %s.
+@common.h2z:item_base_info.bin:0x1e43
+Kích thước
+@common.h2z:item_base_info.bin:0x1e4b
+Diện tích chiếm trong|vali giảm %s.
+@common.h2z:item_base_info.bin:0x1e85
+Tốc độ bắn
+@common.h2z:item_base_info.bin:0x1e9a
+Tốc độ bắn tăng %s|(1.0 = 1 giây mỗi phát).
+@common.h2z:item_base_info.bin:0x1ef1
+Tốc độ nạp đạn
+@common.h2z:item_base_info.bin:0x1f03
+Tốc độ nạp đạn tăng|%s (1.0 = 1 giây|mỗi lần nạp).
+@common.h2z:item_base_info.bin:0x1f63
+Xuyên thấu
+@common.h2z:item_base_info.bin:0x1f6c
+Khả năng bắn xuyên|kẻ địch tăng %s.
+@common.h2z:item_base_info.bin:0x1fb4
+Tốc độ đạn
+@common.h2z:item_base_info.bin:0x1fc3
+Tốc độ bay của đạn|tăng %s.
+@common.h2z:item_base_info.bin:0x200a
+Phạm vi ảnh hưởng
+@common.h2z:item_base_info.bin:0x201a
+Phạm vi tác động|tăng %s.
+@common.h2z:item_base_info.bin:0x2054
+Chí mạng
+@common.h2z:item_base_info.bin:0x2062
+Xác suất gây sát thương|chí mạng tăng %s.
+@common.h2z:item_base_info.bin:0x20ab
+Đạn vô hạn
+@common.h2z:item_base_info.bin:0x20be
+Vũ khí này giờ có|đạn vô hạn!
+@common.h2z:item_base_info.bin:0x20fe
+Bán kính nổ
+@common.h2z:item_base_info.bin:0x2110
+Vùng trúng đạn của|vũ khí tăng %s.
+@common.h2z:item_base_info.bin:0x2159
+Dùng một lần
+@common.h2z:item_file_info.bin:0x1b
+Lưu ý: Nếu đã đổi|thiết lập điều khiển,|nút bấm sẽ khác|hướng dẫn này.
+@common.h2z:item_file_info.bin:0x94
+  *Ngắm và bắn*|Giữ ZR để giương súng,|rồi dùng D-Pad|để ngắm tự do.
+@common.h2z:item_file_info.bin:0x114
+  *Dùng dao*|Giữ ZL để rút dao|và nhấn {2} tấn công.|Dao tách biệt|với các vũ khí khác.
+@common.h2z:item_file_info.bin:0x195
+  *Chạy và đi bộ*|Giữ {2} để chạy,|thả ra để đi bộ.
+@common.h2z:item_file_info.bin:0x1e0
+  *Tương tác*|Khi dòng chữ như|“Hành động: Mở”|hiện lên, nhấn {2}|để thực hiện.
+@common.h2z:item_file_info.bin:0x271
+Tên: Ashley Graham (20)|Con gái Tổng thống Mỹ.|Bị một nhóm bí ẩn|bắt cóc khi đang|trên đường từ|trường đại học về nhà.
+@common.h2z:item_file_info.bin:0x313
+Chưa rõ động cơ|vụ bắt cóc, nhưng|nguồn tin đáng tin|cho biết đã xác định|được kẻ chủ mưu.
+@common.h2z:item_file_info.bin:0x388
+Chỉ số ít người|biết vụ bắt cóc.|Mọi thứ được giữ kín|vì chúng ta vẫn|chưa rõ ai đứng sau.
+@common.h2z:item_file_info.bin:0x429
+Theo tình báo, Ashley|từng xuất hiện đâu đó|ở châu Âu. Nhưng khi|chưa rõ kẻ chủ mưu,|tôi chẳng biết|nên tin điều gì.
+@common.h2z:item_file_info.bin:0x501
+  *Nạp đạn*|Nhấn ZR một lần|để nạp đạn.
+@common.h2z:item_file_info.bin:0x549
+  *Cận chiến*|Muốn đánh kẻ địch|ở cự ly gần, hãy|tiếp cận rồi nhấn|nút Tương tác.
+@common.h2z:item_file_info.bin:0x5bd
+  *Màn hình trạng thái*|Nhấn {3} để mở.|Tại đây có thể xem|vũ khí và vật phẩm|hồi máu.
+@common.h2z:item_file_info.bin:0x647
+  *Tùy chọn*|Nhấn {H} để mở|màn hình Tùy chọn.|Chỉnh âm thanh và|điều khiển tại đây.
+@common.h2z:item_file_info.bin:0x6d8
+Nghe đồn có một|đặc vụ chính phủ Mỹ|đang lảng vảng|do thám ngôi làng.|Đừng để tên người Mỹ|tiếp cận tù nhân.
+@common.h2z:item_file_info.bin:0x77c
+Ai chưa biết thì nghe:|Tù nhân đang bị giam|trong căn nhà bỏ hoang|qua khỏi trang trại.|Khi sẵn sàng, ta sẽ|chuyển tù nhân đến|nơi an toàn ở thung lũng.
+@common.h2z:item_file_info.bin:0x82f
+Trong lúc đó,|không được để tên Mỹ|tiếp cận tù nhân.||Luôn cảnh giác, anh em!|- Trưởng làng Bitores Mendez
+@common.h2z:item_file_info.bin:0x8c2
+Có một vật quan trọng|giấu sau thác nước.|Nếu lấy được nó,|ta sẽ có cách|đưa Ashley ra ngoài.
