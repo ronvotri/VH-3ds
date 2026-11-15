@@ -1,0 +1,203 @@
+# Resident Evil 4 Zeebo → Nintendo 3DS — Vietnamese batch 004
+# source keys 301–400; | = break; preserve placeholders
+
+@common.h2z:stgnfo_mission_mm.bin:0x8b4
+Bị kẹt trong lò nung!|Muốn thoát, bạn phải|đánh mở đường!
+@common.h2z:stgnfo_mission_mm.bin:0x90a
+Lối thoát
+@common.h2z:stgnfo_mission_mm.bin:0x91e
+Kênh tưới tiêu cũ
+@common.h2z:stgnfo_mission_mm.bin:0x939
+Phá vòng vây của địch|và đưa Ashley|đến thang máy!
+@common.h2z:stgnfo_mission_mm.bin:0x985
+Đối đầu
+@common.h2z:stgnfo_mission_mm.bin:0x98d
+Kênh tưới tiêu cũ
+@common.h2z:stgnfo_mission_mm.bin:0x9a8
+Lần này không có|nitơ lỏng trợ giúp.|Sống nổi trước Verdugo?
+@common.h2z:stgnfo_mission_mm.bin:0xa07
+Đặc vụ mạnh nhất
+@common.h2z:stgnfo_mission_mm.bin:0xa1b
+Hành lang vọng gác
+@common.h2z:stgnfo_mission_mm.bin:0xa2d
+Đầy đủ vũ khí rồi,|hạ sạch mọi kẻ địch|cản đường nào!
+@common.h2z:stgnfo_mission_ms.bin:0x10
+Khát máu
+@common.h2z:stgnfo_mission_ms.bin:0x1f
+Ngôi làng
+@common.h2z:stgnfo_mission_ms.bin:0x28
+Cơn ác mộng bắt đầu!|Leon vào ngôi làng.|Hạ hết Ganado!
+@common.h2z:stgnfo_mission_ms.bin:0x74
+Luis Sera
+@common.h2z:stgnfo_mission_ms.bin:0x7e
+Thung lũng
+@common.h2z:stgnfo_mission_ms.bin:0x83
+Bị bắt và đưa tới|nơi giam giữ, Leon|gặp Luis lần đầu.
+@common.h2z:stgnfo_mission_ms.bin:0xdd
+Las Plagas
+@common.h2z:stgnfo_mission_ms.bin:0xe8
+Thác nước
+@common.h2z:stgnfo_mission_ms.bin:0xf2
+Leon đau đớn quằn quại|khi ký sinh trùng|Plaga lan trong cơ thể.
+@common.h2z:stgnfo_mission_ms.bin:0x151
+Lồng giam khổng lồ
+@common.h2z:stgnfo_mission_ms.bin:0x165
+Hầm mỏ
+@common.h2z:stgnfo_mission_ms.bin:0x16a
+Leon mắc kẹt|trong hầm mỏ khi|El Gigante ập tới!
+@common.h2z:stgnfo_mission_ms.bin:0x1c2
+Giải cứu Ashley
+@common.h2z:stgnfo_mission_ms.bin:0x1d6
+Nhà thờ
+@common.h2z:stgnfo_mission_ms.bin:0x1dd
+Leon lẻn vào nhà thờ.|Liệu Ashley có bị|giam ở đây...?
+@common.h2z:stgnfo_mission_ms.bin:0x236
+Bị bao vây
+@common.h2z:stgnfo_mission_ms.bin:0x24a
+Ngôi nhà cố thủ
+@common.h2z:stgnfo_mission_ms.bin:0x25e
+Dân làng đang vây chặt|căn nhà nơi Leon|ẩn náu.
+@common.h2z:stgnfo_mission_ms.bin:0x2a5
+Đến lâu đài lớn
+@common.h2z:stgnfo_mission_ms.bin:0x2bb
+Tường thành
+@common.h2z:stgnfo_mission_ms.bin:0x2cc
+Leon chạy tới|lâu đài cổ. Nhưng|liệu còn gì kinh khủng|hơn đang chờ?
+@common.h2z:stgnfo_mission_ms.bin:0x325
+Vũ khí mù lòa
+@common.h2z:stgnfo_mission_ms.bin:0x331
+Đại sảnh tiếp kiến
+@common.h2z:stgnfo_mission_ms.bin:0x347
+Leon tìm lối thoát|thì gã hộ vệ bọc sắt|Garrador xuất hiện!
+@common.h2z:stgnfo_mission_ms.bin:0x3a6
+Hai hộ vệ
+@common.h2z:stgnfo_mission_ms.bin:0x3bc
+Hành lang vọng gác
+@common.h2z:stgnfo_mission_ms.bin:0x3ce
+Chắn giữa Leon|và Ashley không phải|một mà là hai Garrador.
+@common.h2z:stgnfo_mission_ms.bin:0x41f
+Tái ngộ
+@common.h2z:stgnfo_mission_ms.bin:0x428
+Đại sảnh
+@common.h2z:stgnfo_mission_ms.bin:0x437
+Leon cứu được Ashley,|nhưng Ganado lại|bắt cô đi!
+@common.h2z:stgnfo_mission_ms.bin:0x483
+Lò nung
+@common.h2z:stgnfo_mission_ms.bin:0x48e
+Lò nung
+@common.h2z:stgnfo_mission_ms.bin:0x497
+Một cái bẫy đẩy Leon|vào cơn ác mộng:|hai El Gigante!
+@common.h2z:stgnfo_mission_ms.bin:0x4f1
+Sát thủ nguy hiểm nhất
+@common.h2z:stgnfo_mission_ms.bin:0x507
+Kênh tưới tiêu cũ
+@common.h2z:stgnfo_mission_ms.bin:0x522
+Chờ Leon ở con kênh|cũ là sát thủ|chết chóc Verdugo!
+@3d_base.h2z:sys_param.bin:0x68
+Nhặt
+@3d_base.h2z:sys_param.bin:0x78
+Kiểm tra
+@3d_base.h2z:sys_param.bin:0x89
+Mở
+@3d_base.h2z:sys_param.bin:0x97
+Leo lên
+@3d_base.h2z:sys_param.bin:0xa5
+Leo xuống
+@3d_base.h2z:sys_param.bin:0xb4
+Đạp đổ
+@3d_base.h2z:sys_param.bin:0xc5
+Dựng thang
+@3d_base.h2z:sys_param.bin:0xdd
+Vùng vẫy
+@3d_base.h2z:sys_param.bin:0xed
+Nhảy ra
+@3d_base.h2z:sys_param.bin:0xfc
+Lấy
+@3d_base.h2z:sys_param.bin:0x10a
+Vận hành
+@3d_base.h2z:sys_param.bin:0x119
+Leo
+@3d_base.h2z:sys_param.bin:0x129
+Nhảy qua
+@3d_base.h2z:sys_param.bin:0x137
+Đá
+@3d_base.h2z:sys_param.bin:0x146
+Né
+@3d_base.h2z:sys_param.bin:0x157
+Cúi
+@3d_base.h2z:sys_param.bin:0x1c8
+Nhặt được %d PTAS
+@3d_base.h2z:sys_param.bin:0x1da
+Có thể lấy. Lấy chứ?
+@3d_base.h2z:sys_param.bin:0x1f5
+đã nhận
+@3d_base.h2z:sys_param.bin:0x200
+%s(%d viên)
+@3d_base.h2z:sys_param.bin:0x20c
+CÓ
+@3d_base.h2z:sys_param.bin:0x210
+KHÔNG
+@3d_base.h2z:sys_param.bin:0x215
+DÙNG
+@3d_base.h2z:sys_param.bin:0x21a
+Vali đã đầy!
+@3d_base.h2z:mis_data_m01.bin:0x550
+Hạ càng nhiều địch|càng tốt trước khi|hết giờ.
+@3d_base.h2z:mis_data_m01.bin:0x582
+Tiếng trực thăng|vang trên đầu.|Có vẻ viện binh đã đến.
+@3d_base.h2z:mis_data_m01.bin:0x5cd
+Cửa này|đã khóa chặt.
+@3d_base.h2z:mis_data_m02.bin:0x620
+Hạ càng nhiều địch|càng tốt trước giờ.|Thử dùng shotgun.
+@3d_base.h2z:mis_data_m02.bin:0x66c
+Tiếng trực thăng|vang trên đầu.|Có vẻ viện binh đã đến.
+@3d_base.h2z:mis_data_m02.bin:0x6b7
+Cửa này|đã khóa chặt.
+@3d_base.h2z:mis_data_m03.bin:0x644
+Hạ càng nhiều địch|càng tốt trước giờ.|Liệu có hạ hết?
+@3d_base.h2z:mis_data_m03.bin:0x693
+Tiếng trực thăng|vang trên đầu.|Có vẻ viện binh đã đến.
+@3d_base.h2z:mis_data_m03.bin:0x6de
+Đã hạ hết|kẻ địch.
+@3d_base.h2z:mis_data_m03.bin:0x703
+Cửa này|đã khóa chặt.
+@3d_base.h2z:mis_data_m04.bin:0x5bc
+Hạ càng nhiều địch|càng tốt trước giờ.|Coi chừng phía sau!
+@3d_base.h2z:mis_data_m04.bin:0x609
+Tiếng trực thăng|vang trên đầu.|Có vẻ viện binh đã đến.
+@3d_base.h2z:mis_data_m04.bin:0x655
+Cửa đã khóa chặt.
+@3d_base.h2z:mis_data_m04.bin:0x673
+Không thể rời|điểm hẹn.
+@3d_base.h2z:mis_data_m05.bin:0x538
+Hạ càng nhiều địch|càng tốt trước giờ.|Thử dùng súng trường.
+@3d_base.h2z:mis_data_m05.bin:0x580
+Tiếng trực thăng|vang trên đầu.|Có vẻ viện binh đã đến.
+@3d_base.h2z:mis_data_m06.bin:0x680
+Hạ càng nhiều địch|càng tốt trước giờ.|Nhớ giữ đạn!
+@3d_base.h2z:mis_data_m06.bin:0x6cc
+Tiếng trực thăng|vang trên đầu.|Có vẻ viện binh đã đến.
+@3d_base.h2z:mis_data_m06.bin:0x718
+Leon nhảy lên đèn chùm|và đu sang bên kia!
+@3d_base.h2z:mis_data_m06.bin:0x74f
+Leon đã lên cầu thang.
+@3d_base.h2z:mis_data_m06.bin:0x764
+Cửa này|đã khóa chặt.
+@3d_base.h2z:mis_data_m07.bin:0x66c
+Đưa Ashley đến cửa|trước khi hết giờ.
+@3d_base.h2z:mis_data_m07.bin:0x696
+Tiếng trực thăng|vang trên đầu.|Có vẻ viện binh đã đến.
+@3d_base.h2z:mis_data_m07.bin:0x6e1
+Không thể rời đi|nếu thiếu Ashley.
+@3d_base.h2z:mis_data_m07.bin:0x703
+Leon và Ashley đã đến|lối thoát.
+@3d_base.h2z:mis_data_m07.bin:0x72f
+Leon không thể quay lại.
+@3d_base.h2z:mis_data_m08.bin:0x810
+Đưa Ashley đến cửa|trước khi hết giờ.
+@3d_base.h2z:mis_data_m08.bin:0x83a
+Tiếng trực thăng|vang trên đầu.|Có vẻ viện binh đã đến.
+@3d_base.h2z:mis_data_m08.bin:0x886
+Không thể rời đi|nếu thiếu Ashley.
+@3d_base.h2z:mis_data_m08.bin:0x8a8
+Bạn đã mở cửa|bằng Chìa khóa cũ.
