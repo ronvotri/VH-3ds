@@ -1,0 +1,106 @@
+{"id":"romfs/us/0.arc::resident/03.bin#00319","source":"Buy this weapon?","vi":"Mua Weapon này nhé?","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00320","source":"Equip?","vi":"Trang bị nhé?","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00321","source":"Fuse","vi":"Hợp nhất","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00322","source":"Convert!","vi":"Chuyển đổi!","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00323","source":"Convert all selected items into hearts?","vi":"Đổi toàn bộ vật phẩm đã chọn lấy hearts nhé?","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00325","source":"is your total.","vi":"là tổng cộng.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00326","source":"SALE","vi":"GIẢM GIÁ","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00327","source":"This is currently set for use in Together mode.\nIf you convert it to hearts, you won't be\nable to use it. Is this OK?","vi":"Món này đang dùng trong chế độ Together.\nNếu đổi lấy hearts, bạn sẽ không dùng\nđược nữa. Vẫn tiếp tục chứ?","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00328","source":"Return to the previous\nscreen without converting\nyour selections?","vi":"Quay về màn hình trước\nmà không chuyển đổi\ncác món đã chọn nhé?","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00329","source":"This is part of a set for use in\nTogether mode. If you fuse it, the\nset will be broken. Is this OK?","vi":"Đây là một phần của bộ trang bị\nTogether. Nếu hợp nhất, bộ đó\nsẽ bị phá. Vẫn tiếp tục chứ?","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00330","source":"You're trying to fuse a\nweapon you have equipped.\nDo you want to proceed?","vi":"Bạn đang hợp nhất Weapon\nđã trang bị đấy.\nVẫn muốn tiếp tục chứ?","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00331","source":"You're trying to fuse one of\nyour preferred weapons (★).\nDo you want to proceed?","vi":"Bạn đang hợp nhất một Weapon\nđược đánh dấu yêu thích (★).\nChắc chắn muốn tiếp tục chứ?","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00332","source":"Cancel","vi":"Hủy","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00334","source":"You can't fuse a weapon with itself.","vi":"Không thể hợp nhất một Weapon với chính nó.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00335","source":"You can't fuse a weapon gem with itself.","vi":"Không thể hợp nhất Weapon Gem với chính nó.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00336","source":"Air Battle","vi":"Không chiến","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00337","source":"Land Battle","vi":"Lục chiến","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00338","source":"Boss Battle","vi":"Đấu Boss","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00339","source":"Try out your weapon in the skies!","vi":"Thử Weapon trên bầu trời nào!","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00340","source":"Try out your weapon on the ground!","vi":"Thử Weapon dưới mặt đất nào!","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00341","source":"Return to the previous screen.","vi":"Quay về màn hình trước.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00342","source":"Far Away","vi":"Ở xa","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00343","source":"Nearby","vi":"Ở gần","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00344","source":"Show/Hide Stats","vi":"Hiện/Ẩn chỉ số","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00345","source":"Play with people worldwide over the Internet.","vi":"Chơi với mọi người khắp thế giới qua Internet.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00346","source":"Play with people nearby via local wireless.","vi":"Chơi với người ở gần qua kết nối không dây.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00347","source":"Equip weapons and powers.","vi":"Trang bị Weapon và Power.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00348","source":"Battle Stats","vi":"Thống kê trận đấu","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00349","source":"Light vs. Dark victories:","vi":"Số trận thắng Light vs. Dark:","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00350","source":"Free-for-All victories:","vi":"Số trận thắng Free-for-All:","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00351","source":"Opponents defeated:","vi":"Số đối thủ đã hạ:","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00354","source":"Play with registered friends.","vi":"Chơi với bạn bè đã đăng ký.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00355","source":"Play with people around the world.","vi":"Chơi với mọi người trên toàn thế giới.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00356","source":"Light vs. Dark","vi":"Light vs. Dark","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00357","source":"Free-for-All","vi":"Free-for-All","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00358","source":"Friends Only","vi":"Chỉ bạn bè","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00359","source":"Anyone","vi":"Bất kỳ ai","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00360","source":"Split into teams and protect your angel!","vi":"Chia đội và bảo vệ thiên thần phe mình!","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00361","source":"This rumble is all players for themselves!","vi":"Đại chiến tự do: ai cũng phải tự lo thân!","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00362","source":"Only friends can join.","vi":"Chỉ bạn bè mới vào được.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00363","source":"Anyone can join.","vi":"Ai cũng có thể tham gia.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00364","source":"Players' Friends Can Join","vi":"Bạn bè của người chơi được tham gia","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00365","source":"Select the number of players.\n(CPU players will fill empty spots.)","vi":"Chọn số người chơi.\n(CPU sẽ lấp các vị trí còn trống.)","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00366","source":"OK","vi":"OK","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00370","source":"Friends of current players can also join.","vi":"Bạn bè của người đang chơi cũng được tham gia.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00373","source":"Auto","vi":"Tự động","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00374","source":"Value:","vi":"Giá trị:","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00375","source":"HP","vi":"HP","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00376","source":"Set","vi":"Thiết lập","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00377","source":"Options","vi":"Tùy chọn","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00378","source":"Automatic","vi":"Tự động","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00379","source":"Leave the current room.","vi":"Rời phòng hiện tại.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00380","source":"Select gear to use.","vi":"Chọn trang bị để sử dụng.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00381","source":"Let Palutena choose for you.","vi":"Để Palutena chọn hộ bạn.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00382","source":"Select a weapon and power set to use.","vi":"Chọn bộ Weapon và Power để sử dụng.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00383","source":"~ Preparing Match ~","vi":"~ Chuẩn bị trận đấu ~","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00384","source":"Apply a handicap by lowering HP.","vi":"Tạo bất lợi bằng cách giảm HP.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00385","source":"Confirm players.","vi":"Xác nhận người chơi.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00386","source":"Set the stage, time limit, etc.","vi":"Chỉnh bản đồ, giới hạn thời gian, v.v.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00387","source":"Finally move out!","vi":"Chuẩn bị xong rồi, xuất trận thôi!","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00388","source":"Automatically apply a health handicap based on battle results.","vi":"Tự điều chỉnh mức giảm HP dựa theo kết quả trận đấu.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00389","source":"Select weapon.","vi":"Chọn Weapon.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00390","source":"Select powers.","vi":"Chọn Power.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00391","source":"Switch teams.","vi":"Đổi đội.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00392","source":"Change currently set weapon and powers.","vi":"Đổi Weapon và Power đang thiết lập.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00393","source":"Configure a new weapon and power set.","vi":"Thiết lập bộ Weapon và Power mới.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00394","source":"Set 1:","vi":"Bộ 1:","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00395","source":"Set 2:","vi":"Bộ 2:","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00396","source":"Set 3:","vi":"Bộ 3:","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00397","source":"Set 4:","vi":"Bộ 4:","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00398","source":"Set 5:","vi":"Bộ 5:","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00399","source":"Set 6:","vi":"Bộ 6:","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00400","source":"Set 7:","vi":"Bộ 7:","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00401","source":"Set 8:","vi":"Bộ 8:","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00402","source":"Set 9:","vi":"Bộ 9:","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00403","source":"Set 10:","vi":"Bộ 10:","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00404","source":"Set 11:","vi":"Bộ 11:","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00405","source":"Set 12:","vi":"Bộ 12:","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00406","source":"Set 13:","vi":"Bộ 13:","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00407","source":"Set 14:","vi":"Bộ 14:","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00408","source":"Set 15:","vi":"Bộ 15:","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00409","source":"Set 16:","vi":"Bộ 16:","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00410","source":"Dark Team","vi":"Đội Dark","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00411","source":"Light Team","vi":"Đội Light","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00412","source":"Light","vi":"Light","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00413","source":"Dark","vi":"Dark","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00414","source":" has joined the match.","vi":" đã tham gia trận đấu.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00415","source":" has left the match.","vi":" đã rời trận đấu.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00416","source":"Select Gear","vi":"Chọn trang bị","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00417","source":"You are now able to change the game rules.","vi":"Giờ bạn có thể thay đổi luật chơi.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00418","source":"Accepting Players","vi":"Đang nhận người chơi","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00419","source":"Offline","vi":"Offline","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00420","source":"Can Join","vi":"Có thể tham gia","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00421","source":"Create Room","vi":"Tạo phòng","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00422","source":"Online","vi":"Online","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00423","source":"CPU","vi":"CPU","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00424","source":"Light Team","vi":"Đội Light","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00425","source":"Dark Team","vi":"Đội Dark","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00426","source":"You can enter this room.","vi":"Bạn có thể vào phòng này.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00427","source":"Not connected to the network.","vi":"Chưa kết nối mạng.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00428","source":"Waiting for players to connect for the next match.","vi":"Đang chờ người chơi kết nối cho trận tiếp theo.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00429","source":"Create a room for other players to join.","vi":"Tạo phòng để người khác tham gia.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00430","source":"Online","vi":"Online","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00431","source":"Can't Join","vi":"Không thể tham gia","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00432","source":"Connected to network.","vi":"Đã kết nối mạng.","status":"draft","batch":"005"}
+{"id":"romfs/us/0.arc::resident/03.bin#00433","source":"Can't currently play together.","vi":"Hiện chưa thể chơi cùng nhau.","status":"draft","batch":"005"}
