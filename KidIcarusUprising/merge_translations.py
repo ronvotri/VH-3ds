@@ -33,7 +33,7 @@ def main():
                 raise SystemExit(f"Duplicate overlay id: {key}")
             if key not in by_id:
                 raise SystemExit(f"Unrecognized ID: {key}")
-            if r["source"] != by_id[key].get("source"):
+            if "source" in r and r["source"] != by_id[key].get("source"):
                 raise SystemExit(f"English source mismatch at {key}")
             if not r.get("vi"):
                 raise SystemExit(f"Missing Vietnamese at {key}")
