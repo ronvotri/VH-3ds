@@ -1,0 +1,173 @@
+{"id":"romfs/us/0.arc::resident/03.bin#00435","vi":"Cập nhật danh sách với thông tin mới nhất","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00436","vi":"Chưa có bạn bè nào được đăng ký.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00437","vi":"Đang chuẩn bị trận đấu","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00438","vi":"Phòng này đang được chuẩn bị.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00439","vi":"Sắp xếp danh sách bạn bè","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00440","vi":"Phòng trống","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00441","vi":"Light","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00442","vi":"Dark","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00443","vi":"Đội Light chiến thắng!","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00444","vi":"Đội Dark chiến thắng!","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00445","vi":"Đã nhận ","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00446","vi":"Điểm","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00447","vi":"Chơi lại với những người vừa rồi.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00448","vi":"Chơi lại với luật cũ.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00449","vi":"Hiện tại ","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00450","vi":"Nhận được chiến lợi phẩm!","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00451","vi":"Đổi lấy Hearts","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00452","vi":"Tạo phòng","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00453","vi":"Không thể chứa thêm Weapon nào nữa.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00454","vi":"Điểm","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00455","vi":"Weapon","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00456","vi":"Power","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00457","vi":"IDOL","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00458","vi":"Hạng 1","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00459","vi":"Hạng 2","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00460","vi":"Hạng 3","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00461","vi":"Hạng 4","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00462","vi":"Hạng 5","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00463","vi":"Hạng 6","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00464","vi":"Ngẫu nhiên","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00465","vi":"Nhiều","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00466","vi":"Tiêu chuẩn","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00467","vi":"Ít","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00468","vi":"Không có","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00470","vi":"Chọn bản đồ thi đấu.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00471","vi":"Đặt thời gian trận đấu.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00472","vi":"Sẽ xuất hiện nhiều item.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00473","vi":"Sẽ xuất hiện một lượng item vừa phải.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00474","vi":"Sẽ xuất hiện ít item.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00475","vi":"Sẽ không xuất hiện item.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00476","vi":"Chỉnh độ mạnh CPU. Mạnh nhất là 9.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00477","vi":"Forgotten City","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00478","vi":"Windy Wasteland","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00479","vi":"Lava Basin","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00480","vi":"Ancient Fortress","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00481","vi":"Cave of Spirits","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00482","vi":"Desert Tomb","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00483","vi":"Starlight Observatory","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00484","vi":"Rail Temple","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00485","vi":"Twilight Stratosphere","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00486","vi":"Spiral Tower","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00487","vi":"phút","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00488","vi":"Xác nhận luật chơi","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00489","vi":"OK! (START)","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00490","vi":"OK!","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00491","vi":"Đấu trường nhỏ","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00492","vi":"Đấu trường lớn","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00493","vi":"Giảm máu để CPU chịu bất lợi.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00494","vi":"Tự chỉnh bất lợi của CPU theo thành tích.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00495","vi":"Giảm máu tối đa của đội Light xuống một tỷ lệ đã đặt.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00496","vi":"Tự áp dụng bất lợi theo thành tích của đội Light.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00497","vi":"Giảm máu tối đa của đội Dark xuống một tỷ lệ đã đặt.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00498","vi":"Tự áp dụng bất lợi theo thành tích của đội Dark.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00499","vi":"Chỉnh máu tối đa của cả hai đội.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00500","vi":"Thủ công","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00501","vi":"Không có","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00502","vi":"Không áp dụng bất lợi.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00503","vi":"Cho phép người chơi giảm máu để tự nhận bất lợi ở màn hình chọn trang bị.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00504","vi":"IDOLS","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00505","vi":"Xem mô hình 3D của nhân vật, kẻ địch, item và địa điểm.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00506","vi":"Nghe nhạc trong game.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00507","vi":"Thành tích bắt đầu được ghi lại ngay khi bạn mở game!","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00508","vi":"Thu thập mảnh Power để mở ra một bức chân dung.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00509","vi":"Dâng hearts cho nữ thần.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00510","vi":"Ném trứng để mở khóa Idol.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00511","vi":"Xem và đấu với các Idol từ AR Card.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00512","vi":"NHẠC","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00513","vi":"Nghe nhạc trong game.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00514","vi":"▼Thông tin cơ bản","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00515","vi":"▼Solo","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00516","vi":"▼Together","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00517","vi":"▼StreetPass","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00518","vi":"Dâng lễ thì không có thưởng đâu,\nnhưng sẽ khiến bạn gần gũi với nữ thần hơn!","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00519","vi":"Dâng lễ thì không có thưởng đâu,\nnhưng sẽ khiến bạn gần gũi với nữ thần hơn!","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00520","vi":"MỚI:","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00521","vi":"×","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00522","vi":"L/R: ","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00523","vi":"Chi tiết","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00524","vi":"Ném trứng để nhận Idol. Càng dùng\nnhiều, cơ hội ra Idol mới càng cao.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00525","vi":"Đã nhận hearts!","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00526","vi":"Chiến thôi!","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00527","vi":"Bạn nhận thêm hearts!","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00528","vi":"Thu thập đủ mọi Power\nđể hoàn thành chân dung!","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00529","vi":"TRAO ĐỔI WEAPON GEM","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00530","vi":"TRAO ĐỔI POWER","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00531","vi":"STREETPASS","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00532","vi":"Trao đổi Weapon Gem với người đi ngang qua!","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00533","vi":"Trao đổi Power với người đi ngang qua!","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00534","vi":"Trợ giúp","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00535","vi":"Tìm hiểu cách dùng StreetPass.\t","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00536","vi":"Tiếp","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00537","vi":"Thoát","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00538","vi":"Để trao đổi Weapon Gem với người khác\nqua StreetPass, hãy bật kết nối không dây\nbằng công tắc wireless.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00539","vi":"Sau đó, cứ gập Nintendo 3DS,\nđể máy bật và mang theo bên mình.\nKhi gặp người chơi khác,\nbạn có thể trao đổi Weapon Gem.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00540","vi":"Trao đổi càng nhiều Gem càng tốt.\nBiết đâu lại nhặt được hàng hiếm!","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00541","vi":"Bạn có thể tạo Weapon từ Gem,\nhoặc ghép hai Gem thành một Weapon khác.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00542","vi":"StreetPass vẫn hoạt động\nsau khi bạn thoát game.\n\nXem hướng dẫn game để biết chi tiết\nvà các lưu ý khi dùng StreetPass.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00543","vi":"Xem các Gem đã nhận.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00544","vi":"Tạo Weapon từ Gem đã nhận.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00545","vi":"Tạo một Gem để trao đổi qua StreetPass.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00546","vi":"Chuyển các Gem vừa nhận vào Gem Case.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00547","vi":"Chỉ số Weapon","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00548","vi":"Chỉ số Gem","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00549","vi":"Intensity trung bình đã vượt","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00550","vi":"Đối thủ nhiều người chơi đã hạ","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00551","vi":"Người đã trao đổi Gem","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00552","vi":"Tiến độ Treasure Hunt","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00553","vi":"Đòn đánh Ranged","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00554","vi":"Đòn đánh Melee","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00556","vi":"Muốn trao đổi Weapon Gem qua\nStreetPass? Trước hết, hãy tạo\nmột Gem của riêng bạn đã!","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00557","vi":"%","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00558","vi":"Gem đã sẵn sàng để trao đổi.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00560","vi":" Gem","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00561","vi":"Chuyển Gem đã nhận vào Gem Case.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00562","vi":"Nhấn  để đổi Gem thành Weapon,\nhoặc nhấn  để đổi Gem lấy hearts.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00563","vi":"Chỉ số Gem","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00564","vi":"Gem Case đã đầy. Bạn có thể\nđổi Gem lấy hearts để dọn chỗ.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00565","vi":"Đổi Gem lấy hearts.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00566","vi":"Đổi thành Weapon","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00567","vi":"Đổi Gem thành Weapon nhé?","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00568","vi":"Đổi Gem lấy hearts nhé?","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00569","vi":"Không thể đổi ??? Gem thành Weapon.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00570","vi":"Muốn đổi Gem lấy hearts, hãy thả\nnó vào đây, nhấn  hoặc vuốt\nGem ra khỏi màn hình.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00571","vi":"Chọn Weapon để tạo Gem.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00572","vi":"Nhận được Power!","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00573","vi":"Nhận","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00574","vi":"Đổi cách sắp xếp","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00575","vi":"ĐIỀU KHIỂN","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00576","vi":"Âm lượng","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00577","vi":"KHÁC","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00578","vi":"Chỉnh nút, góc nhìn và hơn thế nữa.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00579","vi":"Chỉnh âm lượng nhạc, hiệu ứng và giọng nói.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00580","vi":"Chỉnh tên, phụ đề cùng các tùy chọn khác.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00581","vi":"Thiết lập điều khiển","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00582","vi":"Tâm ngắm/Camera","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00583","vi":"Tự động bắn","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00584","vi":"Bật/Tắt","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00585","vi":"Dùng thử!","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00586","vi":"Thay đổi cách điều khiển.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00587","vi":"Thay đổi điều khiển tâm ngắm và Camera.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00588","vi":"Tự bắn khi tâm ngắm trùng với kẻ địch.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00589","vi":"Thử ngay thiết lập này.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00590","vi":"Điều khiển khác","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00591","vi":"Mũi tên chỉ đường","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00592","vi":"Hỗ trợ ngắm","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00593","vi":"Bám mục tiêu khi bắn","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00594","vi":"Chỉnh điều khiển bắn và chỉ đường trong Solo.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00595","vi":"Hiện mũi tên xanh dẫn đường.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00596","vi":"Tự hướng tâm ngắm\nvề phía kẻ địch khi giao chiến.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00597","vi":"Tắt mục này để vô hiệu hóa bắn bám mục tiêu. (Chỉ dành cho cao thủ!)","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00598","vi":"Hiển thị","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00599","vi":"Hiện thông tin phía trên đối thủ.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00600","vi":"Tấn công","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00601","vi":"Bắn đạn và thực hiện đòn Melee.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00602","vi":"Đổi góc nhìn","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00603","vi":"Chuyển giữa góc nhìn thứ ba (sau lưng Pit)\nvà góc nhìn thứ nhất (qua mắt Pit).","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00604","vi":"Căn Camera","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00605","vi":"Căn Camera và tâm ngắm theo hướng\nPit đang nhìn.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00606","vi":"Dùng Power","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00607","vi":"Sử dụng các Power đã thiết lập.","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00608","vi":"Lướt/Thu phóng","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00609","vi":"Chọn Power (phải)","status":"draft","batch":"006"}
+{"id":"romfs/us/0.arc::resident/03.bin#00610","vi":"Chọn Power (trái)","status":"draft","batch":"006"}
