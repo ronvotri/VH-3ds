@@ -1,0 +1,114 @@
+{"id":"romfs/us/0.arc::resident/03.bin#00204","source":"(Effortless)","vi":"(Nhẹ như không)","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00205","source":"(Easy)","vi":"(Dễ)","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00206","source":"(Standard)","vi":"(Tiêu chuẩn)","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00207","source":"(Tougher)","vi":"(Khó hơn)","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00208","source":"(Challenging)","vi":"(Thử thách)","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00209","source":"(Heatin' Up)","vi":"(Nóng dần rồi!)","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00210","source":"(Extra Spicy)","vi":"(Cay xé lưỡi!)","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00211","source":"(Infernal)","vi":"(Địa ngục)","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00212","source":"(White Hot)","vi":"(Nóng cực độ!)","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00213","source":"(Nothing Harder!)","vi":"(Hết cỡ khó rồi!)","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00214","source":"Time:","vi":"Thời gian:","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00215","source":"Clear Time:","vi":"Thời gian hoàn thành:","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00216","source":"Bosses Defeated:","vi":"Boss đã hạ:","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00217","source":"Last Boss:","vi":"Boss cuối:","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00219","source":"Effortless","vi":"Nhẹ như không","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00220","source":"Easy","vi":"Dễ","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00221","source":"Standard","vi":"Tiêu chuẩn","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00222","source":"Tougher","vi":"Khó hơn","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00223","source":"Challenging","vi":"Thử thách","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00224","source":"Heatin' Up","vi":"Nóng dần rồi!","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00225","source":"Extra Spicy","vi":"Cay xé lưỡi!","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00226","source":"Infernal","vi":"Địa ngục","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00227","source":"White Hot","vi":"Nóng cực độ!","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00228","source":"Nothing Harder!","vi":"Hết cỡ khó rồi!","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00229","source":"Intensity","vi":"Intensity","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00230","source":"★Try This?★","vi":"★Thử xem?★","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00231","source":"Bet hearts to increase difficulty and rewards (2.1 - 9.0).","vi":"Đặt cược hearts để tăng độ khó và phần thưởng (2.1 - 9.0).","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00232","source":"Move out without betting or spending hearts (2.0).","vi":"Xuất trận mà không cược hay tốn hearts (2.0).","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00233","source":"Spend hearts to decrease difficulty (0.0 - 1.9).","vi":"Dùng hearts để giảm độ khó (0.0 - 1.9).","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00234","source":"SCORE","vi":"ĐIỂM","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00235","source":"Loot","vi":"Chiến lợi phẩm","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00236","source":"Acquired","vi":"Đã nhận","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00237","source":"Current","vi":"Hiện có","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00238","source":"Dropped!","vi":"Đã rơi!","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00239","source":"Your weapon inventory is full.","vi":"Kho Weapon đầy rồi!","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00240","source":"Recovered Loot","vi":"Chiến lợi phẩm thu hồi","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00241","source":"Palutena's Treasure Hunt","vi":"Treasure Hunt của Palutena","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00242","source":"Viridi's Treasure Hunt","vi":"Treasure Hunt của Viridi","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00243","source":"Hades's Treasure Hunt","vi":"Treasure Hunt của Hades","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00244","source":"～Treasure Hunt～\n\nSatisfy game objectives to open as\nmany panels as you can. Hints for\nincomplete conditions will appear\nnext to fulfilled ones. You can also\nuse feathers to open panels with\nobjectives that are too tricky.","vi":"～Treasure Hunt～\n\nHoàn thành mục tiêu để mở\ncàng nhiều ô càng tốt. Gợi ý\ncho mục tiêu chưa đạt sẽ hiện\nbên cạnh ô đã mở. Gặp ô nào\nkhó nhằn quá thì dùng lông vũ\nđể mở cũng được nhé!","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00245","source":"Use a feather and\nopen this panel?","vi":"Dùng một chiếc lông vũ\nđể mở ô này nhé?","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00246","source":"EASY","vi":"DỄ","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00247","source":"NORMAL","vi":"THƯỜNG","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00248","source":"HARD","vi":"KHÓ","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00249","source":"WEAPONS","vi":"WEAPONS","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00250","source":"POWERS","vi":"POWERS","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00251","source":"Ranged:","vi":"Ranged:","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00252","source":"Melee:","vi":"Melee:","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00253","source":"Arm yourself for battle.","vi":"Trang bị để sẵn sàng chiến đấu.","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00254","source":"Equip special powers.","vi":"Trang bị Power đặc biệt.","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00255","source":"Select a weapon category.","vi":"Chọn loại Weapon.","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00256","source":"Select a weapon category or power.","vi":"Chọn loại Weapon hoặc Power.","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00257","source":"All Weapons","vi":"Tất cả Weapon","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00258","source":"All Powers","vi":"Tất cả Power","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00259","source":"ALL","vi":"TẤT CẢ","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00260","source":"ALL","vi":"TẤT CẢ","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00261","source":"CLAWS","vi":"CLAWS","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00262","source":"PALM","vi":"PALM","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00263","source":"CLUB","vi":"CLUB","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00264","source":"ORBITARS","vi":"ORBITARS","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00265","source":"BLADE","vi":"BLADE","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00266","source":"BOW","vi":"BOW","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00267","source":"STAFF","vi":"STAFF","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00268","source":"CANNON","vi":"CANNON","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00269","source":"ARM","vi":"ARM","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00270","source":"Equipped","vi":"Đã trang bị","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00271","source":"Page","vi":"Trang","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00272","source":"NEW!","vi":"MỚI!","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00273","source":"ALL","vi":"TẤT CẢ","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00274","source":"Order Used","vi":"Lần dùng","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00275","source":"Category","vi":"Loại","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00276","source":"Order Acquired","vi":"Lần nhận","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00277","source":"Hearts","vi":"Hearts","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00278","source":"Strength","vi":"Sức mạnh","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00279","source":"A to Z","vi":"A đến Z","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00280","source":"Category","vi":"Loại","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00281","source":"Size","vi":"Kích cỡ","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00282","source":"Try It!","vi":"Dùng thử!","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00283","source":"Equip It!","vi":"Trang bị!","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00284","source":"Equipped","vi":"Đã trang bị","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00285","source":"Back","vi":"Quay lại","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00286","source":"A balanced, user-friendly weapon.","vi":"Weapon cân bằng, dễ sử dụng.","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00287","source":"Move faster but with limited reach.","vi":"Di chuyển nhanh hơn, nhưng tầm đánh ngắn hơn.","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00288","source":"Fire guided arrows at high speed.","vi":"Bắn tên tự dẫn hướng với tốc độ cao.","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00289","source":"Fire homing shots from the palm of your hand.","vi":"Bắn đạn tự bám mục tiêu từ lòng bàn tay.","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00290","source":"Envelop enemies in explosive rounds.","vi":"Dội đạn nổ bao trùm kẻ địch.","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00291","source":"Fire two separate shots designed for ranged attacks.","vi":"Bắn hai luồng đạn riêng biệt chuyên đánh xa.","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00292","source":"Improve melee performance but limit attack range.","vi":"Tăng sức đánh Melee nhưng giảm tầm tấn công.","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00293","source":"Fire shots that are ideal for sniping.","vi":"Bắn đạn lý tưởng cho việc bắn tỉa.","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00294","source":"Fire powerful charged shots instead of continuous fire.","vi":"Bắn Charged Shot cực mạnh thay vì bắn liên tục.","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00295","source":"Autofill Powers","vi":"Tự xếp Power","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00296","source":"~Power Set 1~","vi":"~Bộ Power 1~","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00297","source":"~Power Set 2~","vi":"~Bộ Power 2~","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00298","source":"~Power Set 3~","vi":"~Bộ Power 3~","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00299","source":"~Power Set 4~","vi":"~Bộ Power 4~","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00300","source":"OK START","vi":"OK BẮT ĐẦU","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00301","source":"Uses: ","vi":"Số lần dùng: ","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00302","source":"Try It!","vi":"Dùng thử!","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00303","source":"OK","vi":"OK","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00304","source":"Again","vi":"Lần nữa","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00305","source":"OK","vi":"OK","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00306","source":"Quit","vi":"Thoát","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00307","source":"Undo changes and quit?","vi":"Hủy thay đổi rồi thoát nhé?","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00308","source":"Equipped","vi":"Đã trang bị","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00309","source":"You can't place any more blocks.","vi":"Không thể đặt thêm khối nào nữa.","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00310","source":"/: Rotate","vi":"/: Xoay","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00311","source":"Redeem Hearts","vi":"Đổi Hearts","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00312","source":"Fuse Weapons","vi":"Ghép Weapon","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00313","source":"Convert to Hearts","vi":"Đổi lấy Hearts","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00314","source":"Gear","vi":"Trang bị","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00315","source":"Buy weapons.","vi":"Mua Weapon.","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00316","source":"Combine weapons to create stronger weapons.","vi":"Ghép Weapon để tạo ra Weapon mạnh hơn.","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00317","source":"Convert weapons into hearts.","vi":"Đổi Weapon lấy hearts.","status":"draft","batch":"004"}
+{"id":"romfs/us/0.arc::resident/03.bin#00318","source":"Select a weapon and powers to take into battle.","vi":"Chọn Weapon và Power mang vào trận.","status":"draft","batch":"004"}
