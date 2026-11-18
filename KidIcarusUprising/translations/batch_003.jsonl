@@ -1,0 +1,90 @@
+{"id":"romfs/us/0.arc::resident/03.bin#00104","source":"Standing ch. shot","vi":"Charged Shot khi đứng","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00105","source":"Dash ch. shot","vi":"Charged Shot khi lướt","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00106","source":"Forward-dash ch. shot","vi":"Charged Shot khi lướt tới","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00107","source":"Side-dash ch. shot","vi":"Charged Shot khi lướt ngang","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00108","source":"Backward-dash ch. shot","vi":"Charged Shot khi lướt lùi","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00109","source":"Standing cont. fire","vi":"Bắn liên tục khi đứng","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00110","source":"Dash cont. fire","vi":"Bắn liên tục khi lướt","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00111","source":"Forward-dash cont. fire","vi":"Bắn liên tục khi lướt tới","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00112","source":"Side-dash cont. fire","vi":"Bắn liên tục khi lướt ngang","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00113","source":"Bkwd-dash cont fire","vi":"Bắn liên tục khi lướt lùi","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00114","source":"Melee combo","vi":"Combo Melee","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00115","source":"Melee dash attack","vi":"Melee khi lướt","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00116","source":"Item attack","vi":"Tấn công bằng item","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00117","source":"Power attack","vi":"Tấn công bằng Power","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00118","source":"Health","vi":"Máu","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00119","source":"Stamina","vi":"Thể lực","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00120","source":"Speed","vi":"Tốc độ","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00121","source":"Walking speed","vi":"Tốc độ đi bộ","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00122","source":"Running speed","vi":"Tốc độ chạy","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00123","source":"Evasion","vi":"Né tránh","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00124","source":"Shot defense","vi":"Phòng thủ tầm xa","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00125","source":"Melee defense","vi":"Phòng thủ Melee","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00126","source":"Knockback defense","vi":"Kháng đẩy lùi","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00127","source":"Status resistance","vi":"Kháng trạng thái","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00128","source":"Overall defense","vi":"Phòng thủ tổng","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00129","source":"Recovery effect","vi":"Hiệu quả hồi phục","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00130","source":"Effect duration","vi":"Thời gian hiệu lực","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00131","source":"Poison","vi":"Trúng độc","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00132","source":"Paralysis","vi":"Tê liệt","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00133","source":"Weakening","vi":"Suy yếu","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00134","source":"Petrification","vi":"Hóa đá","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00135","source":"Shaking","vi":"Run rẩy","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00136","source":"Confusion","vi":"Hỗn loạn","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00137","source":"Burning","vi":"Thiêu đốt","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00138","source":"Freezing","vi":"Đóng băng","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00139","source":"Shot range","vi":"Tầm bắn","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00140","source":"Shot homing","vi":"Khả năng bám mục tiêu","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00141","source":"Shot cancellation","vi":"Khả năng triệt tiêu đạn","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00142","source":"Knockback recovery","vi":"Hồi phục sau đẩy lùi","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00143","source":"Self-injury","vi":"Tự gây sát thương","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00144","source":"Full-health boost","vi":"Tăng sức mạnh khi đầy máu","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00145","source":"In-peril autododge","vi":"Tự né khi nguy cấp","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00146","source":"In-peril attack boost","vi":"Tăng tấn công khi nguy cấp","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00147","source":"Heart bonus","vi":"Thưởng hearts","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00148","source":"Completed:","vi":"Hoàn thành:","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00152","source":"How to Play","vi":"Cách chơi","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00153","source":"New File","vi":"Tạo hồ sơ mới","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00154","source":"Return to Title Screen","vi":"Về màn hình tựa game","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00155","source":"Name:","vi":"Tên:","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00156","source":"Birthday:","vi":"Ngày sinh:","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00157","source":"Is this OK?","vi":"Như vậy ổn chứ?","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00158","source":"Enter your name.","vi":"Nhập tên của bạn.","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00159","source":"Enter your birthday.","vi":"Nhập ngày sinh của bạn.","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00160","source":"Select a Mii.","vi":"Chọn một Mii.","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00167","source":"Delete this file?","vi":"Xóa hồ sơ này?","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00168","source":"If you delete this file, you won't be\nable to continue play where you left off.\nAre you sure you want to delete it?","vi":"Xóa hồ sơ này là mất luôn\nđiểm chơi dở đấy nhé.\nBạn chắc chắn muốn xóa chứ?","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00169","source":"Are you sure you won't regret it?","vi":"Chắc chắn không hối hận chứ?","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00170","source":"Really?","vi":"Thiệt luôn á?","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00171","source":"Delete!","vi":"Xóa!","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00172","source":"On second thought...","vi":"Thôi, nghĩ lại đã...","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00173","source":"Deleted.","vi":"Đã xóa.","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00174","source":"SOLO","vi":"SOLO","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00175","source":"TOGETHER","vi":"TOGETHER","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00176","source":"VAULT","vi":"VAULT","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00177","source":"STREETPASS","vi":"STREETPASS","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00178","source":"Options","vi":"Tùy chọn","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00179","source":"How to Play","vi":"Cách chơi","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00180","source":"The story of Pit, our angelic hero.","vi":"Câu chuyện về Pit, chàng thiên thần anh hùng.","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00181","source":"Battle it out wirelessly with others!","vi":"So tài với người khác qua kết nối không dây!","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00182","source":"View content you've unlocked.","vi":"Xem những nội dung bạn đã mở khóa.","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00183","source":"Exchange weapon gems in passing!","vi":"Trao đổi Weapon Gem khi đi ngang nhau!","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00184","source":"Adjust settings to your liking.","vi":"Chỉnh thiết lập theo ý bạn.","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00185","source":"Watch movies on how to play the game!","vi":"Xem video hướng dẫn cách chơi!","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00186","source":"Return to the previous screen.","vi":"Quay về màn hình trước.","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00187","source":"Idol Toss","vi":"Idol Toss","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00188","source":"Launch eggs to unlock Idols.","vi":"Ném trứng để mở khóa Idol.","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00189","source":"Return to file-select screen.","vi":"Quay về màn hình chọn hồ sơ.","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00190","source":"AR Card Battle","vi":"AR Card Battle","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00191","source":"PRACTICE RANGE","vi":"KHU LUYỆN TẬP","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00192","source":"ARMS ALTAR","vi":"ARMS ALTAR","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00193","source":"TREASURE HUNT","vi":"TREASURE HUNT","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00194","source":"GEAR","vi":"TRANG BỊ","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00195","source":"Launch into battle.","vi":"Xuất trận nào!","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00196","source":"Get to know weapons and polish skills.","vi":"Làm quen Weapon và luyện kỹ năng.","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00197","source":"Buy and fuse weapons.","vi":"Mua và hợp nhất Weapon.","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00198","source":"Check the rewards you've received.","vi":"Xem phần thưởng đã nhận.","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00199","source":"Equip weapons and powers.","vi":"Trang bị Weapon và Power.","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00201","source":"High Score:","vi":"Điểm cao nhất:","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00202","source":"Enemies Defeated:","vi":"Số địch đã hạ:","status":"draft","batch":"003"}
+{"id":"romfs/us/0.arc::resident/03.bin#00203","source":"Highest Intensity Cleared:","vi":"Intensity cao nhất đã vượt:","status":"draft","batch":"003"}
