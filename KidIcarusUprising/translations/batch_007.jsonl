@@ -1,0 +1,130 @@
+{"id":"romfs/us/0.arc::resident/03.bin#00611","vi":"Cuộn qua các Power đã thiết lập.","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00612","vi":"Đặt lại","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00613","vi":"Khôi phục thiết lập ban đầu.","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00614","vi":"Dùng thử!","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00615","vi":"Thử thiết lập hiện tại.","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00616","vi":"OK","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00617","vi":"Lưu và thoát.","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00618","vi":"Bước 1: Chọn cách di chuyển Pit.","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00619","vi":"Circle Pad\n(Mặc định)","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00620","vi":"Di chuyển Pit: Circle Pad","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00622","vi":"Di chuyển Pit: ","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00623","vi":"Bước 2: Chọn cách di chuyển tâm ngắm.","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00624","vi":"Điều khiển tâm ngắm","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00625","vi":"Touch\nScreen\n& C-Stick","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00626","vi":"Điều khiển tâm ngắm: Touch Screen & C-Stick","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00627","vi":"Touch\nScreen\n& +Control Pad","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00628","vi":"Điều khiển tâm ngắm: Touch Screen & +Control Pad","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00629","vi":"Touch\nScreen\n& ","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00630","vi":"Điều khiển tâm ngắm: Touch Screen & ","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00631","vi":"Touch\nScreen\n& Circle Pad","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00632","vi":"Điều khiển tâm ngắm: Touch Screen & Circle Pad","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00633","vi":"Chiến đấu trên bộ","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00634","vi":"Không chiến","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00635","vi":"Gán thao tác cho từng nút.","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00636","vi":"Di chuyển","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00637","vi":"Quay lại mà không áp dụng thay đổi.","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00638","vi":"←Dừng nhanh","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00639","vi":"Dừng chậm→","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00640","vi":"Đảo chiều dọc","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00641","vi":"Đảo chiều ngang","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00642","vi":"OK","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00643","vi":"Đảo chiều di chuyển dọc","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00644","vi":"Thử điều khiển bằng stylus bên dưới.","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00645","vi":"← Chậm","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00646","vi":"Nhanh →","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00647","vi":"Đảo chiều điều khiển dọc","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00648","vi":"Chỉnh tốc độ tâm ngắm theo chiều dọc.","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00649","vi":"Chỉnh tốc độ tâm ngắm theo chiều ngang.","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00650","vi":"Chỉnh tốc độ tâm ngắm theo cả hai chiều.","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00651","vi":"Chỉnh thời gian để tâm ngắm dừng lại\nsau khi quẹt stylus.","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00652","vi":"Chỉnh điều khiển không chiến và di chuyển dọc.","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00653","vi":"Chỉnh điều khiển chiến đấu trên bộ.","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00654","vi":"NHẠC","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00655","vi":"HIỆU ỨNG","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00656","vi":"GIỌNG NÓI","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00657","vi":"Đến thư viện nhạc","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00658","vi":"Chỉnh âm lượng nhạc.","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00659","vi":"Chỉnh âm lượng hiệu ứng.","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00660","vi":"Chỉnh âm lượng giọng nói.","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00661","vi":"Nghe nhạc trong game.","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00662","vi":"NHẠC","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00663","vi":"HIỆU ỨNG","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00664","vi":"GIỌNG NÓI","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00665","vi":"HỒ SƠ","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00666","vi":"Phụ đề","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00667","vi":"Tùy chọn ẩn","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00668","vi":"Chỉnh tên, ngày sinh và Mii.","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00669","vi":"Chọn vị trí hiển thị phụ đề.","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00670","vi":"Chỉnh lời thoại và cách hiển thị menu.","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00671","vi":"←Nhỏ hơn","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00672","vi":"Lớn hơn→","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00673","vi":"ABCD","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00674","vi":"Dùng SpotPass để nhận thông báo\nKid Icarus: Uprising và Weapon Gem\ntừ Nintendo nhé?","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00675","vi":"SpotPass","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00676","vi":"Nhận Weapon Gem và thông báo qua SpotPass.","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00677","vi":"Màn trên","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00678","vi":"Màn dưới","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00679","vi":"Tắt","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00680","vi":"Phụ đề trên màn hình trên sẽ trông thế này!","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00681","vi":"Phụ đề trên màn hình dưới sẽ trông thế này!","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00682","vi":" OK    Hủy","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00683","vi":"Lời thoại","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00684","vi":"Bật","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00685","vi":"Tắt","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00686","vi":"Menu","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00687","vi":"Palutena","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00688","vi":"Viridi","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00689","vi":"Chọn chơi có hoặc không có lời thoại.","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00690","vi":"Chọn nữ thần trông coi menu của bạn.","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00691","vi":"Em gặp rắc rối rồi,\nLady Palutena ơi!","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00692","vi":"Em làm\nđược mà, Pit.","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00693","vi":": ","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00694","vi":"Chương 1","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00695","vi":"Chương 2","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00696","vi":"Chương 3","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00697","vi":"Chương 4","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00698","vi":"Chương 5","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00699","vi":"Chương 6","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00700","vi":"Chương 7","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00701","vi":"Chương 8","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00702","vi":"Chương 9","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00703","vi":"Chương 10","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00704","vi":"Chương 11","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00705","vi":"Chương 12","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00706","vi":"Chương 13","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00707","vi":"Chương 14","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00708","vi":"Chương 15","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00709","vi":"Chương 16","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00710","vi":"Chương 17","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00711","vi":"Chương 18","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00712","vi":"Chương 19","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00713","vi":"Chương 20","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00714","vi":"Chương 21","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00715","vi":"Chương 22","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00716","vi":"Chương 23","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00717","vi":"Chương 24","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00718","vi":"Chương 25","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00719","vi":"Phần thưởng","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00745","vi":"Đấu Boss","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00746","vi":"Đã vượt qua!","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00747","vi":"Hoàn tất!","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00748","vi":"Xem tất cả","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00749","vi":"Làm quen","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00750","vi":"Ba thao tác cơ bản","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00751","vi":"Diễn biến trận đấu","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00752","vi":"Không chiến","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00753","vi":"Chiến đấu trên bộ","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00754","vi":"Đòn Ranged và Melee","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00755","vi":"Né tránh","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00756","vi":"Power","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00757","vi":"Intensity","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00758","vi":"Weapon","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00759","vi":"Kiểu điều khiển","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00760","vi":"Light vs. Dark","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00761","vi":"Tổng quan không chiến","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00762","vi":"Tổng quan chiến đấu trên bộ","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00763","vi":"Kết thúc","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00764","vi":"BƯỚC ","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00765","vi":":","status":"draft","batch":"007"}
+{"id":"romfs/us/0.arc::resident/03.bin#00766","vi":"Lv.","status":"draft","batch":"007"}
