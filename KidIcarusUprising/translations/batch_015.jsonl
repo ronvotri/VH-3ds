@@ -38,29 +38,3 @@
 {"id":"romfs/us/0.arc::resident/03.bin#02144","vi":"Điều khiển\nchuyển động:\nBẬT","status":"draft","batch":"015"}
 {"id":"romfs/us/0.arc::resident/03.bin#02145","vi":"Điều khiển\nchuyển động:\nTẮT","status":"draft","batch":"015"}
 {"id":"romfs/us/0.arc::resident/03.bin#02146","vi":"Bật hoặc tắt điều khiển chuyển động.\nKhi bật, nghiêng máy để di chuyển tâm ngắm.","status":"draft","batch":"015"}
-{"id":"romfs/us/0.arc::resident/03.bin#02147","vi":"Thoát và quay về chỗ nữ thần nhé?","status":"draft","batch":"015"}
-{"id":"romfs/us/0.arc::resident/03.bin#02148","vi":"Thoát và quay về menu Solo nhé?","status":"draft","batch":"015"}
-{"id":"romfs/us/0.arc::resident/03.bin#02149","vi":"Bạn sẽ mất toàn bộ hearts và chiến lợi phẩm vừa kiếm được.","status":"draft","batch":"015"}
-{"id":"romfs/us/0.arc::resident/03.bin#02150","vi":"Có/Không","status":"draft","batch":"015"}
-{"id":"romfs/us/0.arc::resident/03.bin#02152","vi":"Không mất máu","status":"draft","batch":"015"}
-{"id":"romfs/us/0.arc::resident/03.bin#02153","vi":"Máu tối đa","status":"draft","batch":"015"}
-{"id":"romfs/us/0.arc::resident/03.bin#02154","vi":"Không bị hạ gục","status":"draft","batch":"015"}
-{"id":"romfs/us/0.arc::resident/03.bin#02155","vi":"Chỉ dùng Melee","status":"draft","batch":"015"}
-{"id":"romfs/us/0.arc::resident/03.bin#02156","vi":"Không dùng Power","status":"draft","batch":"015"}
-{"id":"romfs/us/0.arc::resident/03.bin#02157","vi":"Đòn Melee khi lướt","status":"draft","batch":"015"}
-{"id":"romfs/us/0.arc::resident/03.bin#02158","vi":"Thoát hiểm Crisis","status":"draft","batch":"015"}
-{"id":"romfs/us/0.arc::resident/03.bin#02238","vi":"Đã bị hạ!","status":"draft","batch":"015"}
-{"id":"romfs/us/0.arc::resident/03.bin#02240","vi":" đã biến thành Pit!","status":"draft","batch":"015"}
-{"id":"romfs/us/0.arc::resident/03.bin#02242","vi":" đã biến thành Dark Pit!","status":"draft","batch":"015"}
-{"id":"romfs/us/0.arc::resident/03.bin#02243","vi":"Pit đang nguy rồi!","status":"draft","batch":"015"}
-{"id":"romfs/us/0.arc::resident/03.bin#02244","vi":"Dark Pit đang nguy rồi!","status":"draft","batch":"015"}
-{"id":"romfs/us/0.arc::resident/03.bin#02246","vi":" sẽ tham gia trận tiếp theo.","status":"draft","batch":"015"}
-{"id":"romfs/us/0.arc::resident/03.bin#02248","vi":" đã rời đi.","status":"draft","batch":"015"}
-{"id":"romfs/us/0.arc::resident/03.bin#02249","vi":"Daybreak sắp hoàn thiện!","status":"draft","batch":"015"}
-{"id":"romfs/us/0.arc::resident/03.bin#02250","vi":"Bạn nhận được item!","status":"draft","batch":"015"}
-{"id":"romfs/us/0.arc::resident/03.bin#02251","vi":"Bạn nhận được kho báu!","status":"draft","batch":"015"}
-{"id":"romfs/us/0.arc::resident/03.bin#02252","vi":"Chọn bằng vòng quay!","status":"draft","batch":"015"}
-{"id":"romfs/us/0.arc::resident/03.bin#02253","vi":"Chọn ngẫu nhiên!","status":"draft","batch":"015"}
-{"id":"romfs/us/0.arc::resident/03.bin#02254","vi":"Bạn nhận được Idol!","status":"draft","batch":"015"}
-{"id":"romfs/us/0.arc::resident/03.bin#02255","vi":"Power đã bị cướp!","status":"draft","batch":"015"}
-{"id":"romfs/us/0.arc::resident/03.bin#02256","vi":"Đã xảy ra lỗi kết nối.","status":"draft","batch":"015"}
