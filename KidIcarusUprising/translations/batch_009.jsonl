@@ -110,7 +110,7 @@
 {"id":"romfs/us/0.arc::resident/03.bin#01115","vi":"Số lần bạn đã triệu hồi Centurion.","status":"draft","batch":"009"}
 {"id":"romfs/us/0.arc::resident/03.bin#01116","vi":"Số phần thưởng Treasure Hunt bạn đã mở khóa.","status":"draft","batch":"009"}
 {"id":"romfs/us/0.arc::resident/03.bin#01117","vi":"Số chương bạn đã hoàn thành.","status":"draft","batch":"009"}
-{"id":"romfs/us/0.arc::resident/03.bin#01118","vi":"Tổng điểm của bạn, gồm cả điểm khi bị hạ gục.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01118","vi":"Tổng điểm của bạn, bao gồm điểm nhận khi kết thúc trận.","status":"draft","batch":"009"}
 {"id":"romfs/us/0.arc::resident/03.bin#01119","vi":"Số chương bạn đã vượt ở Intensity 9.0.","status":"draft","batch":"009"}
 {"id":"romfs/us/0.arc::resident/03.bin#01120","vi":"Intensity trung bình bạn đã chơi.","status":"draft","batch":"009"}
 {"id":"romfs/us/0.arc::resident/03.bin#01121","vi":"Intensity trung bình của các màn đã hoàn thành.","status":"draft","batch":"009"}
