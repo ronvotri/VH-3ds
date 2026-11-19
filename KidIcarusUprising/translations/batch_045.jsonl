@@ -1,0 +1,4 @@
+{"id":"romfs/us/0.arc::resident/03.bin#02143","source":"Motion Control","vi":"Điều khiển chuyển động","status":"draft","batch":"045"}
+{"id":"romfs/us/0.arc::resident/03.bin#02144","source":"Motion\nControl:\nON","vi":"Điều khiển\nchuyển động:\nBẬT","status":"draft","batch":"045"}
+{"id":"romfs/us/0.arc::resident/03.bin#02145","source":"Motion\nControl:\nOFF","vi":"Điều khiển\nchuyển động:\nTẮT","status":"draft","batch":"045"}
+{"id":"romfs/us/0.arc::resident/03.bin#02146","source":"Toggle the motion control on or off.\nWhen enabled, move the system to aim the reticle.","vi":"Bật hoặc tắt điều khiển chuyển động.\nKhi bật, nghiêng máy để ngắm bằng tâm ngắm.","status":"draft","batch":"045"}
