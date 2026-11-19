@@ -4,6 +4,7 @@ Usage: python merge_translations.py SOURCE.jsonl OUTPUT.jsonl
 Expected source: ban_dich/tieng_anh_can_dich.jsonl from the 2026-11-18 handover.
 """
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -37,6 +38,10 @@ def main():
                 raise SystemExit(f"English source mismatch at {key}")
             if not r.get("vi"):
                 raise SystemExit(f"Missing Vietnamese at {key}")
+            src_ctrl = re.findall(r"\\{CTRL:[^}]+\\}", by_id[key].get("source", ""))
+            vi_ctrl = re.findall(r"\\{CTRL:[^}]+\\}", r["vi"])
+            if src_ctrl != vi_ctrl:
+                raise SystemExit(f"Control codes differ at {key}: source={src_ctrl}, vi={vi_ctrl}")
             if not by_id[key].get("source"):
                 raise SystemExit(f"Refusing to edit empty original at {key}")
             overlays[key] = r
