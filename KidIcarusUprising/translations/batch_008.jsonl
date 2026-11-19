@@ -1,0 +1,62 @@
+{"id":"romfs/us/0.arc::resident/03.bin#00943","vi":"Giảm sát thương nhận vào, đồng thời miễn nhiễm hiệu ứng trạng thái và bị đẩy lùi.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00944","vi":"Tăng tốc di chuyển và không bị hụt sức, đổi lại sẽ chịu nhiều sát thương hơn khi trúng đòn.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00945","vi":"Tự động nhắm vào kẻ địch khi tấn công.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00946","vi":"Tự động nhắm điểm yếu của địch khi tấn công. (Chỉ chế độ Solo.)","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00947","vi":"Tạo hố đen hút kẻ địch về phía nó. (Chỉ chế độ Together.)","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00948","vi":"Thoát ngay khỏi trạng thái Crisis. (Chỉ chế độ Solo.)","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00949","vi":"Gây ra một vụ nổ cực lớn.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00950","vi":"Biến kẻ địch còn ít máu thành Idol. (Chỉ chế độ Solo, Intensity từ 2.0.)","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00951","vi":"Không bị đẩy lùi và tự động phản công khi trúng đòn.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00952","vi":"Làm kẻ địch bị mù. (Chỉ chế độ Together.)","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00953","vi":"Giả chết để đánh lừa địch, rồi tàng hình khiến đòn đánh xuyên qua bạn.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00954","vi":"Xóa các hiệu ứng như trúng độc hoặc tê liệt.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00955","vi":"Nhân đôi hiệu quả của item nhặt được.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00956","vi":"Tích năng lượng để tăng uy lực đòn đánh. Trúng đòn sẽ mất hiệu ứng.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00957","vi":"Nhảy vọt lên không trung rồi lượn trên không.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00958","vi":"Tăng hearts nhận được khi hạ địch. (Chỉ chế độ Solo.)","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00959","vi":"Tỏa luồng sáng gây sát thương cho kẻ địch đến gần.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00960","vi":"Khiến đạn bạn bắn ra trở nên vô hình.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00961","vi":"Đặt đèn hiệu gây nhiễu, khiến địch khó kích hoạt Power và xem chỉ số của bạn. (Chỉ chế độ Together.)","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00962","vi":"Nhảy vọt lên cao ngay tại chỗ.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00963","vi":"Tăng khả năng bám mục tiêu và tầm bay của item được ném.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00964","vi":"Hy sinh gần hết máu để tăng mọi chỉ số. Thời gian hiệu lực tùy lượng máu hiện có.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00965","vi":"Bắn pháo hoa lên trời để tôn vinh Lady Palutena.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00966","vi":"Càng nhận đòn, sức tấn công của bạn càng tăng.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00967","vi":"Đặt một quả bom tàng hình trên mặt đất.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00968","vi":"Dùng đòn Melee để cướp một Power đã trang bị của đối thủ. (Chỉ chế độ Together.)","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00969","vi":"Biến thành tên lửa lao theo hướng bạn đang nhìn.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00970","vi":"Bắn đạn xuyên tường.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00971","vi":"Dịch chuyển khỏi vị trí hiện tại. (Chỉ chế độ Together.)","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00972","vi":"Đổi ngẫu nhiên nhạc trong game.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00973","vi":"Tích lực cho phát bắn ngay lập tức.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00974","vi":"Kích hoạt Power ngẫu nhiên. Dùng rồi mới biết trúng cái nào!","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00975","vi":"Tạo lá chắn phản xạ đạn.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00976","vi":"Hồi máu khi chịu đòn lẽ ra sẽ kết liễu bạn.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00977","vi":"Phóng vọt lên cao nhờ lực đẩy tên lửa.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00978","vi":"Thêm hiệu ứng ngẫu nhiên cho đòn đánh như trúng độc, tê liệt, run rẩy, đóng băng...","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00979","vi":"Trút một trận mưa sao băng.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00980","vi":"Bắn một tia laser khổng lồ.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00981","vi":"Trở nên trong suốt, khiến địch không nhìn thấy bạn.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00982","vi":"Biến toàn bộ máu còn lại thành vụ nổ cực mạnh. (Chỉ chế độ Together.)","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00983","vi":"Tăng phòng thủ và tránh bị đẩy lùi khi nhận sát thương.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00984","vi":"Chạy cực nhanh, hất tung kẻ địch đã suy yếu khi va vào chúng.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00985","vi":"Tăng khả năng bám mục tiêu của đạn.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00986","vi":"Chạy liên tục mà không kiệt sức.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00987","vi":"Hút item về phía mình. (Chỉ chế độ Together.)","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00988","vi":"Né mọi đòn bằng cách biến mất rồi vòng quanh kẻ địch trong chớp mắt.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00989","vi":"Làm suy yếu và tê liệt địch ở gần. (Chỉ chế độ Together.)","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00990","vi":"Hồi một ít máu.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00991","vi":"Bảo vệ bạn hoàn toàn khỏi đòn tấn công của địch.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00992","vi":"Khiến đòn đánh gây trúng độc.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00993","vi":"Đòn đánh gây tê liệt, có thể chặn di chuyển và khiến địch khó né hơn.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00994","vi":"Đòn đánh gây suy yếu, làm giảm một nửa máu tối đa của địch. (Chỉ chế độ Together.)","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00995","vi":"Đòn đánh gây hóa đá, khiến địch không thể di chuyển.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00996","vi":"Đòn đánh gây run rẩy, khiến địch khó ngắm bắn hơn. (Chỉ chế độ Together.)","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00997","vi":"Đòn đánh gây hỗn loạn, khiến địch di chuyển và bắn loạn xạ.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00998","vi":"Đòn đánh gây bỏng, mất máu liên tục nhanh hơn trúng độc.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#00999","vi":"Đòn đánh gây đóng băng, khiến địch không thể di chuyển.","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#01000","vi":"Đòn đánh khiến địch xoay mòng mòng, mất phương hướng. (Chỉ chế độ Together.)","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#01001","vi":"Đòn đánh biến địch thành cà tím, khiến chúng không thể tấn công. (Chỉ chế độ Together.)","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#01002","vi":"Đòn đánh biến địch thành tempura, khiến chúng không thể tấn công. (Chỉ chế độ Together.)","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#01003","vi":"Đòn đánh có cơ hội kết liễu địch ngay lập tức. (Chỉ chế độ Solo.)","status":"draft","batch":"008"}
+{"id":"romfs/us/0.arc::resident/03.bin#01004","vi":"Power này bí ẩn quá mức, không thể trang bị!","status":"draft","batch":"008"}
