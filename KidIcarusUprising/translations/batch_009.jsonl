@@ -1,0 +1,166 @@
+{"id":"romfs/us/0.arc::resident/03.bin#01006","vi":"Số lần mở game","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01007","vi":"Tổng thời gian trong game","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01008","vi":"Tổng thời gian chơi","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01009","vi":"Thời gian chơi Solo","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01010","vi":"Thời gian chơi Together","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01011","vi":"Tổng hearts đã nhận","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01012","vi":"Hearts hiện có","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01013","vi":"Tổng Weapon đã nhận","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01014","vi":"Weapon hiện có","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01015","vi":"Tổng Power đã nhận","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01016","vi":"Power hiện có","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01017","vi":"Idol hiện có","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01018","vi":"Số kẻ địch đã hạ","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01019","vi":"Số Boss đã hạ","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01020","vi":"Số đòn Ranged","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01021","vi":"Số đòn Melee","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01022","vi":"Số đòn đã né","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01023","vi":"Số lần hồi phục sau đẩy lùi","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01024","vi":"Số lần suýt trúng đạn","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01025","vi":"Số Special Attack đã dùng","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01026","vi":"Số lần bị hạ","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01027","vi":"Weapon tích trữ nhiều nhất","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01028","vi":"Weapon tích trữ nhiều thứ hai","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01029","vi":"Số Power đã dùng","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01030","vi":"Số item đã dùng","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01031","vi":"Số lần bị biến thành cà tím","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01032","vi":"Số lần bị biến thành tempura","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01033","vi":"Số lần triệu hồi Centurion","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01034","vi":"Phần thưởng Treasure Hunt đã mở","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01035","vi":"Số chương đã hoàn thành","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01036","vi":"Tổng điểm","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01037","vi":"Số chương vượt qua ở Intensity tối đa","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01038","vi":"Intensity trung bình","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01039","vi":"Intensity trung bình khi qua màn","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01040","vi":"Hearts cược ở Fiend's Cauldron","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01041","vi":"Hearts đã mất","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01042","vi":"Hearts nhận nhiều nhất","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01043","vi":"Weapon nhận nhiều nhất","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01044","vi":"Power nhận nhiều nhất","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01045","vi":"Weapon đã mua","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01046","vi":"Weapon đổi lấy hearts","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01047","vi":"Hearts dâng tại Vault","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01048","vi":"Số lần ghép Weapon","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01049","vi":"Rương kho báu đã mở","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01050","vi":"Số lần bị trộm đồ","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01051","vi":"Số Souflee đã hạ","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01052","vi":"Số Rare Treasurefish đã hạ","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01053","vi":"Số lần dùng Exo Tank","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01054","vi":"Số lần dùng Aether Ring","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01055","vi":"Số lần dùng Cherubot","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01056","vi":"Số lần dùng Three Sacred Treasures","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01057","vi":"Số lần dùng Lightning Chariot","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01058","vi":"Số lần dùng Great Sacred Treasure","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01059","vi":"Thời gian chơi Magnus","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01060","vi":"Thời gian chơi Dark Pit","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01061","vi":"Số lần dùng Practice Range","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01062","vi":"Số trận Together đã chơi","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01063","vi":"Số trận Nearby đã chơi","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01064","vi":"Thời gian chơi Nearby","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01065","vi":"Tổng số người tham gia Nearby","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01066","vi":"Số trận Far Away đã chơi","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01067","vi":"Thời gian chơi Far Away","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01068","vi":"Tổng số người tham gia Far Away","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01069","vi":"Thời gian chơi With Friends","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01070","vi":"Thời gian chơi With Anyone","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01071","vi":"Số trận Light vs. Dark đã chơi","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01072","vi":"Số trận Light vs. Dark thắng","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01073","vi":"Số trận Free-for-All đã chơi","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01074","vi":"Số trận Free-for-All thắng","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01075","vi":"Số đối thủ đã hạ","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01076","vi":"Số trận bị gián đoạn","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01077","vi":"Số lần hóa thiên thần","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01078","vi":"Số lần thắng khi là thiên thần","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01079","vi":"Số thiên thần phe địch đã hạ","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01080","vi":"Weapon thưởng đã nhận","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01081","vi":"Power thưởng đã nhận","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01082","vi":"Hearts thưởng đã nhận","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01083","vi":"Weapon Gem đã tạo","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01084","vi":"Weapon Gem đã nhận","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01085","vi":"Số người đã trao đổi Weapon Gem","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01086","vi":"Weapon ghép từ Gem","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01087","vi":"Hearts nhận từ Gem","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01088","vi":"Số lần bạn chơi bằng hồ sơ lưu này.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01089","vi":"Tổng thời gian hồ sơ này được sử dụng.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01090","vi":"Tổng thời gian bạn đã chơi game.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01091","vi":"Thời gian bạn đã chơi chế độ Solo.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01092","vi":"Thời gian bạn đã chơi chế độ Together.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01093","vi":"Tổng số hearts bạn đã nhận.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01094","vi":"Số hearts bạn hiện có.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01095","vi":"Tổng số Weapon bạn đã nhận.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01096","vi":"Số Weapon bạn hiện có.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01097","vi":"Tổng số Power bạn đã nhận.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01098","vi":"Số Power bạn hiện có.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01099","vi":"Số Idol bạn đã nhận.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01100","vi":"Số kẻ địch bạn đã hạ.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01101","vi":"Số Boss bạn đã hạ.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01102","vi":"Số đòn Ranged bạn đã tung ra.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01103","vi":"Số đòn Melee bạn đã tung ra.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01104","vi":"Số đòn tấn công bạn đã né được.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01105","vi":"Số lần bạn đứng dậy sau khi bị đẩy lùi.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01106","vi":"Số lần bạn suýt trúng đạn trong Air Battle.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01107","vi":"Số Special Attack bạn đã thực hiện.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01108","vi":"Số lần bạn bị hạ gục.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01109","vi":"Weapon bạn có nhiều bản nhất.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01110","vi":"Weapon bạn có nhiều bản thứ hai.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01111","vi":"Số lần bạn đã dùng Power.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01112","vi":"Số lần bạn đã dùng item.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01113","vi":"Số lần bạn bị biến thành cà tím.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01114","vi":"Số lần bạn bị biến thành tempura.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01115","vi":"Số lần bạn đã triệu hồi Centurion.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01116","vi":"Số phần thưởng Treasure Hunt bạn đã mở khóa.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01117","vi":"Số chương bạn đã hoàn thành.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01118","vi":"Tổng điểm của bạn, gồm cả điểm khi bị hạ gục.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01119","vi":"Số chương bạn đã vượt ở Intensity 9.0.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01120","vi":"Intensity trung bình bạn đã chơi.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01121","vi":"Intensity trung bình của các màn đã hoàn thành.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01122","vi":"Số Weapon nhiều nhất bạn nhận trong một chương.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01123","vi":"Số Power nhiều nhất bạn nhận trong một chương.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01124","vi":"Tổng hearts bạn đã cược ở Fiend's Cauldron.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01125","vi":"Số hearts bạn đã mất ở Fiend's Cauldron.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01126","vi":"Tổng hearts nhận khi đổi vật phẩm lấy hearts.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01127","vi":"Số lần bạn đổi Weapon lấy hearts.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01128","vi":"Số Weapon bạn đã mua.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01129","vi":"Số Weapon bạn đã đổi lấy hearts.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01130","vi":"Tổng hearts đã dâng làm lễ vật.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01131","vi":"Số lần bạn đã ghép Weapon.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01132","vi":"Số hearts nhiều nhất bạn nhận trong một chương.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01133","vi":"Số rương kho báu bạn đã mở.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01134","vi":"Số item hoặc Power bị kẻ khác lấy trộm.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01135","vi":"Số Souflee bạn đã hạ.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01136","vi":"Số Rare Treasurefish bạn đã hạ.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01137","vi":"Số lần bạn đã dùng Exo Tank.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01138","vi":"Số lần bạn đã dùng Aether Ring.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01139","vi":"Số lần bạn đã dùng Cherubot.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01140","vi":"Số lần bạn đã mang Three Sacred Treasures.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01141","vi":"Số lần bạn đã dùng Lightning Chariot.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01142","vi":"Số lần bạn đã dùng Great Sacred Treasure.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01143","vi":"Thời gian bạn đã chơi trong vai Magnus.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01144","vi":"Thời gian bạn đã chơi trong vai Dark Pit.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01145","vi":"Số lần bạn đã dùng Practice Range.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01146","vi":"Số trận Together bạn đã chơi.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01147","vi":"Số trận Nearby bạn đã chơi.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01148","vi":"Thời gian bạn đã chơi các trận Nearby.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01149","vi":"Số người bạn từng chơi cùng trong các trận Nearby.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01150","vi":"Số trận Far Away bạn đã chơi.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01151","vi":"Thời gian bạn đã chơi các trận Far Away.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01152","vi":"Số người bạn từng chơi cùng trong các trận Far Away.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01153","vi":"Thời gian chơi With Friends trong các trận Far Away.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01154","vi":"Thời gian chơi With Anyone trong các trận Far Away.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01155","vi":"Số trận Light vs. Dark bạn đã chơi.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01156","vi":"Số trận Light vs. Dark bạn đã thắng.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01157","vi":"Số trận Free-for-All bạn đã chơi.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01158","vi":"Số trận Free-for-All bạn đứng hạng nhất.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01159","vi":"Số đối thủ bạn đã hạ.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01160","vi":"Số trận kết thúc giữa chừng.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01161","vi":"Số lần bạn trở thành thiên thần trong Light vs. Dark.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01162","vi":"Số lần bạn thắng khi là thiên thần trong Light vs. Dark.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01163","vi":"Số lần bạn hạ thiên thần của đội đối phương trong Light vs. Dark.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01164","vi":"Số Weapon thưởng bạn nhận trong chế độ Together.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01165","vi":"Số Power thưởng bạn nhận trong chế độ Together.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01166","vi":"Số hearts thưởng bạn nhận trong chế độ Together.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01167","vi":"Số Weapon Gem bạn đã tạo.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01168","vi":"Số Gem bạn đã nhận qua trao đổi Weapon Gem.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01169","vi":"Số người bạn đã trao đổi Weapon Gem.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01170","vi":"Số Weapon tạo được bằng cách ghép Weapon Gem.","status":"draft","batch":"009"}
+{"id":"romfs/us/0.arc::resident/03.bin#01171","vi":"Số hearts bạn nhận được khi nghiền Weapon Gem.","status":"draft","batch":"009"}
