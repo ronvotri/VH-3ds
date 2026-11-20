@@ -6,7 +6,7 @@
 
 - Đã dịch tiếp **200 mục** từ `016_main.txt` và `017_main.txt`, thuộc `/msg/EU_English/main.msbt.cx`.
 - Phạm vi: `#00202` đến `#00412`, gồm **200 ID thật thuộc diện cần dịch**, không thêm những index trống/thuộc nhóm giữ nguyên.
-- [Bản dịch CP005](ban_dich/main_CP005_200.jsonl), SHA-256 `0de907f16688edbd7e4c6e68b2fa548e3e09cb7414c16ea710a61c98ea5fd7c3` (xem chú ý kiểm tra bằng bản bàn giao nếu hash khác).
+- [Bản dịch CP005](ban_dich/main_CP005_200.jsonl), SHA-256 `1593d5de2eebe9ec2ca20faf9cade6aed99b368a7585428aa71a9a98fa7cc7ec`.
 - Nội dung: credits, thống kê chiến đấu, menu tạm dừng, xác nhận xóa save/StreetPass, local Two-Player, trạng thái Pokémon.
 - Giữ nguyên tên người tham gia sản xuất, tên Pokémon và các Move/tên hệ thống chính. Những trạng thái như trúng độc, bỏng, đóng băng được Việt hóa.
 
