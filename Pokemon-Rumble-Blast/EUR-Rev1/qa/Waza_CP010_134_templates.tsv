@@ -1,0 +1,135 @@
+template	source_en	vi	freq
+0	Transforms your\nPokémon into\nthe target.	Biến Pokémon của bạn\nthành Pokémon mục tiêu.	1
+1	Attacks continuously\nuntil it misses.	Tấn công liên tục\ncho đến khi đánh trượt.	2
+2	It's easier to make\nthe foe wobbly.	Dễ khiến đối thủ\nloạng choạng hơn.	4
+3	The lower your\nPokémon's HP, the\ngreater the damage.	Pokémon càng ít HP\nthì sát thương\ncàng cao.	3
+4	Damage goes up\nwhen the user hits\na foe from behind.	Đánh từ phía sau\ngây sát thương cao hơn.	1
+5	Lowers the\nfoe's Attack.	Giảm Attack của địch.	7
+6	Lowers the\nfoe's Hit Ratio.	Giảm Hit Ratio của địch.	11
+7	If Poisoned, Badly\nPoisoned, or Burned,\ndamage goes up.	Khi trúng độc, độc nặng\nhoặc bỏng, sát thương\ntăng lên.	1
+8	Ignores Reflect and\nLight Screen.	Bỏ qua Reflect\nvà Light Screen.	1
+9	Lowers the foe's\nDefense.	Giảm Defense của địch.	21
+10	Wakes a\nsleeping foe.	Đánh thức địch\nđang ngủ.	1
+11	The greater your\nPokémon's HP, the\ngreater the damage.	Pokémon càng nhiều HP\nthì sát thương\ncàng cao.	2
+12	Does more damage\nwhen the foe's HP\nis low.	Địch càng ít HP\nthì sát thương\ncàng cao.	1
+13	Paralyzes\nthe foe.	Làm địch tê liệt.	17
+14	Leaves the\nfoe with 1 HP.	Khiến địch còn 1 HP.	1
+15	Wakes and does\nmore damage to\na sleeping foe.	Đánh thức địch đang ngủ\nvà gây sát thương\ncao hơn.	1
+16	Halves the foe's HP.	Giảm một nửa HP\ncủa địch.	1
+17	Damage changes if\nthe foe's stats\nare raised.	Sát thương thay đổi\nkhi chỉ số của địch\nđược tăng.	1
+18	The heavier the foe,\nthe greater\nthe damage.	Địch càng nặng\nthì sát thương\ncàng cao.	2
+19	The user's Power\ndetermines\nthe damage.	Sát thương phụ thuộc\nvào Power của Pokémon\ndùng chiêu.	3
+20	The greater the foe's\nHP, the greater\nthe damage.	Địch càng nhiều HP\nthì sát thương\ncàng cao.	2
+21	Does a fixed\namount of damage.	Gây một lượng sát thương\ncố định.	2
+22	The effect changes\nevery time.	Hiệu ứng thay đổi\nsau mỗi lần dùng.	1
+23	Power changes\nevery time.	Power thay đổi\nsau mỗi lần dùng.	1
+24	The effect depends\non the Pokémon\nusing it.	Hiệu ứng tùy thuộc\nvào Pokémon dùng chiêu.	18
+25	Poisons the foe.	Khiến địch trúng độc.	13
+26	Badly poisons the foe.	Khiến địch trúng độc nặng.	2
+27	Burns the foe.	Khiến địch bị bỏng.	15
+28	Makes the foe flinch.	Khiến địch khựng lại.	22
+29	Lowers the foe's\nSpeed.	Giảm Speed của địch.	14
+30	Damages the user\nas well.	Pokémon dùng chiêu\ncũng chịu sát thương.	9
+31	Damages the user\nwhen it misses.	Nếu đánh trượt, Pokémon\ndùng chiêu sẽ mất HP.	2
+32	Burns the foe.\nDamages the user\nas well.	Gây bỏng cho địch.\nPokémon dùng chiêu\ncũng chịu sát thương.	1
+33	Defense goes up.	Tăng Defense.	12
+34	Freezes the foe.	Khiến địch bị đóng băng.	4
+35	Paralyzes the foe.\nDamages the user\nas well.	Làm địch tê liệt.\nPokémon dùng chiêu\ncũng chịu sát thương.	1
+36	Makes the foe sleep.	Khiến địch ngủ.	8
+37	Confuses the foe.	Khiến địch bị rối loạn.	12
+38	Can freeze the foe or\nmake it flinch.	Có thể đóng băng địch\nhoặc khiến địch\nkhựng lại.	1
+39	Can paralyze the foe\nor make it flinch.	Có thể làm địch tê liệt\nhoặc khiến địch\nkhựng lại.	1
+40	Can burn the foe or\nmake it flinch.	Có thể gây bỏng cho địch\nhoặc khiến địch\nkhựng lại.	1
+41	Confuses the foe, but\nmakes it stronger.	Gây rối loạn cho địch\nnhưng cũng giúp địch\nmạnh hơn.	2
+42	The user\nbecomes confused.	Pokémon dùng chiêu\nbị rối loạn.	3
+43	The user faints after\nusing this move.	Pokémon dùng chiêu\ngục sau khi dùng Move này.	2
+44	Speed goes down.	Giảm Speed.	1
+45	Absorbs the foe's HP.	Hút HP của địch.	7
+46	Attack goes up.	Tăng Attack.	12
+47	Attack goes down.	Giảm Attack.	4
+48	Attack and Defense\ngo down.	Giảm Attack\nvà Defense.	1
+49	Restores HP, but\nthe user can't move.\n	Hồi HP nhưng Pokémon\nkhông thể di chuyển.	1
+50	Attack, Defense,\nand Speed\ngo up.	Tăng Attack, Defense\nvà Speed.	4
+51	Defense goes down.	Giảm Defense.	1
+52	May burn, paralyze,\nor freeze the foe.	Có thể gây bỏng,\ntê liệt hoặc đóng băng\ncho địch.	1
+53	Damage goes up\nwhen the foe is\nParalyzed.	Gây sát thương cao hơn\nnếu địch đang tê liệt.	1
+54	Damage goes up\nwhen the user is hit\nwhile charging.	Khi bị đánh lúc tụ lực,\nsát thương gây ra\nsẽ tăng.	3
+55	When the user is\ndamaged, the\nattacker is damaged.	Khi Pokémon và đồng đội\nbị tấn công, kẻ đánh\ncũng chịu sát thương.	4
+56	Electric-type moves'\ndamage goes up.\nDefense goes up.	Tăng sát thương của\nMove hệ Electric.\nTăng Defense.	1
+57	The Hit Ratio goes\nup for the user and\nnearby Pokémon.	Tăng Hit Ratio cho\nbản thân và Pokémon\nở gần.	1
+58	Gradually\nrestores HP.	Hồi HP dần dần.	1
+59	Heals your allies'\nStatus Changes.	Chữa Status Change\ncho đồng đội.	2
+60	Heals\nStatus Changes.	Chữa Status Change.	1
+61	Protects the user\nand its allies from\nStatus Changes.	Bảo vệ bản thân\nvà đồng đội khỏi\nStatus Change.	1
+62	Keeps the foe\nfrom attacking.	Ngăn địch tấn công.	2
+63	Speed goes up for\nuser and allies.	Tăng Speed cho\nbản thân và đồng đội.	1
+64	Speed goes up.	Tăng Speed.	3
+65	Lowers the foe's\nAttack and Defense.	Giảm Attack\nvà Defense của địch.	1
+66	Restores HP.	Hồi HP.	10
+67	Restores HP, but the\nPokémon falls asleep.	Hồi HP nhưng Pokémon\nsẽ ngủ.	1
+68	HP decreases, but\nAttack goes way up.	Mất HP để tăng Attack\nrất mạnh.	1
+69	Attack and\nDefense go up.	Tăng Attack\nvà Defense.	2
+70	Attack and Speed\ngo up.	Tăng Attack\nvà Speed.	2
+71	Makes the foe's HP\nequal to the user's.	Đưa HP của địch\nvề bằng HP của mình.	1
+72	The user flinches\nif hit while charging\nthe attack.	Nếu bị đánh khi tụ lực,\nPokémon dùng chiêu\nsẽ khựng lại.	1
+73	Adds the user's and\nfoe's HP and shares\nit equally.	Cộng HP hai bên\nrồi chia đều.	1
+74	Damage received by\nthe user and its allies\ngoes down.	Giảm sát thương nhận\nvào cho bản thân\nvà đồng đội.	2
+75	Makes the foe\nunable to move.	Khiến địch không thể\ndi chuyển.	3
+76	Restores the status\nof the user and nearby\nPokémon to normal.	Xóa Status Change\ncho bản thân và\nPokémon xung quanh.	1
+77	Prevents\nStatus Changes to\nthe user and its allies.	Ngăn Status Change\ncho bản thân\nvà đồng đội.	1
+78	Turns your Pokémon\ntoward the foe.	Quay Pokémon của bạn\nvề phía địch.	2
+79	Leaves 1 HP after\na hit that would've\nknocked the user out.	Giữ lại 1 HP khi\ntrúng đòn lẽ ra\nkhiến mình gục.	1
+80	Attacks don't hit the\nuser for a short time.	Đòn tấn công không trúng\nbản thân trong\nchốc lát.	2
+81	Defeats the foe.	Hạ gục địch.	4
+82	The user and\nPokémon near it will\nbe defeated shortly.	Bản thân và Pokémon\ngần đó sẽ gục\nsau một lúc.	1
+83	Damage goes up\nwhen the user hits\na blown-back foe.	Đánh trúng địch\nđang bị hất văng\nsẽ đau hơn.	1
+84	The user becomes\nsmaller, and its\nevasion goes up.	Pokémon dùng chiêu\nthu nhỏ lại và\ntăng khả năng né tránh.	1
+85	Raises an ally's\nAttack, Defense,\nor Speed.	Tăng Attack, Defense\nhoặc Speed của\nđồng đội.	1
+86	The Power of allies'\nmoves goes up.	Tăng Power cho\nMove của đồng đội.	1
+87	The {CTRL:0e00010011000000} dropped by\nfoes increases.	Địch làm rơi\nnhiều {CTRL:0e00010011000000} hơn.	5
+88	Blows the foe back.	Hất văng địch.	4
+89	Has different effects\ndepending on where\nit's used.	Hiệu ứng tùy theo\nnơi sử dụng.	1
+90	Reflects\nStatus Changes.	Phản lại Status Change.	1
+91	The foe that defeats\nthe user is also\ndefeated.	Địch hạ gục bản thân\ncũng sẽ bị hạ gục.	1
+92	Attack and\nHit Ratio go up.	Tăng Attack\nvà Hit Ratio.	1
+93	Does more damage\nto a Poisoned foe.	Gây sát thương cao hơn\ncho địch đang trúng độc.	1
+94	Speed goes up.\nWeight goes down.	Tăng Speed, giảm\ncân nặng.	1
+95	The heavier the user\nis than the foe, the\ngreater the damage.	Bản thân càng nặng\nhơn địch thì sát thương\ncàng cao.	2
+96	Does more damage to\na foe of the same\ntype as the user.	Gây sát thương cao hơn\nnếu địch cùng hệ\nvới bản thân.	1
+97	The faster the user\nis than the foe, the\ngreater the damage.	Bản thân càng nhanh\nhơn địch thì sát thương\ncàng cao.	1
+98	The higher the foe's\nAttack, the\ngreater the damage.	Attack của địch\ncàng cao thì sát thương\ncàng lớn.	1
+99	Restores the\ntarget's HP.	Hồi HP cho mục tiêu.	1
+100	Damage goes up\nwhen other Pokémon\nare also using it.	Nhiều Pokémon cùng\ndùng chiêu này thì\nsát thương càng cao.	2
+101	Damage goes up\nwhen an ally\nis defeated.	Gây sát thương cao hơn\nkhi một đồng đội\nbị hạ gục.	1
+102	Attack and\nSpeed go up.\nDefense goes down.	Tăng Attack và Speed,\ngiảm Defense.	1
+103	The user\nbecomes a decoy.	Pokémon dùng chiêu\ntrở thành mồi nhử.	2
+104	Attack, Defense,\nand Hit Ratio\ngo up.	Tăng Attack, Defense\nvà Hit Ratio.	1
+105	Ignores increases to\nthe foe's Defense.	Bỏ qua phần Defense\nđược tăng của địch.	2
+106	The foe becomes\nWater type.	Biến địch thành\nhệ Water.	1
+107	Does damage equal\nto the user's HP. The\nuser faints.	Gây sát thương bằng\nHP của bản thân,\nrồi tự gục.	1
+108	Damage goes up\nwhen combined with\nother "Pledge" moves.	Kết hợp với Move\nthuộc nhóm Pledge khác\nsẽ tăng sát thương.	3
+109	Removes the\nfoe's Status Changes.	Xóa Status Change\ncủa địch.	1
+110	The faster the foe\nis than the user, the\ngreater the damage.	Địch càng nhanh\nhơn bản thân thì\nsát thương càng cao.	1
+111	Damage goes up\nwhen combined with\nFusion Flare.	Kết hợp Fusion Flare\nsẽ tăng sát thương.	1
+112	Damage goes up\nwhen combined with\nFusion Bolt.	Kết hợp Fusion Bolt\nsẽ tăng sát thương.	1
+113	The effect changes\nwhen used by a\nGhost-type Pokémon.	Hiệu ứng thay đổi\nnếu dùng bởi Pokémon\nhệ Ghost.	2
+114	Damage goes up\nwhen rarely used.	Ít dùng Move này\nthì sát thương càng cao.	1
+115	Damage goes up\nwhen you don't\nhave any {CTRL:0e00010011000000}.	Không có {CTRL:0e00010011000000} thì\nsát thương sẽ tăng.	1
+116	Evasiveness goes up.	Tăng khả năng né tránh.	1
+117	The foe's evasiveness\ngoes down.	Giảm khả năng\nné tránh của địch.	2
+118	Does a variable\namount of damage.	Gây lượng sát thương\nthay đổi.	1
+119	Defense and Speed\ngo down.	Giảm Defense\nvà Speed.	1
+120	The greater the user's\nstat increases, the\ngreater the damage.	Chỉ số bản thân\ncàng tăng nhiều thì\nsát thương càng cao.	1
+121	The target attacks\nautomatically\nwhen hit.	Khi bị đánh, mục tiêu\ntự động tấn công.	1
+122	Does more damage\nto foes with a\nStatus Change.	Gây sát thương cao hơn\ncho địch đang bị\nStatus Change.	1
+123	Makes the foe float.	Khiến địch bay lên.	1
+124	The user becomes\nthe foe's type.	Bản thân đổi thành\nhệ của địch.	1
+125	The {CTRL:0e00010011000000} dropped by\nthe foe is also\nburned up.	Đốt luôn {CTRL:0e00010011000000}\nmà địch làm rơi.	1
+126	The user can use\nthe foe's move\nfor a short time.	Tạm thời dùng được\nMove của địch.	1
+127	Damage is greater\nwhen the Pokémon\nhas lots of use.	Pokémon được dùng\ncàng nhiều thì\nsát thương càng cao.	1
+128	Damage is greater\nwhen the user hasn't\nbeen used a lot.	Pokémon ít được dùng\nthì sát thương\ncàng cao.	1
+129	Uses a different move\nin different places.	Dùng Move khác nhau\ntùy theo vị trí.	1
+130	Attacks by\nthrowing {CTRL:0e00010011000000}.	Ném {CTRL:0e00010011000000} để tấn công.	1
+131	The more teammates\nit has, the more times\nthe move is repeated.	Càng nhiều đồng đội,\nMove càng đánh\nnhiều lần.	1
+132	The user makes a\ncopy of itself by using\nsome of its HP.	Dùng một phần HP\nđể tạo bản sao\ncủa chính mình.	1
+133	{CTRL:0e00010011000000} dropped by\nfoes increases.	Địch sẽ làm rơi\nnhiều {CTRL:0e00010011000000} hơn.	1
