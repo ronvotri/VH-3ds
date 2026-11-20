@@ -1,0 +1,126 @@
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00619", "vi": "Pokémon {CTRL:0e00060001000000}{CTRL:0e00050001000000} đã dạy\nMove cho {CTRL:0e00060000000000}{CTRL:0e00050001000000}\nsẽ rời đi. Bạn đồng ý chứ?", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00620", "vi": "{CTRL:0e00060000000000}{CTRL:0e00050001000000} đã học\n{CTRL:0e00060001000000}{CTRL:0e00050004000000}!{CTRL:0e00000004000000}Các Pokémon {CTRL:0e00060002000000}{CTRL:0e00040000000000}\nđã dạy Move vừa rời đi.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00621", "vi": "{CTRL:0e00060000000000}{CTRL:0e00050001000000} đã học\n{CTRL:0e00060001000000}{CTRL:0e00050004000000}!{CTRL:0e00000004000000}Pokémon {CTRL:0e00060002000000}{CTRL:0e00050001000000}\nđã dạy Move vừa rời đi.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00622", "vi": "Không thể tăng World Rank\nthêm được nữa.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00623", "vi": "Tăng World Rank sẽ làm\nPokémon ở mọi khu vực\nmạnh hơn.{CTRL:0e00000004000000}Bạn muốn nâng World Rank lên\n★{CTRL:0e00060001000000}{CTRL:0e00040001000000} với giá {CTRL:0e00060000000000}{CTRL:0e00040007000000}{CTRL:0e00010011000000}?{CTRL:0e00000004000000}", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00624", "vi": "Bạn không đủ {CTRL:0e00010011000000}.{CTRL:0e00000004000000}", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00625", "vi": "World Rank đã tăng lên\n★{CTRL:0e00060000000000}{CTRL:0e00040001000000}!{CTRL:0e00000004000000}", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00626", "vi": "Windup Energy +", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00627", "vi": "HP Restore", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00628", "vi": "Đã hồi phục HP cho\ntoàn bộ Pokémon của bạn!", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00629", "vi": "TIME +", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00630", "vi": "{CTRL:0e00060000000000}{CTRL:0e00040005000000}", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00631", "vi": "Bạn đã thua cuộc.\nHãy thử lại từ đầu nhé!", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00632", "vi": "Thang máy về thị trấn\nđã mở!", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00633", "vi": "Thang máy đến trận tiếp theo\nđã mở!", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00635", "vi": "Prize Money {CTRL:0e00060000000000}{CTRL:0e00040005000000}{CTRL:0e00010011000000}", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00636", "vi": "Thời gian hoàn thành {CTRL:0e00060000000000}{CTRL:0e00030007000000}", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00637", "vi": "Đã mở đường hầm\nđến {CTRL:0e00060000000000}{CTRL:0e00050008000000}!", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00638", "vi": "Đổi sang Rattata để\nbắt đầu Battle Locale!", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00639", "vi": "Đã thắng Battle Locale!", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00640", "vi": "Path of Heroes đã hoàn thành!", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00641", "vi": "Bạn đã mở thêm một đoạn\ncủa Path of Heroes!", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00642", "vi": "-----", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00643", "vi": "Thắng thêm hai đấu trường\nBattle Royale để đi tiếp.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00644", "vi": "Thắng thêm một đấu trường\nBattle Royale để đi tiếp.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00645", "vi": "Bạn đã đến Easterly Town.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00646", "vi": "Wonder Key bị cong,\nnên đổi Pokémon sẽ chậm hơn.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00647", "vi": "-----", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00648", "vi": "-----", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00649", "vi": "-----", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00650", "vi": "Di chuyển bằng Circle Pad {CTRL:0e00010009000000}.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00651", "vi": "Kìa, có đối thủ!\nNhấn {CTRL:0e00010000000000} để tấn công.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00652", "vi": "Nhấn {CTRL:0e00010000000000} để tấn công.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00653", "vi": "Khi đánh bại đối thủ,\nđôi lúc chúng sẽ ngã lăn ra.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00654", "vi": "Lại gần Pokémon\nđang nằm ngã nhé.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00655", "vi": "Lại gần Pokémon\nđang nằm ngã nhé.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00656", "vi": "Bạn đã kết bạn với Pokémon!", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00657", "vi": "Nhấn {CTRL:0e00010002000000} để\nđổi Pokémon.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00658", "vi": "Đổi sang Pokémon có Power cao\nsẽ giúp bạn chiếm ưu thế.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00659", "vi": "Tiếp tục đi nào!", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00660", "vi": "Hệ Fire khắc chế hệ Grass.\nNhấn {CTRL:0e00010002000000} để đổi Pokémon.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00661", "vi": "-----", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00662", "vi": "-----", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00663", "vi": "Bạn đang yếu lắm rồi!\nCẩn thận khi chiến đấu nhé.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00664", "vi": "Bạn đang yếu lắm rồi!\nHãy đổi Pokémon khác.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00665", "vi": "Nhấn {CTRL:0e00010000000000} để tấn công\nvà hạ đối thủ.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00666", "vi": "Bình tĩnh tấn công\nvà hạ Pokémon đối thủ.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00667", "vi": "Hãy đổi Pokémon trong đội.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00668", "vi": "Nếu có Pokémon trong đội,\nhãy nhấn {CTRL:0e00010002000000} ở Switch Menu\nđể đổi Pokémon.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00669", "vi": "Toàn bộ Pokémon của bạn\nđã bị đánh bại...", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00670", "vi": "Khi Pokémon đang dùng\nbị hạ, bạn sẽ được đổi con khác.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00671", "vi": "Lại gần Pokémon trong đội\nbị đánh ngã để giúp nó dậy.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00672", "vi": "Lại gần Pokémon trong đội\nbị đánh ngã để giúp nó dậy.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00673", "vi": "Windup Energy Gauge đã đầy!\nNhấn {CTRL:0e00010002000000} để bật Hyper Mode!", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00674", "vi": "Trong Hyper Mode, Attack\nvà Defense tăng, còn HP\nhồi phục từ từ.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00675", "vi": "Pokémon trong đội sẽ tự\nphản ứng và tấn công.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00676", "vi": "Có Windup Energy Magnet,\nđịch sẽ rơi Windup Energy.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00677", "vi": "Nhặt Windup Energy\nđể nạp Windup Energy Gauge.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00678", "vi": "Đã đổi Pokémon!", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00679", "vi": "Barrier", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00680", "vi": "Hiện chưa thể vào.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00681", "vi": "Hiện chưa thể dùng.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00682", "vi": "Bạn có quá nhiều Pokémon!\nHãy đến Release Point\ngiảm xuống dưới {CTRL:0e00060000000000}{CTRL:0e00040003000000} con.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00683", "vi": "Chỉ Pokémon đáp ứng\nđiều kiện mới được đấu.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00684", "vi": "Power từ {CTRL:0e00060000000000}{CTRL:0e00040003000000} trở lên", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00685", "vi": "Power từ {CTRL:0e00060000000000}{CTRL:0e00040003000000} trở xuống", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00686", "vi": "Special Trait: {CTRL:0e00060000000000}{CTRL:0e00050005000000}", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00687", "vi": "Hệ Pokémon: {CTRL:0e00060000000000}{CTRL:0e00050002000000}", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00688", "vi": "Hệ Move: {CTRL:0e00060000000000}{CTRL:0e00050002000000}", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00689", "vi": "Move: {CTRL:0e00060000000000}{CTRL:0e00050004000000}", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00690", "vi": "-----", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00691", "vi": "Rời Battle Locale?{CTRL:0e00000004000000}", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00692", "vi": "Pledge Attack", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00693", "vi": "{CTRL:0e00020000000000}{CTRL:0e00040001000000}:{CTRL:0e00020005000000}{CTRL:0e00040001000000}.{CTRL:0e00020005000000}{CTRL:0e00040001000000}", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00694", "vi": "--:--.--", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00695", "vi": "S+", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00696", "vi": "S", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00697", "vi": "A", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00698", "vi": "B", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00699", "vi": "Độ khó", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00700", "vi": "???", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00701", "vi": "Power khoảng {CTRL:0e00060000000000}{CTRL:0e00040003000000}", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00702", "vi": "Không có", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00703", "vi": "(Bạn chưa sở hữu.)", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00704", "vi": "Không có", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00705", "vi": "{CTRL:0e00040002000000}{CTRL:0e00060000000000} lần", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00706", "vi": "★??", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00707", "vi": "★{CTRL:0e00060000000000}{CTRL:0e00040000000000}", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00708", "vi": "+{CTRL:0e00060000000000}{CTRL:0e00040000000000}", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00709", "vi": "Nâng cấp", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00710", "vi": "Dữ liệu đã bị hỏng.\nBạn có muốn xóa không?", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00711", "vi": "Một phần dữ liệu đã bị hỏng.\n\nMột số Pokémon bạn từng tìm được\ncó thể đã biến mất.\n\nDữ liệu người bạn đã gặp\ncó thể cũng bị mất.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00712", "vi": "Một phần dữ liệu đã bị hỏng.\n\nMột số Pokémon bạn từng tìm được\ncó thể đã biến mất.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00713", "vi": "Một phần dữ liệu đã bị hỏng.\n\nDữ liệu người bạn đã gặp\ncó thể cũng bị mất.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00714", "vi": "Nhấn ", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00715", "vi": "!", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00716", "vi": ".", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00717", "vi": "..", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00718", "vi": "...", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00719", "vi": "Đang lưu", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00720", "vi": "KỶ LỤC MỚI", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00721", "vi": "Hạng", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00722", "vi": "Hạng", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00724", "vi": "còn lại", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00725", "vi": "COMBO!", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00726", "vi": "Thời gian tốt nhất", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00727", "vi": "Số lần vượt qua", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00728", "vi": "Yêu cầu", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00729", "vi": "OK", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00730", "vi": "Phần thưởng", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00731", "vi": "Prize Money", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00732", "vi": "{CTRL:0e00060000000000}{CTRL:0e00040005000000}{CTRL:0e00010011000000}", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00733", "vi": "Chưa có dữ liệu.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00734", "vi": "Chưa có dữ liệu.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00735", "vi": ":", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00737", "vi": "HOÀN THÀNH!", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00738", "vi": "Phần thưởng", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00739", "vi": "Thời gian tốt nhất", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00740", "vi": "Pokémon", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00742", "vi": "MỚI!", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00743", "vi": "© 2011 Pokémon. © 1995-2011 Nintendo/Creatures Inc./GAME FREAK inc.\nDeveloped by Ambrella.", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00744", "vi": "MỚI!", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00745", "vi": "Xuất hiện tại", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00746", "vi": "Thời gian tốt nhất", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00747", "vi": "Semifinal", "status": "ban_nhap"}
+{"id": "EUR-REV1::/msg/EU_English/main.msbt.cx#00748", "vi": "Championship", "status": "ban_nhap"}
