@@ -1,44 +1,32 @@
 # Super Pokémon Rumble — EUR Rev 1 (Việt hóa)
 
-**Dự án chỉ dành cho EU English / EUR Rev1**, Title ID `0004000000066D00`, product `CTR-P-ACCP`. **Không dùng bản dịch này để vá game USA** `0004000000066C00`.
+**Chỉ dành cho EU English EUR Rev 1**, Title ID `0004000000066D00`, product `CTR-P-ACCP`. Không nhập bản dịch vào ROM USA `0004000000066C00`.
 
-## Tiến độ đến Checkpoint 008
+## Tiến độ đến Checkpoint 009
 
-- Bộ gốc: **6.159 record / 16 bảng MSBT**; phân loại **1.932 mục cần dịch**, 2.590 mục giữ EN, 443 debug, 1.194 rỗng.
-- **1.260/1.932 mục đã xử lý (65,22%)**, còn **672 mục**.
-- Đã hoàn tất bản nháp của `kaiwa.msbt` (158/158), `main.msbt` (726/726), `NoticeDesc.msbt` (376/376).
+- Nguồn: **6.159 record từ 16 bảng MSBT**.
+- 1.932 record được phân loại cần dịch, 2.590 khóa EN, 443 debug, 1.194 rỗng.
+- **1.545/1.932 bản nháp (79,97%)** đã đối chiếu ID / nhập thử; còn **387 mục** trong `WazaDesc.msbt`.
+- 8 bảng đã hoàn tất bản nháp: `kaiwa` (158/158), `main` (726/726), `NoticeDesc` (376/376), `PartsDesc` (20/20), `PasswordPiiDesc` (25/25), `StageDesc` (35/35), `prefix` (86/86), `makuai` (119/119).
 
-| Đợt | Phạm vi | JSONL | Báo cáo |
+| Checkpoint | Nội dung | JSONL | Báo cáo |
 |---|---|---|---|
-| CP003 | 158 mục `kaiwa` | [Xem](ban_dich/kaiwa_CP003_158.jsonl) | [QA](CHECKPOINT-003.md) |
-| CP004 | 200 mục `main` | [Xem](ban_dich/main_CP004_200.jsonl) | [QA](CHECKPOINT-004.md) |
-| CP005 | 200 mục `main` | [Xem](ban_dich/main_CP005_200.jsonl) | [QA](CHECKPOINT-005.md) |
-| CP006 | 200 mục `main` | [Xem](ban_dich/main_CP006_200.jsonl) | [QA](CHECKPOINT-006.md) |
-| CP007 | 126 mục cuối `main` | [Xem](ban_dich/main_CP007_126.jsonl) | [QA](CHECKPOINT-007.md) |
-| CP007 | 74 mục đầu `NoticeDesc` | [Xem](ban_dich/NoticeDesc_CP007_74.jsonl) | [QA](CHECKPOINT-007.md) |
-| CP008 | 302 mục còn lại `NoticeDesc` | [Xem](ban_dich/NoticeDesc_CP008_302.jsonl) | [QA](CHECKPOINT-008.md) |
-
-## 672 mục còn lại
-
-| Bảng | Mục |
-|---|---:|
-| `WazaDesc.msbt` | 387 |
-| `makuai.msbt` | 119 |
-| `prefix.msbt` | 86 |
-| `StageDesc.msbt` | 35 |
-| `PasswordPiiDesc.msbt` | 25 |
-| `PartsDesc.msbt` | 20 |
+| 003 | 158 `kaiwa` | [Xem](ban_dich/kaiwa_CP003_158.jsonl) | [CP003](CHECKPOINT-003.md) |
+| 004 | 200 `main` | [Xem](ban_dich/main_CP004_200.jsonl) | [CP004](CHECKPOINT-004.md) |
+| 005 | 200 `main` | [Xem](ban_dich/main_CP005_200.jsonl) | [CP005](CHECKPOINT-005.md) |
+| 006 | 200 `main` | [Xem](ban_dich/main_CP006_200.jsonl) | [CP006](CHECKPOINT-006.md) |
+| 007 | 126 `main` + 74 `NoticeDesc` | [main](ban_dich/main_CP007_126.jsonl), [NoticeDesc](ban_dich/NoticeDesc_CP007_74.jsonl) | [CP007](CHECKPOINT-007.md) |
+| 008 | 302 `NoticeDesc` | [Xem](ban_dich/NoticeDesc_CP008_302.jsonl) | [CP008](CHECKPOINT-008.md) |
+| **009** | **285 mục / 5 bảng** | [PartsDesc](ban_dich/CP009_PartsDesc_20.jsonl) · [PasswordPiiDesc](ban_dich/CP009_PasswordPiiDesc_25.jsonl) · [StageDesc](ban_dich/CP009_StageDesc_35.jsonl) · [prefix](ban_dich/CP009_prefix_86.jsonl) · [makuai](ban_dich/CP009_makuai_119.jsonl) | [CP009](CHECKPOINT-009.md) |
 
 ## Quy tắc
 
-Giữ nguyên English: tên Pokémon, item, Move/Skill, các thuật ngữ, tên riêng và chế độ chính. Việt hóa lời thoại, hướng dẫn, thông báo và trạng thái thường bằng tiếng Việt NFC, tự nhiên, Gen Z vừa đủ, không tự suy đoán người nói. Mỗi record giữ nguyên ID và mọi mã `{CTRL:hex}`.
+Giữ nguyên English đối với tên Pokémon, item, Move/Skill, tên riêng và thuật ngữ chính; Việt hóa lời thoại, menu, hướng dẫn và thông báo theo tiếng Việt NFC, Gen Z vừa phải và **xưng hô đúng từng cảnh**. Mỗi record giữ nguyên ID, placeholder, `{CTRL:hex}`. [Sơ đồ ngôi xưng `kaiwa`](XUNG-HO-KAIWA.md).
 
-[Quy tắc xưng hô theo ngữ cảnh `kaiwa`](XUNG-HO-KAIWA.md).
+## QA và giới hạn
 
-## QA và tình trạng patch
+- Công cụ nhập gốc nhận **1.545/1.545 bản nháp**, không sửa record khóa EN; CP009 giữ đủ **28/28 mã điều khiển**.
+- CP009 có 3 cảnh báo từ điển máy do từ `Moves` dùng nghĩa thông thường/số nhiều hoặc `Special Traits` chuẩn hóa thành thuật ngữ số ít; 25 cảnh báo tổng cần kiểm tra khi QA UI.
+- **Chưa repack MSBT/CX, chưa sửa font, chưa test trên máy thật/giả lập, chưa có patch chơi được.** Đếm ký tự trên mỗi dòng chỉ là QA sơ bộ, không đo độ rộng pixel của font 3DS.
 
-- Importer của bộ nguồn gốc nhận đủ **1.260** bản nháp. CP008 giữ nguyên **77 token** ở 302 record, không lỗi thứ tự hoặc ID.
-- Có **22 cảnh báo thuật ngữ** tích lũy cần rà cảnh (chủ yếu tên Move/Special Trait số nhiều và `Return` là lựa chọn menu đã Việt hóa); chi tiết trong [CP008](CHECKPOINT-008.md).
-- Toàn bộ vẫn ở trạng thái `ban_nhap`. **Chưa repack MSBT/CX, chưa bổ sung glyph/font Việt, chưa test 3DS/giả lập, chưa có patch chơi được.**
-
-Bản ZIP Checkpoint 008 bàn giao trong hội thoại gồm 302 mục mới, bản gộp 1.260 mục, corpus đầy đủ 6.159 record có trường `vi`, CSV đối chiếu và báo cáo QA.
+**Checkpoint 010:** dịch 387 mục mô tả Move trong `WazaDesc.msbt`. Sau đó mới bước kỹ thuật font và patch.
