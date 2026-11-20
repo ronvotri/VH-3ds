@@ -10,17 +10,17 @@
 | `resident/03.bin` | 2,147 | 2,128 | 1,513 | 615 |
 | `resident/04.bin` | 222 | 199 | 26 | 173 |
 | All `stage/.../msg_00.bin` dialogue | 1,698 | 1,696 | 1,696 | 0 |
-| **Total** | **4,067** | **4,023** | **3,235** | **788** |
+| **Total** | **4,067** | **4,023** | **3,234** | **789** |
 
 ## Observations
 
 - The source has **44 blank entries**: 19 in `resident/03.bin`, 23 in `resident/04.bin` and 2 in dialogue (`a2100#00008` and `a2500#00038`). These are not treated as untranslated prose.
 - All **1,696 nonempty stage-dialogue IDs** have a batch entry. This is *draft coverage*, not a guarantee of accuracy, text fit, speaker attribution or patch compatibility.
 - GitHub `batch_043.jsonl` was previously removed because all its 15 entries duplicated `batch_016.jsonl`'s `resident/04.bin` IDs. Do not include batch 043 when counting coverage.
-- The surviving groups checked contain no repeated IDs: batches 001–016 (1,479), 017–036 (1,382), 037–042 plus 044–045 (372), and batch 046 (2). Stage paths are distinct between groups; late resident/03 ID ranges do not overlap earlier covered IDs.
-- **3,235 / 4,023 = 80.41% processed-source coverage**; NOT an 80.41% rate of translated Vietnamese text. Existing entries may deliberately preserve English names and key terms.
+- The surviving groups checked contain no repeated IDs: batches 001–016 (1,479), 017–036 (1,382), 037–042 plus 044–045 (372), and batch 046 (2). **Correction in Checkpoint 060:** batch 046's `#01656 Music` had already been translated in batch 015; it was a duplicate, so the original unique-count assumption was wrong.
+- **3,234 / 4,023 = 80.39% processed-source coverage**; NOT an 80.41% rate of translated Vietnamese text. Existing entries may deliberately preserve English names and key terms.
 - The remaining 788 nonempty entries contain many names, Weapons, Powers, locations, symbols and other source strings that should remain unchanged under the project's localization conventions. Do not bulk-copy these into new batches merely to inflate progress.
-- `batch_046.jsonl` adds two genuine missing UI labels: `resident/03.bin#00085` (TOUCH! → CHẠM!) and `resident/03.bin#01656` (Music → Nhạc).
+- `batch_046.jsonl` originally repeated `resident/03.bin#01656` (Music → Nhạc) from batch 015. Checkpoint 060 removed that duplicate; only `#00085` (TOUCH! → CHẠM!) was a genuine new UI label. Historical figures above are corrected unique-ID counts, not the mistaken original claim.
 
 ## Next QA priorities
 
