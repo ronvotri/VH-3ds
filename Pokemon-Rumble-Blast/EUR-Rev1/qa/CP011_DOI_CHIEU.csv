@@ -1,0 +1,378 @@
+ID,bang,index,EN,VI_CP010,VI_CP011,ly_do,max_dong
+EUR-REV1::/msg/EU_English/kaiwa.msbt.cx#00002,kaiwa,2,"Hey, you! Get away from there!","Ê, đằng kia! Tránh xa chỗ đó ra!",Này! Tránh xa chỗ đó ra!,"Bỏ câu gọi thiếu đối tượng, giữ mệnh lệnh gắt gỏng.",24
+EUR-REV1::/msg/EU_English/kaiwa.msbt.cx#00015,kaiwa,15,"This is the Forest.{CTRL:0e00000004000000}Some shocking Pokémon
+are waiting for you!","Đây là Forest.{CTRL:0e00000004000000}Có vài Pokémon khiến bạn
+giật mình đang chờ đấy!","Đây là Forest. {CTRL:0e00000004000000} Coi chừng, Pokémon ở đây
+có thể khiến bạn giật mình đấy!",Viết lại cú chơi chữ shocking cho tự nhiên.,31
+EUR-REV1::/msg/EU_English/kaiwa.msbt.cx#00018,kaiwa,18,"Is this your first Battle Royale?{CTRL:0e00000004000000}There's no way I'm going to let
+you in if you don't have any friends
+with a Power of 70 or more.{CTRL:0e00000004000000}Go find some stronger friends,
+and then try again, OK?","Đây là lần đầu bạn tham gia
+Battle Royale à?{CTRL:0e00000004000000}Không có Pokémon đồng hành
+Power từ 70 trở lên thì
+mình chưa thể cho bạn vào.{CTRL:0e00000004000000}Hãy tìm đồng đội mạnh hơn
+rồi quay lại nhé!","Đây là Battle Royale
+đầu tiên của bạn à? {CTRL:0e00000004000000} Nếu chưa có Pokémon nào
+Power từ 70 trở lên,
+tôi chưa thể cho bạn vào đâu. {CTRL:0e00000004000000} Tìm đồng đội mạnh hơn
+rồi quay lại nhé!",Thống nhất tôi/bạn với lời gác cổng ở ID 19.,30
+EUR-REV1::/msg/EU_English/kaiwa.msbt.cx#00021,kaiwa,21,"Woohoo! You got
+your first victory in
+the Battle Royale!{CTRL:0e00000004000000}Keep this up, and you
+just might be the
+Champion someday!","Woohoo! Bạn đã thắng
+trận Battle Royale đầu tiên!{CTRL:0e00000004000000}Cứ phát huy thế này,
+biết đâu một ngày bạn
+sẽ thành nhà vô địch!","Tuyệt! Bạn đã thắng
+Battle Royale đầu tiên rồi! {CTRL:0e00000004000000} Cứ đà này, biết đâu
+một ngày bạn trở thành
+nhà vô địch thật đấy!",Lời chúc mừng tự nhiên và vui hơn.,28
+EUR-REV1::/msg/EU_English/kaiwa.msbt.cx#00024,kaiwa,24,"While we were out, Pawniard
+and his friends were here...{CTRL:0e00000004000000}I just don't trust those guys!","Lúc mọi người ra ngoài,
+Pawniard và đám bạn
+đã có mặt ở đây...{CTRL:0e00000004000000}Tớ chẳng tin bọn họ chút nào!","Lúc chúng ta ra ngoài,
+Pawniard và đám bạn
+đã tới đây... {CTRL:0e00000004000000} Mình chẳng tin mấy người đó
+chút nào!","Tránh tớ thiếu cơ sở, thân thiện kiểu NPC.",28
+EUR-REV1::/msg/EU_English/kaiwa.msbt.cx#00028,kaiwa,28,"Hmph. Well, don't go
+getting all smug about it!{CTRL:0e00000004000000}The Battle Royale here
+in Seabreeze Trail
+is no breeze!{CTRL:0e00000004000000}You don't have a
+chance, scrap heap!{CTRL:0e00000004000000}Heh heh heh!
+Smell ya later!","Hừ! Đừng có lên mặt nhé!{CTRL:0e00000004000000}Battle Royale ở Seabreeze Trail
+không dễ xơi đâu!{CTRL:0e00000004000000}Đống sắt vụn như ngươi
+thì cửa thắng bằng không!{CTRL:0e00000004000000}Hê hê! Gặp lại sau nhé!","Hừ! Đừng vội lên mặt! {CTRL:0e00000004000000} Battle Royale ở Seabreeze Trail
+không dễ xơi đâu! {CTRL:0e00000004000000} Đồ sắt vụn như ngươi
+thì chỉ có cửa thua! {CTRL:0e00000004000000} Hê hê! Lượn đây!",Tăng chất cà khịa Pawniard mà không trộn đại từ.,32
+EUR-REV1::/msg/EU_English/kaiwa.msbt.cx#00035,kaiwa,35,"Huh? Did I see
+a trio that looked
+like trouble?{CTRL:0e00000004000000}If you mean Pawniard
+and those wise guys,
+they were just here.{CTRL:0e00000004000000}Don't lose to
+dunces like that, OK?","Hả? Tôi có thấy ba kẻ
+trông khá đáng ngờ ấy à?{CTRL:0e00000004000000}Nếu bạn hỏi Pawniard
+và đám tinh tướng kia,
+họ vừa ở đây xong.{CTRL:0e00000004000000}Đừng để mấy tên ngốc đó
+đánh bại nhé!","Hả? Ba kẻ khả nghi ấy à? {CTRL:0e00000004000000} Nếu bạn nói Pawniard
+và đám tinh tướng kia,
+họ vừa ở đây xong. {CTRL:0e00000004000000} Đừng thua mấy tên ngốc ấy nhé!",Bớt lặp tôi và giữ câu thân mật.,31
+EUR-REV1::/msg/EU_English/kaiwa.msbt.cx#00037,kaiwa,37,"Huh? Do we know anything
+about Toy Town's Glowdrops?{CTRL:0e00000004000000}Look, buddy, I don't have time
+to stand here yakking with you!{CTRL:0e00000004000000}Quit following us around!","Hả? Bọn ta có biết gì về
+Glowdrops ở Toy Town không á?{CTRL:0e00000004000000}Này, ta bận lắm, không có
+thì giờ đứng đây tám với ngươi!{CTRL:0e00000004000000}Thôi đừng bám theo nữa!","Hả? Ngươi hỏi bọn ta
+về Glowdrops ở Toy Town á? {CTRL:0e00000004000000} Nghe này, ta bận lắm,
+không rảnh đứng tám với ngươi! {CTRL:0e00000004000000} Đừng bám theo nữa!",Câu phản bác Pawniard sắc sảo hơn.,31
+EUR-REV1::/msg/EU_English/kaiwa.msbt.cx#00042,kaiwa,42,"Who? Pawniard? Yes, I
+saw him and his buddies!{CTRL:0e00000004000000}They went through the
+gate when it opened for
+some other challengers.{CTRL:0e00000004000000}That's not fair! Don't lose
+to cheaters like them!","Ai cơ? Pawniard á?
+Ừ, tôi thấy hắn và đám bạn!{CTRL:0e00000004000000}Họ lẻn qua cổng lúc cổng mở
+cho những người thi đấu khác.{CTRL:0e00000004000000}Chơi gian thế ai chơi lại!
+Đừng thua bọn họ nhé!","Ai cơ? Pawniard á?
+Ừ, tôi thấy hắn và đám bạn! {CTRL:0e00000004000000} Họ lẻn qua cổng lúc cổng mở
+cho người thi đấu khác. {CTRL:0e00000004000000} Rõ là chơi gian!
+Đừng thua bọn họ nhé!",Tránh câu chơi gian thế ai chơi lại gây hiểu lầm.,28
+EUR-REV1::/msg/EU_English/kaiwa.msbt.cx#00044,kaiwa,44,"Who? Pawniard? Yes, I
+saw him and his buddies!{CTRL:0e00000004000000}They went through the
+gate when it opened for
+some other challengers.{CTRL:0e00000004000000}That's not fair! Don't lose
+to cheaters like them!","Ai cơ? Pawniard á?
+Ừ, tôi thấy hắn và đám bạn!{CTRL:0e00000004000000}Họ lẻn qua cổng lúc cổng mở
+cho những người thi đấu khác.{CTRL:0e00000004000000}Chơi gian thế ai chơi lại!
+Đừng thua bọn họ nhé!","Ai cơ? Pawniard á?
+Ừ, tôi thấy hắn và đám bạn! {CTRL:0e00000004000000} Họ lẻn qua cổng lúc cổng mở
+cho người thi đấu khác. {CTRL:0e00000004000000} Rõ là chơi gian!
+Đừng thua bọn họ nhé!",Tránh câu chơi gian thế ai chơi lại gây hiểu lầm.,28
+EUR-REV1::/msg/EU_English/kaiwa.msbt.cx#00046,kaiwa,46,"Who? Pawniard? Yes, I
+saw him and his buddies!{CTRL:0e00000004000000}They went through the
+gate when it opened for
+some other challengers.{CTRL:0e00000004000000}That's not fair! Don't lose
+to cheaters like them!","Ai cơ? Pawniard á?
+Ừ, tôi thấy hắn và đám bạn!{CTRL:0e00000004000000}Họ lẻn qua cổng lúc cổng mở
+cho những người thi đấu khác.{CTRL:0e00000004000000}Chơi gian thế ai chơi lại!
+Đừng thua bọn họ nhé!","Ai cơ? Pawniard á?
+Ừ, tôi thấy hắn và đám bạn! {CTRL:0e00000004000000} Họ lẻn qua cổng lúc cổng mở
+cho người thi đấu khác. {CTRL:0e00000004000000} Rõ là chơi gian!
+Đừng thua bọn họ nhé!",Tránh câu chơi gian thế ai chơi lại gây hiểu lầm.,28
+EUR-REV1::/msg/EU_English/kaiwa.msbt.cx#00047,kaiwa,47,"You again?{CTRL:0e00000004000000}Sheesh. Are you still going
+on about those Glowdrops?{CTRL:0e00000004000000}Give it a rest! Toy Pokémon
+talk by battling!{CTRL:0e00000004000000}You got something to say
+to me? Bring it on—
+in the championship!","Lại là ngươi à?{CTRL:0e00000004000000}Trời ạ, vẫn còn hỏi
+về Glowdrops nữa sao?{CTRL:0e00000004000000}Dẹp chuyện đó đi! Toy Pokémon
+nói chuyện bằng chiến đấu!{CTRL:0e00000004000000}Muốn nói gì với ta thì
+vào trận tranh vô địch mà nói!","Lại là ngươi à? {CTRL:0e00000004000000} Trời ạ, vẫn lải nhải
+chuyện Glowdrops sao? {CTRL:0e00000004000000} Thôi đủ rồi! Toy Pokémon
+nói chuyện bằng nắm đấm! {CTRL:0e00000004000000} Muốn hỏi gì thì vào
+trận vô địch mà hỏi ta!","Giọng đối thủ khịa, giữ nghĩa chiến đấu (không thực sự có tay đấm bắt buộc).",25
+EUR-REV1::/msg/EU_English/kaiwa.msbt.cx#00049,kaiwa,49,"Argh! OK, fine,
+you win. Whatever.{CTRL:0e00000004000000}Hey, you had something
+to ask me, yeah? Well,
+let's hear it.{CTRL:0e00000004000000}If you win the championship,
+I'll tell you whatever you
+want to know.{CTRL:0e00000004000000}Oh, and since you beat
+me, you'd better take down
+the finals, buddy...","Hừ! Được rồi,
+ngươi thắng. Sao cũng được!{CTRL:0e00000004000000}Này, ngươi có chuyện
+muốn hỏi ta mà, đúng không?
+Hỏi đi!{CTRL:0e00000004000000}Nếu ngươi giành chức vô địch,
+ta sẽ trả lời mọi điều
+ngươi muốn biết.{CTRL:0e00000004000000}À, đã thắng được ta thì
+nhất định phải thắng
+trận chung kết đấy nhé...","Hừ! Được rồi, ngươi thắng!
+Sao cũng được! {CTRL:0e00000004000000} Này, ngươi có chuyện
+muốn hỏi ta, đúng không?
+Nói nghe thử xem! {CTRL:0e00000004000000} Nếu ngươi giành chức vô địch,
+ta sẽ trả lời mọi điều
+ngươi muốn biết. {CTRL:0e00000004000000} À, đã thắng được ta
+thì nhất định phải thắng
+trận chung kết đấy!",Giữ cái tôi Pawniard nhưng có chút nể đối thủ.,30
+EUR-REV1::/msg/EU_English/kaiwa.msbt.cx#00062,kaiwa,62,"Of course! This is when
+we need someone
+strong on our side...","Phải rồi! Giờ chúng ta cần
+một đồng đội thật mạnh...","Đúng rồi! Lúc này
+chúng ta cần một người
+thật mạnh giúp sức...",Câu nối tự nhiên hơn.,22
+EUR-REV1::/msg/EU_English/kaiwa.msbt.cx#00086,kaiwa,86,This is our wild Westerly Town!,"Chào mừng đến
+Westerly Town hoang dã!","Đây là Westerly Town
+hoang dã của bọn tôi!",Không thêm lời chào ngoài câu gốc.,21
+EUR-REV1::/msg/EU_English/kaiwa.msbt.cx#00090,kaiwa,90,"Do you plan to head to Lord...
+Um, I mean, Cobalion's Castle?{CTRL:0e00000004000000}The area ahead is just crawling
+with Cobalion's forces.{CTRL:0e00000004000000}You're still going to go?","Bạn định đến lâu đài của ngài...
+À không, Cobalion's Castle à?{CTRL:0e00000004000000}Phía trước toàn là
+quân của Cobalion.{CTRL:0e00000004000000}Bạn vẫn muốn đi sao?","Bạn định đến lâu đài ngài...
+À không, Cobalion's Castle à? {CTRL:0e00000004000000} Quân Cobalion canh kín
+khu vực phía trước. {CTRL:0e00000004000000} Bạn vẫn nhất quyết đi sao?",Giữ hiệu ứng lỡ miệng ngài Cobalion.,30
+EUR-REV1::/msg/EU_English/kaiwa.msbt.cx#00093,kaiwa,93,"Yo! I totally had a
+look inside the fort.{CTRL:0e00000004000000}Yeah, you don't
+wanna go in there...","Yo! Tôi vừa lén xem
+trong pháo đài rồi đấy.{CTRL:0e00000004000000}Ờ... bạn không muốn
+bước vào đó đâu...","Ê! Tôi vừa lén nhìn
+vào trong pháo đài rồi. {CTRL:0e00000004000000} Nói thật, bạn không muốn
+vào đó đâu...","Việt hóa Yo, hợp giọng NPC đang lấp liếm.",25
+EUR-REV1::/msg/EU_English/kaiwa.msbt.cx#00095,kaiwa,95,"Cobalion's forces are
+way too tough for you!{CTRL:0e00000004000000}If you had a Windup
+Energy Magnet, it might
+be different, but you don't.{CTRL:0e00000004000000}So no point even
+trying, right? Come on
+now! Let's head back!","Quân Cobalion quá mạnh
+so với bạn!{CTRL:0e00000004000000}Có Windup Energy Magnet
+thì còn may ra,
+nhưng bạn đâu có nó.{CTRL:0e00000004000000}Vậy cố làm gì cho mệt?
+Về thôi nào!","Quân Cobalion mạnh hơn
+bạn nhiều lắm! {CTRL:0e00000004000000} Có Windup Energy Magnet
+thì còn may ra,
+nhưng bạn làm gì có! {CTRL:0e00000004000000} Cố làm gì cho mệt?
+Về thôi nào!","Nhân vật tìm cách cản người chơi, giọng châm chọc tự nhiên.",24
+EUR-REV1::/msg/EU_English/kaiwa.msbt.cx#00101,kaiwa,101,"Well, I don't really know what's up.
+So I'd get lots of allies and proceed.
+Very slowly. Yeah. Carefully, too.{CTRL:0e00000004000000}You should go back to town often.
+Whatever you do, don't hurry!","Ờ, thật ra tôi cũng chẳng rõ
+có chuyện gì đang xảy ra.
+Cứ tập hợp nhiều đồng đội
+rồi đi tiếp thật chậm nhé.{CTRL:0e00000004000000}Nhớ cẩn thận, thường xuyên
+quay về thị trấn.
+Đừng vội vàng, nghe chưa!","Thật ra tôi cũng chẳng rõ
+đang có chuyện gì đâu.
+Tốt nhất bạn cứ kiếm thêm
+đồng đội, rồi đi thật chậm. {CTRL:0e00000004000000} Nhớ cẩn thận và
+thường xuyên về thị trấn.
+Tuyệt đối đừng hấp tấp nhé!",Rõ ý hơn; tránh mệnh lệnh bực vô cớ.,28
+EUR-REV1::/msg/EU_English/kaiwa.msbt.cx#00109,kaiwa,109,"Aww, man. I really didn't
+want you to get this far.{CTRL:0e00000004000000}'Cause now I have
+to fight you!","Trời ơi, tôi thật sự
+không muốn bạn đến tận đây.{CTRL:0e00000004000000}Vì giờ tôi phải
+đánh với bạn rồi!","Chết thật, tôi không muốn
+bạn đi xa tới mức này đâu. {CTRL:0e00000004000000} Vì giờ... tôi phải
+đấu với bạn mất rồi!",Nêu tính miễn cưỡng của kẻ nội gián.,27
+EUR-REV1::/msg/EU_English/kaiwa.msbt.cx#00119,kaiwa,119,"You're the Pokémon whose
+key was bent, right?{CTRL:0e00000004000000}You really think you can
+battle in that sorry state?{CTRL:0e00000004000000}Why don't you just
+go take a nap in the
+Temple of Keys instead?","Cậu là Pokémon bị cong
+chìa khóa, đúng không?{CTRL:0e00000004000000}Thê thảm thế mà
+còn định chiến đấu à?{CTRL:0e00000004000000}Sao không vào Temple of Keys
+ngủ một giấc đi?","Cậu là Pokémon có
+chìa khóa bị cong, đúng không? {CTRL:0e00000004000000} Đã ra nông nỗi này
+mà còn muốn đấu à? {CTRL:0e00000004000000} Hay vào Temple of Keys
+ngủ một giấc đi?","Sửa lỗi chủ ngữ: chìa khóa cong, không phải Pokémon.",31
+EUR-REV1::/msg/EU_English/kaiwa.msbt.cx#00120,kaiwa,120,"You're the Pokémon
+whose key was bent, right?{CTRL:0e00000004000000}No way you can beat us if
+your key isn't working right!{CTRL:0e00000004000000}Go on! Scram!","Cậu là Pokémon bị cong
+chìa khóa, phải không?{CTRL:0e00000004000000}Chìa khóa còn trục trặc
+thì đừng hòng thắng bọn ta!{CTRL:0e00000004000000}Biến đi!","Cậu là Pokémon có
+chìa khóa bị cong, phải không? {CTRL:0e00000004000000} Chìa khóa chưa hoạt động
+bình thường thì
+đừng mơ thắng bọn ta! {CTRL:0e00000004000000} Đi đi!",Đúng chủ ngữ và lời thách đấu.,31
+EUR-REV1::/msg/EU_English/makuai.msbt.cx#00012,makuai,12,We'll be taking these Glowdrops!,Bọn ta lấy số Glowdrops này nhé!,Bọn ta lấy hết Glowdrops đây!,Kẻ cướp không cần lịch sự nhé.,29
+EUR-REV1::/msg/EU_English/makuai.msbt.cx#00021,makuai,21,"If you have a problem with that, you
+and your friends can challenge me!","Không vừa ý thì cứ gọi
+đồng đội đến đấu với ta!","Không phục thì cứ cùng
+đồng đội đến thách đấu ta!",Thay kiểu rủ rê như nói chuyện thân thiện bằng thách thức.,26
+EUR-REV1::/msg/EU_English/makuai.msbt.cx#00029,makuai,29,They're rusty Toy Pokémon!,Đó là Toy Pokémon bị gỉ!,"Đó là Toy Pokémon
+bị gỉ sét!",Thuật ngữ gỉ sét thống nhất.,17
+EUR-REV1::/msg/EU_English/makuai.msbt.cx#00051,makuai,51,Oh no! Everyone is rusting!,Ôi không! Mọi người đang bị gỉ!,"Ôi không! Ai cũng
+đang bị gỉ sét!",Đỡ thô hơn bị gỉ.,17
+EUR-REV1::/msg/EU_English/makuai.msbt.cx#00071,makuai,71,"This world's destiny
+is to rust away.","Số phận thế giới này
+là mục nát vì gỉ sét.","Thế giới này đã được định sẵn
+sẽ mục ruỗng vì gỉ sét.","Dark Rust lạnh lùng, đúng nghĩa định mệnh.",29
+EUR-REV1::/msg/EU_English/makuai.msbt.cx#00088,makuai,88,I congratulate you on getting this far.,Chúc mừng vì đã đến được đây.,"Chà, cũng phải khen
+các ngươi đã đến được đây.","Giọng phản diện mỉa mai, không thân thiện quá.",26
+EUR-REV1::/msg/EU_English/makuai.msbt.cx#00089,makuai,89,But your journey ends here!,Nhưng hành trình kết thúc ở đây!,"Nhưng hành trình của
+các ngươi dừng ở đây!",Giữ ta/ngươi của Dark Rust.,21
+EUR-REV1::/msg/EU_English/makuai.msbt.cx#00095,makuai,95,"Now you shall know what it is
+to live without light...or hope!","Giờ nếm thử cuộc sống
+không ánh sáng...
+cũng chẳng hy vọng đi!","Giờ hãy nếm mùi sống
+không ánh sáng...
+cũng chẳng hy vọng đi!","Câu đe dọa tự nhiên, nghiêm túc.",22
+EUR-REV1::/msg/EU_English/makuai.msbt.cx#00112,makuai,112,"You think you have a chance
+just because my barrier is gone?","Tưởng mất lớp chắn
+là ta hết cửa thắng à?","Ngươi tưởng phá được lớp chắn
+là có thể thắng ta sao?",Bỏ tiếng lóng hết cửa thắng của Dark Rust.,29
+EUR-REV1::/msg/EU_English/makuai.msbt.cx#00119,makuai,119,"This Cobalion toy has seen
+better days. Take good care of it.","Toy Cobalion này đã
+trải qua nhiều sóng gió.
+Hãy chăm sóc nó thật tốt nhé.","Toy Cobalion này trông
+tàn tạ quá rồi.
+Hãy chăm sóc nó cẩn thận nhé.","Cụm seen better days nói đồ chơi đã cũ, không phải trải qua nhiều sóng gió.",29
+EUR-REV1::/msg/EU_English/StageDesc.msbt.cx#00165,StageDesc,165,"You're not good enough
+to take out this trash!","Ngươi chưa đủ trình
+dọn đống rác này đâu!","Còn non lắm! Ngươi tưởng
+dọn nổi đống rác này sao?","Giữ lối mỉa trash của boss, câu thoại dễ hiểu hơn.",25
+EUR-REV1::/msg/EU_English/StageDesc.msbt.cx#00234,StageDesc,234,"You're the Pokémon who's been
+getting in Cobalion's way, right?
+So, you still haven't quit, huh?{CTRL:0e00000004000000}Well, you'll need way more
+Windup Energy to beat me!","Ngươi là Pokémon cứ phá kế hoạch
+của Cobalion, đúng chứ?
+Vẫn chưa chịu bỏ cuộc à?{CTRL:0e00000004000000}Muốn thắng ta, ngươi cần
+nhiều Windup Energy hơn!","Ngươi là Pokémon cứ phá
+kế hoạch của Cobalion nhỉ?
+Vẫn chưa chịu bỏ cuộc à? {CTRL:0e00000004000000} Muốn thắng ta, ngươi phải
+có thêm nhiều Windup Energy!",Tách câu giảm cứng và giữ tone địch.,28
+EUR-REV1::/msg/EU_English/StageDesc.msbt.cx#00306,StageDesc,306,"You?! Aren't you the one
+whose key was bent?{CTRL:0e00000004000000}You're very stubborn!","Ngươi?! Chẳng phải
+kẻ bị cong chìa khóa sao?{CTRL:0e00000004000000}Lì lợm thật đấy!","Ngươi?! Chẳng phải ngươi là
+kẻ có chìa khóa bị cong sao? {CTRL:0e00000004000000} Đúng là lì lợm!",Sửa cách nói kẻ bị cong chìa khóa gây hiểu lầm.,29
+EUR-REV1::/msg/EU_English/NoticeDesc.msbt.cx#00002,NoticeDesc,2,"The Glowing Fountain belongs
+to everyone. So you can
+use it whenever you like!{CTRL:0e00000004000000}Have you had a look
+around town?","Glowing Fountain là của chung.
+Bạn cứ dùng thoải mái!{CTRL:0e00000004000000}
+Bạn đã dạo quanh
+thị trấn chưa?","Glowing Fountain là của chung.
+Bạn cứ dùng thoải mái! {CTRL:0e00000004000000} Bạn đã dạo quanh
+thị trấn chưa?",Bỏ dòng trống thừa sau mã chuyển trang.,30
+EUR-REV1::/msg/EU_English/NoticeDesc.msbt.cx#00021,NoticeDesc,21,"Toy Pokémon all get
+along well, and we take
+battling seriously!","Toy Pokémon chúng mình
+rất hòa thuận, nhưng
+vào trận là chơi nghiêm túc!","Toy Pokémon bọn mình
+rất hòa thuận, nhưng
+đã vào trận là nghiêm túc đấy!","Đời thường, trôi chảy hơn.",30
+EUR-REV1::/msg/EU_English/NoticeDesc.msbt.cx#00120,NoticeDesc,120,"We're cheering for you!
+You can win for sure!","Bọn mình cổ vũ bạn!
+Nhất định bạn sẽ thắng!","Bọn mình cổ vũ bạn đây!
+Bạn nhất định sẽ thắng!",Không lặp cứng kiểu khẳng định máy.,23
+EUR-REV1::/msg/EU_English/NoticeDesc.msbt.cx#00123,NoticeDesc,123,"I'll be mad at you if you lose!
+You beat me, so you've
+gotta be the best!","Cậu mà thua là tôi giận đấy!
+Đánh bại được tôi thì
+phải là người giỏi nhất chứ!","Ngươi mà thua thì ta giận đấy!
+Đã đánh bại được ta,
+ngươi phải là số một chứ!","Đồng nhất ta/ngươi với Pawniard ở trận chung kết, bằng chứng từ mạch cảnh.",30
+EUR-REV1::/msg/EU_English/NoticeDesc.msbt.cx#00134,NoticeDesc,134,"You're headed
+to Easterly Town 
+now, right?{CTRL:0e00000004000000}Yeah, so, um...
+Aww, just take
+care of yourself, OK?","Bạn đang đến Easterly Town
+đúng không?{CTRL:0e00000004000000}Ừm, thì...
+Thôi, nhớ giữ mình nhé!","Bạn đang đến Easterly Town à? {CTRL:0e00000004000000} Ừm... thì...
+Thôi, đi đường cẩn thận nhé!","Giọng ngập ngừng, tránh lời khuyên gượng.",30
+EUR-REV1::/msg/EU_English/NoticeDesc.msbt.cx#00323,NoticeDesc,323,"This tree is tree-mendous!
+Go out on a limb and befriend
+some tough Pokémon!","Cây này đúng là siêu cây!
+Mạo hiểm leo lên mà kết bạn
+với Pokémon mạnh nhé!","Cây này đúng là đỉnh của cành!
+Liều một phen leo lên
+tìm Pokémon mạnh thôi!","Tái hiện chơi chữ tree-mendous/out on a limb, dí dỏm có ngữ cảnh.",30
+EUR-REV1::/msg/EU_English/NoticeDesc.msbt.cx#00338,NoticeDesc,338,"If you don't like heights,
+don't look down! Whoaaaa!","Sợ độ cao thì đừng nhìn xuống!
+Aaaaa!","Sợ độ cao thì đừng nhìn xuống!
+Ối, cao dữ vậy!",Giữ nét hài nhân vật thay bằng tiếng thốt tự nhiên.,30
+EUR-REV1::/msg/EU_English/NoticeDesc.msbt.cx#00355,NoticeDesc,355,"Pokémon with the Special Trait
+Macho are tougher when they
+are around friends.","Pokémon có Special Trait Macho
+sẽ trâu bò hơn khi ở gần bạn bè!","Pokémon có Special Trait Macho
+sẽ lì đòn hơn khi ở gần bạn bè!",Trâu bò có thể hiểu nhầm tăng sức tấn công; nguồn tougher chỉ phòng thủ.,31
+EUR-REV1::/msg/EU_English/NoticeDesc.msbt.cx#00363,NoticeDesc,363,"Am I scared being in a place like this
+all by myself? Ha! No way!{CTRL:0e00000004000000}...Well, maybe a little.","Ở đây một mình có sợ không á?
+Ha! Đời nào tôi sợ!{CTRL:0e00000004000000}...Ừm, hơi hơi thôi.","Ở một mình chỗ này có sợ không á?
+Ha! Tôi mà sợ sao?! {CTRL:0e00000004000000} ...Ừm, cũng hơi hơi.","Sắc thái NPC giả can đảm tự nhiên hơn, giữ page.",33
+EUR-REV1::/msg/EU_English/main.msbt.cx#00334,main,334,Is it OK to delete the data?,Bạn muốn xóa dữ liệu?,"Bạn có chắc muốn
+xóa dữ liệu không?",Thống nhất kiểu xác nhận thao tác mất dữ liệu.,18
+EUR-REV1::/msg/EU_English/main.msbt.cx#00336,main,336,Data is not correct. Delete the data?,Dữ liệu có lỗi. Xóa luôn?,"Dữ liệu không hợp lệ.
+Bạn có muốn xóa không?",Không dùng xóa luôn cho quyết định mất save.,22
+EUR-REV1::/msg/EU_English/main.msbt.cx#00337,main,337,Data is corrupt. Delete the data?,Dữ liệu bị hỏng. Xóa nhé?,"Dữ liệu đã bị hỏng.
+Bạn có muốn xóa không?",Không dùng xóa nhé vì hậu quả nghiêm trọng.,22
+EUR-REV1::/msg/EU_English/main.msbt.cx#00563,main,563,Select the Pokémon to release.,Hãy chọn Pokémon muốn thả.,Chọn Pokémon muốn thả.,Thống nhất hai nhãn kế nhau trong Release Point.,22
+EUR-REV1::/msg/EU_English/prefix.msbt.cx#00095,prefix,95,"Uses its moves
+quickly.",Ra Move nhanh.,Tung Move nhanh hơn.,Ra Move không tự nhiên; rõ nghĩa speed.,20
+EUR-REV1::/msg/EU_English/prefix.msbt.cx#00183,prefix,183,"Inflicts more
+damage when it has
+a status problem.","Gây thêm sát thương
+khi bị bất lợi
+trạng thái.","Gây thêm sát thương
+khi đang chịu
+hiệu ứng trạng thái.",Chỉnh cụm bị bất lợi trạng thái không tự nhiên.,20
+EUR-REV1::/msg/EU_English/WazaDesc.msbt.cx#00889,WazaDesc,889,"When the user is
+damaged, the
+attacker is damaged.","Khi Pokémon và đồng đội
+bị tấn công, kẻ đánh
+cũng chịu sát thương.","Khi Pokémon dùng chiêu
+bị đánh, kẻ tấn công
+cũng chịu sát thương.","Bỏ đồng đội không có trong nguồn, sửa sai cơ chế.",22
+EUR-REV1::/msg/EU_English/WazaDesc.msbt.cx#00933,WazaDesc,933,"When the user is
+damaged, the
+attacker is damaged.","Khi Pokémon và đồng đội
+bị tấn công, kẻ đánh
+cũng chịu sát thương.","Khi Pokémon dùng chiêu
+bị đánh, kẻ tấn công
+cũng chịu sát thương.","Bỏ đồng đội không có trong nguồn, sửa sai cơ chế.",22
+EUR-REV1::/msg/EU_English/WazaDesc.msbt.cx#00935,WazaDesc,935,"When the user is
+damaged, the
+attacker is damaged.","Khi Pokémon và đồng đội
+bị tấn công, kẻ đánh
+cũng chịu sát thương.","Khi Pokémon dùng chiêu
+bị đánh, kẻ tấn công
+cũng chịu sát thương.","Bỏ đồng đội không có trong nguồn, sửa sai cơ chế.",22
+EUR-REV1::/msg/EU_English/WazaDesc.msbt.cx#00937,WazaDesc,937,"When the user is
+damaged, the
+attacker is damaged.","Khi Pokémon và đồng đội
+bị tấn công, kẻ đánh
+cũng chịu sát thương.","Khi Pokémon dùng chiêu
+bị đánh, kẻ tấn công
+cũng chịu sát thương.","Bỏ đồng đội không có trong nguồn, sửa sai cơ chế.",22
+EUR-REV1::/msg/EU_English/WazaDesc.msbt.cx#01059,WazaDesc,1059,"Damage goes up
+when the user hits
+a blown-back foe.","Đánh trúng địch
+đang bị hất văng
+sẽ đau hơn.","Đánh trúng địch đang bị
+hất văng sẽ gây
+sát thương cao hơn.",Đổi đau hơn thành thuật ngữ sát thương thống nhất.,23
+EUR-REV1::/msg/EU_English/WazaDesc.msbt.cx#01095,WazaDesc,1095,"The foe that defeats
+the user is also
+defeated.","Địch hạ gục bản thân
+cũng sẽ bị hạ gục.","Kẻ hạ gục Pokémon
+dùng chiêu cũng
+sẽ bị hạ gục.",Địch hạ gục bản thân không tự nhiên và khó hiểu.,17
+EUR-REV1::/msg/EU_English/WazaDesc.msbt.cx#01363,WazaDesc,1363,"Damage is greater
+when the Pokémon
+has lots of use.","Pokémon được dùng
+càng nhiều thì
+sát thương càng cao.","Pokémon được sử dụng
+càng nhiều thì
+sát thương càng cao.","Đỡ đọc như bị động máy, rõ cơ chế.",20
