@@ -2,7 +2,7 @@
 
 **Chỉ dành cho EU English EUR Rev 1**, Title ID `0004000000066D00`, product `CTR-P-ACCP`. Không nhập bản dịch vào ROM USA `0004000000066C00`.
 
-## Tiến độ đến Checkpoint 011 — đã biên tập văn phong và ngôi xưng
+## Tiến độ đến Checkpoint 012 — đã dựng bản thử MSBT/LZH8
 
 - Nguồn: **6.159 record từ 16 bảng MSBT**.
 - 1.932 record được phân loại cần dịch, 2.590 khóa EN, 443 debug, 1.194 rỗng.
@@ -28,7 +28,15 @@
 - Đã nhập thử lại: **1.932 ID hợp lệ**, 0 thiếu, không đổi token, không lỗi Unicode. **25 cảnh báo thuật ngữ cũ** vẫn cần xem trong ngữ cảnh; 57 mục mới chỉ là vòng biên tập chọn lọc, **chưa nghiệm thu toàn bộ nội dung trên 3DS**.
 - Chỉnh giọng Pawniard `ta/ngươi`, Dark Rust trang trọng đe dọa, Cobalion chuyển cách nói theo diễn biến; sửa một số lỗi nghĩa Move và câu xác nhận xóa dữ liệu.
 
-**Trạng thái kỹ thuật không đổi:** chưa sửa font BCFNT, chưa đóng gói MSBT/CX và chưa thử patch trên 3DS/giả lập.
+**CP011 đã hoàn tất biên tập bản nháp. CP012 đã thử đóng gói MSBT/CX, nhưng chưa có font hoặc kiểm thử trong game.**
+
+
+## Checkpoint 012 — Bộ đóng gói MSBT/LZH8
+
+- [Báo cáo Checkpoint 012](CHECKPOINT-012.md) · [Bộ dựng nguồn MSBT](tools/build_patch.py) · [Kiểm thử](tools/test_build_patch.py) · [QA 16 MSBT/9 file nén](qa/QA_CP012.json) · [Kiểm kê glyph còn thiếu](qa/font_coverage_CP012.json).
+- Dựng lại **16/16 MSBT không đổi byte**, và tạo **9 file `.msbt.cx` có bản dịch CP011**, giải nén LZH8 round-trip đạt. 1.932/1.932 ID trùng bản dịch, **1.753 nội dung khác bản gốc**, 179 record vốn không cần sửa.
+- Giữ byte của `LBL1`/`ATR1`, entry không dịch và thứ tự mã `{CTRL:hex}`. Không có font BCFNT nguồn trong bộ ZIP nên **chưa sửa font**. Trong 1.932 câu CP011, kiểm kê cho thấy font gốc thiếu **62–66 glyph đang được sử dụng** tùy font.
+- **Đây là bản thử kỹ thuật, không phải patch được xác nhận chơi được**. Chưa thử trong game, chưa xác minh ngôn ngữ runtime, chưa kiểm tràn chữ. Không merge vào `main`.
 
 ## Quy tắc
 
@@ -38,6 +46,6 @@ Giữ nguyên English đối với tên Pokémon, item, Move/Skill, tên riêng 
 
 - Công cụ nhập gốc nhận **1.932/1.932 bản nháp**, còn 0 ID cần dịch; 2.590 record khóa EN được bảo toàn. CP010 giữ **9/9 mã điều khiển** và không có cảnh báo thuật ngữ mới.
 - 25 cảnh báo từ điển tích lũy từ CP003–009 cần kiểm tra trong cảnh; CP010 không phát sinh cảnh báo mới (0).
-- **Đã hoàn tất bản nháp 1.932 ID, chưa phải patch. Chưa repack MSBT/CX, chưa sửa font, chưa test trên máy thật/giả lập, chưa có patch chơi được.** Đếm ký tự trên mỗi dòng chỉ là QA sơ bộ, không đo độ rộng pixel của font 3DS.
+- **Đã hoàn tất bản nháp 1.932 ID, có 9 file MSBT/CX thử nghiệm. Chưa sửa font, chưa test trên máy thật/giả lập, chưa có patch được xác nhận chơi được.** Đếm ký tự trên mỗi dòng chỉ là QA sơ bộ, không đo độ rộng pixel của font 3DS.
 
-**Bước kế tiếp:** QA nội dung theo scene, xử lý glyph BCFNT tiếng Việt (16 font thiếu 100–108 glyph mỗi font), sửa/đóng gói MSBT/CX, dựng patch và thử trên 3DS/giả lập đúng bản EUR Rev1.
+**Bước kế tiếp:** nhận bộ 16 font BCFNT từ nguồn EUR Rev1, thêm glyph (hiện thiếu 62–66 ký tự có sử dụng trong CP011, hoặc 100–108 khi hỗ trợ trọn bộ 134 ký tự), nén lại BCFNT/CX và test trên 3DS/giả lập với save backup.
