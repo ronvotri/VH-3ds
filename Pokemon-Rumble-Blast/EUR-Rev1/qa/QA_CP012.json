@@ -1,0 +1,245 @@
+{
+  "source_cia_sha256_reference": "a3fcd6521841bf7f8d0a5cd30103e4d9b36212cbf3f97b5ac9d514e139ffe30f",
+  "status": "binary-built-not-game-tested",
+  "translation_count": 1932,
+  "patched_msbt": [
+    {
+      "file": "NoticeDesc.msbt",
+      "romfs_path": "/msg/EU_English/NoticeDesc.msbt.cx",
+      "candidate_count": 376,
+      "actually_changed": 353,
+      "original_bytes": 58496,
+      "updated_bytes": 55632,
+      "cx_bytes": 56220,
+      "msbt_original_sha256": "0db9e38df3e40be9b632796b76c1a8e165e95711354a56164fe5966bf3591154",
+      "msbt_updated_sha256": "b870edbd6c221cd01cdc8478d837c2edbb4569c873193f04241613b01143bb00",
+      "cx_sha256": "81479cca5c76e8e513a3647f68de7ebce3bf137c6c7ac3af2cc75212a58a799f",
+      "msbt_structural_QA": true,
+      "lzh8_decode_QA": true
+    },
+    {
+      "file": "PartsDesc.msbt",
+      "romfs_path": "/msg/EU_English/PartsDesc.msbt.cx",
+      "candidate_count": 20,
+      "actually_changed": 20,
+      "original_bytes": 4784,
+      "updated_bytes": 4832,
+      "cx_bytes": 5420,
+      "msbt_original_sha256": "197f8c012521bba6b4332cc807e6515117e71bf6bc0e98e691e99903abe1ebe1",
+      "msbt_updated_sha256": "86d1d2469b5da6846de1f3338112ca6b0bcae806065b79580ee962a8e214ce40",
+      "cx_sha256": "8c8cd1b3e28fb4248d4bd3bd56a371e1b357a922d42c661f8b761554d71325d2",
+      "msbt_structural_QA": true,
+      "lzh8_decode_QA": true
+    },
+    {
+      "file": "PasswordPiiDesc.msbt",
+      "romfs_path": "/msg/EU_English/PasswordPiiDesc.msbt.cx",
+      "candidate_count": 25,
+      "actually_changed": 25,
+      "original_bytes": 3856,
+      "updated_bytes": 4096,
+      "cx_bytes": 4684,
+      "msbt_original_sha256": "2e72e34a8c465b8c70efc95d6f0a191d7ca225edd2ca4ae650a4507b2b9a63b2",
+      "msbt_updated_sha256": "8cfb58ff635a9f4396eeaabc0dd6ee1183e6c07acdc46f5f924e577b7c2b2829",
+      "cx_sha256": "fa8e3f72d65bbc42870d628238107145bb028d76383a52f0ce6f89b86b643e54",
+      "msbt_structural_QA": true,
+      "lzh8_decode_QA": true
+    },
+    {
+      "file": "StageDesc.msbt",
+      "romfs_path": "/msg/EU_English/StageDesc.msbt.cx",
+      "candidate_count": 35,
+      "actually_changed": 27,
+      "original_bytes": 19104,
+      "updated_bytes": 18864,
+      "cx_bytes": 19452,
+      "msbt_original_sha256": "2fa2e08cf3fc6ace1d9f6bd99256bc7d7696aad26a67f644b75e0a3180105898",
+      "msbt_updated_sha256": "dcb5d9c12b792a7480bb0c42cd7f39b0bfad873979c96c5db7f162ecfeeba062",
+      "cx_sha256": "d9dd370f07e3a27b5e40546609e101e7c0350a1165eeb5681ce59d99f86069cc",
+      "msbt_structural_QA": true,
+      "lzh8_decode_QA": true
+    },
+    {
+      "file": "WazaDesc.msbt",
+      "romfs_path": "/msg/EU_English/WazaDesc.msbt.cx",
+      "candidate_count": 387,
+      "actually_changed": 387,
+      "original_bytes": 84240,
+      "updated_bytes": 83968,
+      "cx_bytes": 84556,
+      "msbt_original_sha256": "04b6c0130b9edda97f3314aec4a9c86b4199803f1899232cc7280e3c66416dd1",
+      "msbt_updated_sha256": "f2f52d3816c44fa797b85a916508827777bef1f8b2d788d513b8bafecbec48cc",
+      "cx_sha256": "7e67ed126740b372a972691fda9794d611684e208b3790965d6090913f446ce5",
+      "msbt_structural_QA": true,
+      "lzh8_decode_QA": true
+    },
+    {
+      "file": "kaiwa.msbt",
+      "romfs_path": "/msg/EU_English/kaiwa.msbt.cx",
+      "candidate_count": 158,
+      "actually_changed": 158,
+      "original_bytes": 37520,
+      "updated_bytes": 35936,
+      "cx_bytes": 36524,
+      "msbt_original_sha256": "506f8457ebbad86d77892b4ebff9cd0cf7640b93324ff18dd827803b4b88a8ec",
+      "msbt_updated_sha256": "70f661438d7803df8848f710b65d694123ffcaaeca0f783fda95f1de756356a5",
+      "cx_sha256": "67409bb900e286ef45a7782de07b53e360c72d8bf200f9c11138454875ff7cb1",
+      "msbt_structural_QA": true,
+      "lzh8_decode_QA": true
+    },
+    {
+      "file": "main.msbt",
+      "romfs_path": "/msg/EU_English/main.msbt.cx",
+      "candidate_count": 726,
+      "actually_changed": 603,
+      "original_bytes": 77920,
+      "updated_bytes": 76112,
+      "cx_bytes": 76700,
+      "msbt_original_sha256": "7a9bd651c592ed078a3df1502e29faa9c1965496ea512f660ee782f237811bdd",
+      "msbt_updated_sha256": "5764a7cc3a545fd414b05eec12128d46860e0ce2f0cd508cc23d2087be2dcb51",
+      "cx_sha256": "4ac0618945d2743ed8606fecbb508f056de6b1aa873c903f84c664556c842d00",
+      "msbt_structural_QA": true,
+      "lzh8_decode_QA": true
+    },
+    {
+      "file": "makuai.msbt",
+      "romfs_path": "/msg/EU_English/makuai.msbt.cx",
+      "candidate_count": 119,
+      "actually_changed": 116,
+      "original_bytes": 10480,
+      "updated_bytes": 10400,
+      "cx_bytes": 10988,
+      "msbt_original_sha256": "dae18ea6b79e5fbd96e7fbf92eab3b6e07c6bfc00a43281b2db1acc7d63f5393",
+      "msbt_updated_sha256": "6b261cf18f438f34f0d389a75a7cf2b7256c8a4fd161f73ba2e2139509e3cea9",
+      "cx_sha256": "0558edabdda4f6271c8f0ae5adb255b742300c4f891dc533d12cce259be9bb89",
+      "msbt_structural_QA": true,
+      "lzh8_decode_QA": true
+    },
+    {
+      "file": "prefix.msbt",
+      "romfs_path": "/msg/EU_English/prefix.msbt.cx",
+      "candidate_count": 86,
+      "actually_changed": 64,
+      "original_bytes": 14080,
+      "updated_bytes": 13872,
+      "cx_bytes": 14460,
+      "msbt_original_sha256": "883e12255bd7a69df71e48dba0fde4739839ecf8d08b15d01be16e4396f9bc40",
+      "msbt_updated_sha256": "5736539609b4441f5ac551965adae301caa6680ea9e907b61d1ceda331fa71d8",
+      "cx_sha256": "9db39131ef4584f5843aece00ce21c136074daa0ec3e513a2b6b90aa48b65600",
+      "msbt_structural_QA": true,
+      "lzh8_decode_QA": true
+    }
+  ],
+  "no_change_smoke": [
+    {
+      "file": "MapDesc.msbt",
+      "msbt_bytes": 23072,
+      "sha256": "44c0acb1eca073717c77b5c81895b6fd3531e6f982647d6533109e2c8ef4fa08",
+      "PASS": true
+    },
+    {
+      "file": "NoticeDesc.msbt",
+      "msbt_bytes": 58496,
+      "sha256": "0db9e38df3e40be9b632796b76c1a8e165e95711354a56164fe5966bf3591154",
+      "PASS": true
+    },
+    {
+      "file": "PartsDesc.msbt",
+      "msbt_bytes": 4784,
+      "sha256": "197f8c012521bba6b4332cc807e6515117e71bf6bc0e98e691e99903abe1ebe1",
+      "PASS": true
+    },
+    {
+      "file": "PasswordPiiDesc.msbt",
+      "msbt_bytes": 3856,
+      "sha256": "2e72e34a8c465b8c70efc95d6f0a191d7ca225edd2ca4ae650a4507b2b9a63b2",
+      "PASS": true
+    },
+    {
+      "file": "StageDesc.msbt",
+      "msbt_bytes": 19104,
+      "sha256": "2fa2e08cf3fc6ace1d9f6bd99256bc7d7696aad26a67f644b75e0a3180105898",
+      "PASS": true
+    },
+    {
+      "file": "WazaDesc.msbt",
+      "msbt_bytes": 84240,
+      "sha256": "04b6c0130b9edda97f3314aec4a9c86b4199803f1899232cc7280e3c66416dd1",
+      "PASS": true
+    },
+    {
+      "file": "debug.msbt",
+      "msbt_bytes": 24080,
+      "sha256": "3feb6a770b5b0f5bb4947262b84d8fbd76791766d71f3c46754d44bdb275d948",
+      "PASS": true
+    },
+    {
+      "file": "form.msbt",
+      "msbt_bytes": 4432,
+      "sha256": "c19ae55f24bbd7840276ae8b743e72ffe16cf2e5cb9341eb9e58bb6af4359705",
+      "PASS": true
+    },
+    {
+      "file": "formfull.msbt",
+      "msbt_bytes": 5840,
+      "sha256": "554918a0293eec287d25db837945c88030511b18da1f10e03e6340064706e53c",
+      "PASS": true
+    },
+    {
+      "file": "kaiwa.msbt",
+      "msbt_bytes": 37520,
+      "sha256": "506f8457ebbad86d77892b4ebff9cd0cf7640b93324ff18dd827803b4b88a8ec",
+      "PASS": true
+    },
+    {
+      "file": "main.msbt",
+      "msbt_bytes": 77920,
+      "sha256": "7a9bd651c592ed078a3df1502e29faa9c1965496ea512f660ee782f237811bdd",
+      "PASS": true
+    },
+    {
+      "file": "makuai.msbt",
+      "msbt_bytes": 10480,
+      "sha256": "dae18ea6b79e5fbd96e7fbf92eab3b6e07c6bfc00a43281b2db1acc7d63f5393",
+      "PASS": true
+    },
+    {
+      "file": "pokemon.msbt",
+      "msbt_bytes": 23600,
+      "sha256": "af8a7fd008e782748245215fe017d50df8d7cbd167752c50a654f05809f2b1c0",
+      "PASS": true
+    },
+    {
+      "file": "pokemon_type.msbt",
+      "msbt_bytes": 2240,
+      "sha256": "07b8287cd3c153589c315666e7ecce43214bd8090cd0d101a00e335d1586f46d",
+      "PASS": true
+    },
+    {
+      "file": "prefix.msbt",
+      "msbt_bytes": 14080,
+      "sha256": "883e12255bd7a69df71e48dba0fde4739839ecf8d08b15d01be16e4396f9bc40",
+      "PASS": true
+    },
+    {
+      "file": "zkn_type.msbt",
+      "msbt_bytes": 35936,
+      "sha256": "96e0fcbcd5705a81e9511a651aaca49e2a600fd83aaf51f9b7b7e70db86ff650",
+      "PASS": true
+    }
+  ],
+  "font_status": "BLOCKED: original BCFNT assets not present in handover ZIP",
+  "test_status": "NOT TESTED in a 3DS game runtime",
+  "patched_count": 9,
+  "font_glyph_coverage_file": "font_coverage_CP012.json",
+  "font_needed_missing_range": "62-66 Unicode characters per font, out of all characters actually used in CP011",
+  "source_msbts_unchanged": true,
+  "source_msbt_file_count": 16,
+  "original_full_cia_in_package": false,
+  "compressor": "0x40 LZH8 literal-only fixed 8-bit Huffman; deliberately nonoptimal",
+  "verification": "Round-trip success against independent handover decoder; not verified by game runtime",
+  "translation_revision": "CP011 consolidated 1932",
+  "labels_and_attributes": "LBL1/ATR1 identical",
+  "replacement_note": "1753 actual text changes; remaining 179 candidate records already equal source",
+  "installable_status": "TEST CANDIDATE, NOT PLAYABLE/VALIDATED"
+}
