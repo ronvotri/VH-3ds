@@ -1,0 +1,120 @@
+{
+  "total_unique_characters": 175,
+  "unique_non_ascii": 99,
+  "non_ascii_chars": "©ÀÁÂÊÍÔÙàáâãèéêëìíòóôõùúýăĐđĩũƠơƯưạảấầẩẫẬậẮắằẳẵặẹẻẽẾếềểễệỉịọỏỐốỒồổỗộỚớờỞởỡợỤụỦủứỪừửữựỳỶỹ–↑→↓⇒◆●★　・＃",
+  "translation_count": 1932,
+  "by_font": [
+    {
+      "path": "/font/FOT-ComicMysteryStd-DB-16.bcfnt.cx",
+      "audit_missing_out_of_134": 102,
+      "actually_needed_missing": 63,
+      "missing_characters": "ăĐđĩũƠơƯưạảấầẩẫẬậẮắằẳẵặẹẻẽẾếềểễệỉịọỏỐốỒồổỗộỚớờỞởỡợỤụỦủứỪừửữựỳỶỹ",
+      "all_VI_text_renderable_using_existing_glyphs": false
+    },
+    {
+      "path": "/font/FOT-ComicMysteryStd-DB-16B.bcfnt.cx",
+      "audit_missing_out_of_134": 102,
+      "actually_needed_missing": 63,
+      "missing_characters": "ăĐđĩũƠơƯưạảấầẩẫẬậẮắằẳẵặẹẻẽẾếềểễệỉịọỏỐốỒồổỗộỚớờỞởỡợỤụỦủứỪừửữựỳỶỹ",
+      "all_VI_text_renderable_using_existing_glyphs": false
+    },
+    {
+      "path": "/font/FOT-NewRodinPro-B-16.bcfnt.cx",
+      "audit_missing_out_of_134": 100,
+      "actually_needed_missing": 62,
+      "missing_characters": "ĐđĩũƠơƯưạảấầẩẫẬậẮắằẳẵặẹẻẽẾếềểễệỉịọỏỐốỒồổỗộỚớờỞởỡợỤụỦủứỪừửữựỳỶỹ",
+      "all_VI_text_renderable_using_existing_glyphs": false
+    },
+    {
+      "path": "/font/FOT-NewRodinPro-B-16B.bcfnt.cx",
+      "audit_missing_out_of_134": 100,
+      "actually_needed_missing": 62,
+      "missing_characters": "ĐđĩũƠơƯưạảấầẩẫẬậẮắằẳẵặẹẻẽẾếềểễệỉịọỏỐốỒồổỗộỚớờỞởỡợỤụỦủứỪừửữựỳỶỹ",
+      "all_VI_text_renderable_using_existing_glyphs": false
+    },
+    {
+      "path": "/font/FOT-NewRodinPro-EB-16.bcfnt.cx",
+      "audit_missing_out_of_134": 100,
+      "actually_needed_missing": 62,
+      "missing_characters": "ĐđĩũƠơƯưạảấầẩẫẬậẮắằẳẵặẹẻẽẾếềểễệỉịọỏỐốỒồổỗộỚớờỞởỡợỤụỦủứỪừửữựỳỶỹ",
+      "all_VI_text_renderable_using_existing_glyphs": false
+    },
+    {
+      "path": "/font/FOT-NewRodinPro-EB-16B.bcfnt.cx",
+      "audit_missing_out_of_134": 100,
+      "actually_needed_missing": 62,
+      "missing_characters": "ĐđĩũƠơƯưạảấầẩẫẬậẮắằẳẵặẹẻẽẾếềểễệỉịọỏỐốỒồổỗộỚớờỞởỡợỤụỦủứỪừửữựỳỶỹ",
+      "all_VI_text_renderable_using_existing_glyphs": false
+    },
+    {
+      "path": "/font/FOT-NewRodinPro-EB-24.bcfnt.cx",
+      "audit_missing_out_of_134": 102,
+      "actually_needed_missing": 63,
+      "missing_characters": "ăĐđĩũƠơƯưạảấầẩẫẬậẮắằẳẵặẹẻẽẾếềểễệỉịọỏỐốỒồổỗộỚớờỞởỡợỤụỦủứỪừửữựỳỶỹ",
+      "all_VI_text_renderable_using_existing_glyphs": false
+    },
+    {
+      "path": "/font/FOT-NewRodinPro-EB-24B.bcfnt.cx",
+      "audit_missing_out_of_134": 102,
+      "actually_needed_missing": 63,
+      "missing_characters": "ăĐđĩũƠơƯưạảấầẩẫẬậẮắằẳẵặẹẻẽẾếềểễệỉịọỏỐốỒồổỗộỚớờỞởỡợỤụỦủứỪừửữựỳỶỹ",
+      "all_VI_text_renderable_using_existing_glyphs": false
+    },
+    {
+      "path": "/font/FOT-NewRodinPro-EB-48.bcfnt.cx",
+      "audit_missing_out_of_134": 108,
+      "actually_needed_missing": 66,
+      "missing_characters": "ãõýăĐđĩũƠơƯưạảấầẩẫẬậẮắằẳẵặẹẻẽẾếềểễệỉịọỏỐốỒồổỗộỚớờỞởỡợỤụỦủứỪừửữựỳỶỹ",
+      "all_VI_text_renderable_using_existing_glyphs": false
+    },
+    {
+      "path": "/font/FOT-NewRodinPro-EB-48B.bcfnt.cx",
+      "audit_missing_out_of_134": 108,
+      "actually_needed_missing": 66,
+      "missing_characters": "ãõýăĐđĩũƠơƯưạảấầẩẫẬậẮắằẳẵặẹẻẽẾếềểễệỉịọỏỐốỒồổỗộỚớờỞởỡợỤụỦủứỪừửữựỳỶỹ",
+      "all_VI_text_renderable_using_existing_glyphs": false
+    },
+    {
+      "path": "/font/FOT-RodinMariaPro-EB-16.bcfnt.cx",
+      "audit_missing_out_of_134": 102,
+      "actually_needed_missing": 63,
+      "missing_characters": "ăĐđĩũƠơƯưạảấầẩẫẬậẮắằẳẵặẹẻẽẾếềểễệỉịọỏỐốỒồổỗộỚớờỞởỡợỤụỦủứỪừửữựỳỶỹ",
+      "all_VI_text_renderable_using_existing_glyphs": false
+    },
+    {
+      "path": "/font/FOT-RodinMariaPro-EB-16B.bcfnt.cx",
+      "audit_missing_out_of_134": 102,
+      "actually_needed_missing": 63,
+      "missing_characters": "ăĐđĩũƠơƯưạảấầẩẫẬậẮắằẳẵặẹẻẽẾếềểễệỉịọỏỐốỒồổỗộỚớờỞởỡợỤụỦủứỪừửữựỳỶỹ",
+      "all_VI_text_renderable_using_existing_glyphs": false
+    },
+    {
+      "path": "/font/FOT-RodinWanpakuPro-B-16.bcfnt.cx",
+      "audit_missing_out_of_134": 102,
+      "actually_needed_missing": 63,
+      "missing_characters": "ăĐđĩũƠơƯưạảấầẩẫẬậẮắằẳẵặẹẻẽẾếềểễệỉịọỏỐốỒồổỗộỚớờỞởỡợỤụỦủứỪừửữựỳỶỹ",
+      "all_VI_text_renderable_using_existing_glyphs": false
+    },
+    {
+      "path": "/font/FOT-RodinWanpakuPro-B-16B.bcfnt.cx",
+      "audit_missing_out_of_134": 102,
+      "actually_needed_missing": 63,
+      "missing_characters": "ăĐđĩũƠơƯưạảấầẩẫẬậẮắằẳẵặẹẻẽẾếềểễệỉịọỏỐốỒồổỗộỚớờỞởỡợỤụỦủứỪừửữựỳỶỹ",
+      "all_VI_text_renderable_using_existing_glyphs": false
+    },
+    {
+      "path": "/font/FOT-RodinWanpakuPro-EB-16.bcfnt.cx",
+      "audit_missing_out_of_134": 102,
+      "actually_needed_missing": 63,
+      "missing_characters": "ăĐđĩũƠơƯưạảấầẩẫẬậẮắằẳẵặẹẻẽẾếềểễệỉịọỏỐốỒồổỗộỚớờỞởỡợỤụỦủứỪừửữựỳỶỹ",
+      "all_VI_text_renderable_using_existing_glyphs": false
+    },
+    {
+      "path": "/font/FOT-RodinWanpakuPro-EB-16B.bcfnt.cx",
+      "audit_missing_out_of_134": 102,
+      "actually_needed_missing": 63,
+      "missing_characters": "ăĐđĩũƠơƯưạảấầẩẫẬậẮắằẳẵặẹẻẽẾếềểễệỉịọỏỐốỒồổỗộỚớờỞởỡợỤụỦủứỪừửữựỳỶỹ",
+      "all_VI_text_renderable_using_existing_glyphs": false
+    }
+  ]
+}
