@@ -2,7 +2,7 @@
 
 **Chỉ dành cho EU English EUR Rev 1**, Title ID `0004000000066D00`, product `CTR-P-ACCP`. Không nhập bản dịch vào ROM USA `0004000000066C00`.
 
-## Tiến độ đến Checkpoint 010 — hoàn tất bản nháp dịch
+## Tiến độ đến Checkpoint 011 — đã biên tập văn phong và ngôi xưng
 
 - Nguồn: **6.159 record từ 16 bảng MSBT**.
 - 1.932 record được phân loại cần dịch, 2.590 khóa EN, 443 debug, 1.194 rỗng.
@@ -19,6 +19,16 @@
 | 008 | 302 `NoticeDesc` | [Xem](ban_dich/NoticeDesc_CP008_302.jsonl) | [CP008](CHECKPOINT-008.md) |
 | **009** | **285 mục / 5 bảng** | [PartsDesc](ban_dich/CP009_PartsDesc_20.jsonl) · [PasswordPiiDesc](ban_dich/CP009_PasswordPiiDesc_25.jsonl) · [StageDesc](ban_dich/CP009_StageDesc_35.jsonl) · [prefix](ban_dich/CP009_prefix_86.jsonl) · [makuai](ban_dich/CP009_makuai_119.jsonl) | [CP009](CHECKPOINT-009.md) |
 | **010** | **387 mục cuối, `WazaDesc`** | [JSONL](ban_dich/WazaDesc_CP010_387.jsonl) | [CP010](CHECKPOINT-010.md), [QA](qa/QA_CP010.json), [134 mẫu](qa/Waza_CP010_134_templates.tsv) |
+
+## Checkpoint 011 — Biên tập chất lượng lời thoại
+
+- **57 mục đã chỉnh sửa** sau khi đối chiếu tiếng Anh với các bản CP003–CP010; **không tạo ID mới**, tổng vẫn **1.932/1.932 mục có bản nháp**.
+- **[Bản gộp 1.932 mục đã biên tập](ban_dich/CP011_TONG_HOP_1932.jsonl)** (ưu tiên sử dụng bản này thay vì gộp trực tiếp CP010).
+- [57 chỉnh sửa dưới dạng override](ban_dich/CP011_BIEN_TAP_57.jsonl), [bảng so sánh EN / CP010 / CP011](qa/CP011_DOI_CHIEU.csv), [báo cáo CP011](CHECKPOINT-011.md), [quy chuẩn xưng hô CP011](XUNG_HO_CP011.md), [QA máy](qa/CP011_QA.json).
+- Đã nhập thử lại: **1.932 ID hợp lệ**, 0 thiếu, không đổi token, không lỗi Unicode. **25 cảnh báo thuật ngữ cũ** vẫn cần xem trong ngữ cảnh; 57 mục mới chỉ là vòng biên tập chọn lọc, **chưa nghiệm thu toàn bộ nội dung trên 3DS**.
+- Chỉnh giọng Pawniard `ta/ngươi`, Dark Rust trang trọng đe dọa, Cobalion chuyển cách nói theo diễn biến; sửa một số lỗi nghĩa Move và câu xác nhận xóa dữ liệu.
+
+**Trạng thái kỹ thuật không đổi:** chưa sửa font BCFNT, chưa đóng gói MSBT/CX và chưa thử patch trên 3DS/giả lập.
 
 ## Quy tắc
 
