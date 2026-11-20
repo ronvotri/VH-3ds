@@ -1,28 +1,31 @@
 # Super Pokémon Rumble — EUR Rev 1 (Việt hóa)
 
-**Phân nhánh riêng EUR Rev 1**, không được vá vào Pokémon Rumble Blast USA.
+**Dành riêng cho EUR Rev 1**, Title ID `0004000000066D00`, product `CTR-P-ACCP`, bảng tiếng Anh `EU_English`. **Không nhập vào game USA** `0004000000066C00`.
 
-- Title ID: `0004000000066D00`, product `CTR-P-ACCP`, nguồn `EU_English`.
-- Bộ nguồn 20/11/2026: **6.159 record / 16 MSBT**, gồm **1.932 mục cần dịch**, **2.590 mục giữ EN**, 443 debug và 1.194 rỗng.
-- Đã viết **558/1.932 mục (28,88%)**, gồm trọn **158 câu `kaiwa.msbt`** và **400/726 mục `main.msbt`**.
-- Còn **1.374 mục** cần dịch. Nhóm giữ EN không bị sửa.
+## Tiến độ đến Checkpoint 006
 
-## Checkpoint & bản dịch
+- Nguồn gốc **6.159 record / 16 MSBT**; gồm **1.932 mục cần dịch**, 2.590 mục giữ tiếng Anh, 443 debug, 1.194 rỗng.
+- **758 / 1.932 mục đã xử lý (39,23%)**; còn **1.174 mục**.
+- `kaiwa.msbt`: **158/158** mục.
+- `main.msbt`: **600/726** mục.
 
-| Đợt | Phạm vi | Bản dịch | Báo cáo |
+| Checkpoint | Nguồn | Bản dịch | QA / ghi chú |
 |---|---|---|---|
-| 003 | `kaiwa.msbt`, 158 mục | [JSONL](ban_dich/kaiwa_CP003_158.jsonl) | [CP003](CHECKPOINT-003.md) |
-| 004 | `main.msbt`, 200 mục đầu | [JSONL](ban_dich/main_CP004_200.jsonl) | [CP004](CHECKPOINT-004.md) |
-| 005 | `main.msbt`, 200 mục tiếp theo | [JSONL](ban_dich/main_CP005_200.jsonl) | [CP005](CHECKPOINT-005.md) |
+| CP003 | `kaiwa.msbt`, 158 mục | [JSONL](ban_dich/kaiwa_CP003_158.jsonl) | [CP003](CHECKPOINT-003.md) |
+| CP004 | `014_main.txt` + `015_main.txt`, 200 mục | [JSONL](ban_dich/main_CP004_200.jsonl) | [CP004](CHECKPOINT-004.md) |
+| CP005 | `016_main.txt` + `017_main.txt`, 200 mục | [JSONL](ban_dich/main_CP005_200.jsonl) | [CP005](CHECKPOINT-005.md) |
+| CP006 | `018_main.txt` + `019_main.txt`, 200 mục | [JSONL](ban_dich/main_CP006_200.jsonl) | [CP006](CHECKPOINT-006.md) |
 
-[Xưng hô theo ngữ cảnh `kaiwa`](XUNG-HO-KAIWA.md).
+[Quy tắc xưng hô hội thoại](XUNG-HO-KAIWA.md).
 
-## Quy chuẩn
+## Quy tắc dịch
 
-Giữ nguyên EN tên Pokémon, item, Move/Skill, tên riêng và thuật ngữ/chế độ chính; dịch lời thoại, menu, hướng dẫn, trạng thái thường sang tiếng Việt NFC. Hài hước Gen Z vừa phải, trung thành ngữ cảnh; không tự nhận diện người nói từ tên label. Mọi mã `{CTRL:hex}` phải bất biến.
+Giữ nguyên EN tên Pokémon, item, Move/Skill, tên riêng và thuật ngữ hệ thống/chế độ. Việt hóa lời thoại, menu, hướng dẫn, thông báo và trạng thái thông thường bằng tiếng Việt NFC; giọng thân thiện, tự nhiên, Gen Z có tiết chế. Không tự gán người nói từ tên nhãn. Bắt buộc giữ nguyên ID và mã `{CTRL:hex}`.
 
-## Chất lượng & hạn chế
+## QA / trạng thái bản vá
 
-Toàn bộ 558 mục đã được kiểm tra ID và thứ tự token, sau đó nhập qua **công cụ importer của bộ giao**, QA văn bản đạt. **Chưa thử trên 3DS, chưa sửa font, chưa repack MSBT/CX, chưa có patch chơi được**. Các mục vẫn ở trạng thái `ban_nhap` và có thể phải chỉnh khi kiểm tra kích cỡ khung thoại thật.
+Đã QA bằng importer gốc: **758 mục nhập thành công**, nhóm giữ EN bất biến. CP006: **291 mã điều khiển đúng thứ tự, 0 cảnh báo thuật ngữ mới**. Các bản dịch ở trạng thái `ban_nhap`; chưa QA đầy đủ trên màn hình game.
 
-Gói bàn giao CP005 đầy đủ có bản gộp 558 mục, corpus đã nhập 6.159 record, file CSV đối chiếu Anh–Việt và báo cáo QA, được cung cấp trong cuộc hội thoại.
+**Chưa repack MSBT/CX, chưa vá font, chưa test gameplay 3DS, chưa tạo patch chơi được.**
+
+CP007 dự kiến dịch tiếp `020_main.txt` và `021_main.txt`, còn 126 mục để hoàn tất `main.msbt`.
