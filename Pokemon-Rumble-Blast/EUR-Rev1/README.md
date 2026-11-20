@@ -1,19 +1,28 @@
 # Super Pokémon Rumble — EUR Rev 1 (Việt hóa)
 
-**Đây là nguồn EUR Rev 1**, không phải bản Pokémon Rumble Blast USA đã khảo sát ở Checkpoint 002. Không nhập nhầm bản dịch vào ROM USA.
+**Phân nhánh riêng EUR Rev 1**, không được vá vào Pokémon Rumble Blast USA.
 
-- Title ID: `0004000000066D00`, product `CTR-P-ACCP`, nguồn tiếng Anh `EU_English`.
-- Bộ giao nguồn ngày 20/11/2026: **6.159 record trong 16 MSBT**, gồm 1.932 mục cần dịch, 2.590 mục giữ tiếng Anh, 443 debug, 1.194 rỗng.
-- Bản dịch hiện có: **158/1.932 mục**, hoàn tất toàn bộ phần cần dịch của `kaiwa.msbt`; còn **1.774** mục.
-- [Bản dịch 158 câu, JSONL](ban_dich/kaiwa_CP003_158.jsonl) (ID `EUR-REV1::/msg/EU_English/kaiwa.msbt.cx#00000` đến `#00161`; các ID rỗng không được thêm).
-- [Báo cáo và checklist](CHECKPOINT-003.md); [Sơ đồ giọng nói](XUNG-HO-KAIWA.md).
+- Title ID: `0004000000066D00`, product `CTR-P-ACCP`, nguồn `EU_English`.
+- Bộ nguồn 20/11/2026: **6.159 record / 16 MSBT**, gồm **1.932 mục cần dịch**, **2.590 mục giữ EN**, 443 debug và 1.194 rỗng.
+- Đã viết **558/1.932 mục (28,88%)**, gồm trọn **158 câu `kaiwa.msbt`** và **400/726 mục `main.msbt`**.
+- Còn **1.374 mục** cần dịch. Nhóm giữ EN không bị sửa.
 
-## Quy tắc
+## Checkpoint & bản dịch
 
-Giữ EN tên Pokémon, item, Move/Skill, Special Trait, Type, form và thuật ngữ/địa danh chính. Dịch lời thoại và văn bản còn lại sang tiếng Việt có dấu NFC. Ngữ điệu thân thiện, Gen Z vừa phải; không đoán danh tính người nói từ label. Giữ chính xác mã `{CTRL:hex}`.
+| Đợt | Phạm vi | Bản dịch | Báo cáo |
+|---|---|---|---|
+| 003 | `kaiwa.msbt`, 158 mục | [JSONL](ban_dich/kaiwa_CP003_158.jsonl) | [CP003](CHECKPOINT-003.md) |
+| 004 | `main.msbt`, 200 mục đầu | [JSONL](ban_dich/main_CP004_200.jsonl) | [CP004](CHECKPOINT-004.md) |
+| 005 | `main.msbt`, 200 mục tiếp theo | [JSONL](ban_dich/main_CP005_200.jsonl) | [CP005](CHECKPOINT-005.md) |
 
-## QA
+[Xưng hô theo ngữ cảnh `kaiwa`](XUNG-HO-KAIWA.md).
 
-Đã nhập thử 158 mục bằng `tools/nhan_ban_dich.py` từ ZIP bàn giao: **0 lỗi token, 0 trùng/khác ID, 0 Unicode lỗi**. Có 4 cảnh báo rà từ điển: `Awesome`, `Amazing`, `Wrap`, `Return` là từ thường trong câu, không phải tên Move cần giữ trong ngữ cảnh này.
+## Quy chuẩn
 
-**Chưa test game, chưa vá font hoặc repack MSBT/CX**, font gốc thiếu 100–108 glyph tiếng Việt tùy kiểu. 158 câu vẫn ở trạng thái `ban_nhap`; việc đo chữ 3DS, kiểm giọng đúng NPC và test màn hình cần làm sau.
+Giữ nguyên EN tên Pokémon, item, Move/Skill, tên riêng và thuật ngữ/chế độ chính; dịch lời thoại, menu, hướng dẫn, trạng thái thường sang tiếng Việt NFC. Hài hước Gen Z vừa phải, trung thành ngữ cảnh; không tự nhận diện người nói từ tên label. Mọi mã `{CTRL:hex}` phải bất biến.
+
+## Chất lượng & hạn chế
+
+Toàn bộ 558 mục đã được kiểm tra ID và thứ tự token, sau đó nhập qua **công cụ importer của bộ giao**, QA văn bản đạt. **Chưa thử trên 3DS, chưa sửa font, chưa repack MSBT/CX, chưa có patch chơi được**. Các mục vẫn ở trạng thái `ban_nhap` và có thể phải chỉnh khi kiểm tra kích cỡ khung thoại thật.
+
+Gói bàn giao CP005 đầy đủ có bản gộp 558 mục, corpus đã nhập 6.159 record, file CSV đối chiếu Anh–Việt và báo cáo QA, được cung cấp trong cuộc hội thoại.
