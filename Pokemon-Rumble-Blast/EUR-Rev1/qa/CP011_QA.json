@@ -1,0 +1,32 @@
+{
+  "revision_count": 57,
+  "by_table": {
+    "kaiwa": 22,
+    "makuai": 10,
+    "StageDesc": 3,
+    "NoticeDesc": 9,
+    "main": 4,
+    "prefix": 2,
+    "WazaDesc": 7
+  },
+  "base_total": 1932,
+  "total_source_records": 6159,
+  "control_token_preserved": true,
+  "nfc": true,
+  "placeholder_preserved": true,
+  "exact_new_ids": 0,
+  "remaining_original_translation_ids": 0,
+  "max_line_length": 33,
+  "lines_over_40": 0,
+  "status": "Editorial revision, not game QA",
+  "notes": [
+    "Speaker IDs in labels are scene turn ordinals; do not infer immutable character identity.",
+    "Confirm Pawniard at NoticeDesc #00123 in actual scene.",
+    "Cobalion changes from ta/ngươi to tôi/bạn in redemption arc intentionally."
+  ],
+  "importer_pass": true,
+  "importer_accepted": 1932,
+  "importer_remaining": 0,
+  "term_warnings": 25,
+  "cumulative_in_zip_sha256": "38e4f3f297ad254981201f3fd942be56693bc312cff1a534b1ea991c1acb78b0"
+}
