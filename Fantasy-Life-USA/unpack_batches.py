@@ -13,6 +13,8 @@ inputs = [
      "84870069b5a459d088c5e852cdb88e87c7d07ae968369896868fd2e6e9a5e471", 100),
     ("cp002-200.jsonl.bz2.b64", bz2.decompress, "cp002-new-200.jsonl",
      "8bc732e85e7542db83a920e4dd7189662e4d33d0fc633642e413a9c2385a0c94", 200),
+    ("cp003-200.jsonl.bz2.b64", bz2.decompress, "cp003-new-200.jsonl",
+     "dcfd61bdd206f2ffc0beaecc9c8fa1ec6722a7baa121f3def6d333a3052dfd46", 200),
 ]
 all_data = bytearray()
 ids = set()
@@ -30,7 +32,7 @@ for filename, decompressor, outname, sha, count in inputs:
     (root / outname).write_bytes(data)
     all_data.extend(data)
     print("Restored:", outname, count, "IDs")
-assert len(ids) == 300
-out = root / "merged-001-003.jsonl"
+assert len(ids) == 500
+out = root / "merged-001-005.jsonl"
 out.write_bytes(all_data)
-print("PASS: 300 unique translations =>", out)
+print("PASS: 500 unique translations =>", out)
