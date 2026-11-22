@@ -19,3 +19,12 @@
 ## QA trong các đợt tới
 
 Nguồn chỉ báo `speaker=unknown`; không tuyên bố đã lập bảng quan hệ NPC đầy đủ. Khi có cảnh/gameplay thật, lập bảng **speaker → người nghe → vai vế → xưng/hô → phong cách → ví dụ → độ tin cậy**. Câu nói đùa phải giữ ý gốc, tránh nhồi meme, không dùng dấu vô tội vạ. Giữ mọi `{CTRL:hex}` nguyên vị trí tương đối và kiểm thử các lựa chọn Yes/No trên màn hình.
+
+
+## Bổ sung CP003 — Thông báo và Joyne Plaza
+
+- Hệ thống lưu/xóa/SD: câu ngắn, dùng **bạn** khi cần, không tạo cảm giác lỗi chỉ vì đùa.
+- Tin nhắn online và cảnh báo quyền riêng tư: giọng lịch sự, rõ ràng; giữ `StreetPass`, `Ally Mode`, `Link Mode`, `Parental Controls`, `Joyne Plaza`.
+- `EN_A`: Ally Mode, Donatella L.C. · `EN_B`: Link Mode, Dee Elle C. Giữ riêng đúng nguồn.
+- Mô tả vũ khí: cho phép dí dỏm đúng tinh thần nguyên tác, nhưng không bịa thuộc tính, điều kiện nhận vật phẩm hay tăng sức mạnh.
+- `speaker=unknown` nên không tự gán **thầy–trò**, **anh–em**, **bệ hạ–thần** ở những thông báo này.
