@@ -1,25 +1,28 @@
 # Fantasy Life (USA) — Việt hóa Votri Valley
 
-**Checkpoint 006 HOÀN TẤT — 23/11/2026**
+**Checkpoint 007 hoàn thành — 23/11/2026**
 
-- Bộ bàn giao: `FantasyLife-USA-BoBanGiaoChoBenDich-2026-11-22.zip`, Title ID `0004000000113200`, 34.812 mục nguồn.
-- **Đã dịch 6.500 / 34.812 (18,67%)**, còn **28.312**. Đây là tỷ lệ trên *các ID trong bộ nguồn*, không phải % game/ROM đã được vá.
-- CP001–004: 2.500 ID; CP005: **2.000 ID**; CP006: **2.000 ID**.
-- CP006 gồm **500 + 500 + 100 + 300 + 600**: CP006a (0046–0050), CP006b (0051–0055), CP006c-01 (0056), CP006c-02 (0057–0059), **CP006c-03 (0060–0065)**.
-- Mọi tệp trên nhánh riêng **`vh/fantasy-life-usa`**, không sửa `main`.
+- Bộ nguồn: `FantasyLife-USA-BoBanGiaoChoBenDich-2026-11-22.zip`, Title ID `0004000000113200`, **34.812 ID**.
+- **Đã dịch/QA cấu trúc 8.500 / 34.812 ID (24,42%)**, còn **26.312**.
+- CP001–CP006: 6.500 ID. **CP007: thêm 2.000 ID.**
+- Đây là tiến độ dịch **bộ chuỗi bàn giao**, **không phải tỷ lệ ROM chơi được**.
+- Nhánh riêng `vh/fantasy-life-usa`; không sửa `main`.
 
-## Nội dung của 600 câu CP006c-03 (0060–0065)
+## CP007 — Phạm vi đã hoàn thành
 
-- 0060: Furlin/Fluffkin họa sĩ đang yêu, Tailor học nghề, bé mê chiến binh, quý cô mê Lord Leo.
-- 0061: Lord Leo; Sir Loin mê nấu thịt; nghiên cứu Tribal Tykes, Strongtaur, Shadow Protectors; bà cụ thử Fuzzband, Miracle và Hot Spring Egg.
-- 0062: Tate mê nấm và Broccoli; Angler học câu cá; Furlin/Fluffkin mê mỹ thực; người lính sợ Dark Wisps.
-- 0063: người lính luyện đánh Darkzine/Calamitus; Daphne/Napollon; cô bé thích côn trùng; bà nội trợ và Remote Island Honey.
-- 0064: Divine Pods; ông thợ đa nghề; bộ sưu tập càng/mai cua; nhật ký nhiệm vụ bắt đầu.
-- 0065: các mục tóm tắt nhiệm vụ NPC, giữ đúng ID, Rank nghề, tên item, số lượng/địa danh.
+| Nguồn | Số ID được duyệt | Nội dung |
+|---|---:|---|
+| 0066–0069 | 348 | Tóm tắt nhiệm vụ, NPC, item và điều kiện |
+| 0070–0071 | **0 (HOLD 200)** | Chuỗi debug/bản đồ phiên âm Nhật, bản Anh bị dịch thô, **không được coi đã dịch** |
+| 0072–0076 | 446 | UI, thông báo, mô tả, lời thoại và nhãn kỹ thuật |
+| 0077–0083 | 700 | Quest/Event nội bộ, giữ ID/mã event |
+| 0084–0088 | 500 | Challenge nghề: Angler, Hunter, Blacksmith, Woodcutter, Tailor, Paladin |
+| 0089 | 6/100 | Paladin/Alchemist Challenge đầu gói |
+| **Tổng CP007** | **2.000** | Chỉ các ID đã đối chiếu cấu trúc nguồn |
 
-**Quy tắc:** giữ tiếng Anh cho tên riêng, Life, item, skill, thuật ngữ chính; tiếng Việt tự nhiên, có dấu, vui đúng người nói. Giữ riêng EN_A/EN_B và toàn bộ token `{CTRL:hex}` đúng chuỗi và thứ tự. Không tự gán quan hệ/thân phận khi nguồn không xác nhận.
+**Cảnh báo dữ liệu:** Gói `0070–0071` có các chuỗi nguồn vô nghĩa (ví dụ “rice impossible Dragon”) và địa danh không rõ. Không được đoán hoặc đưa bản nháp của chúng vào bản game. Tệp `HOLD-0070-0071-NOT-APPROVED.csv` để bảo lưu và kiểm sau, **không nằm trong bảng dịch chính**. Một số string debug/UI ở `0072–0074` cũng cần xác minh ngữ nghĩa theo cảnh game.
 
-## Khôi phục toàn bộ bảng dịch
+## Khôi phục toàn bộ 8.500 bản dịch
 
 Trong thư mục `Fantasy-Life-USA`, chạy:
 
@@ -27,25 +30,22 @@ Trong thư mục `Fantasy-Life-USA`, chạy:
 python3 unpack_batches.py
 ```
 
-Chương trình dùng thư viện chuẩn Python giải nén và **kiểm SHA-256** tất cả checkpoint trong `translations/`, chống trùng ID và ô dịch rỗng, rồi tạo:
+Công cụ dùng Python stdlib để giải nén các file bzip2/gzip + base64 ở `translations/`, kiểm SHA-256, bản dịch rỗng và ID trùng rồi tạo:
 
-- `translations/cp006c03-new-600.jsonl` — 600 câu mới.
-- `translations/cp006-complete-2000.jsonl` — toàn bộ **2.000 câu CP006**.
-- `translations/cp005-complete-2000.jsonl` — toàn bộ 2.000 câu CP005.
-- **`translations/merged-001-065.jsonl` — 6.500 ID tích lũy.**
+- `translations/cp007-new-2000.jsonl` — 2.000 ID mới.
+- `translations/merged-CP007-8500.jsonl` — 8.500 ID được duyệt, **không liên tiếp** vì chưa làm 0070–0071.
+- Các file checkpoint cũ như `cp005-complete-2000.jsonl`, `cp006-complete-2000.jsonl`.
 
-Dữ liệu dạng JSONL `{"id":"FL-USA::...","vi":"bản dịch"}`, phải ghép với `01_CAN_DICH.jsonl` trong bộ bàn giao theo `id`. Không viết đè các trường `source`, `raw_hex`, `controls_hex`, `references`, `length_bindings` hoặc `alias_ids`.
+**SHA-256 CP007 mới:** `52b047c193a310f7942c78b4409dab9d217c1982ea0110798c95677b0ad40cb8`.
 
-**SHA-256 CP006c-03 (600 mục):** `edac3870265815e1e62dfe438075610ce77becfe5781dae18b40b7d1ace2152b`.
+Mỗi dòng chứa `{"id":"FL-USA::...","vi":"..."}`. Ghép theo ID vào `01_CAN_DICH.jsonl` của nguồn gốc; không sửa `source`, `raw_hex`, `controls_hex`, `references`, `length_bindings`, `alias_ids`.
 
-**SHA-256 CP006 đầy đủ (2.000 mục):** `b49cbcc488a705ab2eba24d96f5593d4d87d2b785822d6dc7685007c1fdc18a5`.
+## Phong cách và giới hạn
 
-## QA và giới hạn
+Giữ tên riêng, item, skill, Life, Rank, Bounty và địa danh bằng tiếng Anh. Diễn đạt lời Việt có dấu, gọn, gần gũi, hài đúng nhân vật; thông báo và Quest/Event debug dịch theo chức năng. Giữ nguyên biến thể `EN_A/EN_B`, mọi `{CTRL:hex}` đúng giá trị/thứ tự và marker màu/nhánh giới tính.
 
-- Đối chiếu **6.500/6.500 ID** với bộ nguồn: không sai ID, không trùng, không có câu rỗng, không mất/đảo token, Unicode NFC chuẩn.
-- Riêng 600 câu mới đã kiểm **4.338 token**; tên item bọc marker màu giữ đúng và số lượng/phần thưởng không sai chữ số. Dịch đủ 362 mục EN_A và 238 EN_B.
-- Kiểm tra cấu trúc **không thay cho QA ngữ nghĩa hoặc QA giao diện**: `speaker=unknown` phải đối chiếu scene khi chơi, token xuống trang phải đo theo font/pixel width.
-- **Chưa có patch font tiếng Việt hoặc RomFS/CIA chạy được trên Nintendo 3DS.** Không ghi CP006 là bản game đã Việt hóa 18,67%.
-- Xem `CHECKPOINT-006-complete.md`, `QA-006-complete.md`, `NGOI_XUNG_CP006.md`, `ISSUES-006.md`.
+**QA cấu trúc:** 2.000/2.000 ID đúng nguồn, không trùng 6.500 ID cũ, 5.814 token mới nguyên vẹn, Unicode NFC và literal markup/newline đúng nguồn.
 
-**Tiếp theo:** gói `0066_hoi_thoai_va_huong_dan.txt`, mục thứ **6.501**.
+**CHƯA KIỂM:** font Việt trên 3DS; chiều rộng/tràn khung và phân trang; speaker→target/ngôi xưng thực tế, nhánh runtime nam/nữ; tên kỹ thuật Nhật bị dịch thô. Chưa có patch RomFS/CIA.
+
+**Tiếp theo:** `0089` mục thứ 7–100, rồi `0090` và các gói tiếp. Gói 0070–0071 phải xử lý lại riêng khi có nguồn Nhật hoặc màn hình thật. Xem `CHECKPOINT-007.md`, `QA-007.md`, `ISSUES-007.md`, `NGOI_XUNG_CP007.md`.
