@@ -20,7 +20,7 @@
 | 0089 | 6/100 | Paladin/Alchemist Challenge đầu gói |
 | **Tổng CP007** | **2.000** | Chỉ các ID đã đối chiếu cấu trúc nguồn |
 
-**Cảnh báo dữ liệu:** Gói `0070–0071` có các chuỗi nguồn vô nghĩa (ví dụ “rice impossible Dragon”) và địa danh không rõ. Không được đoán hoặc đưa bản nháp của chúng vào bản game. Tệp `HOLD-0070-0071-NOT-APPROVED.csv` để bảo lưu và kiểm sau, **không nằm trong bảng dịch chính**. Một số string debug/UI ở `0072–0074` cũng cần xác minh ngữ nghĩa theo cảnh game.
+**Cảnh báo dữ liệu:** Gói `0070–0071` có các chuỗi nguồn vô nghĩa (ví dụ “rice impossible Dragon”) và địa danh không rõ. Không được đoán hoặc đưa bản nháp của chúng vào bản game. Tệp `HOLD-0070-0071-NOT-APPROVED.csv.bz2.b64` (giải base64 + bzip2 để lấy CSV) để bảo lưu và kiểm sau, **không nằm trong bảng dịch chính**. Một số string debug/UI ở `0072–0074` cũng cần xác minh ngữ nghĩa theo cảnh game.
 
 ## Khôi phục toàn bộ 8.500 bản dịch
 
