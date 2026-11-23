@@ -31,9 +31,12 @@ inputs = [
      "c1e1a2ffda6213db043c5e23ef2afc77ac38bfe29a71772991246d87974ed220", 100),
     ("cp006c02-300.jsonl.bz2.b64", bz2.decompress, "cp006c02-new-300.jsonl",
      "8ba564ad0377ce51afd72deb42590abefd892d603b234c05a42de0899b905b04", 300),
+    ("cp006c03-600.jsonl.bz2.b64", bz2.decompress, "cp006c03-new-600.jsonl",
+     "edac3870265815e1e62dfe438075610ce77becfe5781dae18b40b7d1ace2152b", 600),
 ]
 all_data = bytearray()
 cp005_data = bytearray()
+cp006_data = bytearray()
 ids = set()
 for filename, decompressor, outname, sha, count in inputs:
     packed = base64.b64decode((root / filename).read_text(encoding="ascii").strip(), validate=True)
@@ -50,11 +53,16 @@ for filename, decompressor, outname, sha, count in inputs:
     all_data.extend(data)
     if filename.startswith('cp005'):
         cp005_data.extend(data)
+    if filename.startswith('cp006'):
+        cp006_data.extend(data)
     print("Restored:", outname, count, "IDs")
-assert len(ids) == 5900
+assert len(ids) == 6500
 assert len(cp005_data.decode('utf-8').splitlines()) == 2000
 assert hashlib.sha256(cp005_data).hexdigest() == '309d868dc821d859cc587f5b8a80e435b1d25fb54bdaa47acc023c0a7adb3ce0'
 (root / 'cp005-complete-2000.jsonl').write_bytes(cp005_data)
-out = root / "merged-001-059.jsonl"
+assert len(cp006_data.decode('utf-8').splitlines()) == 2000
+assert hashlib.sha256(cp006_data).hexdigest() == 'b49cbcc488a705ab2eba24d96f5593d4d87d2b785822d6dc7685007c1fdc18a5'
+(root / 'cp006-complete-2000.jsonl').write_bytes(cp006_data)
+out = root / "merged-001-065.jsonl"
 out.write_bytes(all_data)
-print("PASS: 5900 unique translations =>", out)
+print("PASS: 6500 unique translations =>", out)
