@@ -1,43 +1,41 @@
 # Fantasy Life (USA) — Việt hóa Votri Valley
 
-**Checkpoint 005a — 23/11/2026 · phần 1 của CP005**
+**Checkpoint 005b — 23/11/2026 · phần 2 của CP005**
 
-- Nguồn: `FantasyLife-USA-BoBanGiaoChoBenDich-2026-11-22.zip` · Title ID `0004000000113200` · **34.812 mục nguồn**.
-- Đã dịch thật **3.200 / 34.812 ID (9,19%)**: CP001 100 · CP002 200 · CP003 200 · CP004 2.000 · **CP005a 700** (gói 0026–0032).
-- Còn **31.612 ID**. Mục tiêu CP005 là 2.000 mục mới; hiện mới đạt 700, cần **thêm 1.300** để kết thúc CP005. Không gọi CP005 là hoàn thành.
-- Giữ toàn bộ dữ liệu trên nhánh riêng **`vh/fantasy-life-usa`**, không sửa `main`.
+- Bộ nguồn: `FantasyLife-USA-BoBanGiaoChoBenDich-2026-11-22.zip`, Title ID `0004000000113200`, **34.812 mục**.
+- **Đã dịch 4.100 / 34.812 ID (11,78%)**: CP001 100 · CP002 200 · CP003 200 · CP004 2.000 · CP005a 700 · **CP005b 900**.
+- Còn **30.712 ID**.
+- CP005 đặt mục tiêu 2.000 câu mới: đã hoàn thành 700 + 900 = 1.600; **còn 400 câu**, chưa khép CP005.
+- Giữ thay đổi trên nhánh riêng `vh/fantasy-life-usa`, không sửa `main`.
 
-## Nội dung CP005a
+## CP005b — các gói 0033–0041
 
-Gói 0026–0027: hướng dẫn Life, Special Skill, Mystic Skill và các tính năng hệ thống. Gói 0028: biến thể EN_B God Mode/God Skill/Link Mode/Magician và mô tả item. Gói 0029: thư của NPC và các Master. Gói 0030: mô tả skill và hội thoại. Gói 0031–0032: thoại NPC ở Castele và các biến thể tương ứng.
+- 0033–0036: Big Egg, Mustard, Gaites, Samantha, hội thoại nhiệm vụ với nhiều nhánh nhận/từ chối/giao/để sau.
+- 0037–0039: thoại đời thường, Farley, các yêu cầu chế tạo, Tufts, mèo thích cá và chó Barker.
+- 0040: khách mê Barley Juice/thịt, rau của Farley, Harmony mê nội thất u ám, lũ Radishys.
+- 0041: Radishellas, người đội hòm thư thất tình, nhà phê bình ẩm thực Alfredo, bà may đồ cho cháu gái.
+- Giữ riêng biến thể `EN_A`/`EN_B` theo ID, nhất là tên item `Super`/`Superior`.
 
-## Khôi phục 3.200 mục
+## Khôi phục 4.100 bản dịch
 
-Tại thư mục `Fantasy-Life-USA` chạy:
+Từ thư mục `Fantasy-Life-USA` chạy:
 
 ```bash
 python3 unpack_batches.py
 ```
 
-Script đọc 5 bản dịch nén (CP001/CP002/CP003/CP004/CP005a) trong `translations/`, đối chiếu SHA-256 và bảo đảm 3.200 ID không trùng, rồi tạo:
+Script giải nén và kiểm SHA-256 các tệp dịch CP001–CP005b, kiểm 4.100 ID duy nhất, tạo `translations/merged-001-041.jsonl` cùng bản riêng từng đợt. Dữ liệu mỗi dòng: `{"id":"FL-USA::...", "vi":"bản dịch"}`.
 
-- `translations/batch-001.jsonl`: 100 ID.
-- `translations/cp002-new-200.jsonl`: 200 ID.
-- `translations/cp003-new-200.jsonl`: 200 ID.
-- `translations/cp004-new-2000.jsonl`: 2.000 ID.
-- `translations/cp005a-new-700.jsonl`: 700 ID.
-- `translations/merged-001-032.jsonl`: **3.200 ID tích lũy**.
+Ghép theo `id` với `01_CAN_DICH.jsonl` trong ZIP nguồn; giữ nguyên `source`, `raw_hex`, `alias_ids`, `references`, `length_bindings`. Không đưa JSONL nén trực tiếp vào RomFS.
 
-Mỗi dòng có dạng `{"id":"FL-USA::...", "vi":"bản dịch tiếng Việt có dấu"}`. Ghép theo `id` với `01_CAN_DICH.jsonl` của nguồn, giữ nguyên source, references, alias, raw_hex và các trường nhị phân.
+## Quy tắc và chất lượng
 
-## Quy tắc cố định
+- Giữ tên nhân vật, tên vùng, item, skill, Life và thuật ngữ quan trọng bằng tiếng Anh.
+- Việt ngữ có dấu, gần gũi, hài hước đúng cá tính NPC. Không tự suy đoán quan hệ, tuổi hoặc giới tính khi thiếu ngữ cảnh.
+- Giữ nguyên mọi token `{CTRL:hex}` theo đúng số lượng và thứ tự; giữ đủ các biến thể nút lựa chọn, marker giới tính và nội dung xuống dòng.
+- **QA tĩnh CP005b:** 900/900 ID đạt, 0 trùng, 0 bản dịch rỗng, 0 sai danh sách token; Unicode NFC PASS. SHA-256 dữ liệu CP005b giải nén: `d3146947fbbcfea183fb6cd095138f9a055cfb9bf84c5e5190e779d62464de7b`.
+- **Chưa kiểm** font Việt, pixel width/overflow, ngôi xưng theo scene, các nhánh runtime, việc build CIA và patch.
 
-- Giữ tên riêng, Life, item, skill, địa danh và thuật ngữ chính bằng tiếng Anh.
-- Ngôn ngữ Việt tự nhiên, dí dỏm theo nhân vật; cảnh báo hệ thống dịch nghiêm túc.
-- Các token `{CTRL:hex}` phải giữ đúng danh sách và thứ tự; nút bấm và các marker tô màu/tên chèn vào mệnh đề hợp nghĩa.
-- Không tự gộp EN_A/EN_B: Creator/God, Wizard/Magician, Ally/Link Mode, Damien/Daemon, Furlin/Fluffkin theo nguồn gốc.
-- `speaker=unknown` nhiều đoạn; giọng và ngôi xưng tạm theo thư ký tên, cần QA theo cảnh game.
+Tài liệu chi tiết: `CHECKPOINT-005b.md`, `QA-005b.md`, `NGOI_XUNG.md`, `NGOI_XUNG_CP005b.md`.
 
-**QA tĩnh CP005a:** 700/700 có bản dịch, đủ token, 0 ID trùng, Unicode NFC. **Chưa QA pixel/font/ngắt trang trên 3DS, chưa có patch/ROM chơi được.** Xem `CHECKPOINT-005a.md` và `QA-005a.md`.
-
-**Tiếp theo:** gói `0033`, từ mục thứ **3.201**. Đây là hội thoại nhiều nhánh điều kiện/nút chọn, ưu tiên dịch đủ nội dung từng nhánh hơn là cố đủ chỉ tiêu 2.000 bằng cách chép lại câu nguồn.
+**Tiếp theo:** gói 0042, từ mục thứ **4.101**; cần 400 mục nữa để hoàn thành đích CP005.
