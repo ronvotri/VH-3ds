@@ -25,6 +25,7 @@ inputs = [
      "052ed3544734b7b358d86a655298e0e5d7cd238688d3c2bfe4ffce8fe456f738", 400),
 ]
 all_data = bytearray()
+cp005_data = bytearray()
 ids = set()
 for filename, decompressor, outname, sha, count in inputs:
     packed = base64.b64decode((root / filename).read_text(encoding="ascii").strip(), validate=True)
@@ -39,8 +40,13 @@ for filename, decompressor, outname, sha, count in inputs:
         ids.add(row["id"])
     (root / outname).write_bytes(data)
     all_data.extend(data)
+    if filename.startswith('cp005'):
+        cp005_data.extend(data)
     print("Restored:", outname, count, "IDs")
 assert len(ids) == 4500
+assert len(cp005_data.decode('utf-8').splitlines()) == 2000
+assert hashlib.sha256(cp005_data).hexdigest() == '309d868dc821d859cc587f5b8a80e435b1d25fb54bdaa47acc023c0a7adb3ce0'
+(root / 'cp005-complete-2000.jsonl').write_bytes(cp005_data)
 out = root / "merged-001-045.jsonl"
 out.write_bytes(all_data)
 print("PASS: 4500 unique translations =>", out)
