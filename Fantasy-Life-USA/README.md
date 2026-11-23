@@ -1,43 +1,55 @@
 # Fantasy Life (USA) — Việt hóa Votri Valley
 
-**Checkpoint 008a — 23/11/2026 · CP008 chưa hoàn thành**
+**Checkpoint 008 HOÀN TẤT — 24/11/2026**
 
-- Bộ nguồn: `FantasyLife-USA-BoBanGiaoChoBenDich-2026-11-22.zip` · Title ID `0004000000113200` · **34.812 mục**.
-- **10.110 / 34.812 ID đã biên dịch và QA cấu trúc (29,04%)**. Còn **24.702 ID**.
-- CP001–CP007: 8.500; **CP008a +1.610**. Mục tiêu riêng CP008 là 2.000 ID; **còn 390**.
-- Các gói `0070–0071` có **200 mục HOLD** vì nguồn debug/map Anh dịch thô không xác định được nghĩa: không nằm trong bảng gộp, không tính vào progress.
-- Nhánh làm việc riêng `vh/fantasy-life-usa`; không sửa `main`.
+- Nguồn bàn giao: `FantasyLife-USA-BoBanGiaoChoBenDich-2026-11-22.zip` · Title ID `0004000000113200` · **34.812 ID**.
+- **Đã dịch/QA cấu trúc 10.500 / 34.812 (30,16%)**; còn **24.312**.
+- **CP008 đủ 2.000 ID mới**: CP008a 1.610 Challenge/Quest/UI; CP008b 390 hội thoại nhiệm vụ.
+- CP008b: `0105` mục **17–100** (84), toàn bộ `0106`, `0107`, `0108` (300), `0109` mục **1–6** (6).
+- 200 ID `0070–0071` thuộc nhóm bản đồ/debug tiếng Anh thiếu nghĩa vẫn **HOLD**, không gộp vào bản được duyệt; các ID trong danh sách gộp không liên tiếp vì đoạn này bị để trống.
+- Là % trên **chuỗi trong bộ bàn giao**, **không phải** tỷ lệ ROM đã được vá.
+- Tất cả thay đổi chỉ trên nhánh `vh/fantasy-life-usa`. Không thay `main`.
 
-## Nội dung CP008a
+## Nội dung CP008b
 
-- **1.412 Challenge** (gói `0089` mục 7–100; `0090–0102`; `0103` mục 1–18). Các Life cần hạ quái, sử dụng skill, chế tạo, câu cá, thu vật phẩm, nhận Bounty và nâng kỹ năng. Giữ nguyên tên skill, Life, item, Rank và label Challenge.
-- **198 mục Quest/UI/License/Story** (gói `0103` mục 19–100, `0104` và `0105` mục 1–16). Chỉ diễn giải các nhãn debug theo chức năng, không tự gán nhân vật hoặc cốt truyện.
-- Đã sửa mẫu câu tiếng Việt máy móc trong Challenges (số lượng, chất lượng, loại món, kỹ thuật, địa điểm); rà đặc biệt nội dung bọc màu.
+- **0105:** hướng dẫn Other Requests, Hansel và Gaites, sữa/milkshake, nông dân Carrottys/Carrotys, nhiệm vụ chống quái và vật phẩm.
+- **0106:** Sweet Corn/Sweetcorn, Princess Laura, Professor Hughes, Paladin chống buồn ngủ, nông sản, Tufts, Barker, bưu điện và trang trí.
+- **0107:** Radishellas, người đội hòm thư thất tình, các thợ thủ công, rạp xiếc bọ chét, các loại Charm, nhà tiên tri, pie/pudding và cướp biển.
+- **0108:** Dragon Meat, Cashew/Honey, Bomba, Pepperonita, Calumnus, chương trình dẹp quái Tortuga, Fluffin và các nghiên cứu carp.
+- **0109 #1–6:** Woodcutter tìm Fire Log, thuốc chuẩn bị đi săn kho báu và người tiên tri nghiên cứu Dragonflies.
 
-## Khôi phục bảng dịch trên GitHub
+Giữ tiếng Anh tên NPC, Life, item, skill, Rank, Bounty và địa danh. Lời Việt gần gũi, dí dỏm theo đúng nội dung gốc; giọng hội thoại khác với menu kỹ thuật. Giữ EN_A/EN_B theo từng ID.
 
-Ở thư mục `Fantasy-Life-USA`, chạy:
+## Khôi phục bản dịch đã duyệt
+
+Trong thư mục `Fantasy-Life-USA`:
 
 ```bash
 python3 unpack_batches.py
 ```
 
-Công cụ giải nén gzip/bzip2 từ các file base64 trong `translations/`, kiểm SHA-256, ID trùng, câu rỗng, sau đó xuất:
-- `translations/cp008a-new-1610.jsonl` — 1.610 ID mới.
-- **`translations/merged-CP008a-10110.jsonl` — 10.110 ID đã duyệt, không liên tục vì 0070–0071 chưa làm**.
-- Các checkpoint trước, trong đó `cp005-complete-2000.jsonl`, `cp006-complete-2000.jsonl`.
+Script (chỉ dùng thư viện chuẩn Python) giải nén các tệp `.bz2.b64`/`.gz.b64` trong `translations/`, kiểm SHA-256, số ID và ô dịch rỗng, rồi tạo:
 
-Tệp CP008a lưu GitHub: `translations/cp008a-1610.jsonl.bz2.b64` (SHA-256 sau giải nén `083720e8654a1c53dc95d900c466133a5b4d6b3e31d1aaefd17ff61e80de750d`).
+- `translations/cp008b-new-390.jsonl` — 390 mục CP008b.
+- **`translations/cp008-complete-2000.jsonl`** — trọn 2.000 mục CP008.
+- **`translations/merged-CP008-10500.jsonl`** — 10.500 ID tích lũy.
+- Các checkpoint CP005 và CP006 riêng cũng được khôi phục.
 
-Mỗi dòng JSONL là `{"id":"FL-USA::...","vi":"..."}`, cần ghép vào `01_CAN_DICH.jsonl` gốc theo `id`. Không thay `source`, `raw_hex`, `controls_hex`, `references`, `length_bindings`, `alias_ids`.
+Mỗi dòng có dạng `{"id":"FL-USA::...","vi":"bản dịch"}`. Ghép theo ID với `01_CAN_DICH.jsonl`; không ghi đè `raw_hex`, `controls_hex`, `references`, `alias_ids`, `length_bindings` hoặc văn bản nguồn.
 
-## Chất lượng và giới hạn
+**SHA-256 CP008b 390 mục:** `9640411f905472d66a00225a5ac0df777802835e0555d01fcb3d6d869556dec5`.
 
-- **QA cấu trúc CP008a:** 1.610 ID hợp lệ và riêng biệt, 0 ô dịch rỗng, 0 sai token; kiểm **12.735 token** đúng nội dung và thứ tự, Unicode NFC, 0 sai tên item trong marker màu, 0 sai số, 0 cảnh báo chiều dài thô.
-- **Không coi QA cấu trúc là QA văn phong 100% hoặc QA máy 3DS.** Challenge theo mẫu được rà sửa, nhưng vẫn cần kiểm từng scene, font glyph, phân trang và tràn khung.
-- Nguồn có nhiều `speaker=unknown`; xưng hô tạm, chưa có bảng quan hệ nhân vật đủ tin cậy.
-- **Chưa có patch font, bản RomFS/CIA hoặc build chơi được**.
+**SHA-256 CP008 2.000 mục:** `daeac626ec53a92aba0952cb36ca7c9638e977010ca3e7afbebcf1f01ccad6e6`.
 
-Tài liệu: `CHECKPOINT-008a.md`, `QA-008a.md`, `ISSUES-008a.md`, `NGOI_XUNG_CP008a.md`.
+## QA và giới hạn
 
-**Tiếp theo:** gói `0105` mục 17 trở đi (câu thứ 10.111 được duyệt nếu đạt); bổ sung **390 mục** để khép mục tiêu CP008. Vẫn cần quay lại xử lý riêng HOLD 0070–0071 khi có nguồn Nhật/ngữ cảnh game.
+- **QA tĩnh CP008b:** 390/390 ID có trong nguồn, không trùng các ID cũ; **5.531 token điều khiển** đúng nội dung và thứ tự, không rỗng, Unicode NFC và các đoạn tên item tô màu nguyên vẹn.
+- Toàn bộ 10.500 ID tích lũy đúng bộ 34.812 nguồn, không trùng.
+- 37 cảnh báo so chữ số thô đã được rà: gồm số viết chữ, dấu phân nghìn và token chia chữ số; một chỗ ghi thiếu đơn vị (1 nhúm Super Healing Powder, 0106#17) đã sửa trước bản chính.
+- **Chưa đo tràn pixel và ngắt trang trên 3DS:** các token ngắt dòng/trang giữ đúng thứ tự nhưng vị trí trong câu Việt là sơ bộ, cần test runtime trước khi vá ROM.
+- **Chưa xác nhận toàn bộ speaker/target và ngôi xưng bằng gameplay.** Bảng giọng nói hiện dựa vào nhóm thoại nguồn.
+- **Chưa có bản patch font/glyph tiếng Việt hoặc RomFS/CIA chơi được.**
+
+Tài liệu chi tiết: `CHECKPOINT-008-complete.md`, `QA-008b.md`, `NGOI_XUNG_CP008b.md`, `ISSUES-008b.md`.
+
+**Tiếp theo:** gói `0109`, bắt đầu từ **mục 7** (6 mục đầu đã dịch ở CP008b). Nhóm `0070–0071` HOLD cần đối chiếu nguồn Nhật/bản chơi riêng.
