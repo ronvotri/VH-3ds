@@ -1,47 +1,51 @@
 # Fantasy Life (USA) — Việt hóa Votri Valley
 
-**Checkpoint 006c-02 — 23/11/2026**
+**Checkpoint 006 HOÀN TẤT — 23/11/2026**
 
-- Bộ nguồn bàn giao `FantasyLife-USA-BoBanGiaoChoBenDich-2026-11-22.zip` · Title ID `0004000000113200` · **34.812 ID**.
-- **Đã dịch 5.900/34.812 (16,95%)**, còn **28.912**. Đây là mức bao phủ *bộ chuỗi bàn giao*, không khẳng định mọi chữ/ROM đã được Việt hóa.
-- CP001–CP004: 2.500; CP005: 2.000; CP006a: 500; CP006b: 500; CP006c-01: 100; **CP006c-02: 300** (gói 0057–0059).
-- Riêng CP006 đạt **1.400/2.000 câu**, còn 600 câu cho gói 0060–0065.
-- Dữ liệu trên nhánh **`vh/fantasy-life-usa`**, không sửa `main`.
+- Bộ bàn giao: `FantasyLife-USA-BoBanGiaoChoBenDich-2026-11-22.zip`, Title ID `0004000000113200`, 34.812 mục nguồn.
+- **Đã dịch 6.500 / 34.812 (18,67%)**, còn **28.312**. Đây là tỷ lệ trên *các ID trong bộ nguồn*, không phải % game/ROM đã được vá.
+- CP001–004: 2.500 ID; CP005: **2.000 ID**; CP006: **2.000 ID**.
+- CP006 gồm **500 + 500 + 100 + 300 + 600**: CP006a (0046–0050), CP006b (0051–0055), CP006c-01 (0056), CP006c-02 (0057–0059), **CP006c-03 (0060–0065)**.
+- Mọi tệp trên nhánh riêng **`vh/fantasy-life-usa`**, không sửa `main`.
 
-## Nội dung CP006c-02
+## Nội dung của 600 câu CP006c-03 (0060–0065)
 
-**Gói 0057:** Galaxy Apples, Divine Powder, Golden Apples, Ancient Orbs, Hot-Spring/Hot Spring Water, Penguin Eggs, Cherrybells, Dogosaurus Rex và Goddess Frappé/Goddess's Frappé.
+- 0060: Furlin/Fluffkin họa sĩ đang yêu, Tailor học nghề, bé mê chiến binh, quý cô mê Lord Leo.
+- 0061: Lord Leo; Sir Loin mê nấu thịt; nghiên cứu Tribal Tykes, Strongtaur, Shadow Protectors; bà cụ thử Fuzzband, Miracle và Hot Spring Egg.
+- 0062: Tate mê nấm và Broccoli; Angler học câu cá; Furlin/Fluffkin mê mỹ thực; người lính sợ Dark Wisps.
+- 0063: người lính luyện đánh Darkzine/Calamitus; Daphne/Napollon; cô bé thích côn trùng; bà nội trợ và Remote Island Honey.
+- 0064: Divine Pods; ông thợ đa nghề; bộ sưu tập càng/mai cua; nhật ký nhiệm vụ bắt đầu.
+- 0065: các mục tóm tắt nhiệm vụ NPC, giữ đúng ID, Rank nghề, tên item, số lượng/địa danh.
 
-**Gói 0058:** Heavenly Asparagus, Life-Force/Lifeforce Clusters, Mythical Meat, Superior/Super Glorious Dinner, Ancient Flowers, Black-Crab/Black Crab Shells, Good-Quality/Good Quality Rainbow Lamp, Fossilfish và Kevin.
+**Quy tắc:** giữ tiếng Anh cho tên riêng, Life, item, skill, thuật ngữ chính; tiếng Việt tự nhiên, có dấu, vui đúng người nói. Giữ riêng EN_A/EN_B và toàn bộ token `{CTRL:hex}` đúng chuỗi và thứ tự. Không tự gán quan hệ/thân phận khi nguồn không xác nhận.
 
-**Gói 0059:** Kevin, Goddess Carp/Goddess's Carp, Hermit's Drink, Calumnus, Golden Egg, Lord Damien/Lord Daemon, Yggdrasil Branch, Goldweeds, Remote Island Honey, Mushroom Medley, Timmy và nghệ sĩ Furlin/Fluffkin.
+## Khôi phục toàn bộ bảng dịch
 
-## Khôi phục toàn bộ 5.900 bản dịch
-
-Trong `Fantasy-Life-USA`, chạy:
+Trong thư mục `Fantasy-Life-USA`, chạy:
 
 ```bash
 python3 unpack_batches.py
 ```
 
-Script giải nén tất cả các bản CP001–CP006c-02 bằng thư viện chuẩn Python, kiểm SHA-256 và ID trùng, tạo các file riêng từng checkpoint và **`translations/merged-001-059.jsonl`** gồm 5.900 cặp `{"id":"FL-USA::...","vi":"..."}`.
+Chương trình dùng thư viện chuẩn Python giải nén và **kiểm SHA-256** tất cả checkpoint trong `translations/`, chống trùng ID và ô dịch rỗng, rồi tạo:
 
-Dữ liệu mới trên repo: `translations/cp006c02-300.jsonl.bz2.b64`, sau giải nén là `translations/cp006c02-new-300.jsonl` (300 ID).
+- `translations/cp006c03-new-600.jsonl` — 600 câu mới.
+- `translations/cp006-complete-2000.jsonl` — toàn bộ **2.000 câu CP006**.
+- `translations/cp005-complete-2000.jsonl` — toàn bộ 2.000 câu CP005.
+- **`translations/merged-001-065.jsonl` — 6.500 ID tích lũy.**
 
-SHA-256 của 300 dòng mới: `8ba564ad0377ce51afd72deb42590abefd892d603b234c05a42de0899b905b04`.
+Dữ liệu dạng JSONL `{"id":"FL-USA::...","vi":"bản dịch"}`, phải ghép với `01_CAN_DICH.jsonl` trong bộ bàn giao theo `id`. Không viết đè các trường `source`, `raw_hex`, `controls_hex`, `references`, `length_bindings` hoặc `alias_ids`.
 
-Các bản dịch chỉ được ghép theo `id` vào `01_CAN_DICH.jsonl` của nguồn, không sửa các trường `source`, `raw_hex`, `controls_hex`, `alias_ids`, `references`, `length_bindings`.
+**SHA-256 CP006c-03 (600 mục):** `edac3870265815e1e62dfe438075610ce77becfe5781dae18b40b7d1ace2152b`.
 
-## Chất lượng và giới hạn
+**SHA-256 CP006 đầy đủ (2.000 mục):** `b49cbcc488a705ab2eba24d96f5593d4d87d2b785822d6dc7685007c1fdc18a5`.
 
-- Dịch tự nhiên, vui đúng ngữ cảnh; giữ tiếng Anh tên riêng, địa danh, Life, item, skill, thuật ngữ chính.
-- Phân biệt `EN_A` và `EN_B` đúng từng ID; không tự đổi tên vật phẩm hay biến thể.
-- **QA cấu trúc:** 300/300 ID hợp lệ, không trùng 5.600 ID cũ, **2.334 token** `{CTRL:hex}` bảo toàn nguyên chuỗi và thứ tự, 0 rỗng, 0 sai Unicode NFC.
-- Một cảnh báo về lượng `One` đổi thành `1` trong tên tô màu bị ngắt trang `Goddess Frappé` (gói 0057 câu 89) đã kiểm; không thay giá trị số lượng.
-- Tên item/thuật ngữ trong marker giữ theo nguồn; không có bản dịch vượt ngưỡng chiều dài thô. **Kiểm giới hạn pixel/font là công việc riêng**, chưa được xác nhận.
-- Nguồn nhiều `speaker=unknown`, sổ ngôi xưng chỉ là phác thảo theo cụm thoại, cần QA theo cảnh thật.
-- **Chưa có bản patch RomFS/CIA hoặc font Việt chơi được trên 3DS**, chưa kiểm tràn chữ, phân trang/nhánh giới tính runtime.
+## QA và giới hạn
 
-Chi tiết: `CHECKPOINT-006c-02.md`, `QA-006c-02.md`, `NGOI_XUNG_CP006c-02.md` và `ISSUES-006c-02.md`.
+- Đối chiếu **6.500/6.500 ID** với bộ nguồn: không sai ID, không trùng, không có câu rỗng, không mất/đảo token, Unicode NFC chuẩn.
+- Riêng 600 câu mới đã kiểm **4.338 token**; tên item bọc marker màu giữ đúng và số lượng/phần thưởng không sai chữ số. Dịch đủ 362 mục EN_A và 238 EN_B.
+- Kiểm tra cấu trúc **không thay cho QA ngữ nghĩa hoặc QA giao diện**: `speaker=unknown` phải đối chiếu scene khi chơi, token xuống trang phải đo theo font/pixel width.
+- **Chưa có patch font tiếng Việt hoặc RomFS/CIA chạy được trên Nintendo 3DS.** Không ghi CP006 là bản game đã Việt hóa 18,67%.
+- Xem `CHECKPOINT-006-complete.md`, `QA-006-complete.md`, `NGOI_XUNG_CP006.md`, `ISSUES-006.md`.
 
-**Tiếp theo:** gói `0060_hoi_thoai_va_huong_dan.txt`, bắt đầu **ID thứ 5.901**. Mục tiêu thêm 600 câu để khép CP006, tiếp tục chỉ đếm câu đã thật sự biên dịch và QA.
+**Tiếp theo:** gói `0066_hoi_thoai_va_huong_dan.txt`, mục thứ **6.501**.
