@@ -1,50 +1,43 @@
 # Fantasy Life (USA) — Việt hóa Votri Valley
 
-**Checkpoint 006a — 23/11/2026 · CP006 đang thực hiện**
+**Checkpoint 006b — 23/11/2026 · CP006 chưa hoàn tất**
 
-- Bộ nguồn: `FantasyLife-USA-BoBanGiaoChoBenDich-2026-11-22.zip`, Title ID `0004000000113200`, 34.812 ID.
-- **Đã biên dịch 5.000 / 34.812 (14,36%)**, còn **29.812**.
-- CP001–004: 2.500; CP005a–c: 2.000; **CP006a: 500** (gói 0046–0050).
-- **CP006 đặt mục tiêu 2.000 câu mới, hiện chỉ có 500; còn 1.500 câu**, không ghi CP006 đã hoàn tất.
-- Toàn bộ thay đổi nằm trên nhánh **`vh/fantasy-life-usa`**, không thay `main`.
+- Bộ gốc: `FantasyLife-USA-BoBanGiaoChoBenDich-2026-11-22.zip`, Title ID `0004000000113200`, gồm **34.812 ID đã chọn để giao dịch**, chưa khẳng định bao phủ mọi chữ trong game.
+- **Đã dịch 5.500/34.812 ID (15,80%)**: CP001–004 2.500, CP005 2.000, CP006a 500, **CP006b 500**.
+- **Còn 29.312 ID**. Mục tiêu CP006 là 2.000 câu mới, hiện đạt **1.000/2.000**, cần thêm 1.000 câu ở gói 0056–0065 để khép.
+- Nhánh riêng **`vh/fantasy-life-usa`**; không ghi đè `main`.
 
-## Phạm vi CP006a
+## Nội dung CP006b (0051–0055)
 
-0046: đóng tàu lặn, Pepita, Honey & Roy, Postman mê hoa.
-0047: thầy bói, nội thất Barrel/Scarecrow, Cashew của Cocina Rica.
-0048: zombie Tortuga, Bomba, Pepperonita, tiên tri Calumnus.
-0049: Punching Palms/Jellings, hải tặc cầu hôn, Kevin và người trông trẻ.
-0050: Fluffin, phỏng vấn đổi Life của Maajiknight, bà cụ sưu tập kính và thợ săn kho báu.
+- 0051: thợ săn kho báu mê thịt rồng, nhà nghiên cứu Ornamental/Pirate/Evil Carp, Snoot's Emporium, Woodcutter.
+- 0052: ghép việc cho Alchemist, Tailor, Blacksmith; tiên tri Calumnus; người đưa thư và côn trùng/Jackals.
+- 0053: các nhiệm vụ của Zerk, Khubz mê cầu vồng và đầu bếp bị cả hội bạn của vợ đặt món.
+- 0054: dân chúng cần đánh quái nhưng để Dark Sultan nhận công, Chai và đồ nội thất Forest, Hội Calumnus, Mummies.
+- 0055: thợ săn kho báu nhát gan, người buôn đồ kỳ lạ, NPC cây nói ngọng, Paul mê pancake, Henrietta chăm gà.
 
-## Khôi phục bản dịch
+## Khôi phục **5.500 câu**
 
-Tại thư mục `Fantasy-Life-USA`, chạy:
+Tại `Fantasy-Life-USA`, chạy:
 
 ```bash
 python3 unpack_batches.py
 ```
 
-Bộ khôi phục giải nén 7 bản dịch CP001–CP006a, kiểm SHA-256, JSONL, tất cả ID độc nhất, rồi tạo:
+Script giải nén các bản dịch nén theo từng checkpoint, kiểm SHA-256, đối chiếu ID trùng và bản dịch rỗng, rồi tạo `translations/merged-001-055.jsonl` gồm **5.500 ID**. Ngoài các tệp cũ còn có:
+- `translations/cp006a-new-500.jsonl` — gói 0046–0050.
+- `translations/cp006b-new-500.jsonl` — gói 0051–0055.
+- `translations/cp006b-500.jsonl.bz2.b64` — bản nén CP006b trong GitHub.
 
-- `translations/batch-001.jsonl`: 100
-- `translations/cp002-new-200.jsonl`: 200
-- `translations/cp003-new-200.jsonl`: 200
-- `translations/cp004-new-2000.jsonl`: 2.000
-- `translations/cp005a-new-700.jsonl`: 700
-- `translations/cp005b-new-900.jsonl`: 900
-- `translations/cp005c-new-400.jsonl`: 400
-- `translations/cp005-complete-2000.jsonl`: 2.000 riêng CP005
-- `translations/cp006a-new-500.jsonl`: 500 câu mới
-- **`translations/merged-001-050.jsonl`: 5.000 câu tích lũy**
+Bảng JSONL giữ cặp `id` + `vi`; ghép qua `id` vào `01_CAN_DICH.jsonl` của bộ gốc. **Không thay `source`, `raw_hex`, `controls_hex`, `length_bindings`, `references` hoặc `alias_ids`.**
 
-Mỗi dòng JSONL là `{"id":"FL-USA::...", "vi":"bản Việt hóa"}`. Ghép theo `id` với `01_CAN_DICH.jsonl` trong ZIP nguồn, giữ nguyên `source`, `raw_hex`, `alias_ids`, `references`, `length_bindings`.
+## Quy luật và giới hạn QA
 
-## Quy tắc và QA
+Giữ tên riêng, Life, item, skill, thuật ngữ chính bằng tiếng Anh. Tiếng Việt có dấu, tự nhiên, hài đúng phong cách nhân vật. Giữ riêng biến thể `EN_A` và `EN_B` theo ID (CP006b: 257 EN_A, 243 EN_B). Token `{CTRL:hex}` giữ 100% giá trị và thứ tự.
 
-Giữ tiếng Anh tên riêng, địa danh, Life, item, skill và thuật ngữ chính; lời thoại Việt tự nhiên, vui đúng cá tính NPC; không tự chế cảnh và mối quan hệ khi `speaker=unknown`. Hai biến thể `EN_A`/`EN_B` giữ theo ID riêng. Tất cả token `{CTRL:hex}` phải bảo toàn.
+**QA tĩnh CP006b:** 500/500 ID nguồn hợp lệ, 0 ID trùng, 0 dịch rỗng, 0 token sai (3.506 token đã đối chiếu), 0 sai tên item trong marker màu, Unicode NFC PASS; 6 cảnh báo số được đối chiếu riêng do chữ số/chữ viết và dấu phân cách. Độ dài kiểm sơ bộ không phát hiện dòng >1,7 lần nguồn đồng thời dài trên 140 ký tự hiển thị.
 
-**QA cấu trúc CP006a:** 500 ID mới được xác minh nguồn, không trùng, không rỗng, token đúng nội dung và thứ tự, Unicode NFC. Đã kiểm 250 tên/thuật ngữ bọc marker màu (chuẩn hóa khoảng trắng do xuống dòng), và không thiếu bất kỳ trị số dạng số nào trong nguyên tác. Các cảnh báo kiểm đếm số do token còn được giữ trong báo cáo; chưa phải đánh giá ngữ nghĩa toàn bộ.
+**Chưa QA:** ánh xạ chính xác người nói (`speaker=unknown`), ngôi xưng qua cảnh game, giới hạn khung theo font thật, ngắt trang, font tiếng Việt trên 3DS và patch RomFS/CIA. **Đây chưa phải bản chơi được.**
 
-**CHƯA THỂ CHƠI TRÊN 3DS:** chưa vá font Việt, chưa đo chiều rộng pixel/khung thoại, chưa QA scene/ngôi xưng, chưa xuất patch RomFS/CIA.
+Xem `CHECKPOINT-006b.md`, `QA-006b.md`, `NGOI_XUNG_CP006b.md`.
 
-**Tiếp theo:** gói **0051**, câu thứ **5.001**. Xem `CHECKPOINT-006a.md`, `QA-006a.md`, `NGOI_XUNG_CP006a.md`.
+**Tiếp theo:** `0056_hoi_thoai_va_huong_dan.txt`, mục thứ 5.501, tiếp mục tiêu 2.000 câu CP006 mà không tính câu chưa được dịch/QA.
