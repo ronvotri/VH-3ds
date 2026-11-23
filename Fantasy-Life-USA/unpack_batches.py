@@ -41,11 +41,14 @@ inputs = [
      "9640411f905472d66a00225a5ac0df777802835e0555d01fcb3d6d869556dec5", 390),
     ("cp009a-445.jsonl.bz2.b64", bz2.decompress, "cp009a-new-445.jsonl",
      "5329d45ea3fa4122b06918697d005fbcddd9ffe83561175d39dca06350493586", 445),
+    ("cp009b-525.jsonl.bz2.b64", bz2.decompress, "cp009b-new-525.jsonl",
+     "e38269628a64ae4fe69632ab316909e2a0082978bbe1cc0077d789eb0d86e46e", 525),
 ]
 all_data = bytearray()
 cp005_data = bytearray()
 cp006_data = bytearray()
 cp008_data = bytearray()
+cp009_data = bytearray()
 ids = set()
 for filename, decompressor, outname, sha, count in inputs:
     packed = base64.b64decode((root / filename).read_text(encoding="ascii").strip(), validate=True)
@@ -66,8 +69,10 @@ for filename, decompressor, outname, sha, count in inputs:
         cp006_data.extend(data)
     if filename.startswith('cp008'):
         cp008_data.extend(data)
+    if filename.startswith('cp009'):
+        cp009_data.extend(data)
     print("Restored:", outname, count, "IDs")
-assert len(ids) == 10945
+assert len(ids) == 11470
 assert len(cp005_data.decode('utf-8').splitlines()) == 2000
 assert hashlib.sha256(cp005_data).hexdigest() == '309d868dc821d859cc587f5b8a80e435b1d25fb54bdaa47acc023c0a7adb3ce0'
 (root / 'cp005-complete-2000.jsonl').write_bytes(cp005_data)
@@ -77,7 +82,10 @@ assert hashlib.sha256(cp006_data).hexdigest() == 'b49cbcc488a705ab2eba24d96f5593
 assert len(cp008_data.decode('utf-8').splitlines()) == 2000
 assert hashlib.sha256(cp008_data).hexdigest() == 'daeac626ec53a92aba0952cb36ca7c9638e977010ca3e7afbebcf1f01ccad6e6'
 (root / 'cp008-complete-2000.jsonl').write_bytes(cp008_data)
-out = root / "merged-CP009a-10945.jsonl"
-assert hashlib.sha256(all_data).hexdigest() == '7c543c059307efb3ecea0ce79246c5c2277717edd9764a798a2a737db4dd45a1'
+assert len(cp009_data.decode('utf-8').splitlines()) == 970
+assert hashlib.sha256(cp009_data).hexdigest() == 'b037631a90aade4fb2d9dae080c0cf9e72d705373555bd5610bb63e3462c721c'
+(root / 'cp009-work-in-progress-970.jsonl').write_bytes(cp009_data)
+out = root / "merged-CP009b-11470.jsonl"
+assert hashlib.sha256(all_data).hexdigest() == 'c5e9891991ab8808c47e27924a97a4291f80f5654519a08f648d77b56cbb8255'
 out.write_bytes(all_data)
-print("PASS: 10945 unique translations =>", out)
+print("PASS: 11470 unique translations =>", out)
