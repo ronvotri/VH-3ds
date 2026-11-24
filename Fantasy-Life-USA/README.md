@@ -1,57 +1,52 @@
 # Fantasy Life (USA) — Việt hóa Votri Valley
 
-**Checkpoint 009b — 24/11/2026 · CP009 đang thực hiện**
+**CP009 HOÀN TẤT — 24/11/2026**
 
-- Bộ nguồn gốc: `FantasyLife-USA-BoBanGiaoChoBenDich-2026-11-22.zip`, Title ID `0004000000113200`, **34.812 ID**.
-- **11.470 / 34.812 ID được dịch/QA cấu trúc (32,95%)**; còn **23.342**.
-- CP001–CP008: 10.500 ID · CP009a: 445 · **CP009b: 525** ⇒ CP009 đã làm **970/2.000**, còn 1.030.
-- Hai gói `0070–0071` gồm **200 nhãn bản đồ/debug HOLD** chưa đủ nghĩa, vẫn không tính vào số ID đã dịch. Gói `0114–0123` có nhãn Event/debug cần kiểm nguồn Nhật và cảnh game.
-- Nhánh riêng `vh/fantasy-life-usa`, **không đụng `main`**.
-- Đây là tiến độ dịch *danh sách chuỗi nguồn*, không phải % bản ROM đã Việt hóa chơi được.
+- Bộ bàn giao: `FantasyLife-USA-BoBanGiaoChoBenDich-2026-11-22.zip`, **34.812 ID**.
+- CP001–CP008: 10.500 ID; **CP009a: 445**, **CP009b: 525**, **CP009c: 1.030** → **CP009 trọn 2.000 ID mới**.
+- **Tổng được xử lý/QA cấu trúc: 12.500/34.812 ID (35,91%)**, còn **22.312 ID**.
+- **12.499 ID có bản dịch khác nguồn**, 1 nhãn Tây Ban Nha `<color name="green"/>Orbe de especialidad<color/>` từ CP007 vẫn giữ nguyên để xác minh tên item; không coi nhãn đó đã Việt hóa.
+- 200 mục gói `0070–0071` là map/debug thiếu ngữ nghĩa tiếp tục **HOLD**, không cộng vào 12.500 ID.
+- Mọi cập nhật chỉ trên nhánh **`vh/fantasy-life-usa`**, không sửa `main`.
 
-## CP009b — 525 mục mới đã duyệt
+## CP009c — tiêu đề Challenge mới
 
-| Gói | Phạm vi được duyệt | Số ID | Nội dung |
-|---|---|---:|---|
-| `0131` | #1–63 | 63 | Link Mode, Multiplayer, Bag, Crafting, License/Licence, biến tên động |
-| `0132` | #34–100 | 67 | Cốt truyện và thành tựu Rank/Life |
-| `0133` | #1–100 | 100 | Rank, Level, Dosh, đồng đội, khách đến chơi, Story |
-| `0134` | #1–100 | 100 | Creator/Legend Rank, Grace, Divinus, Origin Island |
-| `0135` | #1–52, #54–100 | 99 | God Rank, thành tựu và Challenge Angler |
-| `0136` | Trừ #15, #69, #86, #98 | 96 | Challenge Angler/Hunter |
-| **Tổng** | | **525** | **412 EN_A / 113 EN_B** |
+- Dịch **1.030** tiêu đề Challenge từ gói `0137–0146` và `0147#1–32`. Tổng có 1.032 ID nguồn trong phạm vi, **không tính hai tên riêng chỉ giữ nguyên English**: `Philosopher's Stone` (`0140#90`) và `Levitanian Sardine` (`0145#40`).
+- Phân bổ EN_A **784** và EN_B **246**, thuộc Blacksmith, Woodcutter, Tailor, Alchemist, Cook, Mercenary/Paladin, Carpenter, Wizard, Miner, Angler, Hunter.
+- Lời Việt ngắn gọn, tự nhiên, có lối chơi chữ tương đương khi phù hợp; giữ nguyên tên item/skill/quái/cá, Life, Rank và địa danh. Không thêm yêu cầu, số lượng hoặc phần thưởng ngoài nguyên tác.
+- Đã đồng nhất các tiêu đề trùng gốc, giữ `Plains Iron` và `Al Maajik Gold` nguyên cụm; sửa `0142#14` trước khi xuất.
+- **Chỉnh một ID cũ không tính thêm tiến độ:** `FL-USA::F00008554@000014f8` đổi từ `Blacksmith's Song: Behold, the Master Smith!` thành `Khúc ca Blacksmith: Bậc thầy rèn lộ diện!`.
 
-**Không cộng** những chuỗi chỉ là tên skill/quái giữ nguyên English (`Counter Hook!`, `Dancing Arrows`, `Stormcaller`, `Thunderflap` và `Swimming Cactus`). Gói `0131` #64–100 chứa thống kê debug dịch thô nên chưa duyệt. Gói `0132` #1–33 là tên Bliss Upgrade/Feature cần giữ nguyên English, không coi chép lại là dịch.
+## Khôi phục bản gộp
 
-Giữ tiếng Anh tên NPC, địa danh, item, skill, Life, Rank, tên cá/quái, cùng các thuật ngữ giao diện chính. Dịch phần hướng dẫn/tiến trình và tiêu đề nhiệm vụ tự nhiên, gọn, có dấu. Không gộp EN_A/EN_B: giữ nguyên khác biệt `Legendary/Legend`, `Creator/God`, `Wizard/Magician`, `License/Licence`.
-
-## Khôi phục checkpoint
-
-Ở thư mục `Fantasy-Life-USA` chạy:
+Trong thư mục `Fantasy-Life-USA`:
 
 ```bash
 python3 unpack_batches.py
 ```
 
-Script giải nén các payload JSONL gốc đã commit trong `translations/`, kiểm checksum SHA-256, các ID trùng và ô dịch rỗng, tạo:
+Chương trình giải nén/check SHA-256 dữ liệu checkpoint đã commit, kiểm ID/câu rỗng, áp một sửa lỗi cũ, tạo:
 
-- `translations/cp009b-new-525.jsonl` — 525 mục mới.
-- `translations/cp009-work-in-progress-970.jsonl` — CP009a+b 970 mục, **chưa hoàn tất CP009**.
-- `translations/merged-CP009b-11470.jsonl` — 11.470 mục tích lũy.
-- Các CP005/CP006/CP008 riêng 2.000 mục như trước.
+- `translations/cp009c-new-1030.jsonl` — 1.030 mục mới.
+- `translations/cp009-complete-2000.jsonl` — CP009a+b+c, **2.000 mục**.
+- `translations/merged-CP009-12500.jsonl` — **12.500 ID** tích lũy, đã áp sửa một ID cũ.
 
-SHA-256 CP009b (525): `e38269628a64ae4fe69632ab316909e2a0082978bbe1cc0077d789eb0d86e46e`.
+Các file nguồn GitHub: `translations/cp009c-1030.jsonl.bz2.b64` và `translations/cp009c-corrections-1.jsonl`.
 
-SHA-256 gộp 11.470: `c5e9891991ab8808c47e27924a97a4291f80f5654519a08f648d77b56cbb8255`.
+SHA-256 CP009c: `c72f173c149a9e7ec8453829c81dc3081f08c0e3661e66dde675f0e6eec40fd8`.
 
-Mỗi dòng dịch gồm `{"id":"FL-USA::...", "vi":"..."}`. Ghép theo ID với `01_CAN_DICH.jsonl` của bộ ZIP nguồn, không sửa `source`, `raw_hex`, `controls_hex`, `references`, `alias_ids` hay `length_bindings`.
+SHA-256 CP009 hoàn tất: `e61bfaa20fbb9c9fb58066052b814e9681ba426eba2b5c111376d730c0581477`.
 
-## QA và việc còn lại
+SHA-256 bản gộp 12.500: `bb8d3a23d01e5c1f2c4b89fbe2aec35529d62475a81acf638c9a18998ecad67b`.
 
-- 525/525 ID mới tồn tại trong nguồn, không trùng 10.945 ID cũ, không rỗng, Unicode NFC.
-- **51 mã `{CTRL:hex}` của batch mới được giữ đúng nguyên chuỗi/thứ tự**; rà toàn bộ 11.470 ID không có mismatch.
-- Đã rà **11 trường hợp chữ số** từ nguồn như `five` → `5`, vị trí `Level 15`, không đổi trị số.
-- **Chưa QA runtime:** font tiếng Việt, pixel width, ngắt trang, Multiplayer/Link Mode, nhánh giới tính/speaker, bản vá RomFS/CIA.
-- Sổ thuật ngữ/QA chi tiết: `CHECKPOINT-009b.md`, `QA-009b.md`, `ISSUES-009b.md`, `THUAT_NGU-009b.md`.
+Bản JSONL dịch chỉ gồm `id` và `vi`; khi áp vào `01_CAN_DICH.jsonl` của ZIP nguồn phải ghép theo `id`, không sửa `source`, `raw_hex`, `references`, `alias_ids`, `length_bindings` hoặc control tokens.
 
-**Tiếp theo:** các Challenge rõ nghĩa ở gói `0137` và sau đó; **còn 1.030 ID để khép CP009**, không tính nhãn debug thiếu ngữ nghĩa hoặc tên riêng không dịch.
+## QA & tồn đọng
+
+- Kiểm **12.500 ID** với nguồn 34.812: **0** ID sai, thiếu, trùng hoặc bản dịch rỗng.
+- **63.414 mã `{CTRL:hex}`** của bản gộp giữ nguyên nội dung và thứ tự; gói CP009c chỉ là title nên có **0 token mới**.
+- Unicode NFC PASS, hai tên item-only không tính là dịch, và một tên Spanish-only cũ còn chờ xác minh.
+- **Chưa QA trên 3DS** font tiếng Việt, chiều rộng pixel, ngắt trang, nút bấm và speaker/target. **Chưa có patch RomFS/CIA chơi được**; 35,91% là tỷ lệ xử lý ID trong bộ nguồn, không phải tỷ lệ ROM đã chơi được.
+- Xem `CHECKPOINT-009-complete.md`, `QA-009c.md`, `ISSUES-009c.md`, `THUAT_NGU_CP009c.md`.
+
+**Tiếp theo:** `0147` mục 33 trở đi, rồi `0148+`. Cần xử lý lại 200 ID HOLD khi có nguồn Nhật/screenshot.
