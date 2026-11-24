@@ -1,53 +1,41 @@
-# Fantasy Life (USA) — Việt hóa Votri Valley · CP010b 🇻🇳
+# Fantasy Life (USA) — Việt hóa Votri Valley — CP010 hoàn tất
 
-**Ngày 24/11/2026 · CP010 chưa hoàn thành**
+**24/11/2026 — 14.500 / 34.812 ID đã xử lý (41.65%)**. Còn 20.312 ID chưa xử lý; 1 ID cũ tiếng Tây Ban Nha giữ nguyên chờ xác minh, nên 14.499 ID có nội dung Việt hóa khác nguồn.
 
-- **Mốc cũ:** 13.022/34.812 ID (CP010a).
-- **Đã dịch thật CP010b:** **+643 ID** thuộc 7 gói `0182–0188`; loại **57 ID HOLD** không được tính.
-- **Tổng đã xử lý:** **13.665/34.812 ID (39.25%)**, còn **21,147** ID chưa duyệt hoặc HOLD.
-- **Mục tiêu riêng CP010:** CP010a +522 và CP010b +643 = **1.165/2.000**, còn **835** mục để khép.
-- **Nhánh GitHub:** `ronvotri/VH-3ds` → `vh/fantasy-life-usa` (không sửa `main`).
+CP010a 522 + CP010b 643 + CP010c 835 = **2.000 ID**. Nhánh `vh/fantasy-life-usa`, không sửa `main`.
 
-## Nội dung đã dịch
+## CP010c: phạm vi
 
-| Gói | ID mới đã duyệt | Chủ đề |
+| Gói | ID mới | Nội dung |
 |---|---:|---|
-| 0182 | 99 | Tạo avatar, chỉnh tóc/mặt, túi đồ, nhuộm màu và lựa chọn Có/Không |
-| 0183 | 68 | Thông báo Bag, Dosh, Lunares Coins, Life/License, Skill và chỉ số |
-| 0184 | 99 | Nhà cửa, đồ nội thất, Storage, truy cập thế giới và Multiplayer |
-| 0185 | 91 | Di chuyển nhanh, địa danh, nhà Holiday Home, quản lý save và SD |
-| 0186 | 97 | Game mới, lưu/xóa dữ liệu, học skill, nhận đồ, Bliss, StreetPass |
-| 0187 | 93 | Danh bạ StreetPass, giao quà, Quest, Ally Mode và nhật ký thông báo |
-| 0188 | 96 | Link Mode, nội dung bổ sung, gửi tin, biểu cảm, save/SD và StreetPass |
-| **Tổng** | **643** | **510 EN_A / 133 EN_B** |
+| 0189#1–12 | 12 | Đổi thưởng Goddess Statue, chọn loại xu |
+| 0217 | 100 | Mô tả nội thất, nguyên liệu, thuốc |
+| 0218 | 100 | Mô tả nguyên liệu, đá quý, gỗ, vật phẩm |
+| 0219 | 93 | Mô tả nguyên liệu, biến thể EN_B |
+| 0220 | 95 | Nguyên liệu và tiêu đề hướng dẫn |
+| 0221 | 95 | Hướng dẫn các Life, câu cá, chế tạo |
+| 0222 | 95 | Hướng dẫn chiến đấu, Creator Mode, License |
+| 0223 | 49 | God Mode, mô tả Special Skill |
+| 0340 | 100 | Giáp, Charm, thuốc, món ăn |
+| 0341#1–96 | 96 | Mô tả món ăn và chỉ số |
+| **Tổng** | **835** | **701 EN_A / 134 EN_B** |
 
-57 chuỗi chỉ chứa tên core English, slot hoặc URL được giữ nguyên trong `HOLD-NOT-COUNTED.csv`, không lấy việc chép lại tiếng Anh để nâng %.
+73 ID đã xem xét nhưng chỉ là tên riêng/skill/nhãn được bảo vệ được giữ riêng trong `HOLD-NOT-COUNTED.csv`, không cộng vào tiến độ. Các gói chưa khảo sát hoặc được nhảy qua vẫn chưa duyệt; tiếp theo ưu tiên 0341#97–100, 0342–0347 và các hội thoại rõ nghĩa 0330–0336, 0351. Không quên 0070–0071 và các mục debug cũ đang HOLD.
 
-## Quy tắc Việt hóa
+## Quy tắc
+Giữ English cho tên riêng, NPC, item, skill, Life, Rank, License, Creator/God Mode, HP/SP, Strength, Vitality, Dexterity, Focus, Luck, Intelligence. Mô tả nguyên liệu dùng danh từ Việt khi nguồn dùng danh từ thường, không đổi định danh item chính thức. Tiêu đề hướng dẫn dịch gọn, không tự thêm thao tác. Thông báo hồi HP/SP và cải tiến công thức giữ nguyên mức độ, chỉ số, mục tiêu, thời gian tác dụng. Không gán lời NPC cho văn bản hướng dẫn.
 
-- Giữ **Life, Skill, License, Bliss, Dosh, Lunares Coins, StreetPass, Multiplayer, Link Mode, Ally Mode, Bag, Storage, Pouch, Guild Office**, và tên riêng, item, skill chính theo chuẩn đã thống nhất.
-- Câu hỏi, mô tả và chỉ dẫn chuyển sang tiếng Việt tự nhiên; riêng thông báo lỗi/lưu dữ liệu dùng giọng rõ, không chọc cười quá tay.
-- Bảo toàn `{CTRL:...}` theo thứ tự source, kể cả mã xuống dòng, lựa chọn menu, vùng biến động và các chuỗi định dạng `%d`, `%02d`, `%2d`.
-- Bảo toàn khoảng trắng đệm ở các nhãn có chủ đích để tránh dính chữ trong UI. Hai bản `EN_A` và `EN_B` giữ từng ID riêng, không ép dùng một thuật ngữ nếu nguồn khác nhau.
-- Chưa sửa data ROM, `source`, `raw_hex`, `alias_ids`, `references`, `length_bindings`, `controls_hex`.
+## QA tĩnh
+- 835 ID mới đúng nguồn, không trùng, không rỗng; 943 token mới bảo toàn nội dung và thứ tự. Bản gộp giữ 64.580 token.
+- Kiểm chữ số và tên chỉ số HP/SP/Strength/Vitality/Dexterity/Focus/Luck/Intelligence: 0 sai khác sau tách token.
+- Các nguồn giống hệt trong batch mới có bản Việt nhất quán; Unicode NFC đạt. Giữ nguyên tiền tố 13.665 ID CP010b.
+- Chưa kiểm tra độc lập từng câu trong cảnh game, font glyph, độ rộng pixel, ngắt trang, icon và các tên gọi trong runtime. Chưa có patch RomFS/CIA chơi được.
 
-## File bàn giao và khôi phục
+## Tệp khôi phục
+`cp010c-new.jsonl` — 835 ID; `cp010-complete-2000.jsonl` — 2.000 ID CP010; `merged-CP010c.jsonl` — 14.500 ID. Chạy `python3 unpack_batches.py` ở repo khi script đã được cập nhật. Ghép theo ID vào `01_CAN_DICH.jsonl` trong ZIP nguồn, không ghi đè source/raw_hex/references/alias_ids/length_bindings.
 
-- `cp010b-new.jsonl`: 643 cặp ID/vi mới.
-- `merged-CP010b.jsonl`: **13.665** cặp ID/vi, giữ nguyên bản gộp CP010a làm tiền tố.
-- `review-CP010b.csv`: đối chiếu source–VI cho các mục mới, theo gói và số dòng.
-- `HOLD-NOT-COUNTED.csv`: 57 mục chưa tính.
-- `package-0182.jsonl` đến `package-0188.jsonl`: dịch tách theo gói.
-- `cp010b-new.jsonl.bz2.b64`: gói nén commit GitHub, có SHA-256 xác minh.
-- `QA-010b.json`, `QA-010b.md`, `ISSUES-010b.md`, `THUAT_NGU-010b.md`.
+SHA-256 CP010c: `bfd755404c2556b97267ca1de9414fae7f20f59c364a67f42a540aed485d0f0c`
 
-Nếu đã clone nhánh GitHub ở thư mục `Fantasy-Life-USA`, chạy `python3 unpack_batches.py` sau khi script được cập nhật để tạo `translations/cp010b-new-643.jsonl` và `translations/merged-CP010b-13665.jsonl`.
+SHA-256 CP010: `cbbf89fd83d26cb8ebc7ca4755fabe65cd56462a2debd7a3c95d86d8a8ab8585`
 
-**SHA-256 mới:** `c8b3da74ec21fad3f48057f0e7ad652cbc8c37ad3673b1b0ce0e04b46f4ec400`  
-**SHA-256 gộp:** `ec5b7ce6d0376ca0c91d94de4480e9a6605039a3734eaa23646fb04eb7b4c68b`
-
-## Hạn chế cần chú ý
-
-**QA hiện chỉ là QA tĩnh**: kiểm ID, placeholder, mã điều khiển, Unicode, tính nhất quán tên core. Chưa xác minh giới hạn pixel, lệnh format động trong gameplay, font tiếng Việt trên 3DS hoặc bản vá RomFS/CIA. Một số nhãn điều khiển có ngắt dòng theo bố cục nguồn, phải xem trên máy trước khi phát hành. 200 chuỗi `0070–0071` và các nhãn debug các gói trước tiếp tục HOLD.
-
-**Tiếp theo:** một phần giao diện còn rõ nghĩa ở `0189#1–12` rồi tra cứu các gói thông báo khác, tránh chuỗi `0189#15+` dạng debug và các gói `0190+` chỉ tên item.
+SHA-256 bản gộp: `0da060b95836903301b85ca3b961351e260b295eed8125462035b294f6204b66`
