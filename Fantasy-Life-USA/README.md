@@ -1,56 +1,53 @@
-# Fantasy Life (USA) — Việt hóa Votri Valley
+# Fantasy Life (USA) — Việt hóa Votri Valley · CP010b 🇻🇳
 
-**Checkpoint 010a — 24/11/2026 · CP010 chưa hoàn tất**
+**Ngày 24/11/2026 · CP010 chưa hoàn thành**
 
-- Bộ nguồn: `FantasyLife-USA-BoBanGiaoChoBenDich-2026-11-22.zip`, **34.812 chuỗi ID**.
-- **13.022 / 34.812 ID đã xử lý, qua QA cấu trúc (37,41%)**; còn **21.790**.
-- CP001–CP009: 12.500 ID; **CP010a: +522 ID**, mục tiêu CP010 2.000 ID → **còn 1.478**.
-- Trong phạm vi 563 mục vừa kiểm, **41 ID HOLD** không được tính vào số câu dịch: tên skill/item thuần Anh và nhãn debug mơ hồ.
-- 200 mục bản đồ/debug **0070–0071** vẫn HOLD từ CP007, không nằm trong 13.022.
-- Một nhãn tiếng Tây Ban Nha cũ `Orbe de especialidad` còn cần xác minh; không tuyên bố tất cả 13.022 ID đều đã Việt hóa hoàn hảo.
-- Chỉ làm việc trên nhánh **`vh/fantasy-life-usa`**, không sửa `main`.
+- **Mốc cũ:** 13.022/34.812 ID (CP010a).
+- **Đã dịch thật CP010b:** **+643 ID** thuộc 7 gói `0182–0188`; loại **57 ID HOLD** không được tính.
+- **Tổng đã xử lý:** **13.665/34.812 ID (39.25%)**, còn **21,147** ID chưa duyệt hoặc HOLD.
+- **Mục tiêu riêng CP010:** CP010a +522 và CP010b +643 = **1.165/2.000**, còn **835** mục để khép.
+- **Nhánh GitHub:** `ronvotri/VH-3ds` → `vh/fantasy-life-usa` (không sửa `main`).
 
-## Phạm vi CP010a
+## Nội dung đã dịch
 
-| Gói | ID duyệt | Nội dung |
+| Gói | ID mới đã duyệt | Chủ đề |
 |---|---:|---|
-| 0147#33–100 | 68 | Challenge Tailor, Paladin, đánh quái |
-| 0148#1–100 | 93 | Challenge Alchemist, giữ 7 tên skill/item thuần Anh |
-| 0149#1–100 | 100 | Challenge Cook, Woodcutter, Carpenter |
-| 0150#1–100 | 91 | Challenge Carpenter, Magician, giữ 9 tên nghi là skill/item |
-| 0151#1–22 | 20 | Challenge cuối nhóm, 2 tên riêng HOLD |
-| 0151#23–62 | 40 | Tên màu giao diện tùy biến |
-| 0153#1–100 | 80 | Tên nhóm chất liệu, vật phẩm, nội thất; nhãn debug không rõ nghĩa HOLD |
-| 0154#1–33 | 30 | Loại trang bị, 3 mã mơ hồ HOLD |
-| **Tổng** | **522** | **41 mục mới HOLD, không tính tiến độ** |
+| 0182 | 99 | Tạo avatar, chỉnh tóc/mặt, túi đồ, nhuộm màu và lựa chọn Có/Không |
+| 0183 | 68 | Thông báo Bag, Dosh, Lunares Coins, Life/License, Skill và chỉ số |
+| 0184 | 99 | Nhà cửa, đồ nội thất, Storage, truy cập thế giới và Multiplayer |
+| 0185 | 91 | Di chuyển nhanh, địa danh, nhà Holiday Home, quản lý save và SD |
+| 0186 | 97 | Game mới, lưu/xóa dữ liệu, học skill, nhận đồ, Bliss, StreetPass |
+| 0187 | 93 | Danh bạ StreetPass, giao quà, Quest, Ally Mode và nhật ký thông báo |
+| 0188 | 96 | Link Mode, nội dung bổ sung, gửi tin, biểu cảm, save/SD và StreetPass |
+| **Tổng** | **643** | **510 EN_A / 133 EN_B** |
 
-Tên item, skill, NPC, Life, Rank và địa danh được giữ nguyên tiếng Anh. Câu chơi chữ ở tên Challenge được chuyển ngữ tự nhiên, dễ đọc. Các nhóm vật liệu chung (như Ore, Crystal) được dịch khi là **loại vật phẩm**, không phải tên riêng của item.
+57 chuỗi chỉ chứa tên core English, slot hoặc URL được giữ nguyên trong `HOLD-NOT-COUNTED.csv`, không lấy việc chép lại tiếng Anh để nâng %.
 
-## Khôi phục toàn bộ dữ liệu
+## Quy tắc Việt hóa
 
-Trong thư mục `Fantasy-Life-USA`, chạy:
+- Giữ **Life, Skill, License, Bliss, Dosh, Lunares Coins, StreetPass, Multiplayer, Link Mode, Ally Mode, Bag, Storage, Pouch, Guild Office**, và tên riêng, item, skill chính theo chuẩn đã thống nhất.
+- Câu hỏi, mô tả và chỉ dẫn chuyển sang tiếng Việt tự nhiên; riêng thông báo lỗi/lưu dữ liệu dùng giọng rõ, không chọc cười quá tay.
+- Bảo toàn `{CTRL:...}` theo thứ tự source, kể cả mã xuống dòng, lựa chọn menu, vùng biến động và các chuỗi định dạng `%d`, `%02d`, `%2d`.
+- Bảo toàn khoảng trắng đệm ở các nhãn có chủ đích để tránh dính chữ trong UI. Hai bản `EN_A` và `EN_B` giữ từng ID riêng, không ép dùng một thuật ngữ nếu nguồn khác nhau.
+- Chưa sửa data ROM, `source`, `raw_hex`, `alias_ids`, `references`, `length_bindings`, `controls_hex`.
 
-```bash
-python3 unpack_batches.py
-```
+## File bàn giao và khôi phục
 
-Chương trình đọc các file bzip2/gzip + base64 trong `translations/`, kiểm SHA-256 và ID trùng, áp **một sửa lỗi Blacksmith từ CP009**, tạo:
-- `translations/cp010a-new-522.jsonl` — 522 ID mới.
-- `translations/merged-CP010a-13022.jsonl` — 13.022 ID đã duyệt, bao gồm bản sửa CP009.
-- Các checkpoint CP005/CP006/CP008/CP009 riêng đã có từ trước.
+- `cp010b-new.jsonl`: 643 cặp ID/vi mới.
+- `merged-CP010b.jsonl`: **13.665** cặp ID/vi, giữ nguyên bản gộp CP010a làm tiền tố.
+- `review-CP010b.csv`: đối chiếu source–VI cho các mục mới, theo gói và số dòng.
+- `HOLD-NOT-COUNTED.csv`: 57 mục chưa tính.
+- `package-0182.jsonl` đến `package-0188.jsonl`: dịch tách theo gói.
+- `cp010b-new.jsonl.bz2.b64`: gói nén commit GitHub, có SHA-256 xác minh.
+- `QA-010b.json`, `QA-010b.md`, `ISSUES-010b.md`, `THUAT_NGU-010b.md`.
 
-Nguồn GitHub: `translations/cp010a-522.jsonl.bz2.b64`. SHA-256 dữ liệu mới (giải nén): `e70f143f443d6890bd47113106effc320779be8f06205509b2c068a54fd86083`. SHA-256 gộp: `637113202084ac176043917ce18d5913c6712aece71e94b4b642a5f591fbd78b`.
+Nếu đã clone nhánh GitHub ở thư mục `Fantasy-Life-USA`, chạy `python3 unpack_batches.py` sau khi script được cập nhật để tạo `translations/cp010b-new-643.jsonl` và `translations/merged-CP010b-13665.jsonl`.
 
-**Danh sách HOLD của đợt:** `HOLD-CP010a-NOT-COUNTED.csv.bz2.b64` — chỉ để rà soát, không ghép vào bảng dịch. Giải base64, sau đó giải bzip2 để lấy CSV.
+**SHA-256 mới:** `c8b3da74ec21fad3f48057f0e7ad652cbc8c37ad3673b1b0ce0e04b46f4ec400`  
+**SHA-256 gộp:** `ec5b7ce6d0376ca0c91d94de4480e9a6605039a3734eaa23646fb04eb7b4c68b`
 
-Mỗi dòng dịch có dạng `{"id":"FL-USA::...","vi":"..."}`. Ghép với `01_CAN_DICH.jsonl` trong bộ gốc theo ID. Không tự sửa `source`, `raw_hex`, `references`, `alias_ids` hoặc các mã điều khiển `{CTRL:hex}`.
+## Hạn chế cần chú ý
 
-## QA và hạn chế
+**QA hiện chỉ là QA tĩnh**: kiểm ID, placeholder, mã điều khiển, Unicode, tính nhất quán tên core. Chưa xác minh giới hạn pixel, lệnh format động trong gameplay, font tiếng Việt trên 3DS hoặc bản vá RomFS/CIA. Một số nhãn điều khiển có ngắt dòng theo bố cục nguồn, phải xem trên máy trước khi phát hành. 200 chuỗi `0070–0071` và các nhãn debug các gói trước tiếp tục HOLD.
 
-**QA cấu trúc:** 522/522 ID thuộc nguồn gốc, không trùng 12.500 ID cũ, không có câu rỗng, Unicode NFC đạt; bản gộp 13.022 giữ đúng **63.414 token điều khiển** (gói mới là nhãn ngắn nên có 0 token mới). Không phát hiện bất nhất khi cùng một tiêu đề English đã được dịch ở các CP trước. Đã giữ lại số `10` của `10 Wishes Come True`.
-
-**Chưa QA:** font tiếng Việt, độ rộng pixel, ngắt trang, menu màu theo RGB và nhánh game trên 3DS; chưa có patch RomFS/CIA chơi được. Đây là % ID nguồn đã xử lý, **không phải % ROM đã Việt hóa chơi được**.
-
-Xem `CHECKPOINT-010a.md`, `QA-010a.md`, `ISSUES-010a.md`, `THUAT_NGU-010a.md`.
-
-**Tiếp theo:** những thông báo/UI người chơi thực sự nhìn thấy ở gói `0182–0188` (một phần có token cần rà theo câu), tiếp tục không tính chỉ tên NPC/skill ở `0155–0181`.
+**Tiếp theo:** một phần giao diện còn rõ nghĩa ở `0189#1–12` rồi tra cứu các gói thông báo khác, tránh chuỗi `0189#15+` dạng debug và các gói `0190+` chỉ tên item.
