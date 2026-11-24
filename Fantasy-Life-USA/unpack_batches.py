@@ -45,6 +45,8 @@ inputs = [
      "e38269628a64ae4fe69632ab316909e2a0082978bbe1cc0077d789eb0d86e46e", 525),
     ("cp009c-1030.jsonl.bz2.b64", bz2.decompress, "cp009c-new-1030.jsonl",
      "c72f173c149a9e7ec8453829c81dc3081f08c0e3661e66dde675f0e6eec40fd8", 1030),
+    ("cp010a-522.jsonl.bz2.b64", bz2.decompress, "cp010a-new-522.jsonl",
+     "e70f143f443d6890bd47113106effc320779be8f06205509b2c068a54fd86083", 522),
 ]
 all_data = bytearray()
 cp005_data = bytearray()
@@ -74,7 +76,7 @@ for filename, decompressor, outname, sha, count in inputs:
     if filename.startswith('cp009'):
         cp009_data.extend(data)
     print("Restored:", outname, count, "IDs")
-assert len(ids) == 12500
+assert len(ids) == 13022
 assert len(cp005_data.decode('utf-8').splitlines()) == 2000
 assert hashlib.sha256(cp005_data).hexdigest() == '309d868dc821d859cc587f5b8a80e435b1d25fb54bdaa47acc023c0a7adb3ce0'
 (root / 'cp005-complete-2000.jsonl').write_bytes(cp005_data)
@@ -87,7 +89,7 @@ assert hashlib.sha256(cp008_data).hexdigest() == 'daeac626ec53a92aba0952cb36ca7c
 assert len(cp009_data.decode('utf-8').splitlines()) == 2000
 assert hashlib.sha256(cp009_data).hexdigest() == 'e61bfaa20fbb9c9fb58066052b814e9681ba426eba2b5c111376d730c0581477'
 (root / 'cp009-complete-2000.jsonl').write_bytes(cp009_data)
-out = root / "merged-CP009-12500.jsonl"
+out = root / "merged-CP010a-13022.jsonl"
 # Apply a verified correction to one CP007 untranslated title, without adding its ID again.
 corrections = [json.loads(line) for line in (root / 'cp009c-corrections-1.jsonl').read_text(encoding='utf-8').splitlines() if line.strip()]
 assert len(corrections) == 1
@@ -102,7 +104,10 @@ for row in all_rows:
         hits += 1
 assert hits == 1
 all_data = (''.join(json.dumps(row, ensure_ascii=False, separators=(',', ':')) + '\n' for row in all_rows)).encode('utf-8')
-assert len(all_rows) == 12500
-assert hashlib.sha256(all_data).hexdigest() == 'bb8d3a23d01e5c1f2c4b89fbe2aec35529d62475a81acf638c9a18998ecad67b'
+assert len(all_rows) == 13022
+# Confirm 12,500 previously approved entries remain byte-identical after the legacy correction.
+old_prefix = (''.join(json.dumps(row, ensure_ascii=False, separators=(',', ':')) + '\n' for row in all_rows[:12500])).encode('utf-8')
+assert hashlib.sha256(old_prefix).hexdigest() == 'bb8d3a23d01e5c1f2c4b89fbe2aec35529d62475a81acf638c9a18998ecad67b'
+assert hashlib.sha256(all_data).hexdigest() == '637113202084ac176043917ce18d5913c6712aece71e94b4b642a5f591fbd78b'
 out.write_bytes(all_data)
-print("PASS: 12500 unique approved entries =>", out)
+print("PASS: 13022 unique approved entries =>", out)
