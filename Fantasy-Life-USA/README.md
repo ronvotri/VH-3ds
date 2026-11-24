@@ -1,41 +1,32 @@
-# Fantasy Life (USA) — Việt hóa Votri Valley — CP010 hoàn tất
+# Fantasy Life (USA) — CP011a — Votri Valley
 
-**24/11/2026 — 14.500 / 34.812 ID đã xử lý (41.65%)**. Còn 20.312 ID chưa xử lý; 1 ID cũ tiếng Tây Ban Nha giữ nguyên chờ xác minh, nên 14.499 ID có nội dung Việt hóa khác nguồn.
+**14.973 / 34.812 ID đã xử lý (43,01%)**, thêm **473** mục mới; còn **19.839**. CP011: 473/2.000. Một nhãn Tây Ban Nha cũ vẫn giữ nguyên; không coi toàn bộ số ID là đã Việt hóa.
 
-CP010a 522 + CP010b 643 + CP010c 835 = **2.000 ID**. Nhánh `vh/fantasy-life-usa`, không sửa `main`.
+## Phạm vi
+| Gói | Phạm vi | Số ID mới |
+|---|---|---:|
+| 0341 | #97–100 | 4 |
+| 0342–0345 | Toàn bộ, mỗi gói 100 | 400 |
+| 0348 | #1–66, #90–99; trừ 17 nhãn bảo vệ | 59 |
+| 0351 | #1–10 | 10 |
+| Tổng | | **473** |
 
-## CP010c: phạm vi
+Mô tả món ăn, thuốc, giáp, gỗ, nguyên liệu chế tạo; hướng dẫn trang bị, câu cá, bắn cung, skill và các nhiệm vụ Napollon/Daphne, Jem, Mallow. Giữ tên riêng, item, skill, Life, HP/SP và các chỉ số. Mô tả các loại nguyên liệu chung được dịch theo nghĩa gốc; EN_A và EN_B không bị gộp.
 
-| Gói | ID mới | Nội dung |
-|---|---:|---|
-| 0189#1–12 | 12 | Đổi thưởng Goddess Statue, chọn loại xu |
-| 0217 | 100 | Mô tả nội thất, nguyên liệu, thuốc |
-| 0218 | 100 | Mô tả nguyên liệu, đá quý, gỗ, vật phẩm |
-| 0219 | 93 | Mô tả nguyên liệu, biến thể EN_B |
-| 0220 | 95 | Nguyên liệu và tiêu đề hướng dẫn |
-| 0221 | 95 | Hướng dẫn các Life, câu cá, chế tạo |
-| 0222 | 95 | Hướng dẫn chiến đấu, Creator Mode, License |
-| 0223 | 49 | God Mode, mô tả Special Skill |
-| 0340 | 100 | Giáp, Charm, thuốc, món ăn |
-| 0341#1–96 | 96 | Mô tả món ăn và chỉ số |
-| **Tổng** | **835** | **701 EN_A / 134 EN_B** |
+## QA cấu trúc
+- Đối chiếu 34.812 ID nguồn; 473 ID mới duy nhất, không rỗng, không trùng 14.500 ID cũ, Unicode NFC.
+- 937 token mới và 65517 token tích lũy đúng nguyên chuỗi/thứ tự. Các vùng màu chứa tên item/skill (mã f7 03) giữ nguyên nội dung ở batch mới. Biến định dạng printf giữ nguyên.
+- Kiểm chữ số và các chỉ số: 2 cảnh báo do `magic defence`/`defence` viết thường ở nguồn, đã giữ `Magic Defence`/`Defence`. Không phát hiện sai giá trị số trong audit.
+- 17 nhãn English-only hoặc dòng chỉ chứa tên và chỉ số giữ nguyên, ghi riêng trong HOLD-NOT-COUNTED.csv.
+- Chưa QA nghĩa theo mọi scene, độ rộng chữ, font, phân trang, runtime 3DS. Chưa có patch RomFS/CIA.
 
-73 ID đã xem xét nhưng chỉ là tên riêng/skill/nhãn được bảo vệ được giữ riêng trong `HOLD-NOT-COUNTED.csv`, không cộng vào tiến độ. Các gói chưa khảo sát hoặc được nhảy qua vẫn chưa duyệt; tiếp theo ưu tiên 0341#97–100, 0342–0347 và các hội thoại rõ nghĩa 0330–0336, 0351. Không quên 0070–0071 và các mục debug cũ đang HOLD.
+## Khôi phục
+`cp011a-new.jsonl`: 473 mục. `merged-CP011a.jsonl`: 14.973 mục, giữ nguyên 14.500 dòng CP010. Ghép theo ID với 01_CAN_DICH.jsonl; không sửa trường nguồn. Nhánh `vh/fantasy-life-usa`.
 
-## Quy tắc
-Giữ English cho tên riêng, NPC, item, skill, Life, Rank, License, Creator/God Mode, HP/SP, Strength, Vitality, Dexterity, Focus, Luck, Intelligence. Mô tả nguyên liệu dùng danh từ Việt khi nguồn dùng danh từ thường, không đổi định danh item chính thức. Tiêu đề hướng dẫn dịch gọn, không tự thêm thao tác. Thông báo hồi HP/SP và cải tiến công thức giữ nguyên mức độ, chỉ số, mục tiêu, thời gian tác dụng. Không gán lời NPC cho văn bản hướng dẫn.
+SHA-256 gói mới: `4b0298b92a4a05dcaf9fab34bfc3cf00f78c9609cac1f0928e2d4d06144c8cc7`
 
-## QA tĩnh
-- 835 ID mới đúng nguồn, không trùng, không rỗng; 943 token mới bảo toàn nội dung và thứ tự. Bản gộp giữ 64.580 token.
-- Kiểm chữ số và tên chỉ số HP/SP/Strength/Vitality/Dexterity/Focus/Luck/Intelligence: 0 sai khác sau tách token.
-- Các nguồn giống hệt trong batch mới có bản Việt nhất quán; Unicode NFC đạt. Giữ nguyên tiền tố 13.665 ID CP010b.
-- Chưa kiểm tra độc lập từng câu trong cảnh game, font glyph, độ rộng pixel, ngắt trang, icon và các tên gọi trong runtime. Chưa có patch RomFS/CIA chơi được.
+SHA-256 bản gộp: `e407b947b136411745a4e253c868d3d2bd0208ab29d38277e4bb9b2691ba6987`
 
-## Tệp khôi phục
-`cp010c-new.jsonl` — 835 ID; `cp010-complete-2000.jsonl` — 2.000 ID CP010; `merged-CP010c.jsonl` — 14.500 ID. Chạy `python3 unpack_batches.py` ở repo khi script đã được cập nhật. Ghép theo ID vào `01_CAN_DICH.jsonl` trong ZIP nguồn, không ghi đè source/raw_hex/references/alias_ids/length_bindings.
-
-SHA-256 CP010c: `bfd755404c2556b97267ca1de9414fae7f20f59c364a67f42a540aed485d0f0c`
-
-SHA-256 CP010: `cbbf89fd83d26cb8ebc7ca4755fabe65cd56462a2debd7a3c95d86d8a8ab8585`
-
-SHA-256 bản gộp: `0da060b95836903301b85ca3b961351e260b295eed8125462035b294f6204b66`
+## Tiếp theo
+0346–0347 (hướng dẫn), 0348#67–89 và #100 (phân loại tên skill/debug), 0349–0350 (phân loại, thoại cuối). Các gói đã bỏ qua và 0070–0071 HOLD vẫn chưa xử lý. Sổ ngôi xưng theo scene chưa xác minh; Gladstone dùng ta–ngươi, Napollon dùng tôi–bạn, người nói không rõ danh tính ưu tiên trung tính. Không tính các tên thuần English là bản dịch mới.
+Chạy `python3 unpack_batches.py` tại thư mục `Fantasy-Life-USA` để khôi phục bản gộp `translations/merged-CP011a-14973.jsonl` và batch mới `translations/cp011a-new-473.jsonl`. Danh sách HOLD lưu riêng tại `HOLD-CP011a-NOT-COUNTED.csv.bz2.b64`.
