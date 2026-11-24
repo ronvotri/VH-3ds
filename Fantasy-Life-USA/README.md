@@ -1,32 +1,34 @@
-# Fantasy Life (USA) — CP011a — Votri Valley
+# Fantasy Life (USA) — CP011b — Votri Valley
 
-**14.973 / 34.812 ID đã xử lý (43,01%)**, thêm **473** mục mới; còn **19.839**. CP011: 473/2.000. Một nhãn Tây Ban Nha cũ vẫn giữ nguyên; không coi toàn bộ số ID là đã Việt hóa.
+**24/11/2026 · 15.577/34.812 ID đã xử lý (44,75%)**. Thêm 604 mục; còn 19.235 ID. CP011 đạt 1.077/2.000 mục, còn 923. Nhánh `vh/fantasy-life-usa`, không sửa `main`.
 
-## Phạm vi
-| Gói | Phạm vi | Số ID mới |
-|---|---|---:|
-| 0341 | #97–100 | 4 |
-| 0342–0345 | Toàn bộ, mỗi gói 100 | 400 |
-| 0348 | #1–66, #90–99; trừ 17 nhãn bảo vệ | 59 |
-| 0351 | #1–10 | 10 |
-| Tổng | | **473** |
+## Phạm vi mới
+| Gói | ID mới | Nội dung |
+|---|---:|---|
+| 0333 | 99 | Tên nhiệm vụ |
+| 0334 | 99 | Tên nhiệm vụ |
+| 0335 | 100 | Tên nhiệm vụ |
+| 0336 | 57 | Tên nhiệm vụ biến thể EN_B |
+| 0346 | 100 | Hướng dẫn Life, điều khiển, chiến đấu |
+| 0347 | 62 | Hướng dẫn, hiệu ứng và mô tả trang bị |
+| 0348 | 14 | Nhãn trạng thái, điều kiện sau skill |
+| 0350 | 73 | Hội thoại #28–100 |
+| Tổng | **604** | 355 tiêu đề và 249 mục khác |
 
-Mô tả món ăn, thuốc, giáp, gỗ, nguyên liệu chế tạo; hướng dẫn trang bị, câu cá, bắn cung, skill và các nhiệm vụ Napollon/Daphne, Jem, Mallow. Giữ tên riêng, item, skill, Life, HP/SP và các chỉ số. Mô tả các loại nguyên liệu chung được dịch theo nghĩa gốc; EN_A và EN_B không bị gộp.
+67 nhãn item/skill/chỉ số thuần English hoặc kỹ thuật thiếu ngữ cảnh được giữ riêng, không tính là câu dịch. Các gói 0349 và 0350#1–27 chứa nhiều nhãn debug dịch thô, vẫn chưa duyệt. 200 mục 0070–0071 tiếp tục HOLD; một nhãn Spanish cũ vẫn chưa xác minh.
 
-## QA cấu trúc
-- Đối chiếu 34.812 ID nguồn; 473 ID mới duy nhất, không rỗng, không trùng 14.500 ID cũ, Unicode NFC.
-- 937 token mới và 65517 token tích lũy đúng nguyên chuỗi/thứ tự. Các vùng màu chứa tên item/skill (mã f7 03) giữ nguyên nội dung ở batch mới. Biến định dạng printf giữ nguyên.
-- Kiểm chữ số và các chỉ số: 2 cảnh báo do `magic defence`/`defence` viết thường ở nguồn, đã giữ `Magic Defence`/`Defence`. Không phát hiện sai giá trị số trong audit.
-- 17 nhãn English-only hoặc dòng chỉ chứa tên và chỉ số giữ nguyên, ghi riêng trong HOLD-NOT-COUNTED.csv.
-- Chưa QA nghĩa theo mọi scene, độ rộng chữ, font, phân trang, runtime 3DS. Chưa có patch RomFS/CIA.
+## QA
+- 604 ID đúng nguồn, không trùng 14.973 ID trước, không rỗng, NFC. 2.359 token mới, tổng 67.876 token khớp nguyên chuỗi/thứ tự. 77 vùng màu mã f7 03 giữ nguyên tên sau khi bỏ token bố cục và chuẩn hóa khoảng trắng.
+- 44 cảnh báo số/chỉ số thô: tiêu đề Attack không phải chỉ số Attack; nhắc lại SP cho rõ nghĩa; Defense viết hoa; dấu phân cách hàng nghìn. So chữ số sau chuẩn hóa: 0 sai khác. Giữ EN_A/EN_B riêng. Hai tiêu đề trùng nguồn với CP cũ đã thống nhất.
+- Ngôi xưng: Hansel tôi–cậu; Napollon tôi–bạn, Daphne cô ấy; Swabbie ta–cậu; người tiên tri ta–con; Gladstone ta–ngươi; bà lão bà–cháu; khi chưa biết người nói ưu tiên trung tính. Nhánh giới tính #0350/65 giữ nguyên token, chưa xác nhận hiển thị hai nhánh trên máy.
+- QA tĩnh không thay QA ngữ nghĩa theo scene, font, pixel width, ngắt trang, nút bấm hoặc runtime. Chưa có patch RomFS/CIA chơi được.
 
 ## Khôi phục
-`cp011a-new.jsonl`: 473 mục. `merged-CP011a.jsonl`: 14.973 mục, giữ nguyên 14.500 dòng CP010. Ghép theo ID với 01_CAN_DICH.jsonl; không sửa trường nguồn. Nhánh `vh/fantasy-life-usa`.
+Chạy `python3 unpack_batches.py` tại `Fantasy-Life-USA` trên GitHub. Batch `translations/cp011b-604.jsonl.bz2.b64`; tạo `cp011b-new-604.jsonl` và `merged-CP011b-15577.jsonl`. ZIP bàn giao chứa `cp011b-new.jsonl`, `merged-CP011b.jsonl`. Ghép theo ID vào 01_CAN_DICH.jsonl, không sửa metadata nguồn. 14.973 mục cũ giữ byte-identical.
 
-SHA-256 gói mới: `4b0298b92a4a05dcaf9fab34bfc3cf00f78c9609cac1f0928e2d4d06144c8cc7`
+SHA-256 batch: `e92384a54b1e0f6b7a24c93786745a2642913fab11e4c22697542ba89df5c6f2`
 
-SHA-256 bản gộp: `e407b947b136411745a4e253c868d3d2bd0208ab29d38277e4bb9b2691ba6987`
+SHA-256 gộp: `b627c103a485f87dce708831c26cdfa9bc904d1c146689fda9f2b8bc79bcdf30`
 
 ## Tiếp theo
-0346–0347 (hướng dẫn), 0348#67–89 và #100 (phân loại tên skill/debug), 0349–0350 (phân loại, thoại cuối). Các gói đã bỏ qua và 0070–0071 HOLD vẫn chưa xử lý. Sổ ngôi xưng theo scene chưa xác minh; Gladstone dùng ta–ngươi, Napollon dùng tôi–bạn, người nói không rõ danh tính ưu tiên trung tính. Không tính các tên thuần English là bản dịch mới.
-Chạy `python3 unpack_batches.py` tại thư mục `Fantasy-Life-USA` để khôi phục bản gộp `translations/merged-CP011a-14973.jsonl` và batch mới `translations/cp011a-new-473.jsonl`. Danh sách HOLD lưu riêng tại `HOLD-CP011a-NOT-COUNTED.csv.bz2.b64`.
+Ưu tiên hội thoại chưa dịch ở 0330–0332, sau đó các nhóm mô tả/ngữ cảnh rõ ràng còn thiếu. Rà theo danh sách ID chưa dịch thay vì đi theo thứ tự gói đơn thuần. Không đếm tên item giữ English, nhãn debug chưa rõ hoặc chuỗi đã dịch. CP011 còn 923 mục.
