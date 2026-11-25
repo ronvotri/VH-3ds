@@ -63,6 +63,8 @@ inputs = [
      "3a208c9c924fe24b427d058cf0c0654f772cc56854735ae930c03ba8cebbf6d1", 497),
     ("cp012c-527.jsonl.bz2.b64", bz2.decompress, "cp012c-new-527.jsonl",
      "139ad3b4f736d894ff1f4e2a7eb45abb8568a9dc72395d6f9b106fcdc36d541c", 527),
+    ("cp012d-416.jsonl.bz2.b64", bz2.decompress, "cp012d-new-416.jsonl",
+     "ee48ed9b0e6a066a5cde1a3bfa0fc1c12e3573fd2c0638931bde9b0c2196a617", 416),
 ]
 all_data = bytearray()
 cp005_data = bytearray()
@@ -92,7 +94,7 @@ for filename, decompressor, outname, sha, count in inputs:
     if filename.startswith('cp009'):
         cp009_data.extend(data)
     print("Restored:", outname, count, "IDs")
-assert len(ids) == 18084
+assert len(ids) == 18500
 assert len(cp005_data.decode('utf-8').splitlines()) == 2000
 assert hashlib.sha256(cp005_data).hexdigest() == '309d868dc821d859cc587f5b8a80e435b1d25fb54bdaa47acc023c0a7adb3ce0'
 (root / 'cp005-complete-2000.jsonl').write_bytes(cp005_data)
@@ -105,7 +107,7 @@ assert hashlib.sha256(cp008_data).hexdigest() == 'daeac626ec53a92aba0952cb36ca7c
 assert len(cp009_data.decode('utf-8').splitlines()) == 2000
 assert hashlib.sha256(cp009_data).hexdigest() == 'e61bfaa20fbb9c9fb58066052b814e9681ba426eba2b5c111376d730c0581477'
 (root / 'cp009-complete-2000.jsonl').write_bytes(cp009_data)
-out = root / "merged-CP012c-18084.jsonl"
+out = root / "merged-CP012-18500.jsonl"
 # Apply a verified correction to one CP007 untranslated title, without adding its ID again.
 corrections = [json.loads(line) for line in (root / 'cp009c-corrections-1.jsonl').read_text(encoding='utf-8').splitlines() if line.strip()]
 assert len(corrections) == 1
@@ -120,7 +122,7 @@ for row in all_rows:
         hits += 1
 assert hits == 1
 all_data = (''.join(json.dumps(row, ensure_ascii=False, separators=(',', ':')) + '\n' for row in all_rows)).encode('utf-8')
-assert len(all_rows) == 18084
+assert len(all_rows) == 18500
 pre_cp010c = (''.join(json.dumps(row, ensure_ascii=False, separators=(',', ':')) + '\n' for row in all_rows[:13665])).encode('utf-8')
 assert hashlib.sha256(pre_cp010c).hexdigest() == 'ec5b7ce6d0376ca0c91d94de4480e9a6605039a3734eaa23646fb04eb7b4c68b'
 cp010_data = (''.join(json.dumps(row, ensure_ascii=False, separators=(',', ':')) + '\n' for row in all_rows[12500:14500])).encode('utf-8')
@@ -149,6 +151,12 @@ pre_cp012b = (''.join(json.dumps(row, ensure_ascii=False, separators=(',', ':'))
 assert hashlib.sha256(pre_cp012b).hexdigest() == 'd0049d16bb2bc945c97d76ae94d43d971a1b687ce13f5ad6a5401cf00689dfe5'
 pre_cp012c = (''.join(json.dumps(row, ensure_ascii=False, separators=(',', ':')) + '\n' for row in all_rows[:17557])).encode('utf-8')
 assert hashlib.sha256(pre_cp012c).hexdigest() == 'a66a8703876165316420fa9dbdca987bd9fb386bd90692524498eb28a9a4d7f5'
-assert hashlib.sha256(all_data).hexdigest() == 'b414d20de2ae935e01bd0340d45f4ea2367e9e29aec982404fa54b9c59e495bb'
+pre_cp012d = (''.join(json.dumps(row, ensure_ascii=False, separators=(',', ':')) + '\n' for row in all_rows[:18084])).encode('utf-8')
+assert hashlib.sha256(pre_cp012d).hexdigest() == 'b414d20de2ae935e01bd0340d45f4ea2367e9e29aec982404fa54b9c59e495bb'
+cp012_data = (''.join(json.dumps(row, ensure_ascii=False, separators=(',', ':')) + '\n' for row in all_rows[16500:18500])).encode('utf-8')
+assert len(cp012_data.decode('utf-8').splitlines()) == 2000
+assert hashlib.sha256(cp012_data).hexdigest() == '909e0100bf53eaef2ceb3af7880d418f0555440719048cd6ca98875b17418228'
+(root / 'cp012-complete-2000.jsonl').write_bytes(cp012_data)
+assert hashlib.sha256(all_data).hexdigest() == '037d707bc441ca32f7ca8b36404882f56ad8ce591b8304b2e17d4d5b0baba05f'
 out.write_bytes(all_data)
-print("PASS: 18084 unique approved entries =>", out)
+print("PASS: 18500 unique processed entries =>", out)
