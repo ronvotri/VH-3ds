@@ -1,34 +1,36 @@
-# Fantasy Life (USA) — CP011b — Votri Valley
+# Fantasy Life (USA) — CP011 hoàn tất — Votri Valley
 
-**24/11/2026 · 15.577/34.812 ID đã xử lý (44,75%)**. Thêm 604 mục; còn 19.235 ID. CP011 đạt 1.077/2.000 mục, còn 923. Nhánh `vh/fantasy-life-usa`, không sửa `main`.
+25/11/2026 · **16.500/34.812 ID đã xử lý (47.40%)**. Còn 18.312. CP011a 473 + CP011b 604 + CP011c 923 = 2.000 ID mới. Một nhãn Spanish cũ vẫn chưa chuyển ngữ; không tính tên riêng giữ nguyên là câu mới.
 
-## Phạm vi mới
-| Gói | ID mới | Nội dung |
+## Phạm vi CP011c
+| Gói | Mục mới | Nội dung |
 |---|---:|---|
-| 0333 | 99 | Tên nhiệm vụ |
-| 0334 | 99 | Tên nhiệm vụ |
-| 0335 | 100 | Tên nhiệm vụ |
-| 0336 | 57 | Tên nhiệm vụ biến thể EN_B |
-| 0346 | 100 | Hướng dẫn Life, điều khiển, chiến đấu |
-| 0347 | 62 | Hướng dẫn, hiệu ứng và mô tả trang bị |
-| 0348 | 14 | Nhãn trạng thái, điều kiện sau skill |
-| 0350 | 73 | Hội thoại #28–100 |
-| Tổng | **604** | 355 tiêu đề và 249 mục khác |
-
-67 nhãn item/skill/chỉ số thuần English hoặc kỹ thuật thiếu ngữ cảnh được giữ riêng, không tính là câu dịch. Các gói 0349 và 0350#1–27 chứa nhiều nhãn debug dịch thô, vẫn chưa duyệt. 200 mục 0070–0071 tiếp tục HOLD; một nhãn Spanish cũ vẫn chưa xác minh.
+| 0124 | 42 | Trạng thái, phản hồi, tính cách |
+| 0179 | 68 | Mốc Life và nhiệm vụ |
+| 0180 | 55 | Cốt truyện, Flutter |
+| 0181 | 87 | Tạo nhân vật, UI và tên nhiệm vụ |
+| 0251 | 91 | Tiêu đề hướng dẫn Life, thư |
+| 0261 | 75 | Friendship, thoại và điều ước |
+| 0262 | 93 | Điều ước |
+| 0330–0332 | 300 | Phản ứng NPC và tên quest |
+| 0338 | 70 | Thông báo chế tạo, hiệu ứng, mô tả Life |
+| 0339 | 42 | Mô tả vũ khí và giáp |
+| Tổng | 923 | |
 
 ## QA
-- 604 ID đúng nguồn, không trùng 14.973 ID trước, không rỗng, NFC. 2.359 token mới, tổng 67.876 token khớp nguyên chuỗi/thứ tự. 77 vùng màu mã f7 03 giữ nguyên tên sau khi bỏ token bố cục và chuẩn hóa khoảng trắng.
-- 44 cảnh báo số/chỉ số thô: tiêu đề Attack không phải chỉ số Attack; nhắc lại SP cho rõ nghĩa; Defense viết hoa; dấu phân cách hàng nghìn. So chữ số sau chuẩn hóa: 0 sai khác. Giữ EN_A/EN_B riêng. Hai tiêu đề trùng nguồn với CP cũ đã thống nhất.
-- Ngôi xưng: Hansel tôi–cậu; Napollon tôi–bạn, Daphne cô ấy; Swabbie ta–cậu; người tiên tri ta–con; Gladstone ta–ngươi; bà lão bà–cháu; khi chưa biết người nói ưu tiên trung tính. Nhánh giới tính #0350/65 giữ nguyên token, chưa xác nhận hiển thị hai nhánh trên máy.
-- QA tĩnh không thay QA ngữ nghĩa theo scene, font, pixel width, ngắt trang, nút bấm hoặc runtime. Chưa có patch RomFS/CIA chơi được.
+- 923 ID mới hợp lệ, không trùng; toàn bộ 16.500 ID đối chiếu nguồn, NFC và không rỗng. 297 token mới và 68173 token tích lũy đúng nguyên chuỗi/thứ tự. 9 vùng tên/số lượng tô màu giữ đúng nguồn.
+- 12 cảnh báo số: 11 tiêu đề 101 nghĩa là nhập môn, 1 câu dùng 4 thay for; không phải trị số gameplay. Các chuỗi nguồn giống hệt đã đối chiếu bản cũ và bản mới.
+- Các nhánh nam/nữ giữ nguyên token; xưng hô tạm theo cụm thoại (cướp biển ta–cậu, Bomba tự xưng tên, Chai tự xưng Chai khi có, người tiên tri ta–con, NPC thường tôi–cậu). Tên item/skill/Life/Rank giữ English. Chưa xác nhận người nói thật hoặc độ dài glyph, phân trang, nhánh runtime.
+- Các mục chưa xử lý trong những gói đã xem được liệt kê ở UNPROCESSED-IN-REVIEWED-PACKAGES.csv; không cộng vào tiến độ. 0070–0071 vẫn HOLD; các nhãn nội bộ không rõ nghĩa và tên riêng thuần English chưa được tính mới.
 
 ## Khôi phục
-Chạy `python3 unpack_batches.py` tại `Fantasy-Life-USA` trên GitHub. Batch `translations/cp011b-604.jsonl.bz2.b64`; tạo `cp011b-new-604.jsonl` và `merged-CP011b-15577.jsonl`. ZIP bàn giao chứa `cp011b-new.jsonl`, `merged-CP011b.jsonl`. Ghép theo ID vào 01_CAN_DICH.jsonl, không sửa metadata nguồn. 14.973 mục cũ giữ byte-identical.
-
-SHA-256 batch: `e92384a54b1e0f6b7a24c93786745a2642913fab11e4c22697542ba89df5c6f2`
-
-SHA-256 gộp: `b627c103a485f87dce708831c26cdfa9bc904d1c146689fda9f2b8bc79bcdf30`
+Chạy `python3 unpack_batches.py` trong `Fantasy-Life-USA` trên nhánh `vh/fantasy-life-usa`. Batch `translations/cp011c-923.jsonl.bz2.b64` tạo `cp011c-new-923.jsonl`, `cp011-complete-2000.jsonl`, `merged-CP011-16500.jsonl`. Ghép theo ID với 01_CAN_DICH.jsonl, không sửa metadata.
+- SHA-256 batch: `1c40a70b596c41921947c61761ba583e939729bdc0e0d1af74fbd0ddd572d26c`
+- SHA-256 CP011: `7180b6e26e5854e3d92d4ace435936ef855bc60935bb59a2bd453e0920c7f929`
+- SHA-256 gộp: `f571e0ffec0ea67f8768fe6110d8d76b9ee1ad03a594cda450db17615dac7074`
+- SHA-256 15.577 ID trước: `b627c103a485f87dce708831c26cdfa9bc904d1c146689fda9f2b8bc79bcdf30` (byte-identical)
 
 ## Tiếp theo
-Ưu tiên hội thoại chưa dịch ở 0330–0332, sau đó các nhóm mô tả/ngữ cảnh rõ ràng còn thiếu. Rà theo danh sách ID chưa dịch thay vì đi theo thứ tự gói đơn thuần. Không đếm tên item giữ English, nhãn debug chưa rõ hoặc chuỗi đã dịch. CP011 còn 923 mục.
+CP012: ưu tiên những phần chưa dịch rõ nghĩa, ví dụ điều kiện skill ở 0256–0259 và UI còn thiếu; kiểm ID trước khi chọn. Không làm lại ID đã có; không tính khống tên giữ nguyên.
+
+**Chưa có patch font, RomFS/CIA hoặc kiểm thử trên 3DS.** Đây là tiến độ dữ liệu nguồn.
