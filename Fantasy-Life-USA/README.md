@@ -1,28 +1,43 @@
-# Fantasy Life (USA) — CP012a — Votri Valley
+# Fantasy Life (USA) — CP012b — Votri Valley
 
-**25/11/2026 · 17.060/34.812 ID đã xử lý (49.01%)**. Còn 17.752. CP012a có 560 mục mới; CP012 còn 1.440 mục theo mục tiêu 2.000. Một nhãn Spanish cũ giữ nguyên chờ xác minh; không tính tên riêng không dịch là câu mới.
+**25/11/2026 · 17.557/34.812 ID đã xử lý (50,43%)**. Còn **17.255 ID**. CP012a 560 + CP012b 497 = 1.057/2.000; còn 943 mục để khép CP012.
 
 ## Phạm vi
-| Gói | Mục mới | Nội dung |
-|---|---:|---|
-| 0125, 0126, 0128, 0129 | 220 | Hiệu ứng, chỉ số, biểu cảm |
-| 0130 | 100 | Biểu cảm, thông báo Level, Multiplayer, Friendship, Bounty |
-| 0224–0226 | 124 | Điều kiện kích hoạt skill |
-| 0256–0259 | 100 | Điều kiện skill, bàn chế tạo, Creator/God |
-| 0231–0232, 0253, 0262 | 16 | Mô tả item, thông báo mật khẩu và khách ghé |
-| Tổng | 560 | |
 
-Dịch bằng bảng đối chiếu thủ công cho nhãn lặp, giữ nguyên hậu tố chỉ số, % và dấu cộng. Gói 0130 được viết từng câu, đặt lại token ở vị trí biến tương ứng. Giữ nguyên tên skill, Life, Rank, item và thuật ngữ core; không dịch chuỗi mật khẩu hoặc tên item thuần Anh. EN_A/EN_B giữ theo ID và giữ tên skill khác biệt. Không tạo thêm điều kiện ngoài source. Các nhãn `Creator Special Skill` và `God Special Skill` dịch phần quan hệ, không đổi tên Rank.
+| Gói | Mục mới |
+|---|---:|
+| 0124 | 28 |
+| 0300 | 72 |
+| 0301 | 67 |
+| 0302 | 49 |
+| 0303 | 58 |
+| 0304 | 21 |
+| 0305 | 20 |
+| 0308 | 6 |
+| 0309 | 28 |
+| 0310 | 10 |
+| 0311 | 68 |
+| 0312 | 38 |
+| 0313 | 32 |
+| **Tổng** | **497** |
+
+- Nhãn ngoại hình, loại đồ, giọng nói, các thao tác A/X/Y/L/R, tiêu đề hướng dẫn Life, chế tạo và menu.
+- 267 nhãn trong 0300–0304 và 20 trong 0305 (tùy biến/loại đồ); 28 mục 0124 về tính cách/dáng người; 28 mục 0309; 116 mục 0310–0312; 32 mục 0313; 6 mục 0308. Phân loại theo nội dung nguồn, không khẳng định mọi chuỗi xuất hiện trên màn hình.
+- Chỉ dịch các nhãn có nghĩa đủ rõ trong ngữ cảnh. Nhiều nhãn EN_A trong nhóm 0300–0313 có dạng tiếng Anh dịch thô; chưa kiểm hình minh họa hay chức năng UI thực tế. Bỏ qua các tên riêng, tên Life/Rank/skill, mã nội bộ, nhãn `Unused`/`Preliminary`, và các chuỗi không đủ ngữ nghĩa. Danh sách 761 mục chưa xử lý trong các gói đã xem lưu riêng; không tính là dịch hoặc coi tất cả là lỗi.
+- Giữ tên Life như Tailor, Blacksmith, Woodcutter, Miner, Alchemist, Cook, Mercenary; giữ Rank, Level, License, Pocket. Bảy lựa chọn dùng lại bản Việt đã có để nhất quán; các mục khác được dịch theo ngữ cảnh. Các nhãn mô tả hình dạng cần so screenshot để kiểm chính xác.
 
 ## QA tĩnh
-- 560 ID mới hợp lệ, không trùng 16.500 ID cũ. Toàn bộ 17.060 ID đối chiếu nguồn, NFC, không rỗng, token khớp thứ tự và nội dung; 103 token mới, 68276 token tích lũy.
-- Dấu + và số liệu của batch mới giữ nguyên; 10 cảnh báo số là chuyển third/three thành 3 (đính kèm number-audit.csv). Danh sách 947 mục chưa xử lý trong các gói đã xem không tính vào tiến độ (gồm tên riêng, nhãn kỹ thuật, thuật ngữ giữ nguyên và mục chưa đủ ngữ cảnh; không phải tất cả đều lỗi).
-- Chưa kiểm runtime 3DS, glyph, pixel width, ngắt dòng hoặc vị trí hiển thị token động; không khẳng định bản ROM đã vá. 0070–0071 tiếp tục HOLD.
+
+- 497 ID mới duy nhất, đều có trong nguồn; tất cả bản dịch khác source, không rỗng, Unicode NFC. 17.557 ID tích lũy không trùng; 68.276 token điều khiển giữ nguyên nội dung và thứ tự, 0 token mới.
+- Ba khác biệt chữ số trong nhóm 0309 là `once/twice` -> `1/2 lần`, đã kiểm; chuỗi `6 Press the A button once` được hiểu là nhấn A 6 lần theo chuỗi liên tiếp 1–6, cần xác minh trên UI. Không có kiểm runtime.
+- 17.060 ID CP012a giữ nguyên byte. Một nhãn Spanish cũ chưa xác minh, các gói 0070–0071 HOLD. % trên tổng ID nguồn, không đồng nghĩa % văn bản đã vá trên ROM.
+- Chưa kiểm font, pixel width, ngắt trang, tên ngoại hình và tên gọi cơ chế trên 3DS; chưa có patch chơi được.
 
 ## Khôi phục
-Chạy `python3 unpack_batches.py` trong thư mục `Fantasy-Life-USA` trên nhánh `vh/fantasy-life-usa`. Batch `translations/cp012a-560.jsonl.bz2.b64` xuất `cp012a-new-560.jsonl`, `merged-CP012a-17060.jsonl`. Ghép theo ID với `01_CAN_DICH.jsonl`; giữ nguyên metadata.
-- SHA-256 batch: `a7073240b2a34cb5861eeb90e1dbf675452c16049e19cd0b185f98070a9bbda3`
-- SHA-256 gộp: `d0049d16bb2bc945c97d76ae94d43d971a1b687ce13f5ad6a5401cf00689dfe5`
-- SHA-256 16.500 ID trước: `f571e0ffec0ea67f8768fe6110d8d76b9ee1ad03a594cda450db17615dac7074` (byte-identical)
+Chạy `python3 unpack_batches.py` trong `Fantasy-Life-USA` trên nhánh `vh/fantasy-life-usa`. Batch `translations/cp012b-497.jsonl.bz2.b64` xuất `cp012b-new-497.jsonl` và `merged-CP012b-17557.jsonl`; ghép theo ID với `01_CAN_DICH.jsonl`, giữ metadata.
 
-Tiếp CP012b: còn 1.440 mục, ưu tiên phần UI/hướng dẫn thực sự rõ nghĩa như 0131–0132, 0300–0312 sau phân loại; bỏ qua các tên riêng, mã nội bộ và mật khẩu. Cần phân biệt tiến độ dịch và các mục giữ English có chủ đích trước khi chốt phần trăm bao phủ game.
+- SHA-256 batch: `3a208c9c924fe24b427d058cf0c0654f772cc56854735ae930c03ba8cebbf6d1`
+- SHA-256 gộp: `a66a8703876165316420fa9dbdca987bd9fb386bd90692524498eb28a9a4d7f5`
+- SHA-256 tiền tố CP012a: `d0049d16bb2bc945c97d76ae94d43d971a1b687ce13f5ad6a5401cf00689dfe5`
+
+Tiếp CP012c: còn 943 mục theo mục tiêu 2.000, rà 0306–0307, 0314–0319 và các gói UI chưa xử lý, chỉ chọn nhãn rõ nghĩa, tách tên riêng/mã nội bộ. Không lấy tên item thuần English làm bản dịch mới. Cần kiểm nguồn tiếng Nhật hoặc hình thật đối với các nhãn dịch máy mơ hồ.
