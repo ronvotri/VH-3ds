@@ -1,36 +1,32 @@
-# Fantasy Life (USA) — CP012 hoàn tất — Votri Valley
+# Fantasy Life (USA) — CP013a — Votri Valley
 
-**25/11/2026 · 18.500/34.812 ID đã xử lý (53.14%)**, còn 16.312. CP012a 560 + CP012b 497 + CP012c 527 + CP012d 416 = **2.000 ID**.
+**25/11/2026 · 18.785/34.812 ID đã xử lý (53.96%)**, còn 16.027. CP013a thêm 285 nhãn ngoại hình từ nguồn Tây Ban Nha: 0262#96–100 (5), 0263 (100), 0264 (99), 0265 (81). Không dịch tên riêng nhân vật hoặc trang bị; 264#88, 265#46 và các tên nhân vật giữ chờ đối chiếu.
 
-## Phạm vi CP012d
+## Phân loại sơ bộ 16.027 ID còn lại
 
-| Nhóm | ID mới |
+| Nhóm đề xuất | ID |
 |---|---:|
-| Danh xưng NPC (0177–0178) | 56 |
-| Tiêu đề chủ đề (0252) | 36 |
-| Nhãn hướng dẫn nghề (0308) | 18 |
-| Nhãn sự kiện (0114–0120; nội bộ, chưa xác minh hiển thị) | 306 |
-| Tổng | 416 |
+| HOLD_MAP_DEBUG | 200 |
+| EVENT_INTERNAL_REVIEW | 694 |
+| MIXED_REVIEW | 1,567 |
+| INTERNAL_ASSET_REVIEW | 1,302 |
+| KEEP_EN_CANDIDATE | 3,647 |
+| MAP_LOCATION_REVIEW | 300 |
+| NPC_MONSTER_NAME_REVIEW | 3,588 |
+| AVATAR_REVIEW | 334 |
+| ITEM_LOCALE_REVIEW | 4,395 |
+| Tổng | 16.027 |
 
-416 ID tương ứng 340 chuỗi nguồn khác nhau (411 EN_A, 5 EN_B). Nhãn sự kiện được dịch theo đúng phần nghĩa rõ trong nguồn EN, không phải lời thoại đã xác minh. Không suy ra speaker, quan hệ nhân vật hoặc địa danh chính thức từ nhãn nội bộ. Tên riêng, item, skill, Life, Rank và địa danh giữ EN. Các nhãn có thứ tự hội thoại “one/two/three” được dịch “lần 1/2/3” theo nhóm nguồn; cần đối chiếu cảnh nếu dùng trong runtime. Tiêu đề 0252 chưa xác minh chức năng UI. `Un-bear-able` giữ bản dịch nhất quán từ CP cũ.
+Phân nhóm theo gói và ngữ cảnh nguồn, **chưa duyệt từng tên**. Không được hiểu KEEP_EN_CANDIDATE là đã xác nhận tất cả tên English. NPC_MONSTER_NAME_REVIEW và ITEM_LOCALE_REVIEW cần đối chiếu tên chính thức; nhãn âm thanh, debug, tài nguyên không tự vá. 200 HOLD ở 0070–0071 vẫn tách riêng. CSV `REMAINING-16027-TRIAGE.csv` trong ZIP liệt kê từng ID và lý do. Các nhóm nguồn còn lại do heuristic gốc phân loại: {'mo_ta_va_chu_khac': 200, 'ten_ui_va_thuat_ngu': 15525, 'vat_pham_che_tao_va_chi_so': 302}; không còn ID chưa xử lý thuộc nhãn nhóm hội thoại/hướng dẫn hoặc nhiệm vụ, nhưng không chứng minh mọi thoại trong ROM đã dịch.
 
-Những nguồn mơ hồ, mã kỹ thuật, tên riêng và các nhãn lặp ưu tiên thấp còn để riêng: 608 ID trong các gói vừa xem chưa chọn, không đồng nghĩa tất cả cần Việt hóa. Không coi 306 nhãn nội bộ là 306 câu thoại. 200 ID 0070–0071 vẫn HOLD. Các nhãn 0114–0123 chưa chọn vẫn cần kiểm ngữ cảnh; không khẳng định đã dịch trọn các gói này.
+## QA và khôi phục
 
-## QA cấu trúc
+285 ID mới đều có nguồn, không trùng, khác nguồn, Unicode NFC, 0 token mới. Bản gộp 18.785 ID giữ đủ 68.277 token và giữ nguyên byte 18.500 ID CP012. Nhãn ngoại hình Tây Ban Nha chưa đối chiếu hình thực tế. Chưa kiểm font, tràn chữ hoặc patch 3DS. 306 nhãn nội bộ sơ bộ CP012d vẫn cần kiểm.
 
-- 416 ID mới có nguồn, không trùng, khác source, không rỗng, Unicode NFC. 18.500 ID tích lũy duy nhất, 68.277 token đúng thứ tự/nội dung; 0 token mới vì tất cả là nhãn ngắn.
-- 13 trường hợp số viết chữ → chữ số chỉ là thứ tự đối thoại, đã đối chiếu; ký hiệu ② và mã E27 giữ nguyên. Không phát hiện bản dịch mới khác cách dịch cũ cho cùng chuỗi EN trong nhóm đã chọn. Bảo toàn byte 18.084 ID cũ.
-- 18.500 là số ID xử lý ở cấp dữ liệu, **không phải % văn bản hiển thị trong ROM**. Các nhãn sự kiện nội bộ là bản dịch sơ bộ, chưa QA ngữ nghĩa độc lập. Chưa vá font, đo pixel, test phân trang hoặc build patch 3DS. Một nhãn item tiếng Tây Ban Nha từ CP cũ vẫn chưa dịch.
+Chạy `python3 unpack_batches.py` trong `Fantasy-Life-USA` trên nhánh `vh/fantasy-life-usa`. Gói `translations/cp013a-285.jsonl.bz2.b64` khôi phục `cp013a-new-285.jsonl` và bản gộp `merged-CP013a-18785.jsonl`. Không thay đổi `main`.
 
-## Khôi phục
+- SHA-256 mới: `00e09a7af0c7a1660713721b37e37840b1b73b43aea50c063683a5dce37da39f`
+- SHA-256 gộp: `02ac3b537cd5ef62733f5753caf4a7a79b4b5d17146fb9cfd42342b3ba64d56c`
+- SHA-256 CP012: `037d707bc441ca32f7ca8b36404882f56ad8ce591b8304b2e17d4d5b0baba05f`
 
-Trên nhánh `vh/fantasy-life-usa`, chạy `python3 unpack_batches.py` trong `Fantasy-Life-USA`. Gói `translations/cp012d-416.jsonl.bz2.b64` khôi phục `cp012d-new-416.jsonl`; bản gộp `merged-CP012-18500.jsonl`; riêng CP012 `cp012-complete-2000.jsonl`. Ghép theo ID với `01_CAN_DICH.jsonl`; không sửa metadata hoặc nguồn. Nhánh `main` không thay đổi.
-
-- SHA-256 mới: `ee48ed9b0e6a066a5cde1a3bfa0fc1c12e3573fd2c0638931bde9b0c2196a617`
-- SHA-256 CP012: `909e0100bf53eaef2ceb3af7880d418f0555440719048cd6ca98875b17418228`
-- SHA-256 bản gộp: `037d707bc441ca32f7ca8b36404882f56ad8ce591b8304b2e17d4d5b0baba05f`
-- SHA-256 CP012c: `b414d20de2ae935e01bd0340d45f4ea2367e9e29aec982404fa54b9c59e495bb`
-
-## Tiếp theo
-
-CP013: thống kê toàn bộ 16.312 ID chưa xử lý theo nhóm tên riêng cần giữ EN, nhãn kỹ thuật cần nguồn Nhật, và nội dung có nghĩa rõ; ưu tiên dịch nhóm người chơi đọc được, không chép tên EN vào VI để tăng tỷ lệ. Các nhãn sự kiện 0121–0123 và danh xưng NPC còn lại cần phân loại trước khi dịch tiếp.
+Tiếp theo: kiểm nhóm MIXED_REVIEW và các danh xưng NPC chung, đối chiếu item Spanish với tên English tương ứng, không tính chép nguyên tên thành bản dịch mới.
