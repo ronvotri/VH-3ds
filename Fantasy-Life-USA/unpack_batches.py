@@ -206,3 +206,31 @@ assert len(ids) == 19207
 (root / "cp013d-new-96.jsonl").write_bytes(cp013d_data)
 (root / "merged-CP013d-19207.jsonl").write_bytes(all_data + cp013b_data + cp013c_data + cp013d_data)
 print("PASS: 19207 unique processed entries =>", root / "merged-CP013d-19207.jsonl")
+
+# CP013e: preserve the old translations, and keep name dispositions separate.
+cp013e_data = bz2.decompress(base64.b64decode((root / "cp013e-33.jsonl.bz2.b64").read_text(encoding="ascii").strip(), validate=True))
+assert hashlib.sha256(cp013e_data).hexdigest() == "990af65270dd9c6f42945663424f7c26a0d302903e2a57dedb0998e15b7bf3ed"
+cp013e_rows = [json.loads(line) for line in cp013e_data.decode("utf-8").splitlines()]
+assert len(cp013e_rows) == 33
+for row in cp013e_rows:
+    assert set(row) == {"id", "vi"} and row["vi"]
+    assert row["id"] not in ids, row["id"]
+    ids.add(row["id"])
+assert len(ids) == 19240
+review_dir = root.parent / "reviews"
+review_data = bz2.decompress(base64.b64decode((review_dir / "cp013e-name-decisions.jsonl.bz2.b64").read_text(encoding="ascii").strip(), validate=True))
+assert hashlib.sha256(review_data).hexdigest() == "9e05b82e5e2e36bef71292630d574d6b03528b29783488eec9506ddb7dabbeae"
+review_rows = [json.loads(line) for line in review_data.decode("utf-8").splitlines()]
+review_ids = set()
+for row in review_rows:
+    assert set(row) == {"id", "source", "decision"}
+    assert row["id"] not in ids and row["id"] not in review_ids, row["id"]
+    assert row["decision"] in {"KEEP_SOURCE_NAME", "HOLD_PLACEHOLDER"}
+    review_ids.add(row["id"])
+assert len(review_ids) == 2696
+assert sum(r["decision"] == "KEEP_SOURCE_NAME" for r in review_rows) == 2599
+assert sum(r["decision"] == "HOLD_PLACEHOLDER" for r in review_rows) == 97
+(root / "cp013e-new-33.jsonl").write_bytes(cp013e_data)
+(root / "merged-CP013e-19240.jsonl").write_bytes(all_data + cp013b_data + cp013c_data + cp013d_data + cp013e_data)
+(review_dir / "cp013e-name-decisions.jsonl").write_bytes(review_data)
+print("PASS: 19240 translated entries, 2599 KEEP_SOURCE_NAME, 97 HOLD_PLACEHOLDER")
