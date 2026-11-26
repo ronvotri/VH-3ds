@@ -523,3 +523,35 @@ cp014c_data = cp014a_jsonl(cp014c_translations)
 (review_dir / "cp014c-resolved-keep.jsonl").write_bytes(cp014a_jsonl(cp014c_keep))
 (review_dir / "remaining-HOLD-CP014c-7629.jsonl").write_bytes(cp014a_jsonl(hold_by_id.values()))
 print("PASS: 20299 translation entries, 6884 KEEP, 7629 HOLD")
+
+# CP014d: system messages, Bliss reward headings and protected source literals.
+_, cp014d_resolutions = restore_cp013h_file(review_dir, "cp014d-resolutions.jsonl", "c603640ee8d145eca94daf8ad339045ba6a3ea10225cf39bbb2dd50a0d1095bf", 341)
+cp014d_translations = []
+cp014d_keep = []
+for row in cp014d_resolutions:
+    i = row["id"]
+    assert i in hold_by_id and i in review_ids and i not in ids
+    assert row["source"] == hold_by_id[i]["source"]
+    if row["decision"] == "TRANSLATE":
+        assert set(row) == {"id", "source", "decision", "reason", "vi"}
+        assert row["reason"] in {"SYSTEM_MESSAGE", "BLISS_REWARD_HEADING"}
+        assert row["vi"] and row["vi"] != row["source"]
+        cp014d_translations.append({"id": i, "vi": row["vi"]})
+        review_ids.remove(i)
+        ids.add(i)
+    else:
+        assert set(row) == {"id", "source", "decision", "reason"}
+        assert row["decision"] in {"KEEP_SOURCE_NAME", "KEEP_FORMAT_LITERAL"}
+        assert row["reason"] in {"MAP_CONNECTION_REFERENCE", "NUMBERED_PET_TABLE_LABEL", "CORE_STAT_LABEL", "EXPLICIT_DUMMY_SLOT", "NAMED_BLISS_FEATURE"}
+        cp014d_keep.append({"id": i, "source": row["source"], "decision": row["decision"]})
+    del hold_by_id[i]
+assert len(cp014d_translations) == 45 and len(cp014d_keep) == 296
+assert len(ids) == 20344 and len(hold_by_id) == 7288
+assert len(review_ids) == 14468 and len(review_ids - set(hold_by_id)) == 7180
+assert not ids & review_ids and len(ids | review_ids) == 34812
+cp014d_data = cp014a_jsonl(cp014d_translations)
+(root / "cp014d-new-45.jsonl").write_bytes(cp014d_data)
+(root / "merged-CP014d-20344.jsonl").write_bytes((root / "merged-CP014c-20299.jsonl").read_bytes() + cp014d_data)
+(review_dir / "cp014d-resolved-keep.jsonl").write_bytes(cp014a_jsonl(cp014d_keep))
+(review_dir / "remaining-HOLD-CP014d-7288.jsonl").write_bytes(cp014a_jsonl(hold_by_id.values()))
+print("PASS: 20344 translation entries, 7180 KEEP, 7288 HOLD")
