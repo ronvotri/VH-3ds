@@ -1,31 +1,35 @@
-# Fantasy Life (USA) — CP013e — Votri Valley
+# Fantasy Life (USA) — CP013f — Votri Valley
 
-**26/11/2026 · 19.240/34.812 ID đã xử lý bản dịch (55,27%)**; còn 15.572 ID chưa có bản dịch. CP013a–e = 285 + 208 + 118 + 96 + 33 = 740 mục mới.
+**26/11/2026 · 19.353/34.812 ID đã xử lý bản dịch (55,59%)**, còn 15.459 ID không nằm trong JSONL vi. CP013a–f = 853 ID mới.
 
 ## Dịch mới
 
+113 ID tiêu đề nhạc nền/khúc ca trong gói 0260–0261, bảng 8554/8558. Dịch tiêu đề, không dịch lời bài hát. Giữ nguyên tên riêng, Life và biến thể EN_A/EN_B. Các tiêu đề địa danh thuần tên giữ nguyên; chưa xác minh màn hình phát nhạc thực tế. Việc Việt hóa tên khúc nhạc (không phải tên item/skill/nhân vật) là lựa chọn biên tập của checkpoint.
+
+## Giữ nguyên tên/thuật ngữ — không cộng vào số dịch
+
 | Nhóm | ID |
 |---|---:|
-| Tùy chỉnh ngoại hình | 22 |
-| Nhãn hướng dẫn | 7 |
-| Nhãn nhà/tiêu đề | 4 |
-| Tổng | 33 |
+| Rank và chỉ số | 442 |
+| Tên skill/thuật ngữ kỹ năng | 435 |
+| Tên phần thưởng/item | 111 |
+| Địa danh | 19 |
+| Tiêu đề nhạc chỉ là địa danh/tên khu vực | 12 |
+| Tổng | 1.019 |
 
-Nguồn 01_CAN_DICH.jsonl, gói 0252, 0265, 0301–0304, 0311–0312. Giữ nguyên tên nhân vật Leo, Olivia, Laura, Celestia; thống nhất Tension gauge với thanh tích lực. Nhãn ngoại hình từ nguồn Anh dịch thô chưa đối chiếu ảnh/gameplay; cần kiểm tra trước patch.
+Các bảng 6855/6861, 6866/6870, 8489/8493, 8545/8549 và các bảng phần thưởng 6877–6917; kiểm theo metadata và nội dung nguồn. Không tự đổi tên NPC hay tên Tây Ban Nha khi chưa có đối chiếu chính thức.
 
-## Rà tên riêng, không tính vào số dịch
+Cộng dồn KEEP từ CP013e–f: 3.618. Tổng bản dịch + KEEP dự kiến: 22.971/34.812 (65,99%), còn 11.841 chưa chốt (bao gồm 97 HOLD CP013e). Đây là tiến độ phân loại, không phải tỷ lệ Việt hóa, và chưa chạy kiểm gộp toàn bộ.
 
-Gói 0190–0216, archive entry 6796/6800, bảng cột 0, EN_A/EN_B: 2.696 ID được phân loại. 2.599 KEEP_SOURCE_NAME (2.147 EN_A, 452 EN_B), 97 HOLD_PLACEHOLDER (96 EN_A, 1 EN_B). Tên định danh item, quái, trang bị giữ nguyên source, kể cả tên phong cách ngôn ngữ khác vốn có trong bảng. Không xác nhận từng tên bằng gameplay. Placeholder (Unknown, Unobtainable, v.v.) chưa duyệt dùng. Không ghi các mục này vào JSONL vi. Bảng danh mục riêng không tự động tạo patch.
+## QA
 
-Nếu không trùng các batch trước, tổng dịch + KEEP = 21.839/34.812 (62,73%), 12.973 chưa chốt (gồm 97 HOLD). Đây là mốc phân loại dự kiến, không phải tỷ lệ Việt hóa.
+113 bản dịch không trùng nhau, khớp ID nguồn, khác nguồn, NFC, không rỗng; mã CTRL, số, dấu +, printf và xuống dòng bảo toàn. 1.019 quyết định giữ nguồn khớp ID và không trùng batch mới, CP013e KEEP/HOLD hoặc các batch CP010c–CP013e có cục bộ; phạm vi checkpoint cũ hơn đối chiếu qua báo cáo. Hai tệp đọc lại từ GitHub khớp dữ liệu. Chưa chạy toàn bộ script khôi phục trong môi trường hiện tại; chưa kiểm font, độ rộng, runtime, hay build ROM.
 
-## QA và khôi phục
+## Khôi phục
+- `translations/cp013f-113.jsonl.bz2.b64`: SHA-256 giải nén `4eb1e0ccd1ac4cd3430b21d40b62fe2a7b798047aae1e8aa78609fbeeb8b352f`.
+- `reviews/cp013f-keep.jsonl.bz2.b64`: SHA-256 giải nén `7978fad9809afa1dad66071d2d2b89628c68d4d6ae67b4b3ec45da1cf366a3f8`.
+- `python3 unpack_batches.py` dự kiến xuất `merged-CP013f-19353.jsonl`, kiểm trùng giữa bản dịch và danh sách KEEP/HOLD, không tự vá các quyết định giữ tên.
 
-33 ID duy nhất, có nguồn, khác source, NFC, không rỗng, 0 token mới; chữ số, dấu +, printf và xuống dòng đối chiếu. 2.696 quyết định khớp nguồn và metadata. Kiểm trùng với CP010c–CP013d cục bộ; các batch cũ hơn đối chiếu theo phạm vi checkpoint. Chưa chạy đầy đủ công cụ phục hồi toàn bộ batch trong môi trường hiện tại. Script dừng nếu phát hiện trùng giữa bản dịch và danh sách tên giữ nguyên/HOLD. Đọc lại hai tệp GitHub khớp.
-- Batch: translations/cp013e-33.jsonl.bz2.b64, SHA-256 giải nén 990af65270dd9c6f42945663424f7c26a0d302903e2a57dedb0998e15b7bf3ed.
-- Phân loại: reviews/cp013e-name-decisions.jsonl.bz2.b64, SHA-256 giải nén 9e05b82e5e2e36bef71292630d574d6b03528b29783488eec9506ddb7dabbeae.
-- Chạy python3 unpack_batches.py; dự kiến xuất merged-CP013e-19240.jsonl và danh sách quyết định tách riêng.
+Tiếp CP013g: rà bảng NPC/quái và những UI có ngữ cảnh rõ; đối chiếu tên ngoại ngữ với bảng EN trước khi chốt. Không sửa main.
 
-Chưa test font, UI, ngữ nghĩa theo hình ảnh hoặc ROM 3DS. Tiếp CP013f, duyệt bảng tên skill/Rank/thuật ngữ và bảng tên NPC, tránh cộng tên giữ nguyên vào số dịch.
-
-Mốc trước: [CP013d](CHECKPOINT-013d.md). Xem [quy tắc ngôi xưng](NGOI_XUNG.md).
+Mốc trước: [CP013e](CHECKPOINT-013e.md). Xem [quy tắc ngôi xưng](NGOI_XUNG.md).
