@@ -1,25 +1,23 @@
-# Fantasy Life (USA) — CP013l — Votri Valley
+# Fantasy Life (USA) — CP014a — Votri Valley
 
-26/11/2026 — CP013l thêm 11 bản dịch, 145 KEEP và 2.007 HOLD. Đã lập danh sách phân loại cho toàn bộ phần nguồn còn lại theo các checkpoint.
+26/11/2026 — Reviewed 326 previously held IDs: 73 new translations, 253 preserved resource labels.
 
-## Phạm vi
-- 11 bản dịch: 3 ô save, 5 nhãn Stars, 2 nhãn danh mục vật phẩm (Vehicle body, Body under, dùng bản tương ứng đã có trong bảng 8690), 1 tiêu đề Florina's House. Tên riêng Florina giữ nguyên.
-- 145 KEEP: 128 tên/thuật ngữ, 17 ký hiệu/đơn vị/markup/URL giữ nguyên.
-- 2.007 HOLD (phân nhóm theo metadata và nội dung, chưa xác minh runtime): 772 nhãn sự kiện, 308 nhãn hiệu ứng/debug, 268 tài nguyên UI/nhãn dịch thô, 200 map/debug 0070–0071, 142 ngoại hình, 104 tên item/quái, 90 tên bản đồ dịch thô, 61 metadata nhà/thú cưng, 59 nhãn chưa rõ nghĩa, 3 placeholder.
+## Scope
+- 51 descriptive event/quest labels in archive 5423, including tutorial labels and short story headings. Preserve Event_XXX, digits, names and original markers. These labels may be internal; not confirmed in gameplay.
+- 20 clear descriptive UI labels in archive 8690 (transport, Bag/Storage, shopping, scenario labels).
+- 2 exact Spanish-source generic descriptions in archive 8710, reusing prior translations in the same table: Montón de libros and Caballo alquiler. No item name guessing.
+- 253 KEEP_FORMAT_LITERAL decisions: explicit "unused frame" labels in resource tables, 222 in archive 8702 column 1 and 31 in archive 8690 UI-resource section. This preserves source bytes rather than asserting that these records never appear in game.
 
-## Tổng tiến độ
-19.636 bản ghi dịch (56,40%), 5.446 KEEP, 9.730 HOLD. Tổng dịch + KEEP = 25.082/34.812 (72,05%). Tất cả 34.812 ID đã có phân loại theo ledger tái lập, nhưng HOLD chưa được duyệt và không có nghĩa là game đã dịch xong. Các ID giữ nguyên và HOLD không được chép vào trường vi.
+## Progress
+19.709 translated entries, 5.699 KEEP, 9.404 HOLD. Resolved total 25.408/34.812 (72,99%); translated entries 56,62%. Technical labels are counted separately from new Vietnamese text. The 326 resolved IDs were already in the HOLD ledger; no new source IDs.
 
 ## QA
-Mở trực tiếp 01_CAN_DICH.jsonl từ ZIP gốc và các gói TXT, xác nhận cùng 34.812 ID. Tái lập 13.665 ID đầu: 10.945 theo phạm vi CP001–CP009a (gói 0001–0113 trừ 0070–0071), 2.720 ID CP009b/c–CP010a/b theo dữ liệu giải nén thực tế từ GitHub. Đọc 5.960 bản ghi dịch CP010c–CP013k từ file cục bộ và 13.024 ID KEEP/HOLD. Không trùng trong các tập ID tái lập. 2.163 ID còn lại được phân loại trong CP013l, không trùng và thuộc nguồn. 11 bản dịch NFC, bảo toàn chữ số/token, khác nguồn.
-Chưa giải nén kiểm lại từng batch CP001–CP009a trong phiên này; chưa chạy toàn bộ unpack_batches.py, chưa test font/ROM/runtime. Phân loại HOLD là sơ bộ theo nhóm, không phải xác nhận chuỗi không hiển thị.
+Reopened original source ZIP and reconstructed 9.730 historical HOLD records from local checkpoint archives; verified ID uniqueness, source equality and no overlap with available translated/KEEP records. Each new decision targets a historical HOLD ID and exact source; NFC, numeric tokens and Event_XXX markers checked. No changes to ambiguous avatar labels, proper names or internal codes. Still not tested in ROM or full restore of all prior batches.
 
-## Khôi phục
-- translations/cp013l-11.jsonl.bz2.b64 — SHA256 e3d7605a53ea524bc2b41486b21b3b8e7e8c3eceae662ae4055cc004e83bde74
-- reviews/cp013l-keep.jsonl.bz2.b64 — a23a695f81a72029f13dd901aea82dcb02e81140be4552eefbb87dcaaef93a9b
-- reviews/cp013l-hold.jsonl.bz2.b64 — 22693f30be26e31460f03a30eeebb05e55c6e3ac53cd73332613b72cc8accad0
-Ba tệp được đọc lại từ GitHub khớp bản tải lên. unpack_batches.py đã bổ sung kiểm tra tổng 34.812 ID và đầu ra merged-CP013l-19636.jsonl; chưa chạy đầy đủ.
+## Recovery
+reviews/cp014a-resolutions.jsonl.bz2.b64 — SHA256 uncompressed 917a9885679d89cf22a79b213075a24115d0f57f6edcd0e56f1a29f032218eaa.
+Readback of resolution file from GitHub matched uploaded data. unpack_batches.py appends the 73 translations, preserves historical ledger files, checks the old HOLD IDs, exports remaining-HOLD-CP014a-9404.jsonl, and merged-CP014a-19709.jsonl. Full recovery remains untested.
 
-Tiếp CP014: giải quyết HOLD có khả năng hiển thị trước (ngoại hình, UI, tên địa danh), đối chiếu bảng kỹ thuật/ID chính thức; giữ nguyên các mã thực sự nội bộ sau khi xác minh. Kiểm thử gộp toàn bộ trước bàn giao bản dịch. Không sửa main.
+Next CP014b: prioritize unambiguous visible UI/appearance descriptions and source-name cross-checks. Do not replace untranslated proper names without reliable mapping. No changes to main.
 
-Mốc trước: [CP013k](CHECKPOINT-013k.md). Xem [quy tắc ngôi xưng](NGOI_XUNG.md).
+Mốc trước: [CP013l](CHECKPOINT-013l.md). [Quy tắc ngôi xưng](NGOI_XUNG.md).
