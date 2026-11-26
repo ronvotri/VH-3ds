@@ -1,23 +1,22 @@
-# Fantasy Life (USA) — CP014m — Votri Valley
+# Fantasy Life (USA) — CP014n — Votri Valley
 
-26/11/2026 — 256 ID chuyển khỏi HOLD: 254 tên chuẩn hóa tiếng Anh và 2 nhãn dịch tiếng Việt.
+26/11/2026 — 264 ID chuyển khỏi HOLD, toàn bộ là chuẩn hóa tên tiếng Anh, không phải câu dịch tiếng Việt mới.
 
-- 178 tên vật phẩm/món ăn: 127 nội thất và đồ trang trí từ bảng 8710, 48 tên món ăn từ 5728, 3 nguyên liệu từ 8690. Đối chiếu từng nhóm với bảng 6796 EN_A, bao gồm thảm, đồ lễ hội, trophy, món ăn. Không nội suy biến thể dấu +.
-- 49 bản ghi tên NPC: 36 nhãn lặp của 4 tên trong 5999 và 13 nhãn tiếng Tây Ban Nha trong 8710, đối chiếu 5990 EN_A. Ánh xạ theo ngữ nghĩa/chính tả và chuỗi tên, không xác nhận bằng khóa thực thể; cần QA trong game.
-- 27 nhãn địa danh từ 5854/8690 đối chiếu tên và mô tả bản đồ 5933 EN_A.
-- 2 nhãn tiếng Việt về thống kê và giao diện.
-- Loại 17 ứng viên chưa chắc nghĩa khỏi batch dự thảo; vẫn HOLD.
+- 249 bản ghi tên quái: 201 nhãn tiếng Anh dịch thô ở 6943–8050 và 48 nhãn tiếng Tây Ban Nha ở 8710. Đối chiếu tên Bounty trong 6796 EN_A và tên NPC/quái xuất hiện trong 5990. Ánh xạ chọn lọc theo nghĩa, nhóm tên và chính tả; áp dụng cho các nhãn lặp khớp nguyên văn. Không khẳng định các tên Bounty và tên hiển thị của quái luôn giống nhau.
+- 12 bản ghi tên NPC (Dragon kill → Dragonslayer, Erumi → Elmie) ở 5999; 3 tên nguyên liệu từ 8690, đối chiếu 6796 EN_A.
+- Loại 42 ứng viên khỏi bản dự thảo, gồm Dark Gigant (có cả Dark Giant và Dark Gigante), Apple Uncle, Heihofu, Gustav. Các mục đó vẫn HOLD. Không tự suy diễn biến thể chất lượng +.
+- Bảng name-evidence-CP014n.csv trong ZIP ghi ID, archive, hàng nguồn và đích.
 
 ## Tiến độ
-21.661 bản ghi thay thế; 8.550 KEEP; 4.601 HOLD (4.145 tên chờ xác minh + 456 HOLD khác). Tổng 30.211/34.812 ID đã có quyết định. Tỷ lệ này không phải tỷ lệ ROM Việt hóa hoặc số câu tiếng Việt.
+21.925 bản ghi thay thế; 8.550 KEEP; 4.337 HOLD (3.881 tên chờ xác minh + 456 HOLD khác). Tổng 30.475/34.812 ID có quyết định. Tỷ lệ bản ghi thay thế không phải tỷ lệ câu tiếng Việt hoặc tỷ lệ ROM Việt hóa.
 
 ## QA
-Mở trực tiếp ZIP gốc, kiểm 256 ID duy nhất thuộc 4.857 HOLD ở CP014l, source khớp; kiểm NFC, số, CTRL, dấu + và xuống dòng; ZIP đạt kiểm toàn vẹn. Bảng name-evidence-CP014m.csv có ID và hàng đối chứng của từng tên. Tệp batch GitHub đọc lại khớp. Chưa chạy toàn bộ unpack_batches.py, chưa khôi phục đủ 13.665 bản ghi cũ, chưa kiểm font/runtime. Ánh xạ ngữ nghĩa/chính tả chưa chứng minh cùng thực thể bằng khóa nhị phân.
+264 ID duy nhất thuộc hàng đợi tên ở CP014m, source khớp 01_CAN_DICH.jsonl. Kiểm NFC, CTRL, số, dấu + và xuống dòng, ZIP đạt kiểm toàn vẹn. Tệp GitHub đọc lại khớp. Ánh xạ ngữ nghĩa/chính tả chưa chứng minh bằng khóa thực thể hoặc runtime, cần QA tên trong game. Chưa chạy toàn bộ unpack_batches.py, chưa phục hồi đủ 13.665 bản ghi cũ, chưa kiểm font/runtime 3DS.
 
 ## Khôi phục
-reviews/cp014m-resolutions.jsonl.bz2.b64 — SHA256 giải nén bbebe4a6400578d32a6033106f05c73df76141fc1ef1f4bda8caacd813023db9.
-unpack_batches.py cập nhật CP014m, dự kiến xuất merged-CP014m-21661.jsonl, remaining-HOLD-CP014m-4601.jsonl và hai hàng đợi con. Không sửa main.
+reviews/cp014n-resolutions.jsonl.bz2.b64 — SHA256 giải nén 7df345b0f31ab33f532adb635337ef2efe3cdd2054e9daf5cb9e6583bc218c67.
+unpack_batches.py đã bổ sung CP014n, dự kiến xuất merged-CP014n-21925.jsonl, remaining-HOLD-CP014n-4337.jsonl và hai hàng đợi con. Không sửa main.
 
-Tiếp: ưu tiên đối chiếu bảng tên quái theo ngữ cảnh có bằng chứng, tiếp tục các nhóm tên còn lại và kiểm bản gộp đầy đủ.
+Tiếp CP014o: ưu tiên các nhóm NPC lặp và tên nguyên liệu/trang bị có bằng chứng; kiểm bản gộp trước bàn giao.
 
-Mốc trước: [CP014l](CHECKPOINT-014l.md). [Quy tắc ngôi xưng](NGOI_XUNG.md).
+Mốc trước: [CP014m](CHECKPOINT-014m.md). [Quy tắc ngôi xưng](NGOI_XUNG.md).
