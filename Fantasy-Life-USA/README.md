@@ -1,21 +1,21 @@
-# Fantasy Life (USA) — CP013b — Votri Valley
+# Fantasy Life (USA) — CP013c — Votri Valley
 
-**26/11/2026 · 18.993/34.812 ID đã xử lý (54,56%)**, còn 15.819. CP013a 285 + CP013b 208 = 493 ID mới thuộc CP013.
+**26/11/2026 · 19.111/34.812 ID đã xử lý (54,90%)**, còn 15.701. CP013a 285 + CP013b 208 + CP013c 118 = 611 ID mới trong CP013.
 
-| Nội dung | ID |
-|---|---:|
-| Thư và tiêu đề hướng dẫn | 50 |
-| Hiệu ứng, chỉ số | 48 |
-| Danh xưng NPC và nhãn cùng ngữ cảnh | 108 |
-| Hai nhãn UI lấy từ HOLD | 2 |
-| Tổng | 208 |
+| Gói | ID mới | Nội dung |
+|---|---:|---|
+| 0152 | 12 | Nhãn loại trang bị/dụng cụ |
+| 0299 | 76 | Danh mục vật phẩm/nguyên liệu |
+| 0300–0304 | 18 | Nhãn tùy biến ngoại hình |
+| 0322 | 12 | Nhãn vật thể tương tác từ tiếng Tây Ban Nha |
+| Tổng | 118 | |
 
-Đối chiếu 269 ứng viên với 01_CAN_DICH.jsonl của ZIP nguồn người dùng cung cấp. 61 nhãn kỹ thuật/tài nguyên hoặc bắt đầu bằng # được giữ riêng, chưa gộp vào patch. 349 tiêu đề nhiệm vụ đã có trong CP011b không tính lại và không ghi đè. 208 bản dịch không rỗng, khác nguồn, NFC; giữ đủ 5 token điều khiển, chữ số, dấu + và %. Đã đối chiếu ID với các batch cũ (kiểm tra ứng viên trước đó và các batch CP012–CP013a tại phiên này). Chưa chạy toàn bộ công cụ phục hồi sau thay đổi với mọi batch trong môi trường hiện tại; chưa kiểm tra font, ngắt dòng, runtime hoặc ROM.
+Đối chiếu nguồn ZIP 01_CAN_DICH.jsonl. 88 nhãn phân loại (tận dụng bản CP010a khi cùng nghĩa), 18 nhãn ngoại hình, 12 nhãn tương tác. Tên riêng/item/skill/Life/Rank tiếp tục giữ theo quy tắc. 31 ứng viên thiếu chắc chắn được tách HOLD, không tính. Nhiều tên còn lại là tiếng Tây Ban Nha hoặc tiếng Anh dịch thô; không tự đặt tên tiếng Anh chính thức.
 
-## Khôi phục
+QA tĩnh batch: 118 ID duy nhất, đều tồn tại nguồn, khác source, NFC, không rỗng; bảo toàn token/số/dấu +/%. Không trùng với các batch CP010c–CP013b đã khôi phục cục bộ; phạm vi các checkpoint cũ hơn được kiểm qua báo cáo. Chưa chạy khôi phục tổng toàn bộ batch trong môi trường hiện tại; script có kiểm trùng với toàn bộ dữ liệu khi chạy. Chưa xác minh nhãn ngoại hình, vị trí hiển thị, font và runtime 3DS. Các nhãn danh mục có thể thuộc bảng nội bộ, cần kiểm trước khi đóng patch.
 
-Chạy `python3 unpack_batches.py` trong `Fantasy-Life-USA` trên nhánh `vh/fantasy-life-usa`. Batch mới `translations/cp013b-208.jsonl.bz2.b64` được kiểm SHA-256 sau giải nén: `4b8fbfea8ae9d2de3e00841aa16ddd872f21845b3caec55574dafa0be4e49e8c`. Script giữ kiểm tra toàn bộ CP013a cũ và bổ sung đầu ra `merged-CP013b-18993.jsonl`.
+Khôi phục: chạy `python3 unpack_batches.py`. Batch `translations/cp013c-118.jsonl.bz2.b64` có SHA-256 sau giải nén `caa176ee3ee0e6f178f545572dd834e3d8314b02e433c8c5f360cd674d280594`. Kết quả dự kiến `merged-CP013c-19111.jsonl`, giữ nguyên tiền tố CP013b.
 
-Tiếp theo: CP013c, ưu tiên phân loại từng ID từ nguồn thật; giữ tên riêng/item/skill/thuật ngữ chính tiếng Anh, không tính tên giữ nguyên hoặc nhãn debug.
+Mốc tiếp: CP013d, phân loại tên cần giữ EN và nhãn thiếu ngữ cảnh; chỉ tính dịch thực sự, không cộng tên chép nguyên.
 
-Mốc trước: [CP013a](CHECKPOINT-013a.md). Xem [quy tắc ngôi xưng](NGOI_XUNG.md).
+Mốc trước: [CP013b](CHECKPOINT-013b.md). Xem [quy tắc ngôi xưng](NGOI_XUNG.md).
