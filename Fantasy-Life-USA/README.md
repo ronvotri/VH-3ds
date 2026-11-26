@@ -1,23 +1,21 @@
-# Fantasy Life (USA) — CP014e — Votri Valley
+# Fantasy Life (USA) — CP014f — Votri Valley
 
-1.129 ID chuyển khỏi HOLD: 49 bản dịch và 1.080 quyết định giữ nguyên.
+230 ID chuyển khỏi HOLD: 114 bản ghi dịch, 116 quyết định giữ nguyên.
 
-- 30 bản ghi tiêu đề sự kiện/mô tả (5423), 11 nhãn giao diện và mô tả (8690), 8 nhãn phân loại sinh vật (6952). Giữ tên riêng và item. Các nhãn sự kiện và mô tả có thể là dữ liệu nội bộ; chưa xác minh màn hình hiển thị.
-- 219 tên khớp với tên đã duyệt trong bảng EN gốc (6796/6800/5990/5994/6008/6012) sau khi chuẩn hóa chữ hoa/thường và khoảng trắng. Giữ nguyên chuỗi nguồn, không coi trùng chữ là bằng chứng cùng thực thể. CSV đối chứng đi kèm ZIP.
-- 854 nhãn bắt đầu bằng dấu # trong bảng 8690 (757) và 5728 (97) được giữ nguyên để bảo toàn dữ liệu. Không khẳng định nhãn # luôn là unused.
-- 7 tên phân loại sinh vật giữ tiếng Anh (Golem, Mandrake, Slime, Goblin, Wisp, Gargoyle, Minotaur).
-- 9 bản ghi dự thảo khó xác định nghĩa hoặc thao tác thực tế được loại khỏi bản dịch mới và tiếp tục HOLD.
+- 78 nhãn sự kiện (5423); 14 nhãn thống kê (5786); 13 nhãn UI/ngoại hình (8690, 8702); 6 nhãn mô tả địa điểm; 3 nhãn bố trí nhà (8090).
+- 68 mô tả AI/chọn mục tiêu (5445, 6677), 28 nhãn hiệu ứng dự phòng, 11 dummy, 9 nhãn map test/dự phòng: giữ nguyên nguồn để tránh sửa nhầm dữ liệu kỹ thuật. Chưa xác nhận các nhãn không xuất hiện trong game.
+- Tên nhân vật phiên âm vẫn giữ theo từng nguồn, không tự đổi sang tên Anh suy đoán. Các nhãn Delivery chưa đủ căn cứ tiếp tục HOLD. Những nhãn sự kiện có thể là metadata, cần kiểm thử nơi hiển thị.
 
 ## Tiến độ
-20.393 bản ghi dịch, 8.260 KEEP, 6.159 HOLD; 28.653/34.812 đã có quyết định theo ledger. Không phải tỷ lệ ROM Việt hóa.
+20.507 bản ghi dịch; 8.376 KEEP; 5.929 HOLD. Tổng đã có quyết định 28.883/34.812 ID (82,97%). Không phải tỷ lệ ROM Việt hóa.
 
 ## QA
-Mở lại ZIP nguồn, tái lập ledger CP013e–CP014d; 1.129 ID duy nhất thuộc 7.288 HOLD còn lại, source khớp. 49 bản dịch khác nguồn, NFC, bảo toàn token CTRL, số, dấu +, ký hiệu số và xuống dòng theo phép kiểm cục bộ. Tệp GitHub đọc lại khớp. Chưa chạy toàn bộ unpack_batches.py, chưa kiểm font/runtime. Không tự ghép hàng giữa các bảng tên phiên âm hoặc đổi tên tiếng Tây Ban Nha dựa vào suy đoán.
+Mở ZIP nguồn và khôi phục ledger CP013e–CP014e từ bản bàn giao, xác nhận 6.159 HOLD và 8.260 KEEP trước đợt. 230 ID duy nhất thuộc HOLD, source khớp; 114 bản dịch khác nguồn, NFC, bảo toàn CTRL, chữ số, dấu +, printf và xuống dòng theo kiểm tra cục bộ. File GitHub đọc lại khớp. Chưa chạy toàn bộ unpack_batches.py từ đầu, chưa test font, runtime hoặc ROM.
 
 ## Khôi phục
-reviews/cp014e-resolutions.jsonl.bz2.b64 — SHA256 giải nén b3925a80d6bb0e7e9966ba6fc08dc10f4594cdc8118a5a6e596eed64583c266c.
-unpack_batches.py đã bổ sung kiểm tra chuyển trạng thái và dự kiến xuất merged-CP014e-20393.jsonl, remaining-HOLD-CP014e-6159.jsonl. Không sửa main.
+reviews/cp014f-resolutions.jsonl.bz2.b64 — SHA256 giải nén 203ffa86774b0acd96344caced97d2aee3c0efb98d4f76949b8febb18c80bf28.
+unpack_batches.py đã bổ sung CP014f; dự kiến xuất merged-CP014f-20507.jsonl và remaining-HOLD-CP014f-5929.jsonl. Không sửa main.
 
-Tiếp CP014f: đối chiếu các nhóm tên còn lại và nhãn giao diện khó hiểu, giữ nguyên dữ liệu khi không có bằng chứng đủ chắc chắn; ưu tiên kiểm khôi phục toàn bộ trước khi bàn giao.
+Tiếp CP014g: kiểm chứng bản gộp và tập trung các bảng tên/nhãn còn HOLD dựa trên metadata và đối chiếu nguồn.
 
-Mốc trước: [CP014d](CHECKPOINT-014d.md). [Quy tắc ngôi xưng](NGOI_XUNG.md).
+Mốc trước: [CP014e](CHECKPOINT-014e.md). [Quy tắc ngôi xưng](NGOI_XUNG.md).
