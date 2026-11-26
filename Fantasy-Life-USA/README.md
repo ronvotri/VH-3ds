@@ -1,23 +1,21 @@
-# Fantasy Life (USA) — CP014c — Votri Valley
+# Fantasy Life (USA) — CP014d — Votri Valley
 
-## Kết quả
-1.031 ID được chuyển trạng thái từ 8.660 HOLD ở CP014b.
-- 40 nhãn UI, Happy, thao tác tích lực và hướng dẫn chế tạo (archive 8690).
-- 22 nhãn phân loại sinh vật phổ thông trong bảng 6952, không phải tên riêng từng quái.
-- 9 nhãn nhà ở, hướng dẫn và phương tiện trong các bảng 8062, 8072, 6687.
-- 960 KEEP_FORMAT_LITERAL: 369 mô tả tài nguyên UI/icon (8702, 5887), 245 mô tả tài nguyên âm thanh (8509, 8518, 8527, 8536), 278 tham chiếu sự kiện/ô dự phòng, 68 nhãn ô chưa dùng rõ ràng. Chọn bảo toàn nguồn theo ngữ cảnh bảng, không khẳng định các chuỗi này không bao giờ xuất hiện trong game.
+341 ID đã chuyển khỏi HOLD: 45 bản dịch mới, 296 giữ nguyên.
 
-Giữ nguyên tên riêng, Life, Bag, Storage. Không suy đoán nghĩa của Delivery trong nhãn ngoại hình; các nhãn ấy vẫn HOLD. Các bản dịch từ nguồn Anh dịch thô phải kiểm tra hiển thị.
+- 21 thông báo hệ thống (archive 5764, 5768, 5773, 5777): lưu game, StreetPass, Bliss, thẻ SD, Link Mode, kết nối và chế tạo. Giữ Butterfly/Flutter theo biến thể nguồn; giữ các thuật ngữ Fledgling, License, Guild Office, Ally Clerk, Link Clerk, Joyne Plaza, My Room.
+- 24 tiêu đề phần thưởng Bliss (5797), đối chiếu mô tả cột 1 cùng hàng, giữ Bag/Storage và tên riêng. Hai tên tính năng Happy Audio Theater/Happy Movie Theater giữ nguyên theo glossary.
+- 217 nhãn kết nối bản đồ có dấu ⇔ (5961 cột 3), 39 nhãn thú cưng/dummy đánh số (8107), 8 nhãn dummy (6952), 30 nhãn chỉ số chính có số cộng (5728), 2 tên tính năng Bliss: giữ nguyên dữ liệu, chưa xác nhận có hiển thị hay không.
 
-## Tiến độ theo ledger
-20.299 bản ghi dịch (58,31%), 6.884 KEEP, 7.629 HOLD. Dịch + KEEP = 27.183/34.812 (78,08%). Đây là tỷ lệ xử lý dữ liệu, không phải tỷ lệ ROM Việt hóa thực tế.
+## Tiến độ
+20.344 bản ghi dịch, 7.180 KEEP, 7.288 HOLD; tổng 27.524/34.812 ID đã chốt theo ledger. Không phải phần trăm ROM Việt hóa.
 
 ## QA
-Mở ZIP nguồn 01_CAN_DICH.jsonl, tái lập 9.730 HOLD lịch sử và trừ CP014a/b. Kiểm 1.031 ID duy nhất, đều thuộc 8.660 HOLD còn lại, source khớp. 71 chuỗi dịch khác nguồn, không rỗng, NFC, kiểm số/CTRL/printf/xuống dòng. Bản dịch dùng ngữ cảnh hàng kề cho nhãn thao tác X và quả cầu tích lực, cần QA gameplay. Tệp GitHub đọc lại khớp. Chưa chạy toàn bộ script khôi phục, chưa test font hoặc runtime 3DS.
+Đọc ZIP nguồn 01_CAN_DICH.jsonl và các ZIP CP013e–CP014c; tái lập 9.730 HOLD, trừ ba đợt CP014a–c, đối chiếu 341 ID mới với 7.629 HOLD còn lại và source gốc. ID duy nhất, 45 bản dịch NFC, số, dấu cộng và CTRL khớp. Kiểm readback tệp GitHub thành công. Chưa tìm thấy khóa liên kết đáng tin cậy để thay hàng loạt tên quái/item phiên âm; giữ HOLD. Chưa chạy toàn bộ công cụ khôi phục, kiểm font hoặc runtime 3DS. Quyết định giữ các nhãn kỹ thuật là để bảo toàn nguồn, không khẳng định chúng không được hiển thị.
 
 ## Khôi phục
-reviews/cp014c-resolutions.jsonl.bz2.b64 — SHA256 giải nén ff85192518442c95498cdfe6becfdd7eb5a87b68c35f4dff70e4651b1c83f927.
-unpack_batches.py đã bổ sung kiểm tra chuyển trạng thái, dự kiến xuất merged-CP014c-20299.jsonl và remaining-HOLD-CP014c-7629.jsonl. Lịch sử giữ nguyên, không sửa main.
+reviews/cp014d-resolutions.jsonl.bz2.b64 — SHA256 giải nén c603640ee8d145eca94daf8ad339045ba6a3ea10225cf39bbb2dd50a0d1095bf.
+unpack_batches.py đã bổ sung CP014d, dự kiến xuất merged-CP014d-20344.jsonl và remaining-HOLD-CP014d-7288.jsonl.
 
-Tiếp CP014d: xác minh các nhóm tên item, quái, địa danh phiên âm; đối chiếu dữ liệu cùng thực thể thay vì ghép theo thứ tự; ưu tiên text có khả năng hiển thị.
-Mốc trước: [CP014b](CHECKPOINT-014b.md). [Quy tắc ngôi xưng](NGOI_XUNG.md).
+Tiếp CP014e: tập trung kiểm các nhóm HOLD còn lại, đặc biệt tên định danh và nhãn ngoại hình. Không sửa main.
+
+Mốc trước: [CP014c](CHECKPOINT-014c.md). [Quy tắc ngôi xưng](NGOI_XUNG.md).
