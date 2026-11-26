@@ -1,26 +1,21 @@
-# Fantasy Life (USA) — CP014j — Votri Valley
+# Fantasy Life (USA) — CP014k — Votri Valley
 
-Rà hàng đợi 1.721 HOLD ngoài nhóm tên tạm giữ ở CP014i. 104 ID chuyển khỏi HOLD: 97 bản ghi dịch và 7 KEEP. 1.005 ID tên nguồn thêm vào hàng đợi xác minh, vẫn tính HOLD. 27 bản dịch thử riêng không nhập bản dịch chính.
+26/11/2026 — rà 612 HOLD ngoài nhóm tên tạm giữ. Chốt 123 ID: 13 bản dịch tiếng Việt, 104 tên trang bị chuẩn hóa sang EN_A, 4 tên địa danh chuẩn hóa theo nghĩa, 2 KEEP.
 
-## Phạm vi
-- 54 nhãn ngoại hình đánh số: miệng, lông mày, tai; giữ nguyên từ Delivery chưa xác định nghĩa, chỉ dịch phần mô tả rõ. 18 nhãn Features và 18 nhãn name/lack vẫn chưa chốt.
-- 26 nhãn sự kiện, 9 nhãn thống kê chế tạo, 8 nhãn mô tả giao diện/ngoại hình. Nhóm thống kê Alchemist đối chiếu cấu trúc hàng kề với các nghề chế tạo và nhãn khắc tên; chưa xác minh runtime.
-- 6 nhãn tên nhân vật giữ nguyên và 1 nhãn dummy.
-- 1.005 tên quái, item, skill và nhãn tên nguồn tạm giữ, không xác nhận tên Anh chính thức; 907 thuộc bảng 8710. Không cộng vào KEEP.
-- 27 bản dịch thử: 18 nhãn Delivery Features, 9 nhãn ngoại hình tiếng Tây Ban Nha có tên riêng chưa xác minh. Không đưa vào vi chính thức.
+## Phát hiện quan trọng
+Bảng tiếng Tây Ban Nha 8682 (cột 1) và bảng tên tiếng Anh 6796 (EN_A, cột 0) có đoạn trang bị tương ứng theo từng cụm, không cùng chỉ số hàng toàn bảng. Các độ lệch row ES - row EN là 648 (1336–1365), 647 (1366–1440), 646 (1441–1469), 645 (1471–1499). Kiểm tra ngữ nghĩa từng tên trong 104 mục HOLD, đối chiếu nhóm mũ/áo/găng/giày, các bộ Bandit, Danuta, Pumpkin, Dragon King, Sea Lord, Dark Sultan, Spirit King. Chọn EN_A theo biến thể nguồn và quy tắc giữ tên item tiếng Anh. Đây là ánh xạ có căn cứ mạnh từ chuỗi ngữ nghĩa và vị trí tương đối, chưa chứng minh bằng khóa nhị phân hoặc runtime. Tệp name-evidence-CP014k.csv trong ZIP bàn giao ghi ID nguồn, ID đích, số hàng và độ lệch từng mục.
+
+4 nhãn địa danh Cave of bone/Underground lake trong 5854/8690 được chuẩn hóa theo nghĩa thành Cave of Bones/Subterranean Lake từ 5933; 2 nhãn Spirit tree giữ nguyên theo đối chiếu không phân biệt hoa thường. Không áp dụng ánh xạ hàng loạt lên các bảng tên NPC, quái hoặc item khác. 13 nhãn sự kiện/mô tả dịch tiếng Việt; các nhãn nguồn dịch thô cần kiểm cảnh.
 
 ## Tiến độ
-20.833 bản ghi dịch; 8.548 KEEP; 5.431 HOLD (4.819 tên tạm giữ + 612 HOLD khác). Tổng đã có quyết định 29.381/34.812 (84,40%). Không phải tỷ lệ ROM Việt hóa.
+20.954 bản ghi thay thế (gồm cả 108 tên chuẩn hóa EN_A trong CP014k), 8.550 KEEP, 5.308 HOLD = 4.819 tên tạm giữ + 489 HOLD khác. Tổng quyết định 29.504/34.812 (84,75%). Bản ghi thay thế 60,19%, không đồng nghĩa tỷ lệ câu tiếng Việt hay tỷ lệ ROM Việt hóa.
 
 ## QA
-Mở ZIP nguồn, tái lập ledger tới CP014i; các quyết định mới, tên tạm giữ và bản nháp không trùng nhau, đều khớp nguồn và thuộc HOLD trước đợt. Kiểm lại 7.168 bản ghi dịch cục bộ CP010c–CP014j, không phát hiện trùng ID, lỗi CTRL hoặc NFC. Kiểm tra ZIP đạt. Ba tệp GitHub đọc lại khớp. 13.665 bản ghi cũ chưa tái lập cục bộ; chưa thực thi toàn bộ unpack_batches.py, chưa test font, ROM hay runtime. Delivery và tên phiên âm chưa xác minh; các bản dịch nhãn thô cần kiểm tra ngữ cảnh thực tế.
+612 ID active HOLD từ CP014j đối chiếu khớp 01_CAN_DICH.jsonl. 123 ID duy nhất, 121 bản ghi thay thế khác nguồn, bảo toàn số, CTRL và xuống dòng, Unicode NFC; 489 ID active HOLD còn lại. ZIP kiểm tra toàn vẹn đạt. Chưa phục hồi toàn bộ 13.665 bản ghi CP001–CP010b, chưa chạy toàn bộ script, chưa kiểm font hoặc runtime. Không tuyên bố ánh xạ được xác nhận trong game.
 
 ## Khôi phục
-- reviews/cp014j-resolutions.jsonl.bz2.b64 — SHA256 giải nén 3c07cc6503a5416475bd63305605086b97e6ceffde973be1c734990af6342eda.
-- reviews/cp014j-preserve-pending.jsonl.bz2.b64 — 5903de8a5274596da2bf2dd989b2900a1ecd7e1563d272dd26a879788b547bc1.
-- reviews/cp014j-drafts.jsonl.bz2.b64 — 919129f30b0db463c97adcc04d205214b1afa68da38c5ad7a30c0563a5465207.
-unpack_batches.py bổ sung CP014j, dự kiến tạo merged-CP014j-20833.jsonl, remaining-HOLD-CP014j-5431.jsonl và remaining-active-HOLD-CP014j-612.jsonl. Không sửa main.
+reviews/cp014k-resolutions.jsonl.bz2.b64 — SHA256 giải nén 5ce73c6f33e0a8f9e3b75e26bc379ff943f44f0141fdae9ff66d3452a8f4bd8d. Đọc lại GitHub khớp. unpack_batches.py bổ sung CP014k, dự kiến tạo merged-CP014k-20954.jsonl, remaining-HOLD-CP014k-5308.jsonl và remaining-active-HOLD-CP014k-489.jsonl.
 
-Tiếp CP014k: 612 HOLD ngoài nhóm tên; cần đối chiếu dữ liệu chính thức/metadata hoặc runtime để xác minh 4.819 tên còn lại. Ưu tiên khôi phục đầy đủ trước khi đóng gói.
+Tiếp CP014l: dùng mốc ngữ nghĩa theo cụm để rà các bảng nguyên liệu 8690/6796; không nội suy những đoạn lệch hoặc tên có biến thể chưa xác minh. Ưu tiên kiểm bản gộp đầy đủ. Không sửa main.
 
-Mốc trước: [CP014i](CHECKPOINT-014i.md). [Quy tắc ngôi xưng](NGOI_XUNG.md).
+Mốc trước: [CP014j](CHECKPOINT-014j.md). [Quy tắc ngôi xưng](NGOI_XUNG.md).
