@@ -392,3 +392,27 @@ for checkpoint, count, checksum, total, keep_spec, hold_spec in [
     (root / f"merged-CP013{checkpoint}-{total}.jsonl").write_bytes(latest_data)
 assert len(ids) == 19625 and len(review_ids) == 13024
 print("PASS: 19625 translation entries, 5301 KEEP, 7723 HOLD")
+
+# CP013l: classify the remaining source IDs without treating HOLD as completed.
+cp013l_data, cp013l_rows = restore_cp013h_file(root, "cp013l-11.jsonl", "e3d7605a53ea524bc2b41486b21b3b8e7e8c3eceae662ae4055cc004e83bde74", 11)
+for row in cp013l_rows:
+    assert set(row) == {"id", "vi"} and row["vi"]
+    assert row["id"] not in ids and row["id"] not in review_ids, row["id"]
+    ids.add(row["id"])
+_, cp013l_keep_rows = restore_cp013h_file(review_dir, "cp013l-keep.jsonl", "a23a695f81a72029f13dd901aea82dcb02e81140be4552eefbb87dcaaef93a9b", 145)
+for row in cp013l_keep_rows:
+    assert set(row) == {"id", "source", "decision"}
+    assert row["decision"] in {"KEEP_SOURCE_NAME", "KEEP_FORMAT_LITERAL"}
+    assert row["id"] not in ids and row["id"] not in review_ids, row["id"]
+    review_ids.add(row["id"])
+assert sum(r["decision"] == "KEEP_FORMAT_LITERAL" for r in cp013l_keep_rows) == 17
+_, cp013l_hold_rows = restore_cp013h_file(review_dir, "cp013l-hold.jsonl", "22693f30be26e31460f03a30eeebb05e55c6e3ac53cd73332613b72cc8accad0", 2007)
+for row in cp013l_hold_rows:
+    assert set(row) == {"id", "source", "reason"} and row["reason"].startswith("HOLD_")
+    assert row["id"] not in ids and row["id"] not in review_ids, row["id"]
+    review_ids.add(row["id"])
+assert len(ids) == 19636 and len(review_ids) == 15176
+assert len(ids | review_ids) == 34812
+(root / "cp013l-new-11.jsonl").write_bytes(cp013l_data)
+(root / "merged-CP013l-19636.jsonl").write_bytes(latest_data + cp013l_data)
+print("PASS: 19636 translation entries, 5446 KEEP, 9730 HOLD; classification counts cover 34812 IDs")
