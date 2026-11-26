@@ -1,21 +1,20 @@
-# Fantasy Life (USA) — CP014k — Votri Valley
+# Fantasy Life (USA) — CP014l — Votri Valley
 
-26/11/2026 — rà 612 HOLD ngoài nhóm tên tạm giữ. Chốt 123 ID: 13 bản dịch tiếng Việt, 104 tên trang bị chuẩn hóa sang EN_A, 4 tên địa danh chuẩn hóa theo nghĩa, 2 KEEP.
+451 ID chuyển khỏi HOLD: 447 tên vật phẩm chuẩn hóa sang EN_A và 4 bản dịch nhãn sự kiện tiếng Việt. 311 tên từ archive 8690, 136 tên từ archive 8710 đối chiếu với bảng EN_A archive 6796. Bảng đối chứng trong ZIP ghi từng ID nguồn/đích, archive, row và tên tiếng Anh. Không đổi các tên có hậu tố + chưa xác minh.
 
-## Phát hiện quan trọng
-Bảng tiếng Tây Ban Nha 8682 (cột 1) và bảng tên tiếng Anh 6796 (EN_A, cột 0) có đoạn trang bị tương ứng theo từng cụm, không cùng chỉ số hàng toàn bảng. Các độ lệch row ES - row EN là 648 (1336–1365), 647 (1366–1440), 646 (1441–1469), 645 (1471–1499). Kiểm tra ngữ nghĩa từng tên trong 104 mục HOLD, đối chiếu nhóm mũ/áo/găng/giày, các bộ Bandit, Danuta, Pumpkin, Dragon King, Sea Lord, Dark Sultan, Spirit King. Chọn EN_A theo biến thể nguồn và quy tắc giữ tên item tiếng Anh. Đây là ánh xạ có căn cứ mạnh từ chuỗi ngữ nghĩa và vị trí tương đối, chưa chứng minh bằng khóa nhị phân hoặc runtime. Tệp name-evidence-CP014k.csv trong ZIP bàn giao ghi ID nguồn, ID đích, số hàng và độ lệch từng mục.
-
-4 nhãn địa danh Cave of bone/Underground lake trong 5854/8690 được chuẩn hóa theo nghĩa thành Cave of Bones/Subterranean Lake từ 5933; 2 nhãn Spirit tree giữ nguyên theo đối chiếu không phân biệt hoa thường. Không áp dụng ánh xạ hàng loạt lên các bảng tên NPC, quái hoặc item khác. 13 nhãn sự kiện/mô tả dịch tiếng Việt; các nhãn nguồn dịch thô cần kiểm cảnh.
+## Phương pháp
+Đối chiếu từng cụm có nhiều mốc tương ứng, gồm quặng, gỗ, cá, nguyên liệu, món ăn, nội thất, vũ khí và công cụ Life. Chỉ dùng bản ghi tên EN_A có thật trong bộ nguồn. Loại những cặp quá mơ hồ hoặc thiếu đối chứng, không dùng một độ lệch cho toàn bảng. Đây là ánh xạ thủ công theo ngữ nghĩa và cấu trúc nhóm, chưa xác minh bằng khóa nhị phân hoặc runtime. 4 nhãn sự kiện dịch theo nội dung rõ, gồm hai nhãn thất bại chế tạo Oak Beam. Tên được khôi phục sang tiếng Anh không phải câu dịch tiếng Việt mới.
 
 ## Tiến độ
-20.954 bản ghi thay thế (gồm cả 108 tên chuẩn hóa EN_A trong CP014k), 8.550 KEEP, 5.308 HOLD = 4.819 tên tạm giữ + 489 HOLD khác. Tổng quyết định 29.504/34.812 (84,75%). Bản ghi thay thế 60,19%, không đồng nghĩa tỷ lệ câu tiếng Việt hay tỷ lệ ROM Việt hóa.
+21.405 bản ghi thay thế, 8.550 KEEP, 4.857 HOLD (4.372 tên chờ xác minh + 485 HOLD khác); tổng đã có quyết định 29.955/34.812. Không phải tỷ lệ ROM Việt hóa.
 
 ## QA
-612 ID active HOLD từ CP014j đối chiếu khớp 01_CAN_DICH.jsonl. 123 ID duy nhất, 121 bản ghi thay thế khác nguồn, bảo toàn số, CTRL và xuống dòng, Unicode NFC; 489 ID active HOLD còn lại. ZIP kiểm tra toàn vẹn đạt. Chưa phục hồi toàn bộ 13.665 bản ghi CP001–CP010b, chưa chạy toàn bộ script, chưa kiểm font hoặc runtime. Không tuyên bố ánh xạ được xác nhận trong game.
+451 ID duy nhất thuộc HOLD trước đợt; source khớp ZIP nguồn, khác bản thay thế, NFC, kiểm số, CTRL và xuống dòng; ZIP kiểm toàn vẹn đạt. File GitHub đọc lại khớp dữ liệu tải lên. Chưa tái lập toàn bộ 13.665 bản ghi cũ, chưa thực thi toàn bộ unpack_batches.py và chưa thử font/runtime 3DS. Tên chính thức cần kiểm thêm trong game.
 
 ## Khôi phục
-reviews/cp014k-resolutions.jsonl.bz2.b64 — SHA256 giải nén 5ce73c6f33e0a8f9e3b75e26bc379ff943f44f0141fdae9ff66d3452a8f4bd8d. Đọc lại GitHub khớp. unpack_batches.py bổ sung CP014k, dự kiến tạo merged-CP014k-20954.jsonl, remaining-HOLD-CP014k-5308.jsonl và remaining-active-HOLD-CP014k-489.jsonl.
+reviews/cp014l-resolutions.jsonl.bz2.b64 — SHA256 giải nén a9add11979e1bb54795a1210517e8aaa21ef2bb94fcc824b8efbaf9da8290b7b.
+unpack_batches.py đã bổ sung CP014l, dự kiến xuất merged-CP014l-21405.jsonl, remaining-HOLD-CP014l-4857.jsonl và hai danh sách con. Không sửa main.
 
-Tiếp CP014l: dùng mốc ngữ nghĩa theo cụm để rà các bảng nguyên liệu 8690/6796; không nội suy những đoạn lệch hoặc tên có biến thể chưa xác minh. Ưu tiên kiểm bản gộp đầy đủ. Không sửa main.
+Tiếp CP014m: rà tiếp cụm tên trang bị/nội thất và nguyên liệu còn lại, kiểm chứng các biến thể chất lượng cao; ưu tiên kiểm thử khôi phục toàn bộ.
 
-Mốc trước: [CP014j](CHECKPOINT-014j.md). [Quy tắc ngôi xưng](NGOI_XUNG.md).
+Mốc trước: [CP014k](CHECKPOINT-014k.md). [Quy tắc ngôi xưng](NGOI_XUNG.md).
