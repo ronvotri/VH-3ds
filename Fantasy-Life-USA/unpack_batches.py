@@ -335,3 +335,26 @@ for row in cp013h_candidates:
 (root / "cp013h-new-28.jsonl").write_bytes(cp013h_data)
 (root / "merged-CP013h-19437.jsonl").write_bytes(all_data + cp013b_data + cp013c_data + cp013d_data + cp013e_data + cp013f_data + cp013g_data + cp013h_data)
 print("PASS: 19437 translation entries, 4804 KEEP, 4820 HOLD in CP013e-h ledgers, 54 unapplied candidate matches")
+
+# CP013i: localize remaining English music and descriptive labels;
+# do not modify internal asset labels or protected terms.
+cp013i_data, cp013i_rows = restore_cp013h_file(root, "cp013i-49.jsonl", "83e1ba5446ce675722f2367300f9ee90f432571be05b34436ec2711eb6bd826c", 49)
+for row in cp013i_rows:
+    assert set(row) == {"id", "vi"} and row["vi"]
+    assert row["id"] not in ids and row["id"] not in review_ids, row["id"]
+    ids.add(row["id"])
+assert len(ids) == 19486
+_, cp013i_keep_rows = restore_cp013h_file(review_dir, "cp013i-keep.jsonl", "e31bf2318835a94cbffc8a9e4156190a3531141d86311801c26fc7804a963a25", 412)
+for row in cp013i_keep_rows:
+    assert set(row) == {"id", "source", "decision"} and row["decision"] == "KEEP_SOURCE_NAME"
+    assert row["id"] not in ids and row["id"] not in review_ids, row["id"]
+    review_ids.add(row["id"])
+_, cp013i_hold_rows = restore_cp013h_file(review_dir, "cp013i-hold.jsonl", "71ef5e9a6020a7cbc111cd56e8ea7a57f448c647004c9ad48b020ec8de1123de", 805)
+for row in cp013i_hold_rows:
+    assert set(row) == {"id", "source", "reason"} and row["reason"] in {"HOLD_UI_ASSET_METADATA", "HOLD_PLACEHOLDER"}
+    assert row["id"] not in ids and row["id"] not in review_ids, row["id"]
+    review_ids.add(row["id"])
+assert len(review_ids) == 10841
+(root / "cp013i-new-49.jsonl").write_bytes(cp013i_data)
+(root / "merged-CP013i-19486.jsonl").write_bytes(all_data + cp013b_data + cp013c_data + cp013d_data + cp013e_data + cp013f_data + cp013g_data + cp013h_data + cp013i_data)
+print("PASS: 19486 translation entries, 5216 KEEP, 5625 HOLD in CP013e-i ledgers")
