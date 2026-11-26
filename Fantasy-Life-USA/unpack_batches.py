@@ -164,3 +164,17 @@ assert hashlib.sha256(pre_cp013a).hexdigest() == '037d707bc441ca32f7ca8b36404882
 assert hashlib.sha256(all_data).hexdigest() == '02ac3b537cd5ef62733f5753caf4a7a79b4b5d17146fb9cfd42342b3ba64d56c'
 out.write_bytes(all_data)
 print("PASS: 18785 unique processed entries =>", out)
+
+# CP013b: preserve the independently verified CP013a prefix.
+cp013b_data = bz2.decompress(base64.b64decode((root / "cp013b-208.jsonl.bz2.b64").read_text(encoding="ascii").strip(), validate=True))
+assert hashlib.sha256(cp013b_data).hexdigest() == "4b8fbfea8ae9d2de3e00841aa16ddd872f21845b3caec55574dafa0be4e49e8c"
+cp013b_rows = [json.loads(line) for line in cp013b_data.decode("utf-8").splitlines()]
+assert len(cp013b_rows) == 208
+for row in cp013b_rows:
+    assert set(row) == {"id", "vi"} and row["vi"]
+    assert row["id"] not in ids, row["id"]
+    ids.add(row["id"])
+assert len(ids) == 18993
+(root / "cp013b-new-208.jsonl").write_bytes(cp013b_data)
+(root / "merged-CP013b-18993.jsonl").write_bytes(all_data + cp013b_data)
+print("PASS: 18993 unique processed entries =>", root / "merged-CP013b-18993.jsonl")
