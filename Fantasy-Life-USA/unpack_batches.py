@@ -651,3 +651,35 @@ cp014g_data = cp014a_jsonl(cp014g_translations)
 (review_dir / "cp014g-resolved-keep.jsonl").write_bytes(cp014a_jsonl(cp014g_keep))
 (review_dir / "remaining-HOLD-CP014g-5791.jsonl").write_bytes(cp014a_jsonl(hold_by_id.values()))
 print("PASS: 20556 translation entries, 8465 KEEP, 5791 HOLD")
+
+# CP014h: resolve contextual labels and preserve structured source references.
+_, cp014h_resolutions = restore_cp013h_file(review_dir, "cp014h-resolutions.jsonl", "669f1fa8cbaee497001588fe0ca2c35dc2fbbf9401a339a082f61a6a33f4dfbc", 96)
+cp014h_translations = []
+cp014h_keep = []
+for row in cp014h_resolutions:
+    i = row["id"]
+    assert i in hold_by_id and i in review_ids and i not in ids
+    assert row["source"] == hold_by_id[i]["source"]
+    if row["decision"] == "TRANSLATE":
+        assert set(row) == {"id", "source", "decision", "reason", "vi"}
+        assert row["reason"] in {"DESCRIPTIVE_EVENT_LABEL", "STATISTICS_LABEL", "AVATAR_LAYOUT_LABEL", "HOUSE_LAYOUT_LABEL", "CONTEXTUAL_UI_LABEL"}
+        assert row["vi"] and row["vi"] != row["source"]
+        cp014h_translations.append({"id": i, "vi": row["vi"]})
+        review_ids.remove(i)
+        ids.add(i)
+    else:
+        assert set(row) == {"id", "source", "decision", "reason"}
+        assert row["decision"] in {"KEEP_SOURCE_NAME", "KEEP_FORMAT_LITERAL"}
+        assert row["reason"] in {"STRUCTURED_ENCOUNTER_REFERENCE", "PROTECTED_TERM_OR_FEATURE", "EXPLICIT_FORMAT_LITERAL"}
+        cp014h_keep.append({"id": i, "source": row["source"], "decision": row["decision"]})
+    del hold_by_id[i]
+assert len(cp014h_translations) == 42 and len(cp014h_keep) == 54
+assert len(ids) == 20598 and len(hold_by_id) == 5695
+assert len(review_ids) == 14214 and len(review_ids - set(hold_by_id)) == 8519
+assert not ids & review_ids and len(ids | review_ids) == 34812
+cp014h_data = cp014a_jsonl(cp014h_translations)
+(root / "cp014h-new-42.jsonl").write_bytes(cp014h_data)
+(root / "merged-CP014h-20598.jsonl").write_bytes((root / "merged-CP014g-20556.jsonl").read_bytes() + cp014h_data)
+(review_dir / "cp014h-resolved-keep.jsonl").write_bytes(cp014a_jsonl(cp014h_keep))
+(review_dir / "remaining-HOLD-CP014h-5695.jsonl").write_bytes(cp014a_jsonl(hold_by_id.values()))
+print("PASS: 20598 translation entries, 8519 KEEP, 5695 HOLD")
