@@ -293,3 +293,45 @@ assert len(review_ids) == 5408
 (review_dir / "cp013g-keep.jsonl").write_bytes(cp013g_keep_data)
 (review_dir / "cp013g-hold.jsonl").write_bytes(cp013g_hold_data)
 print("PASS: 19409 translated entries, 4683 KEEP, 725 HOLD in CP013e-g ledgers")
+
+# CP013h: distinguish translated labels, exact KEEP names, unresolved names,
+# and semantic cross-language suggestions that must never be applied automatically.
+def restore_cp013h_file(directory, name, checksum, count):
+    data = bz2.decompress(base64.b64decode((directory / (name + ".bz2.b64")).read_text(encoding="ascii").strip(), validate=True))
+    assert hashlib.sha256(data).hexdigest() == checksum
+    rows = [json.loads(line) for line in data.decode("utf-8").splitlines()]
+    assert len(rows) == count
+    assert len({r["id"] for r in rows}) == count
+    (directory / name).write_bytes(data)
+    return data, rows
+
+cp013h_data, cp013h_rows = restore_cp013h_file(root, "cp013h-28.jsonl", "6b42ba2b4df301b2d955d5073e41df85eb4395fd605f469a72c3be482de10d2e", 28)
+for row in cp013h_rows:
+    assert set(row) == {"id", "vi"} and row["vi"]
+    assert row["id"] not in ids and row["id"] not in review_ids, row["id"]
+    ids.add(row["id"])
+assert len(ids) == 19437
+_, cp013h_keep_rows = restore_cp013h_file(review_dir, "cp013h-keep.jsonl", "719ab70da1f510ddae80b333c6f41f1a53c54fd2580f716f3dac8cd7d06ba6c1", 121)
+for row in cp013h_keep_rows:
+    assert set(row) == {"id", "source", "decision"} and row["decision"] == "KEEP_SOURCE_NAME"
+    assert row["id"] not in ids and row["id"] not in review_ids, row["id"]
+    review_ids.add(row["id"])
+_, cp013h_hold_rows = restore_cp013h_file(review_dir, "cp013h-hold.jsonl", "28b2ea7bfe690efbdc9a46c7d5256268fe9c45be21bcabc9a152f8dc475d560f", 4095)
+cp013h_hold_by_id = {}
+for row in cp013h_hold_rows:
+    assert set(row) == {"id", "source", "reason"}
+    assert row["reason"] in {"HOLD_RAW_ITEM_NAME", "HOLD_ES_NAME", "HOLD_PLACEHOLDER"}
+    assert row["id"] not in ids and row["id"] not in review_ids, row["id"]
+    review_ids.add(row["id"])
+    cp013h_hold_by_id[row["id"]] = row
+assert len(review_ids) == 9624
+_, cp013h_candidates = restore_cp013h_file(review_dir, "cp013h-en-candidates.jsonl", "c49f2c9e1819133de96b6019310f4e11e7ddb3073e49958a7d4a6d9180f7633e", 54)
+for row in cp013h_candidates:
+    assert set(row) == {"id", "source", "english_candidates", "evidence_ids", "status"}
+    assert row["status"] == "SEMANTIC_MATCH_NOT_APPLIED"
+    assert row["id"] in cp013h_hold_by_id
+    assert row["source"] == cp013h_hold_by_id[row["id"]]["source"]
+    assert cp013h_hold_by_id[row["id"]]["reason"] == "HOLD_ES_NAME"
+(root / "cp013h-new-28.jsonl").write_bytes(cp013h_data)
+(root / "merged-CP013h-19437.jsonl").write_bytes(all_data + cp013b_data + cp013c_data + cp013d_data + cp013e_data + cp013f_data + cp013g_data + cp013h_data)
+print("PASS: 19437 translation entries, 4804 KEEP, 4820 HOLD in CP013e-h ledgers, 54 unapplied candidate matches")
