@@ -1,31 +1,27 @@
-# Fantasy Life (USA) — CP013h — Votri Valley
+# Fantasy Life (USA) — CP013i — Votri Valley
 
-**26/11/2026 · 19.437/34.812 ID có bản ghi dịch (55,83%)**. CP013a–h: 937 ID mới.
+**26/11/2026 · 19.486/34.812 ID có bản ghi dịch (55,97%)**. CP013a–i thêm 986 ID.
 
-## Nội dung
+## Đợt này: 1.266 ID
 
-- 28 bản dịch mới: 17 nhãn phân loại/ngoại hình, 11 tiêu đề hướng dẫn (gói 0300–0303, 0311–0312). Một số nhãn Anh dịch thô được giải nghĩa theo những nhãn liền kề, cần xác minh giao diện 3DS. Giữ Move Silently, Life, Rank, God Mode và Woodcutter; chưa test vị trí hiển thị.
-- 121 KEEP_SOURCE_NAME: 101 ID ở bảng 8690 và 20 ID ở 8710 khớp nguyên văn tên đã chốt trong bảng tiếng Anh 6796/6800/5990/5994. Khớp chuỗi không chứng minh cùng một item/nhân vật, chỉ có nghĩa không sửa nguồn.
-- 4.095 HOLD: 1.916 tên item dịch thô, 986 tên tiếng Tây Ban Nha, 1.193 nhãn có dấu hiệu placeholder/unused; phân loại sơ bộ bằng metadata và mẫu chuỗi, chưa duyệt ngữ nghĩa từng ID.
-- 54 ứng viên Tây Ban Nha → English (nằm trong 986 HOLD, không cộng riêng): ví dụ Sombrero de bruja → Witch's Hat; Cabeza de calabaza → Pumpkin Head. Tên ứng viên đều có trong bảng English của ZIP nguồn và có ID đối chứng. Đây chỉ là đối chiếu ngữ nghĩa, không xác nhận cùng một row. Bảng 8682/8690/8710 có cấu trúc hàng/cột khác bảng 6796/6800; không ghép theo số thứ tự và không đưa ứng viên vào bản dịch.
+- 49 dịch mới: 41 tiêu đề nhạc (0259), 4 mô tả vật phẩm (0216), 2 nhãn hướng dẫn (0311), 1 nhãn nhiệm vụ (0250), 1 nhãn công thức (0338). Giữ nguyên tên riêng/thuật ngữ chính. Không dịch lời nhạc. Tiêu đề bài nhạc mang tên địa danh thuần túy được giữ nguyên. Một số nhãn hướng dẫn dịch thô chưa đối chiếu UI thực tế.
+- 412 KEEP_SOURCE_NAME: tên trang bị, item, quái, tên skill, chỉ số, thuật ngữ cốt lõi, nhãn phiên bản và tên địa danh. Tên quái từ bảng dịch thô chỉ KEEP khi trùng nguyên văn với một tên đã duyệt trong bảng tiếng Anh; không xác nhận cùng một thực thể.
+- 805 HOLD: 592 nhãn metadata tài nguyên UI ở archive 8702 (cột 1), 213 placeholder/unused/preliminary. Chưa xác minh chúng có xuất hiện trong runtime; không áp dụng vào patch và không coi là hoàn thành.
 
-## Tiến độ dự kiến
+## Tiến độ theo ledger
 
-Bản dịch + KEEP = 19.437 + 4.804 = 24.241 (69,63%), còn 10.571 chưa chốt. Trong ledger CP013e–h có 4.820 HOLD, còn 5.751 ID ngoài bản dịch/KEEP/HOLD của ledger này. Không phải tỷ lệ ROM đã Việt hóa. Chưa chạy kiểm tra toàn bộ bản gộp.
+19.486 dịch + 5.216 KEEP = 24.702/34.812 (70,96% dự kiến). 5.625 HOLD; 4.485 ID chưa nằm trong ba nhóm này. 10.110 ID chưa chốt gồm HOLD và phần chưa phân loại. Không phải phần trăm ROM đã Việt hóa.
 
-## QA
+## Kiểm tra và khôi phục
 
-Batch mới 28 ID duy nhất, tồn tại trong ZIP nguồn, khác nguồn, NFC, không rỗng; số, số khoanh tròn, dấu +, biến printf, xuống dòng và token đối chiếu (0 token mới). Không trùng với các batch CP010c–CP013g khôi phục cục bộ hoặc ledger CP013e–g. Những batch cũ hơn mới đối chiếu theo phạm vi checkpoint, chưa chạy toàn bộ script khôi phục. Bốn file GitHub đã đọc lại khớp dữ liệu tải lên. Chưa test font, runtime, build ROM.
+49 bản dịch NFC, khác nguồn, không rỗng; bảo toàn 2 token CTRL, số, xuống dòng và biến printf theo nguồn ZIP. 1.266 ID mới không trùng nhau, tồn tại trong nguồn, không trùng 5.772 bản ghi CP010c–CP013h và 9.624 ID ledger trước được đối chiếu cục bộ. Đã giải nén và đối chiếu thêm các batch CP001–CP010b từ GitHub (13.665 ID, và 1 bản sửa CP009c), không trùng ID mới. Ba tệp CP013i tải lên rồi đọc lại khớp. Chưa chạy toàn bộ script khôi phục sau cập nhật, chưa kiểm thử ROM/font/hiển thị trên 3DS; số tổng vẫn là tiến độ theo ledger, không chứng nhận mọi bản dịch cũ đúng ngữ nghĩa.
 
-## Khôi phục
+- translations/cp013i-49.jsonl.bz2.b64 — SHA256 giải nén 83e1ba5446ce675722f2367300f9ee90f432571be05b34436ec2711eb6bd826c
+- reviews/cp013i-keep.jsonl.bz2.b64 — e31bf2318835a94cbffc8a9e4156190a3531141d86311801c26fc7804a963a25
+- reviews/cp013i-hold.jsonl.bz2.b64 — 71ef5e9a6020a7cbc111cd56e8ea7a57f448c647004c9ad48b020ec8de1123de
 
-Chạy python3 unpack_batches.py; dự kiến xuất merged-CP013h-19437.jsonl và ledger tách riêng. Kiểm SHA, số lượng, trùng ID và quan hệ ứng viên/HOLD; không áp dụng ứng viên tự động.
+Chạy python3 unpack_batches.py dự kiến xuất merged-CP013i-19486.jsonl và ledger riêng; kiểm SHA, số lượng, trùng ID. Không thay đổi main.
 
-- translations/cp013h-28.jsonl.bz2.b64 — SHA256 giải nén 6b42ba2b4df301b2d955d5073e41df85eb4395fd605f469a72c3be482de10d2e
-- reviews/cp013h-keep.jsonl.bz2.b64 — 719ab70da1f510ddae80b333c6f41f1a53c54fd2580f716f3dac8cd7d06ba6c1
-- reviews/cp013h-hold.jsonl.bz2.b64 — 28b2ea7bfe690efbdc9a46c7d5256268fe9c45be21bcabc9a152f8dc475d560f
-- reviews/cp013h-en-candidates.jsonl.bz2.b64 — c49f2c9e1819133de96b6019310f4e11e7ddb3073e49958a7d4a6d9180f7633e
+Tiếp CP013j: tiếp tục 4.485 ID chưa phân loại, kiểm chứng bảng metadata/tên còn lại, không tự đổi nhãn kỹ thuật và tên ngoại ngữ chưa có căn cứ.
 
-Mốc tiếp CP013i: ưu tiên 5.751 ID chưa nằm trong ledger để tìm nội dung hiển thị thực sự, phân biệt nhãn nội bộ với UI; sau đó kiểm tra và giải quyết HOLD theo bằng chứng metadata/runtime. Không sửa main.
-
-Mốc trước: [CP013g](CHECKPOINT-013g.md). Xem [quy tắc ngôi xưng](NGOI_XUNG.md).
+Mốc trước: [CP013h](CHECKPOINT-013h.md). Xem [quy tắc ngôi xưng](NGOI_XUNG.md).
