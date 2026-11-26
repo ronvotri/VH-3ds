@@ -778,3 +778,39 @@ cp014j_data = cp014a_jsonl(cp014j_translations)
 (review_dir / "remaining-HOLD-CP014j-5431.jsonl").write_bytes(cp014a_jsonl(hold_by_id.values()))
 (review_dir / "remaining-active-HOLD-CP014j-612.jsonl").write_bytes(cp014a_jsonl(r for i,r in hold_by_id.items() if i not in pending_name_ids))
 print("PASS: 20833 translation entries, 8548 KEEP, 5431 HOLD (4819 provisional names + 612 other)")
+
+# CP014k: recover official EN_A equipment names from aligned source-table groups.
+_, cp014k_resolutions = restore_cp013h_file(review_dir, "cp014k-resolutions.jsonl", "5ce73c6f33e0a8f9e3b75e26bc379ff943f44f0141fdae9ff66d3452a8f4bd8d", 123)
+cp014k_translations = []
+cp014k_keep = []
+for row in cp014k_resolutions:
+    i = row["id"]
+    assert i in hold_by_id and i in review_ids and i not in ids and i not in pending_name_ids
+    assert row["source"] == hold_by_id[i]["source"]
+    if row["decision"] == "TRANSLATE":
+        assert set(row) == {"id", "source", "decision", "reason", "vi"}
+        assert row["reason"] in {"EN_A_EQUIPMENT_NAME_ALIGNMENT", "EN_A_LOCATION_NAME_SEMANTIC_MATCH", "CONTEXTUAL_LABEL"}
+        assert row["vi"] and row["vi"] != row["source"]
+        cp014k_translations.append({"id": i, "vi": row["vi"]})
+        review_ids.remove(i)
+        ids.add(i)
+    else:
+        assert set(row) == {"id", "source", "decision", "reason"}
+        assert row["decision"] == "KEEP_SOURCE_NAME"
+        assert row["reason"] == "EXACT_LOCATION_NAME_CASEFOLD"
+        cp014k_keep.append({"id": i, "source": row["source"], "decision": row["decision"]})
+    del hold_by_id[i]
+assert len(cp014k_translations) == 121 and len(cp014k_keep) == 2
+assert sum(r["reason"] == "EN_A_EQUIPMENT_NAME_ALIGNMENT" for r in cp014k_resolutions) == 104
+assert sum(r["reason"] == "EN_A_LOCATION_NAME_SEMANTIC_MATCH" for r in cp014k_resolutions) == 4
+assert len(ids) == 20954 and len(hold_by_id) == 5308
+assert len(review_ids) == 13858 and len(review_ids - set(hold_by_id)) == 8550
+assert len(pending_name_ids) == 4819 and len(set(hold_by_id) - pending_name_ids) == 489
+assert not ids & review_ids and len(ids | review_ids) == 34812
+cp014k_data = cp014a_jsonl(cp014k_translations)
+(root / "cp014k-new-121.jsonl").write_bytes(cp014k_data)
+(root / "merged-CP014k-20954.jsonl").write_bytes((root / "merged-CP014j-20833.jsonl").read_bytes() + cp014k_data)
+(review_dir / "cp014k-resolved-keep.jsonl").write_bytes(cp014a_jsonl(cp014k_keep))
+(review_dir / "remaining-HOLD-CP014k-5308.jsonl").write_bytes(cp014a_jsonl(hold_by_id.values()))
+(review_dir / "remaining-active-HOLD-CP014k-489.jsonl").write_bytes(cp014a_jsonl(r for i,r in hold_by_id.items() if i not in pending_name_ids))
+print("PASS: 20954 replacement entries, 8550 KEEP, 5308 HOLD (4819 provisional names + 489 other)")
