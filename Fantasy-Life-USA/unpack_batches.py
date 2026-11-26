@@ -683,3 +683,48 @@ cp014h_data = cp014a_jsonl(cp014h_translations)
 (review_dir / "cp014h-resolved-keep.jsonl").write_bytes(cp014a_jsonl(cp014h_keep))
 (review_dir / "remaining-HOLD-CP014h-5695.jsonl").write_bytes(cp014a_jsonl(hold_by_id.values()))
 print("PASS: 20598 translation entries, 8519 KEEP, 5695 HOLD")
+
+# CP014i: distinguish actual resolution from provisional source-name preservation.
+_, cp014i_resolutions = restore_cp013h_file(review_dir, "cp014i-resolutions.jsonl", "4ebbe67d5c592fcea677c5bdcb0e2d3679bd8a5b742824faa53f4ae62cee002b", 160)
+cp014i_translations = []
+cp014i_keep = []
+for row in cp014i_resolutions:
+    i = row["id"]
+    assert i in hold_by_id and i in review_ids and i not in ids
+    assert row["source"] == hold_by_id[i]["source"]
+    if row["decision"] == "TRANSLATE":
+        assert set(row) == {"id", "source", "decision", "reason", "vi"}
+        assert row["reason"] == "CONTEXTUAL_LABEL"
+        assert row["vi"] and row["vi"] != row["source"]
+        cp014i_translations.append({"id": i, "vi": row["vi"]})
+        review_ids.remove(i)
+        ids.add(i)
+    else:
+        assert set(row) == {"id", "source", "decision", "reason"}
+        assert row["decision"] in {"KEEP_SOURCE_NAME", "KEEP_FORMAT_LITERAL"}
+        assert row["reason"] == "SOURCE_TERM_OR_STRUCTURED_LABEL"
+        cp014i_keep.append({"id": i, "source": row["source"], "decision": row["decision"]})
+    del hold_by_id[i]
+assert len(cp014i_translations) == 138 and len(cp014i_keep) == 22
+_, cp014i_pending_names = restore_cp013h_file(review_dir, "cp014i-preserve-pending.jsonl", "2991d987d00bd7836abc6c9ae971e0be0d0256d5e7055a9afc29e698df09dfb2", 3814)
+pending_name_ids = set()
+for row in cp014i_pending_names:
+    i = row["id"]
+    assert set(row) == {"id", "source", "decision", "reason"}
+    assert row["decision"] == "PRESERVE_PENDING_NAME_QA"
+    assert row["reason"] in {"RAW_ITEM_TABLE", "RAW_NPC_TABLE", "RAW_CREATURE_TABLE"}
+    assert i in hold_by_id and i in review_ids and i not in ids and i not in pending_name_ids
+    assert row["source"] == hold_by_id[i]["source"]
+    pending_name_ids.add(i)
+# Pending names remain in HOLD. Never add them to KEEP or the translated output.
+assert len(ids) == 20736 and len(hold_by_id) == 5535
+assert len(review_ids) == 14076 and len(review_ids - set(hold_by_id)) == 8541
+assert len(pending_name_ids) == 3814 and len(set(hold_by_id) - pending_name_ids) == 1721
+assert not ids & review_ids and len(ids | review_ids) == 34812
+cp014i_data = cp014a_jsonl(cp014i_translations)
+(root / "cp014i-new-138.jsonl").write_bytes(cp014i_data)
+(root / "merged-CP014i-20736.jsonl").write_bytes((root / "merged-CP014h-20598.jsonl").read_bytes() + cp014i_data)
+(review_dir / "cp014i-resolved-keep.jsonl").write_bytes(cp014a_jsonl(cp014i_keep))
+(review_dir / "remaining-HOLD-CP014i-5535.jsonl").write_bytes(cp014a_jsonl(hold_by_id.values()))
+(review_dir / "remaining-active-HOLD-CP014i-1721.jsonl").write_bytes(cp014a_jsonl(r for i,r in hold_by_id.items() if i not in pending_name_ids))
+print("PASS: 20736 translation entries, 8541 KEEP, 5535 HOLD (3814 provisional names + 1721 other)")
