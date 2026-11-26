@@ -234,3 +234,28 @@ assert sum(r["decision"] == "HOLD_PLACEHOLDER" for r in review_rows) == 97
 (root / "merged-CP013e-19240.jsonl").write_bytes(all_data + cp013b_data + cp013c_data + cp013d_data + cp013e_data)
 (review_dir / "cp013e-name-decisions.jsonl").write_bytes(review_data)
 print("PASS: 19240 translated entries, 2599 KEEP_SOURCE_NAME, 97 HOLD_PLACEHOLDER")
+
+# CP013f: append translations and verify the separate KEEP ledger.
+cp013f_data = bz2.decompress(base64.b64decode((root / "cp013f-113.jsonl.bz2.b64").read_text(encoding="ascii").strip(), validate=True))
+assert hashlib.sha256(cp013f_data).hexdigest() == "4eb1e0ccd1ac4cd3430b21d40b62fe2a7b798047aae1e8aa78609fbeeb8b352f"
+cp013f_rows = [json.loads(line) for line in cp013f_data.decode("utf-8").splitlines()]
+assert len(cp013f_rows) == 113
+for row in cp013f_rows:
+    assert set(row) == {"id", "vi"} and row["vi"]
+    assert row["id"] not in ids and row["id"] not in review_ids, row["id"]
+    ids.add(row["id"])
+assert len(ids) == 19353
+cp013f_keep_data = bz2.decompress(base64.b64decode((review_dir / "cp013f-keep.jsonl.bz2.b64").read_text(encoding="ascii").strip(), validate=True))
+assert hashlib.sha256(cp013f_keep_data).hexdigest() == "7978fad9809afa1dad66071d2d2b89628c68d4d6ae67b4b3ec45da1cf366a3f8"
+cp013f_keep_rows = [json.loads(line) for line in cp013f_keep_data.decode("utf-8").splitlines()]
+assert len(cp013f_keep_rows) == 1019
+for row in cp013f_keep_rows:
+    assert set(row) == {"id", "source", "decision"}
+    assert row["decision"] == "KEEP_SOURCE_NAME"
+    assert row["id"] not in ids and row["id"] not in review_ids, row["id"]
+    review_ids.add(row["id"])
+assert len(review_ids) == 3715
+(root / "cp013f-new-113.jsonl").write_bytes(cp013f_data)
+(root / "merged-CP013f-19353.jsonl").write_bytes(all_data + cp013b_data + cp013c_data + cp013d_data + cp013e_data + cp013f_data)
+(review_dir / "cp013f-keep.jsonl").write_bytes(cp013f_keep_data)
+print("PASS: 19353 translated entries, 3618 KEEP_SOURCE_NAME, 97 HOLD_PLACEHOLDER")
