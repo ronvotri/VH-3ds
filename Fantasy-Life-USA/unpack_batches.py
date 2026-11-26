@@ -459,3 +459,35 @@ cp014a_data = cp014a_jsonl(cp014a_translations)
 (review_dir / "cp014a-resolved-keep.jsonl").write_bytes(cp014a_jsonl(cp014a_keep))
 (review_dir / "remaining-HOLD-CP014a-9404.jsonl").write_bytes(cp014a_jsonl(hold_by_id.values()))
 print("PASS: 19709 translation entries, 5699 KEEP, 9404 HOLD")
+
+# CP014b: exact fallback-label translation and explicit source-preservation decisions.
+_, cp014b_resolutions = restore_cp013h_file(review_dir, "cp014b-resolutions.jsonl", "aa7eb1fe89174f79833f875b2012410555e1e66966fc7f5d870725b060db27b3", 744)
+cp014b_translations = []
+cp014b_keep = []
+for row in cp014b_resolutions:
+    i = row["id"]
+    assert i in hold_by_id and i in review_ids and i not in ids
+    assert row["source"] == hold_by_id[i]["source"]
+    if row["decision"] == "TRANSLATE":
+        assert set(row) == {"id", "source", "decision", "reason", "vi"}
+        assert row["reason"] == "GENERIC_FALLBACK_LABEL"
+        assert row["vi"] and row["vi"] != row["source"]
+        cp014b_translations.append({"id": i, "vi": row["vi"]})
+        review_ids.remove(i)
+        ids.add(i)
+    else:
+        assert set(row) == {"id", "source", "decision", "reason"}
+        assert row["decision"] in {"KEEP_FORMAT_LITERAL", "KEEP_SOURCE_NAME"}
+        cp014b_keep.append({"id": i, "source": row["source"], "decision": row["decision"]})
+    del hold_by_id[i]
+assert len(cp014b_translations) == 519 and len(cp014b_keep) == 225
+assert sum(r["decision"] == "KEEP_SOURCE_NAME" for r in cp014b_keep) == 19
+assert len(ids) == 20228 and len(hold_by_id) == 8660
+assert len(review_ids) == 14584 and len(review_ids - set(hold_by_id)) == 5924
+assert not ids & review_ids and len(ids | review_ids) == 34812
+cp014b_data = cp014a_jsonl(cp014b_translations)
+(root / "cp014b-new-519.jsonl").write_bytes(cp014b_data)
+(root / "merged-CP014b-20228.jsonl").write_bytes((root / "merged-CP014a-19709.jsonl").read_bytes() + cp014b_data)
+(review_dir / "cp014b-resolved-keep.jsonl").write_bytes(cp014a_jsonl(cp014b_keep))
+(review_dir / "remaining-HOLD-CP014b-8660.jsonl").write_bytes(cp014a_jsonl(hold_by_id.values()))
+print("PASS: 20228 translation entries, 5924 KEEP, 8660 HOLD")
