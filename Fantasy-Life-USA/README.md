@@ -1,23 +1,25 @@
-# Fantasy Life (USA) — CP014a — Votri Valley
+# Fantasy Life (USA) — CP014b — Votri Valley
 
-26/11/2026 — Reviewed 326 previously held IDs: 73 new translations, 253 preserved resource labels.
+## Kết quả CP014b
 
-## Scope
-- 51 descriptive event/quest labels in archive 5423, including tutorial labels and short story headings. Preserve Event_XXX, digits, names and original markers. These labels may be internal; not confirmed in gameplay.
-- 20 clear descriptive UI labels in archive 8690 (transport, Bag/Storage, shopping, scenario labels).
-- 2 exact Spanish-source generic descriptions in archive 8710, reusing prior translations in the same table: Montón de libros and Caballo alquiler. No item name guessing.
-- 253 KEEP_FORMAT_LITERAL decisions: explicit "unused frame" labels in resource tables, 222 in archive 8702 column 1 and 31 in archive 8690 UI-resource section. This preserves source bytes rather than asserting that these records never appear in game.
+744 ID chuyển khỏi HOLD:
+- 519 bản ghi nhãn dự phòng, gồm 15 chuỗi nguồn khác nhau: Unknown Item / Items unknown, Unknown Equipment / Equipment unknown, Unknown Tool, Life tool unknown, Furniture unknown, Material of unknown, Trees unknown, Ore unknown, Fish of unknown, Unobtainable Item, Unknown Wardrobe, Unknown Life-Form / Unknown Life Form. Chỉ áp dụng bảng tra chính xác trong archive 6796/6800/8690. Đây là nhãn dự phòng, không phải 519 câu hội thoại mới; chưa xác nhận các nhãn có hiển thị trong gameplay.
+- 19 KEEP_SOURCE_NAME khớp nguyên văn với tên đã duyệt trong bảng EN nguồn, gồm Carrot Soup, Pumpkin Pie, Apple Juice, Summer Nectar, Coyote, Bronze Sword, Iron Sword, Silver Sword, Gold Sword, Crystal Sword, Bone Sword, Rune Sword, Bronze Claymore, Iron Claymore, Silver Claymore, Flamberge, Iron Dagger, Silver Dagger, Sugar Wand. Không suy diễn tương đương ID item/monster giữa các bảng.
+- 206 KEEP_FORMAT_LITERAL: 160 nhãn slot dự phòng (Unused/Preliminary/Spare frame), 34 nhãn UI resource ghi unused/not used, 12 nhãn Happy Icon ghi not used. Giữ nguyên chuỗi nguồn theo chức năng mô tả, chưa khẳng định không hiển thị.
 
-## Progress
-19.709 translated entries, 5.699 KEEP, 9.404 HOLD. Resolved total 25.408/34.812 (72,99%); translated entries 56,62%. Technical labels are counted separately from new Vietnamese text. The 326 resolved IDs were already in the HOLD ledger; no new source IDs.
+## Tiến độ
+
+20.228 bản ghi dịch (58,11%); 5.924 KEEP; 8.660 HOLD. Dịch + KEEP = 26.152/34.812 (75,12%). Không phải tỷ lệ hiển thị ROM. Các nhãn ngoại hình chưa rõ nghĩa và tên phiên âm chưa được giải quyết trong CP014b.
 
 ## QA
-Reopened original source ZIP and reconstructed 9.730 historical HOLD records from local checkpoint archives; verified ID uniqueness, source equality and no overlap with available translated/KEEP records. Each new decision targets a historical HOLD ID and exact source; NFC, numeric tokens and Event_XXX markers checked. No changes to ambiguous avatar labels, proper names or internal codes. Still not tested in ROM or full restore of all prior batches.
 
-## Recovery
-reviews/cp014a-resolutions.jsonl.bz2.b64 — SHA256 uncompressed 917a9885679d89cf22a79b213075a24115d0f57f6edcd0e56f1a29f032218eaa.
-Readback of resolution file from GitHub matched uploaded data. unpack_batches.py appends the 73 translations, preserves historical ledger files, checks the old HOLD IDs, exports remaining-HOLD-CP014a-9404.jsonl, and merged-CP014a-19709.jsonl. Full recovery remains untested.
+Mở ZIP nguồn, khôi phục 9.730 HOLD lịch sử, loại 326 ID đã xử lý CP014a; đối chiếu 744 ID với 9.404 HOLD còn lại và nguồn gốc. Tất cả ID duy nhất, source khớp; 519 bản ghi dịch khác nguồn, NFC, không rỗng; kiểm token, số, printf và xuống dòng. Bản ghi KEEP có lý do và bảng CSV đối chứng tên EN. Không thử runtime, font, độ rộng, hoặc toàn bộ công cụ khôi phục. Giữ nguyên lịch sử checkpoint, không sửa main.
 
-Next CP014b: prioritize unambiguous visible UI/appearance descriptions and source-name cross-checks. Do not replace untranslated proper names without reliable mapping. No changes to main.
+## Khôi phục
 
-Mốc trước: [CP013l](CHECKPOINT-013l.md). [Quy tắc ngôi xưng](NGOI_XUNG.md).
+reviews/cp014b-resolutions.jsonl.bz2.b64 — SHA256 dữ liệu giải nén aa7eb1fe89174f79833f875b2012410555e1e66966fc7f5d870725b060db27b3.
+Đã đọc lại file GitHub khớp dữ liệu tải lên; unpack_batches.py thêm chuyển trạng thái và xuất merged-CP014b-20228.jsonl, remaining-HOLD-CP014b-8660.jsonl.
+
+Tiếp CP014c: ưu tiên nhãn UI/ngoại hình có nghĩa rõ và đối chiếu tên từ các bảng nguồn đáng tin cậy; không thay tên bằng suy đoán.
+
+Mốc trước: [CP014a](CHECKPOINT-014a.md). [Quy tắc ngôi xưng](NGOI_XUNG.md).
