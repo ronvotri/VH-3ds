@@ -1,25 +1,23 @@
-# Fantasy Life (USA) — CP014b — Votri Valley
+# Fantasy Life (USA) — CP014c — Votri Valley
 
-## Kết quả CP014b
+## Kết quả
+1.031 ID được chuyển trạng thái từ 8.660 HOLD ở CP014b.
+- 40 nhãn UI, Happy, thao tác tích lực và hướng dẫn chế tạo (archive 8690).
+- 22 nhãn phân loại sinh vật phổ thông trong bảng 6952, không phải tên riêng từng quái.
+- 9 nhãn nhà ở, hướng dẫn và phương tiện trong các bảng 8062, 8072, 6687.
+- 960 KEEP_FORMAT_LITERAL: 369 mô tả tài nguyên UI/icon (8702, 5887), 245 mô tả tài nguyên âm thanh (8509, 8518, 8527, 8536), 278 tham chiếu sự kiện/ô dự phòng, 68 nhãn ô chưa dùng rõ ràng. Chọn bảo toàn nguồn theo ngữ cảnh bảng, không khẳng định các chuỗi này không bao giờ xuất hiện trong game.
 
-744 ID chuyển khỏi HOLD:
-- 519 bản ghi nhãn dự phòng, gồm 15 chuỗi nguồn khác nhau: Unknown Item / Items unknown, Unknown Equipment / Equipment unknown, Unknown Tool, Life tool unknown, Furniture unknown, Material of unknown, Trees unknown, Ore unknown, Fish of unknown, Unobtainable Item, Unknown Wardrobe, Unknown Life-Form / Unknown Life Form. Chỉ áp dụng bảng tra chính xác trong archive 6796/6800/8690. Đây là nhãn dự phòng, không phải 519 câu hội thoại mới; chưa xác nhận các nhãn có hiển thị trong gameplay.
-- 19 KEEP_SOURCE_NAME khớp nguyên văn với tên đã duyệt trong bảng EN nguồn, gồm Carrot Soup, Pumpkin Pie, Apple Juice, Summer Nectar, Coyote, Bronze Sword, Iron Sword, Silver Sword, Gold Sword, Crystal Sword, Bone Sword, Rune Sword, Bronze Claymore, Iron Claymore, Silver Claymore, Flamberge, Iron Dagger, Silver Dagger, Sugar Wand. Không suy diễn tương đương ID item/monster giữa các bảng.
-- 206 KEEP_FORMAT_LITERAL: 160 nhãn slot dự phòng (Unused/Preliminary/Spare frame), 34 nhãn UI resource ghi unused/not used, 12 nhãn Happy Icon ghi not used. Giữ nguyên chuỗi nguồn theo chức năng mô tả, chưa khẳng định không hiển thị.
+Giữ nguyên tên riêng, Life, Bag, Storage. Không suy đoán nghĩa của Delivery trong nhãn ngoại hình; các nhãn ấy vẫn HOLD. Các bản dịch từ nguồn Anh dịch thô phải kiểm tra hiển thị.
 
-## Tiến độ
-
-20.228 bản ghi dịch (58,11%); 5.924 KEEP; 8.660 HOLD. Dịch + KEEP = 26.152/34.812 (75,12%). Không phải tỷ lệ hiển thị ROM. Các nhãn ngoại hình chưa rõ nghĩa và tên phiên âm chưa được giải quyết trong CP014b.
+## Tiến độ theo ledger
+20.299 bản ghi dịch (58,31%), 6.884 KEEP, 7.629 HOLD. Dịch + KEEP = 27.183/34.812 (78,08%). Đây là tỷ lệ xử lý dữ liệu, không phải tỷ lệ ROM Việt hóa thực tế.
 
 ## QA
-
-Mở ZIP nguồn, khôi phục 9.730 HOLD lịch sử, loại 326 ID đã xử lý CP014a; đối chiếu 744 ID với 9.404 HOLD còn lại và nguồn gốc. Tất cả ID duy nhất, source khớp; 519 bản ghi dịch khác nguồn, NFC, không rỗng; kiểm token, số, printf và xuống dòng. Bản ghi KEEP có lý do và bảng CSV đối chứng tên EN. Không thử runtime, font, độ rộng, hoặc toàn bộ công cụ khôi phục. Giữ nguyên lịch sử checkpoint, không sửa main.
+Mở ZIP nguồn 01_CAN_DICH.jsonl, tái lập 9.730 HOLD lịch sử và trừ CP014a/b. Kiểm 1.031 ID duy nhất, đều thuộc 8.660 HOLD còn lại, source khớp. 71 chuỗi dịch khác nguồn, không rỗng, NFC, kiểm số/CTRL/printf/xuống dòng. Bản dịch dùng ngữ cảnh hàng kề cho nhãn thao tác X và quả cầu tích lực, cần QA gameplay. Tệp GitHub đọc lại khớp. Chưa chạy toàn bộ script khôi phục, chưa test font hoặc runtime 3DS.
 
 ## Khôi phục
+reviews/cp014c-resolutions.jsonl.bz2.b64 — SHA256 giải nén ff85192518442c95498cdfe6becfdd7eb5a87b68c35f4dff70e4651b1c83f927.
+unpack_batches.py đã bổ sung kiểm tra chuyển trạng thái, dự kiến xuất merged-CP014c-20299.jsonl và remaining-HOLD-CP014c-7629.jsonl. Lịch sử giữ nguyên, không sửa main.
 
-reviews/cp014b-resolutions.jsonl.bz2.b64 — SHA256 dữ liệu giải nén aa7eb1fe89174f79833f875b2012410555e1e66966fc7f5d870725b060db27b3.
-Đã đọc lại file GitHub khớp dữ liệu tải lên; unpack_batches.py thêm chuyển trạng thái và xuất merged-CP014b-20228.jsonl, remaining-HOLD-CP014b-8660.jsonl.
-
-Tiếp CP014c: ưu tiên nhãn UI/ngoại hình có nghĩa rõ và đối chiếu tên từ các bảng nguồn đáng tin cậy; không thay tên bằng suy đoán.
-
-Mốc trước: [CP014a](CHECKPOINT-014a.md). [Quy tắc ngôi xưng](NGOI_XUNG.md).
+Tiếp CP014d: xác minh các nhóm tên item, quái, địa danh phiên âm; đối chiếu dữ liệu cùng thực thể thay vì ghép theo thứ tự; ưu tiên text có khả năng hiển thị.
+Mốc trước: [CP014b](CHECKPOINT-014b.md). [Quy tắc ngôi xưng](NGOI_XUNG.md).
