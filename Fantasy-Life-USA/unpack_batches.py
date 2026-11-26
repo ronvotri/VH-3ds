@@ -178,3 +178,17 @@ assert len(ids) == 18993
 (root / "cp013b-new-208.jsonl").write_bytes(cp013b_data)
 (root / "merged-CP013b-18993.jsonl").write_bytes(all_data + cp013b_data)
 print("PASS: 18993 unique processed entries =>", root / "merged-CP013b-18993.jsonl")
+
+# CP013c: append only to the verified CP013b prefix.
+cp013c_data = bz2.decompress(base64.b64decode((root / "cp013c-118.jsonl.bz2.b64").read_text(encoding="ascii").strip(), validate=True))
+assert hashlib.sha256(cp013c_data).hexdigest() == "caa176ee3ee0e6f178f545572dd834e3d8314b02e433c8c5f360cd674d280594"
+cp013c_rows = [json.loads(line) for line in cp013c_data.decode("utf-8").splitlines()]
+assert len(cp013c_rows) == 118
+for row in cp013c_rows:
+    assert set(row) == {"id", "vi"} and row["vi"]
+    assert row["id"] not in ids, row["id"]
+    ids.add(row["id"])
+assert len(ids) == 19111
+(root / "cp013c-new-118.jsonl").write_bytes(cp013c_data)
+(root / "merged-CP013c-19111.jsonl").write_bytes(all_data + cp013b_data + cp013c_data)
+print("PASS: 19111 unique processed entries =>", root / "merged-CP013c-19111.jsonl")
