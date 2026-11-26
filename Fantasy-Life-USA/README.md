@@ -1,27 +1,20 @@
-# Fantasy Life (USA) — CP013i — Votri Valley
+# Fantasy Life (USA) — CP013k — Votri Valley
 
-**26/11/2026 · 19.486/34.812 ID có bản ghi dịch (55,97%)**. CP013a–i thêm 986 ID.
+26/11/2026 — 19.625/34.812 ID có bản ghi dịch (56,37%). CP013k: 18 bản dịch mới, 85 KEEP, 1.634 HOLD.
 
-## Đợt này: 1.266 ID
+## Phạm vi
+- 18 nhãn mới: nhóm 0152, 0181, 0306, 0308, 0313, 0339. Dịch nhãn trang phục, danh xưng, phân loại; giữ tên riêng và thuật ngữ chính. Nhãn dịch thô cần kiểm tra hiển thị trong game.
+- 85 KEEP_SOURCE_NAME: 67 ID trong bảng Rank/Life/địa danh gói 0154 (archive 5914/5918/5923/5927/5933); 18 ID tên nhân vật, Life và chỉ số chính trong các gói khác.
+- 1.634 HOLD: 1.619 tên quái phiên âm/dịch thô và 15 placeholder ở các gói 0232–0250. Phân loại theo metadata cột 0, không xác nhận tên chính thức, không tự thay bằng tên Anh khác. Chưa duyệt từng tên về nghĩa.
 
-- 49 dịch mới: 41 tiêu đề nhạc (0259), 4 mô tả vật phẩm (0216), 2 nhãn hướng dẫn (0311), 1 nhãn nhiệm vụ (0250), 1 nhãn công thức (0338). Giữ nguyên tên riêng/thuật ngữ chính. Không dịch lời nhạc. Tiêu đề bài nhạc mang tên địa danh thuần túy được giữ nguyên. Một số nhãn hướng dẫn dịch thô chưa đối chiếu UI thực tế.
-- 412 KEEP_SOURCE_NAME: tên trang bị, item, quái, tên skill, chỉ số, thuật ngữ cốt lõi, nhãn phiên bản và tên địa danh. Tên quái từ bảng dịch thô chỉ KEEP khi trùng nguyên văn với một tên đã duyệt trong bảng tiếng Anh; không xác nhận cùng một thực thể.
-- 805 HOLD: 592 nhãn metadata tài nguyên UI ở archive 8702 (cột 1), 213 placeholder/unused/preliminary. Chưa xác minh chúng có xuất hiện trong runtime; không áp dụng vào patch và không coi là hoàn thành.
+## Tiến độ dự kiến
+19.625 bản ghi dịch + 5.301 KEEP = 24.926/34.812 (71,60%); 7.723 HOLD và 2.163 ID chưa phân loại. Không coi HOLD là hoàn thành. Tổng cần chốt 9.886 ID.
 
-## Tiến độ theo ledger
+## QA
+Các ID mới khớp ZIP nguồn, không trùng nhau hoặc dữ liệu CP010c–CP013j đã phục hồi cục bộ. Đối chiếu phạm vi checkpoint cũ hơn qua báo cáo, chưa chạy kiểm toàn bộ. 18 bản dịch khác nguồn, không rỗng, NFC; giữ token, số, biến và xuống dòng. Ba file CP013k đọc lại từ GitHub khớp. Chưa thử ROM, font hay runtime.
 
-19.486 dịch + 5.216 KEEP = 24.702/34.812 (70,96% dự kiến). 5.625 HOLD; 4.485 ID chưa nằm trong ba nhóm này. 10.110 ID chưa chốt gồm HOLD và phần chưa phân loại. Không phải phần trăm ROM đã Việt hóa.
+Đã bổ sung cả CP013j và CP013k vào unpack_batches.py, giữ nguyên tiền tố CP013i. Script kiểm SHA256, số lượng và trùng ID khi khôi phục; chưa thực thi toàn bộ script. Dự kiến tạo merged-CP013k-19625.jsonl.
 
-## Kiểm tra và khôi phục
+Mốc tiếp CP013l: rà 2.163 ID còn ngoài ledger, rồi xác minh nhóm HOLD theo nguồn/metadata và runtime. Không sửa main.
 
-49 bản dịch NFC, khác nguồn, không rỗng; bảo toàn 2 token CTRL, số, xuống dòng và biến printf theo nguồn ZIP. 1.266 ID mới không trùng nhau, tồn tại trong nguồn, không trùng 5.772 bản ghi CP010c–CP013h và 9.624 ID ledger trước được đối chiếu cục bộ. Đã giải nén và đối chiếu thêm các batch CP001–CP010b từ GitHub (13.665 ID, và 1 bản sửa CP009c), không trùng ID mới. Ba tệp CP013i tải lên rồi đọc lại khớp. Chưa chạy toàn bộ script khôi phục sau cập nhật, chưa kiểm thử ROM/font/hiển thị trên 3DS; số tổng vẫn là tiến độ theo ledger, không chứng nhận mọi bản dịch cũ đúng ngữ nghĩa.
-
-- translations/cp013i-49.jsonl.bz2.b64 — SHA256 giải nén 83e1ba5446ce675722f2367300f9ee90f432571be05b34436ec2711eb6bd826c
-- reviews/cp013i-keep.jsonl.bz2.b64 — e31bf2318835a94cbffc8a9e4156190a3531141d86311801c26fc7804a963a25
-- reviews/cp013i-hold.jsonl.bz2.b64 — 71ef5e9a6020a7cbc111cd56e8ea7a57f448c647004c9ad48b020ec8de1123de
-
-Chạy python3 unpack_batches.py dự kiến xuất merged-CP013i-19486.jsonl và ledger riêng; kiểm SHA, số lượng, trùng ID. Không thay đổi main.
-
-Tiếp CP013j: tiếp tục 4.485 ID chưa phân loại, kiểm chứng bảng metadata/tên còn lại, không tự đổi nhãn kỹ thuật và tên ngoại ngữ chưa có căn cứ.
-
-Mốc trước: [CP013h](CHECKPOINT-013h.md). Xem [quy tắc ngôi xưng](NGOI_XUNG.md).
+Mốc trước: [CP013j batch](translations/cp013j-121.jsonl.bz2.b64). Xem [quy tắc ngôi xưng](NGOI_XUNG.md).
