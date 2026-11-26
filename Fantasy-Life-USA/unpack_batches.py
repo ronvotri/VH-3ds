@@ -849,3 +849,36 @@ cp014l_data = cp014a_jsonl(cp014l_translations)
 (review_dir / "remaining-active-HOLD-CP014l-485.jsonl").write_bytes(cp014a_jsonl(r for i,r in hold_by_id.items() if i not in pending_name_ids))
 (review_dir / "remaining-pending-names-CP014l-4372.jsonl").write_bytes(cp014a_jsonl(r for i,r in hold_by_id.items() if i in pending_name_ids))
 print("PASS: 21405 replacement entries, 8550 KEEP, 4857 HOLD (4372 provisional names + 485 other)")
+
+# CP014m: verified source-table names, with contextual UI labels separately counted.
+_, cp014m_resolutions = restore_cp013h_file(review_dir, "cp014m-resolutions.jsonl", "bbebe4a6400578d32a6033106f05c73df76141fc1ef1f4bda8caacd813023db9", 256)
+cp014m_translations = []
+for row in cp014m_resolutions:
+    i = row["id"]
+    assert i in hold_by_id and i in review_ids and i not in ids
+    assert row["source"] == hold_by_id[i]["source"]
+    assert set(row) == {"id", "source", "decision", "reason", "vi"}
+    assert row["decision"] == "TRANSLATE"
+    assert row["reason"] in {"EN_A_ITEM_NAME_ALIGNMENT", "EN_A_NPC_NAME_MATCH", "EN_A_LOCATION_NAME_MATCH", "CONTEXTUAL_LABEL"}
+    assert row["vi"] and row["vi"] != row["source"]
+    pending_name_ids.discard(i)
+    cp014m_translations.append({"id": i, "vi": row["vi"]})
+    review_ids.remove(i)
+    ids.add(i)
+    del hold_by_id[i]
+assert len(cp014m_translations) == 256
+assert sum(r["reason"] == "EN_A_ITEM_NAME_ALIGNMENT" for r in cp014m_resolutions) == 178
+assert sum(r["reason"] == "EN_A_NPC_NAME_MATCH" for r in cp014m_resolutions) == 49
+assert sum(r["reason"] == "EN_A_LOCATION_NAME_MATCH" for r in cp014m_resolutions) == 27
+assert len(ids) == 21661 and len(hold_by_id) == 4601
+assert len(review_ids) == 13151 and len(review_ids - set(hold_by_id)) == 8550
+assert len(pending_name_ids) == 4145 and len(set(hold_by_id) - pending_name_ids) == 456
+assert pending_name_ids <= set(hold_by_id)
+assert not ids & review_ids and len(ids | review_ids) == 34812
+cp014m_data = cp014a_jsonl(cp014m_translations)
+(root / "cp014m-new-256.jsonl").write_bytes(cp014m_data)
+(root / "merged-CP014m-21661.jsonl").write_bytes((root / "merged-CP014l-21405.jsonl").read_bytes() + cp014m_data)
+(review_dir / "remaining-HOLD-CP014m-4601.jsonl").write_bytes(cp014a_jsonl(hold_by_id.values()))
+(review_dir / "remaining-active-HOLD-CP014m-456.jsonl").write_bytes(cp014a_jsonl(r for i,r in hold_by_id.items() if i not in pending_name_ids))
+(review_dir / "remaining-pending-names-CP014m-4145.jsonl").write_bytes(cp014a_jsonl(r for i,r in hold_by_id.items() if i in pending_name_ids))
+print("PASS: 21661 replacement entries, 8550 KEEP, 4601 HOLD (4145 provisional names + 456 other)")
