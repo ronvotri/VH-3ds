@@ -259,3 +259,37 @@ assert len(review_ids) == 3715
 (root / "merged-CP013f-19353.jsonl").write_bytes(all_data + cp013b_data + cp013c_data + cp013d_data + cp013e_data + cp013f_data)
 (review_dir / "cp013f-keep.jsonl").write_bytes(cp013f_keep_data)
 print("PASS: 19353 translated entries, 3618 KEEP_SOURCE_NAME, 97 HOLD_PLACEHOLDER")
+
+# CP013g: preserve all prior bytes and separate translation, KEEP and HOLD.
+cp013g_data = bz2.decompress(base64.b64decode((root / "cp013g-56.jsonl.bz2.b64").read_text(encoding="ascii").strip(), validate=True))
+assert hashlib.sha256(cp013g_data).hexdigest() == "fca32d6f4511c71fcb2cbd92812a0b084fbb67b15097867a9ffe598d4fd226b5"
+cp013g_rows = [json.loads(line) for line in cp013g_data.decode("utf-8").splitlines()]
+assert len(cp013g_rows) == 56
+for row in cp013g_rows:
+    assert set(row) == {"id", "vi"} and row["vi"]
+    assert row["id"] not in ids and row["id"] not in review_ids, row["id"]
+    ids.add(row["id"])
+assert len(ids) == 19409
+cp013g_keep_data = bz2.decompress(base64.b64decode((review_dir / "cp013g-keep.jsonl.bz2.b64").read_text(encoding="ascii").strip(), validate=True))
+assert hashlib.sha256(cp013g_keep_data).hexdigest() == "2e97e4b0c57fd8120f9ffa622128924a83a5460a0a125876331afaec0ae08019"
+cp013g_keep_rows = [json.loads(line) for line in cp013g_keep_data.decode("utf-8").splitlines()]
+assert len(cp013g_keep_rows) == 1065
+for row in cp013g_keep_rows:
+    assert set(row) == {"id", "source", "decision"} and row["decision"] == "KEEP_SOURCE_NAME"
+    assert row["id"] not in ids and row["id"] not in review_ids, row["id"]
+    review_ids.add(row["id"])
+cp013g_hold_data = bz2.decompress(base64.b64decode((review_dir / "cp013g-hold.jsonl.bz2.b64").read_text(encoding="ascii").strip(), validate=True))
+assert hashlib.sha256(cp013g_hold_data).hexdigest() == "285c841ae9ea1a28a389af5fcdadaf1885c3a065d0335639202465293bd870e1"
+cp013g_hold_rows = [json.loads(line) for line in cp013g_hold_data.decode("utf-8").splitlines()]
+assert len(cp013g_hold_rows) == 628
+for row in cp013g_hold_rows:
+    assert set(row) == {"id", "source", "reason"}
+    assert row["reason"] in {"RAW_VARIANT_NEEDS_MATCH", "AMBIGUOUS_LABEL"}
+    assert row["id"] not in ids and row["id"] not in review_ids, row["id"]
+    review_ids.add(row["id"])
+assert len(review_ids) == 5408
+(root / "cp013g-new-56.jsonl").write_bytes(cp013g_data)
+(root / "merged-CP013g-19409.jsonl").write_bytes(all_data + cp013b_data + cp013c_data + cp013d_data + cp013e_data + cp013f_data + cp013g_data)
+(review_dir / "cp013g-keep.jsonl").write_bytes(cp013g_keep_data)
+(review_dir / "cp013g-hold.jsonl").write_bytes(cp013g_hold_data)
+print("PASS: 19409 translated entries, 4683 KEEP, 725 HOLD in CP013e-g ledgers")
