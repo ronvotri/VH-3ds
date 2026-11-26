@@ -1,21 +1,24 @@
-# Fantasy Life (USA) — CP014g — Votri Valley
+# Fantasy Life (USA) — CP014h — Votri Valley
 
-138 ID chuyển khỏi HOLD: 49 bản ghi dịch và 89 quyết định giữ nguyên.
+96 ID chuyển khỏi HOLD: 42 bản ghi dịch, 54 quyết định giữ nguyên.
 
-- 49 dịch mới: 19 nhãn sự kiện, 12 thống kê, 5 nhãn địa điểm, 4 phương tiện, 4 giao diện, 2 lựa chọn giọng nói, 1 thông báo tạo nhân vật, 1 tiêu đề Bliss và 1 phân loại. Giữ nguyên tên riêng theo nguồn; nhãn dịch thô cần xác minh ngữ cảnh thực tế.
-- 81 tên được giữ nguyên sau đối chiếu bảng tên tương thích (tên NPC/quái với bảng NPC/quái, item với bảng item). Chỉ chấp nhận khác biệt chữ hoa/thường, dấu câu, khoảng trắng, hậu tố +. Không tự thay tên hoặc coi trùng chữ là chứng minh cùng một thực thể.
-- 8 tên/tính năng giữ nguyên từ bảng tiếng Anh.
+- Việt hóa nhãn mô tả sự kiện, thống kê, bố trí nhân vật và nhà ở, giao diện công thức; giữ nguyên tên riêng và thuật ngữ chính.
+- 38 tham chiếu nhóm quái có cấu trúc số lượng/tỷ lệ được giữ nguyên để bảo toàn định dạng dữ liệu. Các tên nguồn và nhãn kỹ thuật còn lại thuộc nhóm KEEP đã đối chiếu theo nội dung và ngữ cảnh bảng.
+- Đối chiếu cho thấy bảng tên phiên âm và bảng tên chính thức không cùng thứ tự hàng; không tự động ghép tên theo số dòng.
 
 ## Tiến độ
-20.556 bản ghi dịch, 8.465 KEEP, 5.791 HOLD. Tổng đã có quyết định 29.021/34.812. Không phải tỷ lệ ROM đã Việt hóa.
+
+20.598 bản ghi dịch, 8.519 KEEP, 5.695 HOLD; tổng đã có quyết định 29.117/34.812 (83,64%). Tỷ lệ bản ghi dịch 59,17%, không đồng nghĩa tỷ lệ hiển thị trong ROM.
 
 ## QA
-Đọc lại ZIP nguồn và hướng dẫn bàn giao. Tái lập các ledger CP013e–CP014f, đối chiếu 138 quyết định mới với 5.929 HOLD và source gốc. Kiểm NFC, số, CTRL và xuống dòng trong batch mới. Tái lập 6.891 bản ghi dịch từ CP010c–CP014g cục bộ; không trùng ID với KEEP/HOLD, không phát hiện lỗi NFC hoặc CTRL. 13.665 bản ghi CP001–CP010b chưa được tái lập đầy đủ trong phiên này; chưa chạy toàn bộ unpack_batches.py, chưa test font/runtime. Không tự ghép các bảng tên khác ngôn ngữ.
+
+96 ID chuyển trạng thái khớp nguồn, không trùng với các quyết định cũ. Kiểm tra cục bộ 6.933 bản ghi từ CP010c–CP014h: không phát hiện lỗi CTRL, NFC hoặc trùng ID. 13.665 bản ghi đầu chưa được tái lập cục bộ; chưa thực thi toàn bộ unpack_batches.py từ đầu và chưa thử runtime/font trên 3DS. Các nhãn sự kiện và bố trí có thể là metadata; không khẳng định chúng hiển thị trong gameplay.
 
 ## Khôi phục
-reviews/cp014g-resolutions.jsonl.bz2.b64 — SHA256 giải nén e22d7463259713137bef34a747bdbbeff7118ad16c49c285b934aa3ab50b6552.
-Đọc lại tệp GitHub khớp dữ liệu tải lên. unpack_batches.py đã bổ sung CP014g, dự kiến xuất merged-CP014g-20556.jsonl và remaining-HOLD-CP014g-5791.jsonl. Không sửa main.
 
-Tiếp CP014h: ưu tiên kiểm toàn bộ bản gộp và rà 5.791 HOLD, đặc biệt các bảng tên và nhãn ngoại hình chưa có đối chiếu đáng tin cậy.
+reviews/cp014h-resolutions.jsonl.bz2.b64 — SHA256 dữ liệu giải nén 669f1fa8cbaee497001588fe0ca2c35dc2fbbf9401a339a082f61a6a33f4dfbc.
+Đã đọc lại tệp GitHub khớp dữ liệu tải lên; công cụ khôi phục bổ sung CP014h, dự kiến tạo merged-CP014h-20598.jsonl và remaining-HOLD-CP014h-5695.jsonl.
 
-Mốc trước: [CP014f](CHECKPOINT-014f.md). [Quy tắc ngôi xưng](NGOI_XUNG.md).
+Tiếp CP014i: ưu tiên đối chiếu các bảng tên chưa có ánh xạ đáng tin cậy và QA bản gộp. Không sửa main.
+
+Mốc trước: [CP014g](CHECKPOINT-014g.md). [Quy tắc ngôi xưng](NGOI_XUNG.md).
