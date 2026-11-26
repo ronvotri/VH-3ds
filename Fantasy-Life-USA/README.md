@@ -1,21 +1,22 @@
-# Fantasy Life (USA) — CP013c — Votri Valley
+# Fantasy Life (USA) — CP013d — Votri Valley
 
-**26/11/2026 · 19.111/34.812 ID đã xử lý (54,90%)**, còn 15.701. CP013a 285 + CP013b 208 + CP013c 118 = 611 ID mới trong CP013.
+**26/11/2026 · 19.207/34.812 ID (55,17%)**, còn 15.605. CP013a–d: 285 + 208 + 118 + 96 = 707.
 
-| Gói | ID mới | Nội dung |
-|---|---:|---|
-| 0152 | 12 | Nhãn loại trang bị/dụng cụ |
-| 0299 | 76 | Danh mục vật phẩm/nguyên liệu |
-| 0300–0304 | 18 | Nhãn tùy biến ngoại hình |
-| 0322 | 12 | Nhãn vật thể tương tác từ tiếng Tây Ban Nha |
-| Tổng | 118 | |
+| Nội dung | ID |
+|---|---:|
+| Phản ứng NPC (0329) | 47 |
+| Thông báo UI (0329) | 28 |
+| Danh xưng NPC (0161–0163) | 12 |
+| Nhãn phân loại (0152) | 6 |
+| Vật thể luyện tập (0327) | 3 |
+| Tổng | 96 |
 
-Đối chiếu nguồn ZIP 01_CAN_DICH.jsonl. 88 nhãn phân loại (tận dụng bản CP010a khi cùng nghĩa), 18 nhãn ngoại hình, 12 nhãn tương tác. Tên riêng/item/skill/Life/Rank tiếp tục giữ theo quy tắc. 31 ứng viên thiếu chắc chắn được tách HOLD, không tính. Nhiều tên còn lại là tiếng Tây Ban Nha hoặc tiếng Anh dịch thô; không tự đặt tên tiếng Anh chính thức.
+Dịch từ 01_CAN_DICH.jsonl trong ZIP nguồn; giữ nguyên tên item Mustard, Rainbow Apples, Plains Eels và mã điều khiển. Không gán danh tính/ngôi xưng cụ thể khi nguồn không rõ người nói; dùng ngôi trung tính theo tình huống. Hai dòng chỉ gồm tên bộ trang bị Odin và chỉ số được loại khỏi batch, không tính tiến độ.
 
-QA tĩnh batch: 118 ID duy nhất, đều tồn tại nguồn, khác source, NFC, không rỗng; bảo toàn token/số/dấu +/%. Không trùng với các batch CP010c–CP013b đã khôi phục cục bộ; phạm vi các checkpoint cũ hơn được kiểm qua báo cáo. Chưa chạy khôi phục tổng toàn bộ batch trong môi trường hiện tại; script có kiểm trùng với toàn bộ dữ liệu khi chạy. Chưa xác minh nhãn ngoại hình, vị trí hiển thị, font và runtime 3DS. Các nhãn danh mục có thể thuộc bảng nội bộ, cần kiểm trước khi đóng patch.
+QA batch cục bộ: 96 ID duy nhất, khớp nguồn, không rỗng, khác nguồn, NFC; 68 mã CTRL giữ nguyên nội dung và thứ tự; kiểm chữ số, dấu cộng, biến printf và xuống dòng. Không trùng các batch CP010c–CP013c hiện có cục bộ; phạm vi các batch cũ hơn đối chiếu qua báo cáo checkpoint, chưa chạy kiểm trùng toàn bộ bản gộp. Đọc lại dữ liệu GitHub khớp. Chưa xác minh speaker, font, pixel width, runtime hay build patch 3DS.
 
-Khôi phục: chạy `python3 unpack_batches.py`. Batch `translations/cp013c-118.jsonl.bz2.b64` có SHA-256 sau giải nén `caa176ee3ee0e6f178f545572dd834e3d8314b02e433c8c5f360cd674d280594`. Kết quả dự kiến `merged-CP013c-19111.jsonl`, giữ nguyên tiền tố CP013b.
+Khôi phục: `python3 unpack_batches.py`, batch `translations/cp013d-96.jsonl.bz2.b64`, SHA-256 dữ liệu giải nén `694cc80972f3449b9de24b5202fd3f4df77034fa9d4be835cd48fde10c32662a`. Script dự kiến tạo `merged-CP013d-19207.jsonl` và dừng nếu có ID trùng. Chưa chạy toàn bộ script khôi phục sau cập nhật.
 
-Mốc tiếp: CP013d, phân loại tên cần giữ EN và nhãn thiếu ngữ cảnh; chỉ tính dịch thực sự, không cộng tên chép nguyên.
+Tiếp CP013e: ưu tiên kiểm các chuỗi UI/thoại còn sót; tên item, skill, nhân vật, địa danh chính giữ tiếng Anh, nhãn debug/asset chưa rõ không tự vá.
 
-Mốc trước: [CP013b](CHECKPOINT-013b.md). Xem [quy tắc ngôi xưng](NGOI_XUNG.md).
+Mốc trước: [CP013c](CHECKPOINT-013c.md). Xem [quy tắc ngôi xưng](NGOI_XUNG.md).
