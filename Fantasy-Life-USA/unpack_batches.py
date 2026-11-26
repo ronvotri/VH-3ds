@@ -416,3 +416,46 @@ assert len(ids | review_ids) == 34812
 (root / "cp013l-new-11.jsonl").write_bytes(cp013l_data)
 (root / "merged-CP013l-19636.jsonl").write_bytes(latest_data + cp013l_data)
 print("PASS: 19636 translation entries, 5446 KEEP, 9730 HOLD; classification counts cover 34812 IDs")
+
+# CP014a: resolve previously held IDs without rewriting historical ledgers.
+hold_by_id = {}
+for r in review_rows:
+    if r["decision"] == "HOLD_PLACEHOLDER":
+        hold_by_id[r["id"]] = r
+for checkpoint in ("g", "h", "i", "j", "k", "l"):
+    for line in (review_dir / f"cp013{checkpoint}-hold.jsonl").read_text(encoding="utf-8").splitlines():
+        r = json.loads(line)
+        assert r["id"] not in hold_by_id
+        hold_by_id[r["id"]] = r
+assert len(hold_by_id) == 9730
+assert set(hold_by_id) <= review_ids
+_, resolutions = restore_cp013h_file(review_dir, "cp014a-resolutions.jsonl", "917a9885679d89cf22a79b213075a24115d0f57f6edcd0e56f1a29f032218eaa", 326)
+cp014a_translations = []
+cp014a_keep = []
+for row in resolutions:
+    i = row["id"]
+    assert i in hold_by_id and i in review_ids and i not in ids
+    assert row["source"] == hold_by_id[i]["source"]
+    if row["decision"] == "TRANSLATE":
+        assert set(row) == {"id", "source", "decision", "reason", "vi"}
+        assert row["vi"] and row["vi"] != row["source"]
+        cp014a_translations.append({"id": i, "vi": row["vi"]})
+        review_ids.remove(i)
+        ids.add(i)
+    else:
+        assert set(row) == {"id", "source", "decision", "reason"}
+        assert row["decision"] == "KEEP_FORMAT_LITERAL"
+        cp014a_keep.append({"id": i, "source": row["source"], "decision": row["decision"]})
+    del hold_by_id[i]
+assert len(cp014a_translations) == 73 and len(cp014a_keep) == 253
+assert len(ids) == 19709 and len(hold_by_id) == 9404
+assert len(review_ids) == 15103 and len(review_ids - set(hold_by_id)) == 5699
+assert not ids & review_ids and len(ids | review_ids) == 34812
+def cp014a_jsonl(rows):
+    return "".join(json.dumps(row, ensure_ascii=False, separators=(",", ":")) + "\n" for row in rows).encode("utf-8")
+cp014a_data = cp014a_jsonl(cp014a_translations)
+(root / "cp014a-new-73.jsonl").write_bytes(cp014a_data)
+(root / "merged-CP014a-19709.jsonl").write_bytes((root / "merged-CP013l-19636.jsonl").read_bytes() + cp014a_data)
+(review_dir / "cp014a-resolved-keep.jsonl").write_bytes(cp014a_jsonl(cp014a_keep))
+(review_dir / "remaining-HOLD-CP014a-9404.jsonl").write_bytes(cp014a_jsonl(hold_by_id.values()))
+print("PASS: 19709 translation entries, 5699 KEEP, 9404 HOLD")
