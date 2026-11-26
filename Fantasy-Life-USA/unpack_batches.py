@@ -358,3 +358,37 @@ assert len(review_ids) == 10841
 (root / "cp013i-new-49.jsonl").write_bytes(cp013i_data)
 (root / "merged-CP013i-19486.jsonl").write_bytes(all_data + cp013b_data + cp013c_data + cp013d_data + cp013e_data + cp013f_data + cp013g_data + cp013h_data + cp013i_data)
 print("PASS: 19486 translation entries, 5216 KEEP, 5625 HOLD in CP013e-i ledgers")
+
+# CP013j and CP013k: independently restore each batch, with strict ID separation.
+latest_data = (root / "merged-CP013i-19486.jsonl").read_bytes()
+for checkpoint, count, checksum, total, keep_spec, hold_spec in [
+    ("j", 121, "d772dfb5c106710697d9b436112b38a8328a9ccfbb6fa8cc8fc7bbc9a52cf99b", 19607, None,
+     (464, "b24b71f6f0f6892dfe605a235ad269c455ec2172cca658d0af027b243000255f")),
+    ("k", 18, "b6ab7ec5f0ed5d281ed13c1a02d112d0b2cf9dffb76972847372b4b9c0f8934f", 19625,
+     (85, "8c3b2dbcc88290f8e8e39bbf4565d4951cfb3cd5c34345a7b48771ab60e30a5b"),
+     (1634, "7039dcc515276de2800cb92af71253845d9d409162a41184166968afc26a3c3e")),
+]:
+    prefix = "cp013" + checkpoint
+    data, new_rows = restore_cp013h_file(root, f"{prefix}-{count}.jsonl", checksum, count)
+    for row in new_rows:
+        assert set(row) == {"id", "vi"} and row["vi"]
+        assert row["id"] not in ids and row["id"] not in review_ids, row["id"]
+        ids.add(row["id"])
+    assert len(ids) == total
+    for kind, spec in [("keep", keep_spec), ("hold", hold_spec)]:
+        if spec is None:
+            continue
+        n, digest = spec
+        _, ledger = restore_cp013h_file(review_dir, f"{prefix}-{kind}.jsonl", digest, n)
+        for row in ledger:
+            assert row["id"] not in ids and row["id"] not in review_ids, row["id"]
+            if kind == "keep":
+                assert set(row) == {"id", "source", "decision"} and row["decision"] == "KEEP_SOURCE_NAME"
+            else:
+                assert set(row) == {"id", "source", "reason"} and row["reason"].startswith("HOLD_")
+            review_ids.add(row["id"])
+    latest_data += data
+    (root / f"{prefix}-new-{count}.jsonl").write_bytes(data)
+    (root / f"merged-CP013{checkpoint}-{total}.jsonl").write_bytes(latest_data)
+assert len(ids) == 19625 and len(review_ids) == 13024
+print("PASS: 19625 translation entries, 5301 KEEP, 7723 HOLD")
