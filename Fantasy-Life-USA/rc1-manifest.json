@@ -1,0 +1,170 @@
+{
+  "base_commit": "5df5f55ca8ae2437118a5b68c5e15267f100a79f",
+  "base": {
+    "replacement_count": 21925,
+    "keep_count": 8550,
+    "hold_count": 4337,
+    "mapping_sha256": "478a70f38d7c7a6f6734952f18cb11dccb7dd9cc3dd210b49e7a9f9320abcd74",
+    "keep_ids_sha256": "60830446d64f9f2824fd6084f762377873735835e33ba5d92967c5613191ddaa",
+    "hold_sources_sha256": "d41944554593a97a3a29b8d4204aa38f131ad7d8c14e6bb3f4e4a63f3197f7b5",
+    "all_ids_sha256": "a906c18f1aa5874233fae65b68ee3c01185eecdae7aece6d18c5879669df3d76"
+  },
+  "deltas": [
+    {
+      "path": "reviews/cp014o-resolutions.jsonl.bz2.b64",
+      "kind": "resolutions",
+      "count": 392,
+      "sha256": "9b7eb4064befd19150b9802ae0dd46acec6c13ecaf02901412b1370e8c63e2f3",
+      "git_blob_sha1": "1279f088855f1bd9be2f9e0b8f89a76472517a55"
+    },
+    {
+      "path": "reviews/cp014p-resolutions.jsonl.bz2.b64",
+      "kind": "resolutions",
+      "count": 242,
+      "sha256": "b9ef577bb5458000cd250d923352d47135fdfac53aa7be4eb84f816dd8fb19ab",
+      "git_blob_sha1": "fa6dad40bec5db77fcfd5cf8f8ec51c1fefd85ca"
+    },
+    {
+      "path": "reviews/cp014q-resolutions.jsonl.bz2.b64",
+      "kind": "resolutions",
+      "count": 1550,
+      "sha256": "d129d7ed77ade79bf3477efe494f29868a37574e4767b1b1bd4db0c95576b91e",
+      "git_blob_sha1": "c59556e5854a668185f67b75704eb2a3c8fbec80"
+    },
+    {
+      "path": "reviews/cp014r-resolutions.jsonl.bz2.b64",
+      "kind": "resolutions",
+      "count": 529,
+      "sha256": "36a482f63bd9ac67a1413ed2dc4d46fa1975c05c31dad65c99120fa548ea5084",
+      "git_blob_sha1": "d900a854a2b429df4fbfdfedee4b949d29ca3c93"
+    },
+    {
+      "path": "reviews/cp014r-legacy-corrections.jsonl.bz2.b64",
+      "kind": "legacy-corrections",
+      "count": 15,
+      "sha256": "a7806399a71e106c3a60c2fe9b0ebc9a4246c3a3efde2142da06851121d28d65",
+      "git_blob_sha1": "48ab7a0fe3d059f33c4d46aabc584dc1ef4ee45f"
+    },
+    {
+      "path": "reviews/cp014s-resolutions.jsonl.bz2.b64",
+      "kind": "resolutions",
+      "count": 259,
+      "sha256": "e7d3697f9d969556ea171e9638950c9e2de46fe3ae7fdf7f908661ccf4506873",
+      "git_blob_sha1": "9931bf391d2e8be4085a0ae41e4a592fd737d753"
+    },
+    {
+      "path": "reviews/cp014t-resolutions.jsonl.bz2.b64",
+      "kind": "resolutions",
+      "count": 82,
+      "sha256": "06e271f0c64609ba5b58b283a442bcfabc8cfc7f5c6f80db4d424ed5dd173973",
+      "git_blob_sha1": "e2868be8f9e863e8d9a77618f6f7018b597d33de"
+    },
+    {
+      "path": "reviews/cp014u-resolutions.jsonl.bz2.b64",
+      "kind": "resolutions",
+      "count": 103,
+      "sha256": "ebe3ad1075ed906816658c083fb542ce86908ae9b41a38810376a79590c76b9f",
+      "git_blob_sha1": "26735941638320f023c96ce1c9931ed9926a9af2"
+    },
+    {
+      "path": "reviews/cp014v-resolutions.jsonl.bz2.b64",
+      "kind": "resolutions",
+      "count": 42,
+      "sha256": "8868439147a53cbc2afc0b70f2e66ec6b6a4bd7fa41ac3fb135f670a816dcf86",
+      "git_blob_sha1": "364e1ccc1f4e73d2d359ec313660e24d1a42422b"
+    },
+    {
+      "path": "reviews/cp014w-resolutions.jsonl.bz2.b64",
+      "kind": "resolutions",
+      "count": 35,
+      "sha256": "858aab1f3a562b29c2fca785c3c9a295a7480bd8a32c2b73297eecc14a5efb83",
+      "git_blob_sha1": "6734ff09b396dee158249bbd8c2e264e82ae867c"
+    },
+    {
+      "path": "reviews/cp014x-resolutions.jsonl.bz2.b64",
+      "kind": "resolutions",
+      "count": 46,
+      "sha256": "d2cdfaa5f757af6b34b49c1034c902c3faec4200abd4a12986b6f8e758879a89",
+      "git_blob_sha1": "6590f794dc3e7eb118e5f5d947d11ee52d90e4e8"
+    },
+    {
+      "path": "reviews/cp014y-resolutions.jsonl.bz2.b64",
+      "kind": "resolutions",
+      "count": 44,
+      "sha256": "97388386cede738008b408166318234065e05bb1d61dc2e3a9604a5fa48deb09",
+      "git_blob_sha1": "fd8e486c305dfdd930eb27be5612bd2b0c42004c"
+    },
+    {
+      "path": "reviews/cp014z-resolutions.jsonl.bz2.b64",
+      "kind": "resolutions",
+      "count": 55,
+      "sha256": "633817d1d7f17e238ab6d0eb235e8deffd26824989735a1737ac6eafa65e12a5",
+      "git_blob_sha1": "9560cac254ae7ca5111e28e6c2469dd734ee673f"
+    },
+    {
+      "path": "reviews/cp015a-resolutions.jsonl.bz2.b64",
+      "kind": "resolutions",
+      "count": 21,
+      "sha256": "53ff433183fa8a2792b752624c7e4ca4d527e6a9e0706a104d2a945ce3c8a6ae",
+      "git_blob_sha1": "c5876c5122ed5254888374cdad8a6d615b22132f"
+    },
+    {
+      "path": "reviews/cp015b-resolutions.jsonl.bz2.b64",
+      "kind": "resolutions",
+      "count": 23,
+      "sha256": "cda38dbeb824a67c8f7524772cdbf030eb779ca8fc75f5cd84feecc994055c5a",
+      "git_blob_sha1": "638b6fb6fc8fb24c5cf57216a659fb26d00ec85b"
+    },
+    {
+      "path": "reviews/cp015c-resolutions.jsonl.bz2.b64",
+      "kind": "resolutions",
+      "count": 18,
+      "sha256": "e1ab4ba0d684d8e0325584b554b22b608adee6a21874ca06ac033238ca6f4dcd",
+      "git_blob_sha1": "39931ec3a18971b4c694db9404409de968164801"
+    },
+    {
+      "path": "reviews/cp015d-resolutions.jsonl.bz2.b64",
+      "kind": "resolutions",
+      "count": 65,
+      "sha256": "67cd51a77a6db81cec1a51bea64414ce8504a01b25b8c1ed7d005d149a5a9b67",
+      "git_blob_sha1": "39e594c70202e290bcaf303a0f333f3597b1c7e5"
+    },
+    {
+      "path": "reviews/cp015d-legacy-corrections.jsonl.bz2.b64",
+      "kind": "legacy-corrections",
+      "count": 11,
+      "sha256": "f0277905a5d476a9973f19a687c736617d8476318da54945c512a0e8d25718bd",
+      "git_blob_sha1": "706f2060f16a85c56363da01cd301996eef3408f"
+    },
+    {
+      "path": "reviews/cp015e-resolutions.jsonl.bz2.b64",
+      "kind": "resolutions",
+      "count": 105,
+      "sha256": "3a9b5c2df8c36cd33e62a805e2bb6dc989511fc592a9ddb52a2ea7a088c5acb1",
+      "git_blob_sha1": "de0390a20934311a4f0c4778a4ebf0e7e0285c8b"
+    },
+    {
+      "path": "reviews/cp015f-resolutions.jsonl.bz2.b64",
+      "kind": "resolutions",
+      "count": 92,
+      "sha256": "3eb22ec648927717025de90af1a7dc1e7dddc810ef5b871f730ef78b11919521",
+      "git_blob_sha1": "0871963f10e49264cd115c41d4491b0ad04b2bf0"
+    },
+    {
+      "path": "reviews/rc1-resolutions.jsonl.bz2.b64",
+      "kind": "resolutions",
+      "count": 4,
+      "sha256": "a05d28f5e277cbbb77cbfac3c21375f5f032d6733d9ee2f11cf50e43bc9ffa82",
+      "git_blob_sha1": "5fc981532e26fb1ddcdaa51f7bba4c3e6896d954"
+    }
+  ],
+  "final": {
+    "replacement_count": 25553,
+    "keep_count": 8629,
+    "hold_count": 630,
+    "mapping_sha256": "44f1730feeb5a9fa00ec3438b8807fa1c3ce8518aca4609d30d63f4438170dce",
+    "keep_ids_sha256": "0ffe8725df951a7352122928f1929c37c350499562162ebd30d5e0ab54ccfcec",
+    "hold_sources_sha256": "314e56c73e3c42438af2672334e87c6bc5a20f4bd6fd905633f3995836c7d6cd",
+    "all_ids_sha256": "a906c18f1aa5874233fae65b68ee3c01185eecdae7aece6d18c5879669df3d76"
+  }
+}
